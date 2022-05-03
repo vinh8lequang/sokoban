@@ -34,3 +34,12 @@ Por ejemplo:
 
 - “Hacer la memoria de la práctica”
 - “Preparar el entorno para la práctica de JMS”.
+
+# Comandos para ejecutar/testear código 
+## Sonar -> comprobar si pasa el quality gate
+`mvn verify sonar:sonar -Dsonar.id=NMAT -Dsonar.login=YOUR TOKEN`
+ 
+To check the results you can access to the SonarQube web interface and see whether the project
+passes the quality gate. 
+> Note that YOUR TOKEN is a token created in the SonarQube web interface (User
+icon : My Account : Security : Generate Tokens) and NMAT corresponds to your n´umero de matr´ıcula.
