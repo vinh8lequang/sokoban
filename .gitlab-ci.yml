@@ -1,3 +1,7 @@
+maven_build:
+  image: maven:3.6.3-jdk-11
+  script: mvn test
+
 sonarqube-check:
   image: maven:3.6.3-jdk-11
   variables:
@@ -8,7 +12,9 @@ sonarqube-check:
     paths:
       - .sonar/cache
   script: 
-    - mvn verify sonar:sonar
+    - mvn verify sonar:sonar -Dsonar.login=71d991948afd98a47587f4ba1ce8d09b79151b89 -Dsonar.id=pproject
   allow_failure: true
   only:
-    - main # or the name of your main branch
+    - master # or the name of your main branch
+
+

@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>es.upm.pproject.sokoban</groupId>
-  <artifactId>sokoban</artifactId>
-  <version>1.0.0</version>
-  <properties>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>es.upm.pproject.sokoban</groupId>
+	<artifactId>sokoban</artifactId>
+	<version>1.0.0</version>
+	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>11</java.version>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
@@ -25,7 +25,8 @@
 		<sonar.host.url>https://costa.ls.fi.upm.es/sonar</sonar.host.url>
 		<sonar.qualitygate.wait>true</sonar.qualitygate.wait>
 		<sonar.projectName>${project.name}-${sonar.id}</sonar.projectName>
-		<sonar.projectKey>${project.groupId}:${project.artifactId}:${sonar.projectName}:${sonar.id}</sonar.projectKey>
+		<sonar.projectKey>${project.groupId}:${project.artifactId}:sokoban:${sonar.id}</sonar.projectKey>
+		<sonar.qualitygate.wait>true</sonar.qualitygate.wait>
 		<!-- Files to be excluded from coverage. Define for the view+controller 
 			in your final projects -->
 		<!--sonar.coverage.exclusions>**/view</sonar.coverage.exclusions -->
