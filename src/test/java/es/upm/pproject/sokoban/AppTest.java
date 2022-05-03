@@ -1,5 +1,4 @@
-package es.upm.pproject.sokoban;
-
+package es.upm.pproject.sokoban; 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
