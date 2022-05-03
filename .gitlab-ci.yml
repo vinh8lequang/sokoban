@@ -12,7 +12,7 @@ sonarqube-check:
     paths:
       - .sonar/cache
   script: 
-    - mvn verify sonar:sonar
+    - mvn verify sonar:sonar -Dsonar.id=190082
   allow_failure: true
   only:
     - master # or the name of your main branch
