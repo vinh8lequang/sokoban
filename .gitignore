@@ -3,3 +3,5 @@ token
 .vscode
 .editorconfig
 .idea
+.DS_Store
+hs_err_pid28739.log
