@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 
 public class ViewManager {
     public static Scene getStartingScene() {
-        Image back = new Image("file:src/main/java/es/upm/pproject/sokoban/resources/titleImage.png");
+        Image back = new Image("file:src/main/java/es/upm/pproject/sokoban/model/   resources/titleImage.png");
         ImageView background = new ImageView();
         Group root = new Group();
         Scene scene = new Scene(root);
