@@ -21,7 +21,6 @@ import es.upm.pproject.sokoban.view.ViewManager;
  * JavaFX App
  */
 public class App extends Application {
-    private final static String IMAGE_LOC = "file:src/main/java/es/upm/pproject/sokoban/resources/Blocks/block_07.png";
 
     @Override
     public void start(Stage stage) {

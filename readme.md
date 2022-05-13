@@ -43,3 +43,7 @@ To check the results you can access to the SonarQube web interface and see wheth
 passes the quality gate. 
 > Note that YOUR TOKEN is a token created in the SonarQube web interface (User
 icon : My Account : Security : Generate Tokens) and NMAT corresponds to your n´umero de matr´ıcula.
+
+
+## Java FX commands
+`mvn clean javafx:run`
