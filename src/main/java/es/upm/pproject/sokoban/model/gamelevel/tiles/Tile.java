@@ -1,11 +1,21 @@
 package es.upm.pproject.sokoban.model.gamelevel.tiles;
 
-// The abstract class that defines a tile 
-public abstract class Tile {
-    // private Image image;
-    // private BoardPosition boardPosition; 
+/**
+ * The class that creates a tile. A tile can be of different TileTypes (enum).
+ */
+public class Tile {
 
-    public Tile() {
-        
+    private TileType type;
+
+    public Tile(TileType type) {
+        this.type = type;
+    }
+
+    public TileType getTileType() {
+        return type;
+    }
+
+    public void setTileType(TileType type) {
+        this.type = type;
     }
 }
