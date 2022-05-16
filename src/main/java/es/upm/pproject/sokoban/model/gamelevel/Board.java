@@ -1,5 +1,8 @@
 package es.upm.pproject.sokoban.model.gamelevel;
 
+// import org.slf4j.Logger;
+// import org.slf4j.LoggerFactory;
+
 import es.upm.pproject.sokoban.model.gamelevel.tiles.Tile;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
 
@@ -7,10 +10,11 @@ import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
  * Matrix of tiles. The board's coordinates starts from 0 to N-1.
  */
 public class Board {
-    
+    // private static final Logger LOGGER = LoggerFactory.getLogger(Board.class);
+
     private int rows;
     private int cols;
-    private Tile [][] board;
+    private Tile[][] board;
 
     public Board(int rows, int cols) {
         this.rows = rows;
@@ -44,38 +48,49 @@ public class Board {
         if (x < 0 || y < 0 || x >= rows || y >= cols) {
             int rowRange = this.rows - 1;
             int colRange = this.cols - 1;
-            System.err.println("Invalid tile coordinates. Must be in range x: 0-" + rowRange + " y: 0-" + colRange);
+            // LOGGER.error("Invalid tile coordinates. Must be in range x: 0- {} y: 0- {}", colRange, rowRange);
         } else {
-            board[x][y] = new Tile (type);
-        }
-    }
-
-    public void viewBoard() {
-        for (int i = 0; i < this.rows; i++) {
-            StringBuilder line = new StringBuilder();
-            for (int j = 0; j < this.cols; j++){
-                char tileChar = tileToChar(this.getTile(i, j));
-                if (tileChar == 'X') {
-                    System.err.println("Invalid tile input for char conversion.");
-                }
-                line.append(tileChar);
-            }
-            System.out.println(line);
+            board[x][y] = new Tile(type);
         }
     }
 
     private static char tileToChar(Tile tile) {
         switch (tile.getTileType()) {
-            case WALL: return '+';
-            case GROUND: return ' ';
-            case GOAL: return '*';
-            case BOX: return '#';
-            case PLAYER: return 'W';
-            default: return 'X';
+            case WALL:
+                return '+';
+            case GROUND:
+                return ' ';
+            case GOAL:
+                return '*';
+            case BOX:
+                return '#';
+            case PLAYER:
+                return 'W';
+            default:
+                return 'X';
         }
     }
 
-    public int getRows(){
+    @Override
+    public String toString() {
+        StringBuilder boardRep = new StringBuilder();
+        for (int i = 0; i < this.rows; i++) {
+            for (int j = 0; j < this.cols; j++) {
+                char tileChar = tileToChar(this.getTile(i, j));
+                if (tileChar == 'X') {
+                    // LOGGER.error("Invalid tile input for char conversion.");
+                }
+                boardRep.append(tileChar);
+            }
+            boardRep.append('\n');
+        }
+        return boardRep.toString();
+    }
+
+    public void viewBoard() {
+        // LOGGER.info("\n{}", this.toString());
+    }
+        public int getRows(){
         return rows;
     }
     

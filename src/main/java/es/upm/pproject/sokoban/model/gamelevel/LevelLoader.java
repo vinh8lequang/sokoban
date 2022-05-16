@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
 import es.upm.pproject.sokoban.model.levelExceptions.invalidLevelCharacterException;
 
@@ -22,7 +23,9 @@ public class LevelLoader {
             default: return null;
         }
     }
+
     public static Board loadBoard(String path) {
+        
         File level = new File(path);
         try(Scanner sc = new Scanner(level)) {
             int rows = sc.nextInt();
