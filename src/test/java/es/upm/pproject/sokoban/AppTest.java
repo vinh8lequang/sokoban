@@ -3,15 +3,20 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Nested;
+
 /**
  * Unit test for simple App.
  */
-class AppTest {
-    /**
-     * Rigorous Test.
-     */
-    @Test
-    void testApp() {
-        assertEquals(1, 1);
+public class AppTest {
+    @Nested
+    @DisplayName("Board level loading tests")
+    class BoardLevelLoadingTests(){
+        @Test
+        @DisplayName("Correct board")
+        void testCorrectBoard() {
+            LevelLoader.loadLevel
+        }
     }
 }

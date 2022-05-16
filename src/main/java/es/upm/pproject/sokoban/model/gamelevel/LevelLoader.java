@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+import org.apache.log4j.BasicConfigurator;
+
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
 import es.upm.pproject.sokoban.model.levelExceptions.invalidLevelCharacterException;
 
@@ -23,7 +25,8 @@ public class LevelLoader {
         }
     }
     public static void main(String[] args) {
-        File level = new File("C://PProject//sokoban//resources//Levels//level1.txt");
+        File level = new File("resources/Levels/level1.txt");
+        BasicConfigurator.configure();
         try(Scanner sc = new Scanner(level)) {
             int rows = sc.nextInt();
             int cols = sc.nextInt();
