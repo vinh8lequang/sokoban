@@ -1,7 +1,7 @@
 package es.upm.pproject.sokoban.model.gamelevel;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+// import org.slf4j.Logger;
+// import org.slf4j.LoggerFactory;
 
 import es.upm.pproject.sokoban.model.gamelevel.tiles.Tile;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
@@ -10,11 +10,11 @@ import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
  * Matrix of tiles. The board's coordinates starts from 0 to N-1.
  */
 public class Board {
-    private static final Logger LOGGER = LoggerFactory.getLogger(Board.class);
-    
+    // private static final Logger LOGGER = LoggerFactory.getLogger(Board.class);
+
     private int rows;
     private int cols;
-    private Tile [][] board;
+    private Tile[][] board;
 
     public Board(int rows, int cols) {
         this.rows = rows;
@@ -48,20 +48,26 @@ public class Board {
         if (x < 0 || y < 0 || x >= rows || y >= cols) {
             int rowRange = this.rows - 1;
             int colRange = this.cols - 1;
-            LOGGER.error("Invalid tile coordinates. Must be in range x: 0- {} y: 0- {}", colRange, rowRange);
+            // LOGGER.error("Invalid tile coordinates. Must be in range x: 0- {} y: 0- {}", colRange, rowRange);
         } else {
-            board[x][y] = new Tile (type);
+            board[x][y] = new Tile(type);
         }
     }
 
     private static char tileToChar(Tile tile) {
         switch (tile.getTileType()) {
-            case WALL: return '+';
-            case GROUND: return ' ';
-            case GOAL: return '*';
-            case BOX: return '#';
-            case PLAYER: return 'W';
-            default: return 'X';
+            case WALL:
+                return '+';
+            case GROUND:
+                return ' ';
+            case GOAL:
+                return '*';
+            case BOX:
+                return '#';
+            case PLAYER:
+                return 'W';
+            default:
+                return 'X';
         }
     }
 
@@ -72,7 +78,7 @@ public class Board {
             for (int j = 0; j < this.cols; j++) {
                 char tileChar = tileToChar(this.getTile(i, j));
                 if (tileChar == 'X') {
-                    LOGGER.error("Invalid tile input for char conversion.");
+                    // LOGGER.error("Invalid tile input for char conversion.");
                 }
                 boardRep.append(tileChar);
             }
@@ -82,8 +88,14 @@ public class Board {
     }
 
     public void viewBoard() {
-        LOGGER.info("\n{}", this.toString());
+        // LOGGER.info("\n{}", this.toString());
+    }
+        public int getRows(){
+        return rows;
     }
     
+    public int getCols(){
+        return cols;
+    }
 
 }

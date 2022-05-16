@@ -3,7 +3,9 @@ package es.upm.pproject.sokoban.view;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
+import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
+import es.upm.pproject.sokoban.model.gamelevel.tiles.Tile;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
@@ -33,7 +35,38 @@ public class ViewManager {
         return scene; 
     }
 
-    public static Scene loadLevelState(Level level) throws FileNotFoundException {
+    private static Image boxImage;
+    private static Image goalImage;
+    private static Image groundImage;
+    private static Image playerRightImage;
+    private static Image playerLeftImage;
+    private static Image wallImage;
+
+    private static int boardSize;
+    private static int tileSize;
+
+    public static void setGUIBoardSize(Board board){
+        int col = board.getCols();
+        int row = board.getRows();
+        if (col >= row) boardSize = col;
+        else boardSize = row;
+    }
+    public static int getGUIBoardSize(){
+        return boardSize;
+    }
+
+
+    public static void loadImages() throws FileNotFoundException{
+        tileSize = 720/boardSize;
+        boxImage = new Image(new FileInputStream("resources\\Tiles\\box.png"),tileSize,tileSize,true,false);
+        goalImage = new Image(new FileInputStream("resources\\Tiles\\goal.png"),tileSize,tileSize,true,false);
+        groundImage = new Image(new FileInputStream("resources\\Tiles\\ground.png"),tileSize,tileSize,true,false);
+        playerRightImage = new Image(new FileInputStream("resources\\Tiles\\playerright.png"),tileSize,tileSize,true,false);
+        playerLeftImage = new Image(new FileInputStream("resources\\Tiles\\playerleft.png"),tileSize,tileSize,true,false);
+        wallImage = new Image(new FileInputStream("resources\\Tiles\\wall.png"),tileSize,tileSize,true,false);
+    }
+
+    public static Scene loadLevelState(Board board) throws FileNotFoundException {
 
         //Crate scene components infrastructure
         HBox root = new HBox(5); //Contains all the elements
@@ -41,25 +74,41 @@ public class ViewManager {
         GridPane boardGrid = new GridPane(); //Graphical representation of the board status
         Scene scene = new Scene(root); //This is the object to be returned, must be modified by the code bellow
        
-        //Calculate the tile dimension s depending on the bvoard size
-        int boardSize =20;
-        int tileSize = 720/boardSize;
-
-        //TODO Load images for the box, wall, player, score pos, here we should select the final textures
-        //This may be realized on a external method and declare the Images global in order to save procesing power
-
         //Test stuff, not relevant for future changes
-        ImageView i00 = new ImageView(new Image(new FileInputStream("resources\\Blocks\\block_06.png"),tileSize,tileSize,true,false));
-        ImageView i01 = new ImageView(new Image(new FileInputStream("resources\\Blocks\\block_07.png"),tileSize,tileSize,true,false));
-        ImageView i10 = new ImageView(new Image(new FileInputStream("resources\\Blocks\\block_08.png"),tileSize,tileSize,true,false));
-        ImageView i11 = new ImageView(new Image(new FileInputStream("resources\\Blocks\\block_06.png"),tileSize,tileSize,true,false));
-        boardGrid.add(i00,0,0);
-        boardGrid.add(i01,1,1);
-        boardGrid.add(i10,2,2);
-        boardGrid.add(i11,3,3);
+        // ImageView i00 = new ImageView(boxImage);
+        // ImageView i01 = new ImageView(boxImage);
+        // ImageView i10 = new ImageView(wallImage);
+        // ImageView i11 = new ImageView(goalImage);
+        // boardGrid.add(i00,0,0);
+        // boardGrid.add(i01,1,1);
+        // boardGrid.add(i10,2,2);
+        // boardGrid.add(i11,3,3);
 
         //TODO Read level board and load the tiles to the graphical interface
-        
+        ImageView imageGrid[][] = new ImageView[boardSize][boardSize];
+        for(int i =0;i < boardSize;i++){
+            for(int j=0;j<boardSize;j++){
+                Tile tile = board.getTile(i, j);
+                switch (tile.getTileType()) {
+                    case BOX:
+                        imageGrid[i][j] = new ImageView(boxImage);
+                        break;
+                    case GOAL:
+                        imageGrid[i][j] = new ImageView(goalImage);
+                        break;
+                    case PLAYER:
+                        imageGrid[i][j] = new ImageView(playerRightImage);
+                        break;
+                    case WALL:
+                        imageGrid[i][j] = new ImageView(wallImage);
+                        break;
+                    default:
+                        imageGrid[i][j] = new ImageView(groundImage);
+                        break;
+                }
+                boardGrid.add(imageGrid[i][j],i,j);
+            }
+        }
 
         //TODO Right side of the GUI, (load level interface, undo button, move counter, restart button...) 
         Label label = new Label("Nico gay");
