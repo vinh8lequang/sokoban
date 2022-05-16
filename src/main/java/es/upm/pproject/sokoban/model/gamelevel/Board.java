@@ -83,4 +83,9 @@ public class Board {
         return cols;
     }
 
+    public boolean isSymmetric(){
+        if (rows == cols) return true;
+        else return false;
+    }
+
 }

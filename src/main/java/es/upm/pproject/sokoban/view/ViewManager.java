@@ -73,40 +73,56 @@ public class ViewManager {
         VBox gridContainer = new VBox(); //Contains the graphical representation of the board status
         GridPane boardGrid = new GridPane(); //Graphical representation of the board status
         Scene scene = new Scene(root); //This is the object to be returned, must be modified by the code bellow
-       
-        //Test stuff, not relevant for future changes
-        // ImageView i00 = new ImageView(boxImage);
-        // ImageView i01 = new ImageView(boxImage);
-        // ImageView i10 = new ImageView(wallImage);
-        // ImageView i11 = new ImageView(goalImage);
-        // boardGrid.add(i00,0,0);
-        // boardGrid.add(i01,1,1);
-        // boardGrid.add(i10,2,2);
-        // boardGrid.add(i11,3,3);
+
+        int rowMin,rowMax,colMin,colMax;
+        if(!board.isSymmetric()){
+            if(board.getRows() < board.getCols()){
+                colMin = 0;
+                colMax = boardSize;
+                rowMin = boardSize/2 - board.getRows()/2;
+                rowMax = boardSize/2 + board.getRows()/2;
+            }
+            else{
+                rowMin = 0;
+                rowMax = boardSize;
+                colMin = boardSize/2 - board.getCols()/2;
+                colMax = boardSize/2 + board.getCols()/2;
+            }
+        }
+        else{
+            rowMin=0;
+            colMin=0;
+            rowMax=boardSize;
+            colMax=boardSize;
+        }   
+
 
         //TODO Read level board and load the tiles to the graphical interface
         ImageView imageGrid[][] = new ImageView[boardSize][boardSize];
-        for(int i =0;i < boardSize;i++){
-            for(int j=0;j<boardSize;j++){
-                Tile tile = board.getTile(i, j);
-                switch (tile.getTileType()) {
-                    case BOX:
-                        imageGrid[i][j] = new ImageView(boxImage);
-                        break;
-                    case GOAL:
-                        imageGrid[i][j] = new ImageView(goalImage);
-                        break;
-                    case PLAYER:
-                        imageGrid[i][j] = new ImageView(playerRightImage);
-                        break;
-                    case WALL:
-                        imageGrid[i][j] = new ImageView(wallImage);
-                        break;
-                    default:
-                        imageGrid[i][j] = new ImageView(groundImage);
-                        break;
+        for(int j =0;j < boardSize;j++){
+            for(int i=0;i<boardSize;i++){
+                if((j >= rowMin && j<=rowMax) && (i >= colMin && i<=colMax)){
+                    Tile tile = board.getTile(j, i);
+                    switch (tile.getTileType()) {
+                        case BOX:
+                            imageGrid[i][j] = new ImageView(boxImage);
+                            break;
+                        case GOAL:
+                            imageGrid[i][j] = new ImageView(goalImage);
+                            break;
+                        case PLAYER:
+                            imageGrid[i][j] = new ImageView(playerRightImage);
+                            break;
+                        case WALL:
+                            imageGrid[i][j] = new ImageView(wallImage);
+                            break;
+                        default:
+                            imageGrid[i][j] = new ImageView(groundImage);
+                            break;
+                    }
+                    boardGrid.add(imageGrid[i][j],i,j);
                 }
-                boardGrid.add(imageGrid[i][j],i,j);
+                
             }
         }
 
