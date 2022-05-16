@@ -72,37 +72,14 @@ public class ViewManager {
         HBox root = new HBox(5); //Contains all the elements
         VBox gridContainer = new VBox(); //Contains the graphical representation of the board status
         GridPane boardGrid = new GridPane(); //Graphical representation of the board status
-        Scene scene = new Scene(root); //This is the object to be returned, must be modified by the code bellow
-
-        int rowMin,rowMax,colMin,colMax;
-        if(!board.isSymmetric()){
-            if(board.getRows() < board.getCols()){
-                colMin = 0;
-                colMax = boardSize;
-                rowMin = boardSize/2 - board.getRows()/2;
-                rowMax = boardSize/2 + board.getRows()/2;
-            }
-            else{
-                rowMin = 0;
-                rowMax = boardSize;
-                colMin = boardSize/2 - board.getCols()/2;
-                colMax = boardSize/2 + board.getCols()/2;
-            }
-        }
-        else{
-            rowMin=0;
-            colMin=0;
-            rowMax=boardSize;
-            colMax=boardSize;
-        }   
-
+        Scene scene = new Scene(root,1280,720); //This is the object to be returned, must be modified by the code bellow
 
         //TODO Read level board and load the tiles to the graphical interface
         ImageView imageGrid[][] = new ImageView[boardSize][boardSize];
         for(int j =0;j < boardSize;j++){
-            for(int i=0;i<boardSize;i++){
-                if((j >= rowMin && j<=rowMax) && (i >= colMin && i<=colMax)){
-                    Tile tile = board.getTile(j, i);
+            for(int i=0;i<boardSize;i++){ 
+                Tile tile = board.getTile(j, i);
+                if(tile != null){
                     switch (tile.getTileType()) {
                         case BOX:
                             imageGrid[i][j] = new ImageView(boxImage);
@@ -122,7 +99,9 @@ public class ViewManager {
                     }
                     boardGrid.add(imageGrid[i][j],i,j);
                 }
-                
+                else{
+                    boardGrid.add(new ImageView(groundImage),i,j);
+                }
             }
         }
 
