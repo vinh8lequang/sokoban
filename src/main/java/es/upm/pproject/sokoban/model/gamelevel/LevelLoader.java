@@ -22,8 +22,8 @@ public class LevelLoader {
             default: return null;
         }
     }
-    public static void main(String[] args) {
-        File level = new File("C://PProject//sokoban//resources//Levels//level1.txt");
+    public static Board loadBoard(String path) {
+        File level = new File(path);
         try(Scanner sc = new Scanner(level)) {
             int rows = sc.nextInt();
             int cols = sc.nextInt();
@@ -49,11 +49,11 @@ public class LevelLoader {
                 //System.out.println(debugLine);
             }
             board.viewBoard();
+            return board;
         } catch (FileNotFoundException | invalidLevelCharacterException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
+            return null;
         }
-        
-
     }
 }

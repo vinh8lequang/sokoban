@@ -74,6 +74,13 @@ public class Board {
             default: return 'X';
         }
     }
+
+    public int getRows(){
+        return rows;
+    }
     
+    public int getCols(){
+        return cols;
+    }
 
 }
