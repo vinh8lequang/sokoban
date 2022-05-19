@@ -15,21 +15,28 @@ public class Board {
     private int rows;
     private int cols;
     private Tile[][] board;
+    private int playerPositionX;
+    private int playerPositionY;
 
     public Board(int rows, int cols) {
         this.rows = rows;
         this.cols = cols;
         board = new Tile[rows][cols];
+        playerPositionX = -1;
+        playerPositionY = -1;
+
     }
 
     /**
-     * Gets the tile of x and y coordinates. Both coordinates must be in board range.
+     * Gets the tile of x and y coordinates. Both coordinates must be in board
+     * range.
+     * 
      * @param x
      * @param y
      * @return the tile requested
      */
     public Tile getTile(int x, int y) {
-        //Checking if range is valid
+        // Checking if range is valid
         if (x < 0 || y < 0 || x >= rows || y >= cols) {
             return null;
         } else {
@@ -39,16 +46,18 @@ public class Board {
 
     /**
      * Sets a tile type in the given coordinates of the board
+     * 
      * @param x
      * @param y
      * @param type
      */
     public void setTile(int x, int y, TileType type) {
-        //Checking if range is valid
+        // Checking if range is valid
         if (x < 0 || y < 0 || x >= rows || y >= cols) {
             int rowRange = this.rows - 1;
             int colRange = this.cols - 1;
-            // LOGGER.error("Invalid tile coordinates. Must be in range x: 0- {} y: 0- {}", colRange, rowRange);
+            // LOGGER.error("Invalid tile coordinates. Must be in range x: 0- {} y: 0- {}",
+            // colRange, rowRange);
         } else {
             board[x][y] = new Tile(type);
         }
@@ -90,17 +99,53 @@ public class Board {
     public void viewBoard() {
         // LOGGER.info("\n{}", this.toString());
     }
-        public int getRows(){
+
+    public int getRows() {
         return rows;
     }
-    
-    public int getCols(){
+
+    public int getCols() {
         return cols;
     }
 
-    public boolean isSymmetric(){
-        if (rows == cols) return true;
-        else return false;
+    public boolean isSymmetric() {
+        if (rows == cols)
+            return true;
+        else
+            return false;
+    }
+
+    public void setPlayerPosition(int i, int j) {
+        setPlayerPositionX(i);
+        setPlayerPositionX(j);
+    }
+
+    /**
+     * @return the playerPositionX
+     */
+    public int getPlayerPositionX() {
+        return playerPositionX;
+    }
+
+    /**
+     * @param playerPositionX the playerPositionX to set
+     */
+    public void setPlayerPositionX(int playerPositionX) {
+        this.playerPositionX = playerPositionX;
+    }
+
+    /**
+     * @return the playerPositionY
+     */
+    public int getPlayerPositionY() {
+        return playerPositionY;
+    }
+
+    /**
+     * @param playerPositionY the playerPositionY to set
+     */
+    public void setPlayerPositionY(int playerPositionY) {
+        this.playerPositionY = playerPositionY;
     }
 
 }

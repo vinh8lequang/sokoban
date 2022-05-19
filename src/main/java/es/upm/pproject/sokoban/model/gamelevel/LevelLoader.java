@@ -43,6 +43,8 @@ public class LevelLoader {
                     if (type == null) {
                         throw new invalidLevelCharacterException("Invalid character: " + line.charAt(j));
                     }
+                    if (type == TileType.WALL)
+                        board.setPlayerPosition(i, j);
                     board.setTile(i, j, type);
                 }
                 //Filling in the empty tiles on the right

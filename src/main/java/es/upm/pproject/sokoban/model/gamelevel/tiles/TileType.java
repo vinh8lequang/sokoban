@@ -16,4 +16,18 @@ public enum TileType {
         this.replaceable = replaceable;
         this.moveable = moveable;
     }
+
+    /**
+     * @return the replaceable
+     */
+    public boolean isReplaceable() {
+        return replaceable;
+    }
+
+    /**
+     * @return the moveable
+     */
+    public boolean isMoveable() {
+        return moveable;
+    }
 }
