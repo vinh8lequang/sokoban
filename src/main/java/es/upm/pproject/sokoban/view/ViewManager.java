@@ -191,14 +191,14 @@ public class ViewManager {
             CURRENTBOARD.setPlayerPosition(i2, j2);
         }
         // we have done the move in the board but we have to update the images
-        CURRENTSCENE.getImageGrid()[i2][j2].setImage(getImage(one));
-        CURRENTSCENE.getImageGrid()[i1][j1].setImage(getImage(two));
+        CURRENTSCENE.getImageGrid()[i2][j2].setImage(getImage(two));
+        CURRENTSCENE.getImageGrid()[i1][j1].setImage(getImage(one));
     }
 
     private static Image getImage(TileType tiletype) {
-        if (GOALTILE) {
-            return goalImage;
-        }
+        // if (GOALTILE) {
+        //     return goalImage;
+        // }
         if (tiletype == TileType.PLAYER) {
             return playerRightImage;
         }
@@ -206,7 +206,7 @@ public class ViewManager {
             return boxImage;
         }
         if (tiletype == TileType.GOAL) {
-            GOALTILE = true;
+            return goalImage; 
         }
         return groundImage;
     }
