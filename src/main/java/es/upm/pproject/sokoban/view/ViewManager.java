@@ -53,6 +53,7 @@ public class ViewManager {
     private static int tileSize;
     private static Board CURRENTBOARD;
     private static boolean GOALTILE; // this variable is true when the player is in a goaltile
+    private static Level CURRENTLEVEL;
 
     public static void setGUIBoardSize(Board board) {
         int col = board.getCols();
@@ -78,16 +79,17 @@ public class ViewManager {
         boxInGoalImage = new Image(new FileInputStream("resources/Tiles/boxingoal.png"), tileSize, tileSize, true, false);
     }
 
-    public static Scene loadLevelState(Board board) throws FileNotFoundException {
+    public static Scene loadLevelState(Level level) throws FileNotFoundException {
 
-        SokobanScene scene = new SokobanScene(960, 720, boardSize); // This is the object to be returned, must be
+        SokobanScene scene = new SokobanScene(960, 720, boardSize, level); // This is the object to be returned, must be
         CURRENTSCENE = scene;
-        CURRENTBOARD = board;
+        CURRENTBOARD = level.getBoard();
+        CURRENTLEVEL = level;
         ImageView[][] imageGrid = scene.getImageGrid();
         // TODO Read level board and load the tiles to the graphical interface
         for (int i = 0; i < boardSize; i++) {
             for (int j = 0; j < boardSize; j++) {
-                Tile tile = board.getTile(i, j);
+                Tile tile = CURRENTBOARD.getTile(i, j);
                 if (tile != null) {
                     switch (tile.getTileType()) {
                     case BOX:
@@ -237,6 +239,7 @@ public class ViewManager {
         if (CURRENTBOARD.getTile(tileToReplaceIRow, tileToReplaceJCol).getTileType().isReplaceable()) {
             exchangeTilesAndImageGrid(CURRENTBOARD.getPlayerPositionI(), CURRENTBOARD.getPlayerPositionJ(), tileToReplaceIRow,
                     tileToReplaceJCol);
+            CURRENTLEVEL.addOneMove();
         }
     }
 }
