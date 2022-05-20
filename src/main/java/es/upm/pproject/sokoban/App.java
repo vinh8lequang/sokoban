@@ -31,17 +31,16 @@ public class App extends Application {
 
     static Stage currentStage;
 
-    
-    /** 
+    /**
      * @param stage
      */
     @Override
     public void start(Stage stage) {
         try {
             currentStage = stage;
-            // stage.getIcons().add(new Image(new FileInputStream("resources/sokovinhi.png")));
+            stage.getIcons().add(new Image(new FileInputStream("resources/sokovinhi.png")));
             stage.setTitle("SokoVinh");
-            Level level = new Level("resources/Levels/level.txt");
+            Level level = new Level("resources/Levels/level3.txt");
             Board board = level.getBoard();
             ViewManager.setGUIBoardSize(board);
             ViewManager.loadImages();
@@ -52,8 +51,7 @@ public class App extends Application {
         }
     }
 
-    
-    /** 
+    /**
      * @param newScene
      */
     public static void setNewScene(Scene newScene) {
@@ -61,8 +59,7 @@ public class App extends Application {
         currentStage.show();
     }
 
-    
-    /** 
+    /**
      * @param args
      */
     public static void main(String[] args) {

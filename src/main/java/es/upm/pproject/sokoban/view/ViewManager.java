@@ -21,8 +21,7 @@ public class ViewManager {
 
     static SokobanScene CURRENTSCENE = null;
 
-    
-    /** 
+    /**
      * @return Scene
      */
     public static Scene getStartingScene() {
@@ -55,8 +54,7 @@ public class ViewManager {
     private static int WIDTH = 960;
     private static int HEIGHT = 720;
 
-    
-    /** 
+    /**
      * @param board
      */
     public static void setGUIBoardSize(Board board) {
@@ -68,16 +66,14 @@ public class ViewManager {
             boardSize = row;
     }
 
-    
-    /** 
+    /**
      * @return int
      */
     public static int getGUIBoardSize() {
         return boardSize;
     }
 
-    
-    /** 
+    /**
      * @throws FileNotFoundException
      */
     public static void loadImages() throws FileNotFoundException {
@@ -91,8 +87,7 @@ public class ViewManager {
         boxInGoalImage = new Image(new FileInputStream("resources/Tiles/boxingoal.png"), tileSize, tileSize, true, false);
     }
 
-    
-    /** 
+    /**
      * @param level
      * @return Scene
      * @throws FileNotFoundException
@@ -133,14 +128,10 @@ public class ViewManager {
             }
         }
 
-        // TODO Right side of the GUI, (load level interface, undo button, move counter,
-        // restart button...)
-
-        return (Scene) scene;
+        return scene;
     }
 
-    
-    /** 
+    /**
      * @param direction
      */
     public static void updateSceneOnInput(KeyCode direction) {
@@ -152,8 +143,7 @@ public class ViewManager {
         executeMovementIfPossible(direction, tileToReplaceI, tileToReplaceJ);
     }
 
-    
-    /** 
+    /**
      * @param direction
      * @param j
      * @return int
@@ -174,8 +164,7 @@ public class ViewManager {
         return j;
     }
 
-    
-    /** 
+    /**
      * @param direction
      * @param i
      * @return int
@@ -195,8 +184,7 @@ public class ViewManager {
         return i;
     }
 
-    
-    /** 
+    /**
      * @param i1
      * @param j1
      * @param i2
@@ -264,8 +252,7 @@ public class ViewManager {
         App.setNewScene(newScene);
     }
 
-    
-    /** 
+    /**
      * @param tiletype
      * @return Image
      */
@@ -288,8 +275,7 @@ public class ViewManager {
         return groundImage;
     }
 
-    
-    /** 
+    /**
      * @param direction
      * @param tileToReplaceIRow
      * @param tileToReplaceJCol
