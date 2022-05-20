@@ -47,6 +47,7 @@ public class ViewManager {
     private static Image playerRightImage;
     private static Image playerLeftImage;
     private static Image wallImage;
+    private static Image boxInGoalImage;
 
     private static int boardSize;
     private static int tileSize;
@@ -74,6 +75,7 @@ public class ViewManager {
         playerRightImage = new Image(new FileInputStream("resources/Tiles/playerright.png"), tileSize, tileSize, true, false);
         playerLeftImage = new Image(new FileInputStream("resources/Tiles/playerleft.png"), tileSize, tileSize, true, false);
         wallImage = new Image(new FileInputStream("resources/Tiles/wall.png"), tileSize, tileSize, true, false);
+        boxInGoalImage = new Image(new FileInputStream("resources/Tiles/boxingoal.png"), tileSize, tileSize, true, false);
     }
 
     public static Scene loadLevelState(Board board) throws FileNotFoundException {
@@ -161,6 +163,11 @@ public class ViewManager {
         TileType toMoveTo = CURRENTBOARD.getTile(i2, j2).getTileType();
         TileType origin = CURRENTBOARD.getTile(i1, j1).getTileType();
         boolean normalMove = true;
+        if (toMoveTo.equals(TileType.GROUND) && origin.equals(TileType.BOXINGOAL)) {
+            CURRENTBOARD.setTile(i2, j2, TileType.BOX);
+            CURRENTBOARD.setTile(i1, j1, TileType.GOAL);
+            normalMove = false;
+        }
         if (toMoveTo.equals(TileType.GOAL) && origin.equals(TileType.BOX)) {
             // update the goaltile type so we know next move we only update the next tile to player
             // We change the goaltile to the player but the old player one stays the same
@@ -213,6 +220,9 @@ public class ViewManager {
         if (tiletype == TileType.GOAL) {
             return goalImage;
         }
+        if (tiletype == TileType.BOXINGOAL) {
+            return boxInGoalImage;
+        }
         return groundImage;
     }
 
@@ -225,7 +235,7 @@ public class ViewManager {
             // check if the next tile can be replaced
             if (CURRENTBOARD.getTile(tileToReplaceINext, tileToReplaceJNext).getTileType().isReplaceable()) {
                 // let's exchange them
-                exchangeTilesAndImageGrid(tileToReplaceINext, tileToReplaceJNext, tileToReplaceIRow, tileToReplaceJCol);
+                exchangeTilesAndImageGrid(tileToReplaceIRow, tileToReplaceJCol, tileToReplaceINext, tileToReplaceJNext);
             }
         }
         if (CURRENTBOARD.getTile(tileToReplaceIRow, tileToReplaceJCol).getTileType().isReplaceable()) {
