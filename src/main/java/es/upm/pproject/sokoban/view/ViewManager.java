@@ -168,6 +168,11 @@ public class ViewManager {
             CURRENTBOARD.setTile(i1, j1, TileType.GOAL);
             normalMove = false;
         }
+        if (toMoveTo.equals(TileType.GROUND) && origin.equals(TileType.PLAYERINGOAL)) {
+            CURRENTBOARD.setTile(i2, j2, TileType.PLAYER);
+            CURRENTBOARD.setTile(i1, j1, TileType.GOAL);
+            normalMove = false;
+        }
         if (toMoveTo.equals(TileType.GOAL) && origin.equals(TileType.BOX)) {
             // update the goaltile type so we know next move we only update the next tile to player
             // We change the goaltile to the player but the old player one stays the same
@@ -178,21 +183,9 @@ public class ViewManager {
         // 1. player wants to move to a goal tile
         if (toMoveTo.equals(TileType.GOAL) && origin.equals(TileType.PLAYER)) {
             // update the goaltile type so we know next move we only update the next tile to player
-            GOALTILE = true;
             // We change the goaltile to the player but the old player one stays the same
-            CURRENTBOARD.setTile(i2, j2, TileType.PLAYER);
+            CURRENTBOARD.setTile(i2, j2, TileType.PLAYERINGOAL);
             CURRENTBOARD.setTile(i1, j1, TileType.GROUND);
-            normalMove = false;
-        }
-        // 2. player wants to move out of what used to be a goaltile
-        if (GOALTILE && normalMove) {
-            // we change the destination tile to the player one
-            CURRENTBOARD.setTile(i2, j2, TileType.PLAYER);
-            // we set the old player tile to the goaltile
-            CURRENTBOARD.setTile(i1, j1, TileType.GOAL);
-
-            // update the goaltile type so we know next move we update both tiles
-            GOALTILE = false;
             normalMove = false;
         }
         // 3. Normal case when we just exchange a player tile with a ground tile
@@ -222,6 +215,9 @@ public class ViewManager {
         }
         if (tiletype == TileType.BOXINGOAL) {
             return boxInGoalImage;
+        }
+        if (tiletype == TileType.PLAYERINGOAL) {
+            return playerRightImage;
         }
         return groundImage;
     }

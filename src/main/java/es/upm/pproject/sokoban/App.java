@@ -29,7 +29,7 @@ public class App extends Application {
     public void start(Stage stage) {
         try {
             stage.setTitle("Sokoban");
-            Board board = LevelLoader.loadBoard("resources/Levels/level1.txt");
+            Board board = LevelLoader.loadBoard("resources/Levels/level3.txt");
             ViewManager.setGUIBoardSize(board);
             ViewManager.loadImages();
             stage.setScene(ViewManager.loadLevelState(board));
