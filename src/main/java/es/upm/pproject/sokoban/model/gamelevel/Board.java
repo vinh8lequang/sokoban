@@ -15,78 +15,84 @@ public class Board {
     private int rows;
     private int cols;
     private Tile[][] board;
-    private int playerPositionX;
-    private int playerPositionY;
+    private int playerPositionI;
+    private int playerPositionJ;
 
     public Board(int rows, int cols) {
         this.rows = rows;
         this.cols = cols;
         board = new Tile[rows][cols];
-        playerPositionX = -1;
-        playerPositionY = -1;
+        playerPositionI = -1;
+        playerPositionJ = -1;
 
     }
 
     /**
-     * Gets the tile of x and y coordinates. Both coordinates must be in board
-     * range.
+     * Gets the tile of i and j coordinates. Both coordinates must be in board range.
      * 
-     * @param x
-     * @param y
+     * @param i
+     * @param j
      * @return the tile requested
      */
-    public Tile getTile(int x, int y) {
+    public Tile getTile(int i, int j) {
         // Checking if range is valid
-        if (x < 0 || y < 0 || x >= rows || y >= cols) {
+        if (i < 0 || j < 0 || i >= rows || j >= cols) {
             return null;
         } else {
-            return board[x][y];
+            return board[i][j];
         }
     }
 
     /**
      * Sets a tile type in the given coordinates of the board
      * 
-     * @param x
-     * @param y
+     * @param i
+     * @param j
      * @param type
      */
-    public void setTile(int x, int y, TileType type) {
+    public void setTile(int i, int j, TileType type) {
         // Checking if range is valid
-        if (x < 0 || y < 0 || x >= rows || y >= cols) {
+        if (i < 0 || j < 0 || i >= rows || j >= cols) {
             int rowRange = this.rows - 1;
             int colRange = this.cols - 1;
-            // LOGGER.error("Invalid tile coordinates. Must be in range x: 0- {} y: 0- {}",
+            // LOGGER.error("Invalid tile coordinates. Must be in range i: 0- {} j: 0- {}",
             // colRange, rowRange);
         } else {
-            board[x][y] = new Tile(type);
+            board[i][j] = new Tile(type);
         }
     }
 
+    /**
+     * @param tile
+     * @return char
+     */
     private static char tileToChar(Tile tile) {
         switch (tile.getTileType()) {
-            case WALL:
-                return '+';
-            case GROUND:
-                return ' ';
-            case GOAL:
-                return '*';
-            case BOX:
-                return '#';
-            case PLAYER:
-                return 'W';
-            default:
-                return 'X';
+        case WALL:
+            return '+';
+        case GROUND:
+            return ' ';
+        case GOAL:
+            return '*';
+        case BOX:
+            return '#';
+        case PLAYER:
+            return 'W';
+        default:
+            return 'i';
         }
     }
 
+    /**
+     * @return String
+     */
     @Override
     public String toString() {
         StringBuilder boardRep = new StringBuilder();
         for (int i = 0; i < this.rows; i++) {
             for (int j = 0; j < this.cols; j++) {
                 char tileChar = tileToChar(this.getTile(i, j));
-                if (tileChar == 'X') {
+                if (tileChar == 'i') {
                     // LOGGER.error("Invalid tile input for char conversion.");
                 }
                 boardRep.append(tileChar);
@@ -100,14 +106,23 @@ public class Board {
         // LOGGER.info("\n{}", this.toString());
     }
 
+    /**
+     * @return int
+     */
     public int getRows() {
         return rows;
     }
 
+    /**
+     * @return int
+     */
     public int getCols() {
         return cols;
     }
 
+    /**
+     * @return boolean
+     */
     public boolean isSymmetric() {
         if (rows == cols)
             return true;
@@ -115,37 +130,53 @@ public class Board {
             return false;
     }
 
+    /**
+     * @param i
+     * @param j
+     */
     public void setPlayerPosition(int i, int j) {
-        setPlayerPositionX(i);
-        setPlayerPositionX(j);
+        setPlayerPositionI(i);
+        setPlayerPositionJ(j);
     }
 
     /**
-     * @return the playerPositionX
+     * @return the playerPositionI
      */
-    public int getPlayerPositionX() {
-        return playerPositionX;
+    public int getPlayerPositionI() {
+        return playerPositionI;
     }
 
     /**
-     * @param playerPositionX the playerPositionX to set
+     * @param playerPositionI the playerPositionI to set
      */
-    public void setPlayerPositionX(int playerPositionX) {
-        this.playerPositionX = playerPositionX;
+    public void setPlayerPositionI(int playerPositionI) {
+        this.playerPositionI = playerPositionI;
     }
 
     /**
-     * @return the playerPositionY
+     * @return the playerPositionJ
      */
-    public int getPlayerPositionY() {
-        return playerPositionY;
+    public int getPlayerPositionJ() {
+        return playerPositionJ;
     }
 
     /**
-     * @param playerPositionY the playerPositionY to set
+     * @param playerPositionJ the playerPositionJ to set
      */
-    public void setPlayerPositionY(int playerPositionY) {
-        this.playerPositionY = playerPositionY;
+    public void setPlayerPositionJ(int playerPositionJ) {
+        this.playerPositionJ = playerPositionJ;
+    }
+
+    /**
+     * @param i1
+     * @param j1
+     * @param i2
+     * @param j2
+     */
+    public void exchangeTiles(int i1, int j1, int i2, int j2) {
+        Tile tmp = this.board[i1][j1];
+        this.board[i1][j1] = this.board[i2][j2];
+        this.board[i2][j2] = tmp;
     }
 
 }

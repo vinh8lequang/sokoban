@@ -19,6 +19,7 @@ import javafx.stage.Stage;
 import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.LevelLoader;
 import es.upm.pproject.sokoban.view.ViewManager;
+
 /**
  * JavaFX App
  */
@@ -39,7 +40,6 @@ public class App extends Application {
     }
 
     public static void main(String[] args) {
-        System.out.println("Working Directory = " + System.getProperty("user.dir"));
         launch();
     }
 

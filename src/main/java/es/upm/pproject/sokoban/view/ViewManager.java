@@ -51,6 +51,7 @@ public class ViewManager {
     private static int boardSize;
     private static int tileSize;
     private static Board CURRENTBOARD;
+    private static boolean GOALTILE; // this variable is true when the player is in a goaltile
 
     public static void setGUIBoardSize(Board board) {
         int col = board.getCols();
@@ -67,14 +68,12 @@ public class ViewManager {
 
     public static void loadImages() throws FileNotFoundException {
         tileSize = 720 / boardSize;
-        boxImage = new Image(new FileInputStream("resources\\Tiles\\box.png"), tileSize, tileSize, true, false);
-        goalImage = new Image(new FileInputStream("resources\\Tiles\\goal.png"), tileSize, tileSize, true, false);
-        groundImage = new Image(new FileInputStream("resources\\Tiles\\ground.png"), tileSize, tileSize, true, false);
-        playerRightImage = new Image(new FileInputStream("resources\\Tiles\\playerright.png"), tileSize, tileSize, true,
-                false);
-        playerLeftImage = new Image(new FileInputStream("resources\\Tiles\\playerleft.png"), tileSize, tileSize, true,
-                false);
-        wallImage = new Image(new FileInputStream("resources\\Tiles\\wall.png"), tileSize, tileSize, true, false);
+        boxImage = new Image(new FileInputStream("resources/Tiles/box.png"), tileSize, tileSize, true, false);
+        goalImage = new Image(new FileInputStream("resources/Tiles/goal.png"), tileSize, tileSize, true, false);
+        groundImage = new Image(new FileInputStream("resources/Tiles/ground.png"), tileSize, tileSize, true, false);
+        playerRightImage = new Image(new FileInputStream("resources/Tiles/playerright.png"), tileSize, tileSize, true, false);
+        playerLeftImage = new Image(new FileInputStream("resources/Tiles/playerleft.png"), tileSize, tileSize, true, false);
+        wallImage = new Image(new FileInputStream("resources/Tiles/wall.png"), tileSize, tileSize, true, false);
     }
 
     public static Scene loadLevelState(Board board) throws FileNotFoundException {
@@ -89,21 +88,21 @@ public class ViewManager {
                 Tile tile = board.getTile(j, i);
                 if (tile != null) {
                     switch (tile.getTileType()) {
-                        case BOX:
-                            imageGrid[i][j] = new ImageView(boxImage);
-                            break;
-                        case GOAL:
-                            imageGrid[i][j] = new ImageView(goalImage);
-                            break;
-                        case PLAYER:
-                            imageGrid[i][j] = new ImageView(playerRightImage);
-                            break;
-                        case WALL:
-                            imageGrid[i][j] = new ImageView(wallImage);
-                            break;
-                        default:
-                            imageGrid[i][j] = new ImageView(groundImage);
-                            break;
+                    case BOX:
+                        imageGrid[i][j] = new ImageView(boxImage);
+                        break;
+                    case GOAL:
+                        imageGrid[i][j] = new ImageView(goalImage);
+                        break;
+                    case PLAYER:
+                        imageGrid[i][j] = new ImageView(playerRightImage);
+                        break;
+                    case WALL:
+                        imageGrid[i][j] = new ImageView(wallImage);
+                        break;
+                    default:
+                        imageGrid[i][j] = new ImageView(groundImage);
+                        break;
                     }
                     scene.getBoardGrid().add(imageGrid[i][j], i, j);
                 } else {
@@ -115,45 +114,117 @@ public class ViewManager {
         // TODO Right side of the GUI, (load level interface, undo button, move counter,
         // restart button...)
 
-        return scene;
+        return (Scene) scene;
     }
 
-    public static void updateSceneOnInput(KeyCode code) {
+    public static void updateSceneOnInput(KeyCode direction) {
         ImageView[][] imageGrid = CURRENTSCENE.getImageGrid();
-        int desiredX = CURRENTBOARD.getPlayerPositionX();
-        int desiredY = CURRENTBOARD.getPlayerPositionY();
-        switch (code) {
-            case UP:
-                desiredY += 1;
-                break;
-            case DOWN:
-                desiredY -= 1;
-                break;
-
-            case LEFT:
-                desiredX -= 1;
-                break;
-
-            case RIGHT:
-                desiredX += 1;
-                break;
-            default:
-                LOGGER.error("Unknown input with no appropiate handle");
-                break;
-        }
+        int tileToReplaceI = directionToIRow(direction, CURRENTBOARD.getPlayerPositionI());
+        int tileToReplaceJ = directionToJCol(direction, CURRENTBOARD.getPlayerPositionJ());
         // TODO finish movement checking and image setting for the possible distinct
         // cases
-        if (checkIfMovementIsPosible(desiredX, desiredY)) {
-            CURRENTBOARD.setTile(desiredX, desiredY, TileType.PLAYER);
-            CURRENTSCENE.getImageGrid()[desiredX][desiredY] = new ImageView(playerRightImage);
-            CURRENTSCENE.getImageGrid()[CURRENTBOARD.getPlayerPositionX()][CURRENTBOARD
-                    .getPlayerPositionY()] = new ImageView(groundImage);
-            CURRENTBOARD.setPlayerPosition(desiredX, desiredY);
-        }
+        executeMovementIfPossible(direction, tileToReplaceI, tileToReplaceJ);
     }
 
-    private static boolean checkIfMovementIsPosible(int desiredX, int desiredY) {
+    private static int directionToJCol(KeyCode direction, int j) {
+        switch (direction) {
+        case LEFT:
+            j--;
+            break;
 
-        return false;
+        case RIGHT:
+            j++;
+            break;
+        default:
+            // LOGGER.error("Unknown input with no appropiate handle");
+            break;
+        }
+        return j;
+    }
+
+    private static int directionToIRow(KeyCode direction, int i) {
+        switch (direction) {
+        case UP:
+            i++;
+            break;
+        case DOWN:
+            i--;
+            break;
+        default:
+            // LOGGER.error("Unknown input with no appropiate handle");
+            break;
+        }
+        return i;
+    }
+
+    public static void exchangeTilesAndImageGrid(int i1, int j1, int i2, int j2) {
+        TileType toMoveTo = CURRENTBOARD.getTile(i2, j2).getTileType();
+        boolean normalMove = true;
+        // 1. player wants to move to a goal tile
+        if (toMoveTo.equals(TileType.GOAL)) {
+            // update the goaltile type so we know next move we only update the next tile to player
+            GOALTILE = true;
+            // We change the goaltile to the player but the old player one stays the same
+            CURRENTBOARD.setTile(i2, j2, TileType.PLAYER);
+            normalMove = false;
+        }
+        // 2. player wants to move out of what used to be a goaltile
+        if (GOALTILE && normalMove) {
+            // we change the destination tile to the player one
+            CURRENTBOARD.setTile(i2, j2, TileType.PLAYER);
+            // we set the old player tile to the goaltile
+            CURRENTBOARD.setTile(i1, j1, TileType.GOAL);
+
+            // update the goaltile type so we know next move we update both tiles
+            GOALTILE = false;
+            normalMove = false;
+        }
+        // 3. Normal case when we just exchange a player tile with a ground tile
+        if (normalMove) {
+            CURRENTBOARD.exchangeTiles(i1, j1, i2, j2);
+        }
+        TileType one = CURRENTBOARD.getTile(i1, j1).getTileType();
+        TileType two = CURRENTBOARD.getTile(i2, j2).getTileType();
+        // we also have to update the player position, tiles can be exchanged and neither have to be a player necessarily
+        if (two.equals(TileType.PLAYER)) {
+            CURRENTBOARD.setPlayerPosition(i2, j2);
+        }
+        // we have done the move in the board but we have to update the images
+        CURRENTSCENE.getImageGrid()[i2][j2].setImage(getImage(one));
+        CURRENTSCENE.getImageGrid()[i1][j1].setImage(getImage(two));
+    }
+
+    private static Image getImage(TileType tiletype) {
+        if (GOALTILE) {
+            return goalImage;
+        }
+        if (tiletype == TileType.PLAYER) {
+            return playerRightImage;
+        }
+        if (tiletype == TileType.BOX) {
+            return boxImage;
+        }
+        if (tiletype == TileType.GOAL) {
+            GOALTILE = true;
+        }
+        return groundImage;
+    }
+
+    private static void executeMovementIfPossible(KeyCode direction, int tileToReplaceIRow, int tileToReplaceJCol) {
+        if (CURRENTBOARD.getTile(tileToReplaceIRow, tileToReplaceJCol).getTileType().isMoveable()) {
+            // player want to move a box
+            int tileToReplaceXNext = directionToIRow(direction, tileToReplaceIRow);
+            int tileToReplaceYNext = directionToJCol(direction, tileToReplaceJCol);
+            // we get the next tile to the box in the direction
+            // check if the next tile can be replaced
+            if (CURRENTBOARD.getTile(tileToReplaceXNext, tileToReplaceYNext).getTileType().isReplaceable()) {
+                // let's exchange them
+                exchangeTilesAndImageGrid(tileToReplaceXNext, tileToReplaceYNext, tileToReplaceIRow, tileToReplaceJCol);
+            }
+        }
+        if (CURRENTBOARD.getTile(tileToReplaceIRow, tileToReplaceJCol).getTileType().isReplaceable()) {
+            exchangeTilesAndImageGrid(CURRENTBOARD.getPlayerPositionI(), CURRENTBOARD.getPlayerPositionJ(), tileToReplaceIRow,
+                    tileToReplaceJCol);
+        }
     }
 }
