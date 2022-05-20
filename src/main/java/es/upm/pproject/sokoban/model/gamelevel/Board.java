@@ -17,6 +17,7 @@ public class Board {
     private Tile[][] board;
     private int playerPositionI;
     private int playerPositionJ;
+    private int goals;
 
     public Board(int rows, int cols) {
         this.rows = rows;
@@ -24,6 +25,7 @@ public class Board {
         board = new Tile[rows][cols];
         playerPositionI = -1;
         playerPositionJ = -1;
+        this.goals = 0;
 
     }
 
@@ -66,13 +68,14 @@ public class Board {
      * @param tile
      * @return char
      */
-    private static char tileToChar(Tile tile) {
+    private char tileToChar(Tile tile) {
         switch (tile.getTileType()) {
         case WALL:
             return '+';
         case GROUND:
             return ' ';
         case GOAL:
+            this.goals++;
             return '*';
         case BOX:
             return '#';

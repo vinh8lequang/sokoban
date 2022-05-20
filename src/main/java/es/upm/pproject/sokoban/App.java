@@ -29,7 +29,8 @@ public class App extends Application {
     @Override
     public void start(Stage stage) {
         try {
-            stage.setTitle("Sokoban");
+            stage.getIcons().add(new Image("file:resources/sokovinhi.png"));
+            stage.setTitle("SokoVinh");
             Level level = new Level("resources/Levels/level.txt");
             Board board = level.getBoard();
             ViewManager.setGUIBoardSize(board);
