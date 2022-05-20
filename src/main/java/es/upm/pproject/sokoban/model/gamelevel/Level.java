@@ -10,7 +10,7 @@ public class Level {
 
     // TODO undo stack
     public Level(String levelPath) {
-        this.board = LevelLoader.loadBoard("resources/Levels/level1.txt");
+        this.board = LevelLoader.loadBoard(levelPath);
         this.moves = 0;
         this.movesString.set(moves.toString());
     }
