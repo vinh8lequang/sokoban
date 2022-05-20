@@ -17,6 +17,7 @@ import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 import es.upm.pproject.sokoban.model.gamelevel.Board;
+import es.upm.pproject.sokoban.model.gamelevel.Level;
 import es.upm.pproject.sokoban.model.gamelevel.LevelLoader;
 import es.upm.pproject.sokoban.view.ViewManager;
 
@@ -29,10 +30,11 @@ public class App extends Application {
     public void start(Stage stage) {
         try {
             stage.setTitle("Sokoban");
-            Board board = LevelLoader.loadBoard("resources/Levels/level1.txt");
+            Level level = new Level("resources/Levels/level.txt");
+            Board board = level.getBoard();
             ViewManager.setGUIBoardSize(board);
             ViewManager.loadImages();
-            stage.setScene(ViewManager.loadLevelState(board));
+            stage.setScene(ViewManager.loadLevelState(level));
             stage.show();
         } catch (Exception e) {
             e.printStackTrace();
