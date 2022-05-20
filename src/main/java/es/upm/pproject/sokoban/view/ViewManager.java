@@ -85,7 +85,7 @@ public class ViewManager {
         // TODO Read level board and load the tiles to the graphical interface
         for (int j = 0; j < boardSize; j++) {
             for (int i = 0; i < boardSize; i++) {
-                Tile tile = board.getTile(j, i);
+                Tile tile = board.getTile(i, j);
                 if (tile != null) {
                     switch (tile.getTileType()) {
                     case BOX:
@@ -145,10 +145,10 @@ public class ViewManager {
     private static int directionToIRow(KeyCode direction, int i) {
         switch (direction) {
         case UP:
-            i++;
+            i--;
             break;
         case DOWN:
-            i--;
+            i++;
             break;
         default:
             // LOGGER.error("Unknown input with no appropiate handle");
