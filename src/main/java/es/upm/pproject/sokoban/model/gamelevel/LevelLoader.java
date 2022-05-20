@@ -37,11 +37,11 @@ public class LevelLoader {
             int cols = sc.nextInt();
             String skip = sc.nextLine(); // this is for skipping the first line
             Board board = new Board(rows, cols);
-            for (int i = 0; sc.hasNextLine() && (i < rows); i++) {
+            for (int j = 0; sc.hasNextLine() && (j < rows); j++) {
                 // StringBuilder debugLine = new StringBuilder();
                 String line = sc.nextLine();
-                for (int j = 0; j < line.length(); j++) {
-                    char c = line.charAt(j); // getting de character
+                for (int i= 0; i < line.length(); i++) {
+                    char c = line.charAt(i); // getting de character
                     // debugLine.append(c);
                     TileType type = charToTileType(c);
                     // Throws exception if it's an invalid character
@@ -54,7 +54,7 @@ public class LevelLoader {
                 }
                 // Filling in the empty tiles on the right
                 for (int k = line.length(); k < cols; k++) {
-                    board.setTile(i, k, TileType.GROUND);
+                    board.setTile(j, k, TileType.GROUND);
                 }
                 // System.out.println(debugLine);
             }
