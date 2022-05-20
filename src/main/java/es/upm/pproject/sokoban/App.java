@@ -16,6 +16,9 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+
+import java.io.FileInputStream;
+
 import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
 import es.upm.pproject.sokoban.model.gamelevel.LevelLoader;
@@ -29,7 +32,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage) {
         try {
-            stage.getIcons().add(new Image("file:resources/sokovinhi.png"));
+            stage.getIcons().add(new Image(new FileInputStream("resources/sokovinhi.png")));
             stage.setTitle("SokoVinh");
             Level level = new Level("resources/Levels/level.txt");
             Board board = level.getBoard();
