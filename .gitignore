@@ -5,3 +5,4 @@ token
 .idea
 .DS_Store
 hs_err_pid28739.log
+src/main/java/es/upm/pproject/sokoban/view/test.excalidraw
