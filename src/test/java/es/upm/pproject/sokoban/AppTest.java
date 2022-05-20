@@ -16,18 +16,12 @@ import org.junit.jupiter.api.Nested;
 public class AppTest {
     @Nested
     @DisplayName("Board level loading tests")
-    class BoardLevelLoadingTests{
+    class BoardLevelLoadingTests {
         @Test
         @DisplayName("Correct board")
         void testCorrectBoard() {
-            String correctBoard = "++++\n" +
-                    "+  +\n" +
-                    "+  +++++\n" +
-                    "+      +\n" +
-                    "++W*+# +\n" +
-                    "+   +  +\n" +
-                    "+   ++++\n" +
-                    "+++++\n";
+            String correctBoard = "++++    \n" + "+  +    \n" + "+  +++++\n" + "+      +\n" + "++W*+# +\n" + "+   +  +\n"
+                    + "+   ++++\n" + "+++++   \n";
             Board board = LevelLoader.loadBoard("resources/Levels/level1.txt");
             assertEquals(correctBoard, board.toString());
         }
