@@ -60,4 +60,7 @@ public class Level {
         return this.movesString;
     }
 
+    public void setStrMoves() {
+        this.movesString.set("YOU HAVE WON");
+    }
 }

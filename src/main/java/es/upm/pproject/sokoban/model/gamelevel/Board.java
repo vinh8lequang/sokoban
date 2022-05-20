@@ -12,6 +12,20 @@ import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
 public class Board {
     // private static final Logger LOGGER = LoggerFactory.getLogger(Board.class);
 
+    /**
+     * @return the goals
+     */
+    public int getGoals() {
+        return goals;
+    }
+
+    /**
+     * @param goals the goals to set
+     */
+    public void setGoals(int goals) {
+        this.goals = goals;
+    }
+
     private int rows;
     private int cols;
     private Tile[][] board;

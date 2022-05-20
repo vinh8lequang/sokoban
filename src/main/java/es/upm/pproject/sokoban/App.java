@@ -29,10 +29,13 @@ import es.upm.pproject.sokoban.view.ViewManager;
  */
 public class App extends Application {
 
+    static Stage currentStage;
+
     @Override
     public void start(Stage stage) {
         try {
-            stage.getIcons().add(new Image(new FileInputStream("resources/sokovinhi.png")));
+            currentStage = stage;
+            // stage.getIcons().add(new Image(new FileInputStream("resources/sokovinhi.png")));
             stage.setTitle("SokoVinh");
             Level level = new Level("resources/Levels/level.txt");
             Board board = level.getBoard();
@@ -43,6 +46,11 @@ public class App extends Application {
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+    public static void setNewScene(Scene newScene) {
+        currentStage.setScene(newScene);
+        currentStage.show();
     }
 
     public static void main(String[] args) {

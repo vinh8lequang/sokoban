@@ -3,11 +3,17 @@ package es.upm.pproject.sokoban.view;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
+import javax.swing.GroupLayout.Alignment;
+
+import org.apache.maven.artifact.resolver.WarningResolutionListener;
+
+import es.upm.pproject.sokoban.App;
 import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.PlayerTile;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.Tile;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
+import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
@@ -54,6 +60,8 @@ public class ViewManager {
     private static Board CURRENTBOARD;
     private static boolean GOALTILE; // this variable is true when the player is in a goaltile
     private static Level CURRENTLEVEL;
+    private static int WIDTH = 960;
+    private static int HEIGHT = 720;
 
     public static void setGUIBoardSize(Board board) {
         int col = board.getCols();
@@ -81,7 +89,7 @@ public class ViewManager {
 
     public static Scene loadLevelState(Level level) throws FileNotFoundException {
 
-        SokobanScene scene = new SokobanScene(960, 720, boardSize, level); // This is the object to be returned, must be
+        SokobanScene scene = new SokobanScene(WIDTH, HEIGHT, boardSize, level); // This is the object to be returned, must be
         CURRENTSCENE = scene;
         CURRENTBOARD = level.getBoard();
         CURRENTLEVEL = level;
@@ -168,6 +176,8 @@ public class ViewManager {
         if (toMoveTo.equals(TileType.GROUND) && origin.equals(TileType.BOXINGOAL)) {
             CURRENTBOARD.setTile(i2, j2, TileType.BOX);
             CURRENTBOARD.setTile(i1, j1, TileType.GOAL);
+            CURRENTBOARD.setGoals(CURRENTBOARD.getGoals() + 1);
+
             normalMove = false;
         }
         if (toMoveTo.equals(TileType.GROUND) && origin.equals(TileType.PLAYERINGOAL)) {
@@ -180,6 +190,11 @@ public class ViewManager {
             // We change the goaltile to the player but the old player one stays the same
             CURRENTBOARD.setTile(i2, j2, TileType.BOXINGOAL);
             CURRENTBOARD.setTile(i1, j1, TileType.GROUND);
+            int goals = CURRENTBOARD.getGoals();
+            CURRENTBOARD.setGoals(goals - 1);
+            if (CURRENTBOARD.getGoals() == 0) {
+                showWinnerScene();
+            }
             normalMove = false;
         }
         // 1. player wants to move to a goal tile
@@ -203,6 +218,17 @@ public class ViewManager {
         // we have done the move in the board but we have to update the images
         CURRENTSCENE.getImageGrid()[i2][j2].setImage(getImage(two));
         CURRENTSCENE.getImageGrid()[i1][j1].setImage(getImage(one));
+    }
+
+    private static void showWinnerScene() {
+        Label winnerText = new Label();
+        winnerText.setText("You have won");
+        winnerText.setStyle("-fx-font: 70 arial;");
+        HBox root = new HBox();
+        root.setAlignment(Pos.CENTER);
+        root.getChildren().add(winnerText);
+        Scene newScene = new Scene(root, WIDTH, HEIGHT);
+        App.setNewScene(newScene);
     }
 
     private static Image getImage(TileType tiletype) {

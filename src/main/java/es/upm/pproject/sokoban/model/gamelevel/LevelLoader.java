@@ -48,6 +48,9 @@ public class LevelLoader {
                     if (type == null) {
                         throw new invalidLevelCharacterException("Invalid character: " + line.charAt(j));
                     }
+                    if (type == TileType.GOAL) {
+                        board.setGoals(board.getGoals()+1);
+                    }
                     if (type == TileType.PLAYER)
                         board.setPlayerPosition(i, j);
                     board.setTile(i, j, type);
