@@ -5,7 +5,8 @@ public enum TileType {
     GOAL(true,false),
     GROUND(true,false),
     BOX(false,true),
-    WALL(false,false),
+    WALL(false, false),
+    BOXINGOAL(true, false),
     PLAYER(false,true);
 
 

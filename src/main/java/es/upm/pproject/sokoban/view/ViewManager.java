@@ -159,9 +159,17 @@ public class ViewManager {
 
     public static void exchangeTilesAndImageGrid(int i1, int j1, int i2, int j2) {
         TileType toMoveTo = CURRENTBOARD.getTile(i2, j2).getTileType();
+        TileType origin = CURRENTBOARD.getTile(i1, j1).getTileType();
         boolean normalMove = true;
+        if (toMoveTo.equals(TileType.GOAL) && origin.equals(TileType.BOX)) {
+            // update the goaltile type so we know next move we only update the next tile to player
+            // We change the goaltile to the player but the old player one stays the same
+            CURRENTBOARD.setTile(i2, j2, TileType.BOXINGOAL);
+            CURRENTBOARD.setTile(i1, j1, TileType.GROUND);
+            normalMove = false;
+        }
         // 1. player wants to move to a goal tile
-        if (toMoveTo.equals(TileType.GOAL)) {
+        if (toMoveTo.equals(TileType.GOAL) && origin.equals(TileType.PLAYER)) {
             // update the goaltile type so we know next move we only update the next tile to player
             GOALTILE = true;
             // We change the goaltile to the player but the old player one stays the same
@@ -196,9 +204,6 @@ public class ViewManager {
     }
 
     private static Image getImage(TileType tiletype) {
-        // if (GOALTILE) {
-        //     return goalImage;
-        // }
         if (tiletype == TileType.PLAYER) {
             return playerRightImage;
         }
@@ -206,7 +211,7 @@ public class ViewManager {
             return boxImage;
         }
         if (tiletype == TileType.GOAL) {
-            return goalImage; 
+            return goalImage;
         }
         return groundImage;
     }

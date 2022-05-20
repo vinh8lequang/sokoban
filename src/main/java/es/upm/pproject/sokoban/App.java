@@ -32,7 +32,6 @@ public class App extends Application {
             Board board = LevelLoader.loadBoard("resources/Levels/level1.txt");
             ViewManager.setGUIBoardSize(board);
             ViewManager.loadImages();
-            System.out.println(board.toString());
             stage.setScene(ViewManager.loadLevelState(board));
             stage.show();
         } catch (Exception e) {
