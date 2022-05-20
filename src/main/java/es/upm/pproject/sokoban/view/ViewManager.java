@@ -85,7 +85,7 @@ public class ViewManager {
         // TODO Read level board and load the tiles to the graphical interface
         for (int j = 0; j < boardSize; j++) {
             for (int i = 0; i < boardSize; i++) {
-                Tile tile = board.getTile(j, i);
+                Tile tile = board.getTile(i, j);
                 if (tile != null) {
                     switch (tile.getTileType()) {
                     case BOX:
@@ -145,10 +145,10 @@ public class ViewManager {
     private static int directionToIRow(KeyCode direction, int i) {
         switch (direction) {
         case UP:
-            i++;
+            i--;
             break;
         case DOWN:
-            i--;
+            i++;
             break;
         default:
             // LOGGER.error("Unknown input with no appropiate handle");
@@ -166,6 +166,7 @@ public class ViewManager {
             GOALTILE = true;
             // We change the goaltile to the player but the old player one stays the same
             CURRENTBOARD.setTile(i2, j2, TileType.PLAYER);
+            CURRENTBOARD.setTile(i1, j1, TileType.GROUND);
             normalMove = false;
         }
         // 2. player wants to move out of what used to be a goaltile
@@ -213,13 +214,13 @@ public class ViewManager {
     private static void executeMovementIfPossible(KeyCode direction, int tileToReplaceIRow, int tileToReplaceJCol) {
         if (CURRENTBOARD.getTile(tileToReplaceIRow, tileToReplaceJCol).getTileType().isMoveable()) {
             // player want to move a box
-            int tileToReplaceXNext = directionToIRow(direction, tileToReplaceIRow);
-            int tileToReplaceYNext = directionToJCol(direction, tileToReplaceJCol);
+            int tileToReplaceINext = directionToIRow(direction, tileToReplaceIRow);
+            int tileToReplaceJNext = directionToJCol(direction, tileToReplaceJCol);
             // we get the next tile to the box in the direction
             // check if the next tile can be replaced
-            if (CURRENTBOARD.getTile(tileToReplaceXNext, tileToReplaceYNext).getTileType().isReplaceable()) {
+            if (CURRENTBOARD.getTile(tileToReplaceINext, tileToReplaceJNext).getTileType().isReplaceable()) {
                 // let's exchange them
-                exchangeTilesAndImageGrid(tileToReplaceXNext, tileToReplaceYNext, tileToReplaceIRow, tileToReplaceJCol);
+                exchangeTilesAndImageGrid(tileToReplaceINext, tileToReplaceJNext, tileToReplaceIRow, tileToReplaceJCol);
             }
         }
         if (CURRENTBOARD.getTile(tileToReplaceIRow, tileToReplaceJCol).getTileType().isReplaceable()) {

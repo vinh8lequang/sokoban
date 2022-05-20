@@ -12,17 +12,18 @@ public class SokobanScene extends Scene {
 
     private ImageView[][] imageGrid;
     private GridPane boardGrid;
-    static HBox root = new HBox();
+    private HBox hbox;
 
     public SokobanScene(double width, double height, int boardSize) {
-        super(root, width, height);
+        super(new HBox(5), width, height);
         Inputs.setInputHandler(this);
         // Crate scene components infrastructure
         VBox gridContainer = new VBox(); // Contains the graphical representation of the board status
-        boardGrid = new GridPane(); // Graphical representation of the board status // code bellow
-        imageGrid = new ImageView[boardSize][boardSize];
+        this.boardGrid = new GridPane(); // Graphical representation of the board status // code bellow
+        this.imageGrid = new ImageView[boardSize][boardSize];
         gridContainer.getChildren().add(boardGrid);
-        root.getChildren().addAll(gridContainer);
+        this.hbox = (HBox) this.getRoot();
+        this.hbox.getChildren().addAll(gridContainer);
     }
 
     /**
