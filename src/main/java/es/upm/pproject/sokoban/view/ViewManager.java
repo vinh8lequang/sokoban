@@ -3,14 +3,9 @@ package es.upm.pproject.sokoban.view;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
-import javax.swing.GroupLayout.Alignment;
-
-import org.apache.maven.artifact.resolver.WarningResolutionListener;
-
 import es.upm.pproject.sokoban.App;
 import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
-import es.upm.pproject.sokoban.model.gamelevel.tiles.PlayerTile;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.Tile;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
 import javafx.geometry.Pos;
@@ -20,19 +15,16 @@ import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
-import javafx.scene.layout.ColumnConstraints;
-import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
-import javafx.scene.layout.Priority;
-import javafx.scene.layout.StackPane;
-import javafx.scene.layout.VBox;
-import javafx.scene.transform.Scale;
-import javafx.stage.Stage;
 
 public class ViewManager {
 
     static SokobanScene CURRENTSCENE = null;
 
+    
+    /** 
+     * @return Scene
+     */
     public static Scene getStartingScene() {
         Image back = new Image("file:resources/titleImage.png");
         ImageView background = new ImageView();
@@ -63,6 +55,10 @@ public class ViewManager {
     private static int WIDTH = 960;
     private static int HEIGHT = 720;
 
+    
+    /** 
+     * @param board
+     */
     public static void setGUIBoardSize(Board board) {
         int col = board.getCols();
         int row = board.getRows();
@@ -72,10 +68,18 @@ public class ViewManager {
             boardSize = row;
     }
 
+    
+    /** 
+     * @return int
+     */
     public static int getGUIBoardSize() {
         return boardSize;
     }
 
+    
+    /** 
+     * @throws FileNotFoundException
+     */
     public static void loadImages() throws FileNotFoundException {
         tileSize = 720 / boardSize;
         boxImage = new Image(new FileInputStream("resources/Tiles/box.png"), tileSize, tileSize, true, false);
@@ -87,6 +91,12 @@ public class ViewManager {
         boxInGoalImage = new Image(new FileInputStream("resources/Tiles/boxingoal.png"), tileSize, tileSize, true, false);
     }
 
+    
+    /** 
+     * @param level
+     * @return Scene
+     * @throws FileNotFoundException
+     */
     public static Scene loadLevelState(Level level) throws FileNotFoundException {
 
         SokobanScene scene = new SokobanScene(WIDTH, HEIGHT, boardSize, level); // This is the object to be returned, must be
@@ -129,6 +139,10 @@ public class ViewManager {
         return (Scene) scene;
     }
 
+    
+    /** 
+     * @param direction
+     */
     public static void updateSceneOnInput(KeyCode direction) {
         ImageView[][] imageGrid = CURRENTSCENE.getImageGrid();
         int tileToReplaceI = directionToIRow(direction, CURRENTBOARD.getPlayerPositionI());
@@ -138,6 +152,12 @@ public class ViewManager {
         executeMovementIfPossible(direction, tileToReplaceI, tileToReplaceJ);
     }
 
+    
+    /** 
+     * @param direction
+     * @param j
+     * @return int
+     */
     private static int directionToJCol(KeyCode direction, int j) {
         switch (direction) {
         case LEFT:
@@ -154,6 +174,12 @@ public class ViewManager {
         return j;
     }
 
+    
+    /** 
+     * @param direction
+     * @param i
+     * @return int
+     */
     private static int directionToIRow(KeyCode direction, int i) {
         switch (direction) {
         case UP:
@@ -169,6 +195,13 @@ public class ViewManager {
         return i;
     }
 
+    
+    /** 
+     * @param i1
+     * @param j1
+     * @param i2
+     * @param j2
+     */
     public static void exchangeTilesAndImageGrid(int i1, int j1, int i2, int j2) {
         TileType toMoveTo = CURRENTBOARD.getTile(i2, j2).getTileType();
         TileType origin = CURRENTBOARD.getTile(i1, j1).getTileType();
@@ -231,6 +264,11 @@ public class ViewManager {
         App.setNewScene(newScene);
     }
 
+    
+    /** 
+     * @param tiletype
+     * @return Image
+     */
     private static Image getImage(TileType tiletype) {
         if (tiletype == TileType.PLAYER) {
             return playerRightImage;
@@ -250,6 +288,12 @@ public class ViewManager {
         return groundImage;
     }
 
+    
+    /** 
+     * @param direction
+     * @param tileToReplaceIRow
+     * @param tileToReplaceJCol
+     */
     private static void executeMovementIfPossible(KeyCode direction, int tileToReplaceIRow, int tileToReplaceJCol) {
         if (CURRENTBOARD.getTile(tileToReplaceIRow, tileToReplaceJCol).getTileType().isMoveable()) {
             // player want to move a box

@@ -11,14 +11,26 @@ public class Tile {
         this.type = type;
     }
 
+    
+    /** 
+     * @return TileType
+     */
     public TileType getTileType() {
         return type;
     }
 
+    
+    /** 
+     * @param type
+     */
     public void setTileType(TileType type) {
         this.type = type;
     }
 
+    
+    /** 
+     * @return int
+     */
     /*
      * (non-Javadoc)
      * 
@@ -33,6 +45,11 @@ public class Tile {
         return result;
     }
 
+    
+    /** 
+     * @param obj
+     * @return boolean
+     */
     /*
      * (non-Javadoc)
      * 

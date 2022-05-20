@@ -8,6 +8,10 @@ import javafx.scene.input.KeyEvent;
 
 public class Inputs {
 
+    
+    /** 
+     * @param scene
+     */
     public static void setInputHandler(Scene scene) {
         scene.setOnKeyPressed(new EventHandler<KeyEvent>() {
             @Override

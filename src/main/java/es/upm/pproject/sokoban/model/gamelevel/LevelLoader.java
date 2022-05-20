@@ -12,6 +12,11 @@ import es.upm.pproject.sokoban.model.levelExceptions.invalidLevelCharacterExcept
  */
 public class LevelLoader {
 
+    
+    /** 
+     * @param type
+     * @return TileType
+     */
     private static TileType charToTileType(char type) {
         switch (type) {
         case '+':
@@ -29,6 +34,11 @@ public class LevelLoader {
         }
     }
 
+    
+    /** 
+     * @param path
+     * @return Board
+     */
     public static Board loadBoard(String path) {
 
         File level = new File(path);

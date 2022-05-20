@@ -31,6 +31,10 @@ public class App extends Application {
 
     static Stage currentStage;
 
+    
+    /** 
+     * @param stage
+     */
     @Override
     public void start(Stage stage) {
         try {
@@ -48,11 +52,19 @@ public class App extends Application {
         }
     }
 
+    
+    /** 
+     * @param newScene
+     */
     public static void setNewScene(Scene newScene) {
         currentStage.setScene(newScene);
         currentStage.show();
     }
 
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         launch();
     }
