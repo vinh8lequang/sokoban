@@ -89,22 +89,22 @@ public class ViewManager {
                 if (tile != null) {
                     switch (tile.getTileType()) {
                     case BOX:
-                        imageGrid[j][i] = new ImageView(boxImage);
+                        imageGrid[i][j] = new ImageView(boxImage);
                         break;
                     case GOAL:
-                        imageGrid[j][i]= new ImageView(goalImage);
+                        imageGrid[i][j] = new ImageView(goalImage);
                         break;
                     case PLAYER:
-                        imageGrid[j][i] = new ImageView(playerRightImage);
+                        imageGrid[i][j] = new ImageView(playerRightImage);
                         break;
                     case WALL:
-                        imageGrid[j][i] = new ImageView(wallImage);
+                        imageGrid[i][j] = new ImageView(wallImage);
                         break;
                     default:
-                        imageGrid[j][i] = new ImageView(groundImage);
+                        imageGrid[i][j] = new ImageView(groundImage);
                         break;
                     }
-                    scene.getBoardGrid().add(imageGrid[j][i], j, i);
+                    scene.getBoardGrid().add(imageGrid[i][j], j, i);
                 } else {
                     scene.getBoardGrid().add(new ImageView(groundImage), j, i);
                 }
@@ -191,8 +191,8 @@ public class ViewManager {
             CURRENTBOARD.setPlayerPosition(i2, j2);
         }
         // we have done the move in the board but we have to update the images
-        CURRENTSCENE.getImageGrid()[j2][i2].setImage(getImage(one));
-        CURRENTSCENE.getImageGrid()[j1][i1].setImage(getImage(two));
+        CURRENTSCENE.getImageGrid()[i2][j2].setImage(getImage(one));
+        CURRENTSCENE.getImageGrid()[i1][j1].setImage(getImage(two));
     }
 
     private static Image getImage(TileType tiletype) {
