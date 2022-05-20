@@ -80,7 +80,7 @@ public class ViewManager {
 
     public static Scene loadLevelState(Board board) throws FileNotFoundException {
 
-        SokobanScene scene = new SokobanScene(1280, 720, boardSize); // This is the object to be returned, must be
+        SokobanScene scene = new SokobanScene(960, 720, boardSize); // This is the object to be returned, must be
         CURRENTSCENE = scene;
         CURRENTBOARD = board;
         ImageView[][] imageGrid = scene.getImageGrid();
@@ -195,7 +195,7 @@ public class ViewManager {
         TileType one = CURRENTBOARD.getTile(i1, j1).getTileType();
         TileType two = CURRENTBOARD.getTile(i2, j2).getTileType();
         // we also have to update the player position, tiles can be exchanged and neither have to be a player necessarily
-        if (two.equals(TileType.PLAYER)) {
+        if (two.equals(TileType.PLAYER) || two.equals(TileType.PLAYERINGOAL)) {
             CURRENTBOARD.setPlayerPosition(i2, j2);
         }
         // we have done the move in the board but we have to update the images
