@@ -16,6 +16,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.HBox;
+import javafx.scene.media.AudioClip;
 
 public class ViewManager {
 
@@ -213,6 +214,7 @@ public class ViewManager {
             CURRENTBOARD.setTile(i1, j1, TileType.GROUND);
             int goals = CURRENTBOARD.getGoals();
             CURRENTBOARD.setGoals(goals - 1);
+            SokobanSounds.playCorrectSound();
             if (CURRENTBOARD.getGoals() == 0) {
                 showWinnerScene();
             }
@@ -242,6 +244,7 @@ public class ViewManager {
     }
 
     private static void showWinnerScene() {
+        SokobanSounds.playWinnerSound();
         Label winnerText = new Label();
         winnerText.setText("You have won");
         winnerText.setStyle("-fx-font: 70 arial;");
@@ -290,12 +293,16 @@ public class ViewManager {
             if (CURRENTBOARD.getTile(tileToReplaceINext, tileToReplaceJNext).getTileType().isReplaceable()) {
                 // let's exchange them
                 exchangeTilesAndImageGrid(tileToReplaceIRow, tileToReplaceJCol, tileToReplaceINext, tileToReplaceJNext);
+                SokobanSounds.playBoxMovingSound();
             }
         }
         if (CURRENTBOARD.getTile(tileToReplaceIRow, tileToReplaceJCol).getTileType().isReplaceable()) {
             exchangeTilesAndImageGrid(CURRENTBOARD.getPlayerPositionI(), CURRENTBOARD.getPlayerPositionJ(), tileToReplaceIRow,
                     tileToReplaceJCol);
             CURRENTLEVEL.addOneMove();
+            SokobanSounds.playPlayerMovingSound();
+        } else {
+            SokobanSounds.playWallSound();
         }
     }
 }

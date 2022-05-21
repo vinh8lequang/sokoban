@@ -29,15 +29,15 @@ public class App extends Application {
             currentStage = stage;
             stage.getIcons().add(new Image(new FileInputStream("resources/sokovinhi.png")));
             stage.setTitle("SokoVinh");
-            Level level = new Level("resources/Levels/level1.txt");
+            Level level = new Level("resources/Levels/level4.txt");
             Board board = level.getBoard();
             ViewManager.setGUIBoardSize(board);
             ViewManager.loadImages();
             stage.setScene(ViewManager.loadLevelState(level));
             stage.show();
-            Media sound = new Media(new File("resources/audio/gameMusic.mp3").toURI().toString());
-            MediaPlayer mediaPlayer = new MediaPlayer(sound);
-            mediaPlayer.play();
+            // Media sound = new Media(new File("resources/audio/gameMusic.mp3").toURI().toString());
+            // MediaPlayer mediaPlayer = new MediaPlayer(sound);
+            // mediaPlayer.play();
         } catch (Exception e) {
             e.printStackTrace();
         }
