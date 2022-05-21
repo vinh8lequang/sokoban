@@ -35,9 +35,9 @@ public class App extends Application {
             ViewManager.loadImages();
             stage.setScene(ViewManager.loadLevelState(level));
             stage.show();
-            // Media sound = new Media(new File("resources/audio/gameMusic.mp3").toURI().toString());
-            // MediaPlayer mediaPlayer = new MediaPlayer(sound);
-            // mediaPlayer.play();
+            Media sound = new Media(new File("resources/audio/gameMusic.mp3").toURI().toString());
+            MediaPlayer mediaPlayer = new MediaPlayer(sound);
+            mediaPlayer.play();
         } catch (Exception e) {
             e.printStackTrace();
         }
