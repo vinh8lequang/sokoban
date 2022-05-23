@@ -29,7 +29,7 @@ public class App extends Application {
             currentStage = stage;
             stage.getIcons().add(new Image(new FileInputStream("resources/sokovinhi.png")));
             stage.setTitle("SokoVinh");
-            Level level = new Level("resources/Levels/level4.txt");
+            Level level = new Level("resources/Levels/level1.txt");
             Board board = level.getBoard();
             ViewManager.setGUIBoardSize(board);
             ViewManager.loadImages();
