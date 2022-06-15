@@ -40,7 +40,6 @@ public class LevelLoader {
      * @return Board
      */
     public static Board loadBoard(String path) {
-
         File level = new File(path);
         try (Scanner sc = new Scanner(level)) {
             int rows = sc.nextInt();
