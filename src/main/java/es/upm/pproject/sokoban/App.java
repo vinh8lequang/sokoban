@@ -13,6 +13,7 @@ import es.upm.pproject.sokoban.view.SokobanScene;
 import es.upm.pproject.sokoban.view.ViewManager;
 import javafx.application.Application;
 import javafx.application.Platform;
+import javafx.beans.value.ObservableValue;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.media.Media;
@@ -30,7 +31,7 @@ public class App extends Application {
     static int levelnum = 1;
     static MediaPlayer mediaPlayer;
     static boolean musicState;
-    public int globalScore =0;
+    public static int  globalScore=0;
 
     /**
      * @param stage

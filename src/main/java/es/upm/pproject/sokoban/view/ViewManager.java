@@ -176,7 +176,10 @@ public class ViewManager {
         SokobanSounds.playWinnerSound();
         Label winnerText = new Label();
         winnerText.setText("You have won");
-        winnerText.setStyle("-fx-font: 70 arial;");
+        winnerText.setStyle("-fx-font: 70 impact;");
+        Label globalScoreText = new Label();
+        globalScoreText.setText("Your global score is: "+ App.globalScore);
+        globalScoreText.setStyle("-fx-font: 25 impact;");
         VBox root = new VBox();
         root.setAlignment(Pos.CENTER);
 
@@ -194,7 +197,7 @@ public class ViewManager {
             }
             SokobanSounds.stopWinnerSound();
         });
-        root.getChildren().addAll(winnerText, nextLevelButton);
+        root.getChildren().addAll(winnerText,globalScoreText, nextLevelButton);
         Scene newScene = new Scene(root, WIDTH, HEIGHT);
         App.setNewScene(newScene);
     }
