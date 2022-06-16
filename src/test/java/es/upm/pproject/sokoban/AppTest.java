@@ -3,6 +3,8 @@ package es.upm.pproject.sokoban;
 import org.junit.jupiter.api.Test;
 import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.LevelLoader;
+import es.upm.pproject.sokoban.model.levelExceptions.invalidLevelException;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -25,8 +27,14 @@ public class AppTest {
                     "+   +  +\n" +
                     "+   ++++\n" +
                     "+++++   \n";
-            Board board = LevelLoader.loadBoard("src/main/resources/Levels/level1.txt");
-            assertEquals(correctBoard, board.toString());
+            Board board;
+            try {
+                board = LevelLoader.loadBoard("src/main/resources/Levels/level1.txt");
+                assertEquals(correctBoard, board.toString());
+            } catch (invalidLevelException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
         }
     }
 }
