@@ -50,7 +50,7 @@ public class ViewManager {
         playButton.setStyle("-fx-background-color: #ffff00");
         //TODO Cambiar al nivel 
         playButton.setOnAction((event) -> {
-            System.out.println("Button clicked");
+            App.loadNextLevel();
           });
 
         root.getChildren().addAll(background,playButton);
