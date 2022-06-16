@@ -21,6 +21,7 @@ import javafx.scene.input.KeyCode;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.media.AudioClip;
+import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.FileChooser;
@@ -139,6 +140,7 @@ public class ViewManager {
     public static Scene loadLevelState(Level level) throws FileNotFoundException {
 
         SokobanScene scene = new SokobanScene(WIDTH, HEIGHT, boardSize, level);
+        
         CURRENTSCENE = scene;
         CURRENTBOARD = level.getBoard();
         CURRENTLEVEL = level;
