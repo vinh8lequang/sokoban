@@ -3,13 +3,7 @@ package es.upm.pproject.sokoban;
 import org.junit.jupiter.api.Test;
 import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.LevelLoader;
-import es.upm.pproject.sokoban.model.levelExceptions.inequalNumberOfBoxesGoals;
-import es.upm.pproject.sokoban.model.levelExceptions.invalidLevelCharacterException;
-import es.upm.pproject.sokoban.model.levelExceptions.invalidLevelException;
-import es.upm.pproject.sokoban.model.levelExceptions.multiplePlayersException;
-import es.upm.pproject.sokoban.model.levelExceptions.noBoxesException;
-import es.upm.pproject.sokoban.model.levelExceptions.noGoalsException;
-import es.upm.pproject.sokoban.model.levelExceptions.noPlayersException;
+import es.upm.pproject.sokoban.model.levelExceptions.*;
 import junit.extensions.ExceptionTestCase;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -29,7 +23,7 @@ public class AppTest {
     class BoardLevelLoadingTests {
         @Test
         @DisplayName("Correct board")
-        void testCorrectBoard() throws invalidLevelException {
+        void testCorrectBoard() throws InvalidLevelException {
             String correctBoard = "++++    \n" +
                     "+  +    \n" +
                     "+  +++++\n" +
@@ -41,8 +35,8 @@ public class AppTest {
             Board board = null;
             try {
                 board = LevelLoader.loadBoard("src/main/resources/Levels/level1.txt");
-            } catch (FileNotFoundException | invalidLevelCharacterException | multiplePlayersException
-                    | inequalNumberOfBoxesGoals | noBoxesException | noGoalsException | noPlayersException e) {
+            } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
+                    | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
             }
@@ -51,11 +45,34 @@ public class AppTest {
             }  
         }
 
-        // @Test
-        // @DisplayName("Incorrect board")
-        // void testIncorrectBoard() {
-        //     assertThrows(Exception,  LevelLoader.loadBoard("src/main/resources/Levels/levelIncorrecto.txt"));
-        //     board = LevelLoader.loadBoard("src/main/resources/Levels/levelIncorrecto.txt");
-        // }
+        @Test
+        @DisplayName("No player")
+        void testIncorrectBoard1() {
+            assertThrows(NoPlayersException.class, () -> LevelLoader.loadBoard("src/main/resources/Levels/badlevel1.txt"), "Should throw NoPlayersException");
+        }
+
+        @Test
+        @DisplayName("Mulitple players")
+        void testIncorrectBoard2() {
+            assertThrows(MultiplePlayersException.class, () -> LevelLoader.loadBoard("src/main/resources/Levels/badlevel2.txt"), "Should throw MultiplePlayersException");
+        }
+
+        @Test
+        @DisplayName("No boxes")
+        void testIncorrectBoard3() {
+            assertThrows(NoBoxesException.class, () -> LevelLoader.loadBoard("src/main/resources/Levels/badlevel3.txt"), "Should throw NoBoxesException");
+        }
+
+        @Test
+        @DisplayName("No goals")
+        void testIncorrectBoard4() {
+            assertThrows(NoGoalsException.class, () -> LevelLoader.loadBoard("src/main/resources/Levels/badlevel4.txt"), "Should throw NoGoalsException");
+        }
+
+        @Test
+        @DisplayName("Inequal number of boxes and goals")
+        void testIncorrectBoard5() {
+            assertThrows(InequalNumberOfBoxesGoals.class, () -> LevelLoader.loadBoard("src/main/resources/Levels/badlevel5.txt"), "Should throw InequalNumberOfBoxesGoals");
+        }
     }
 }

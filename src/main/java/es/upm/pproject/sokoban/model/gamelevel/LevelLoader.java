@@ -43,9 +43,9 @@ public class LevelLoader {
      * @return Board
      * @throws Exception
      */
-    public static Board loadBoard(String path) throws FileNotFoundException, invalidLevelCharacterException ,
-                    multiplePlayersException , inequalNumberOfBoxesGoals ,
-                    noBoxesException , noGoalsException , noPlayersException {
+    public static Board loadBoard(String path) throws FileNotFoundException, InvalidLevelCharacterException ,
+                    MultiplePlayersException , InequalNumberOfBoxesGoals ,
+                    NoBoxesException , NoGoalsException , NoPlayersException {
         int nPlayers = 0; //number of players
         int nBoxes = 0; //number of boxes
         int nGoals = 0; //number of goals
@@ -64,7 +64,7 @@ public class LevelLoader {
                     TileType type = charToTileType(c);
                     // Throws exception if it's an invalid character
                     if (type == null) {
-                        throw new invalidLevelCharacterException("Invalid character: " + line.charAt(j));
+                        throw new InvalidLevelCharacterException("Invalid character: " + line.charAt(j));
                     } else if (type == TileType.GOAL) {
                         board.setGoals(board.getGoals()+1);
                         nGoals++;
@@ -72,7 +72,7 @@ public class LevelLoader {
                         board.setPlayerPosition(i, j);
                         nPlayers++;
                         if (nPlayers > 1) { // Check if there is more than one player
-                            throw new multiplePlayersException("There is more than one player in the level");
+                            throw new MultiplePlayersException("There is more than one player in the level");
                         }
                     } else if (type == TileType.BOX) {
                         nBoxes++;
@@ -87,19 +87,19 @@ public class LevelLoader {
             }
             // Check if there is not a player
             if (nPlayers == 0) {
-                throw new noPlayersException("There is no player in the level");
+                throw new NoPlayersException("There is no player in the level");
             }
             // Check if there are no boxes
             if (nBoxes == 0) {
-                throw new noBoxesException("There are no boxes in the level");
+                throw new NoBoxesException("There are no boxes in the level");
             }
             //Check if there are no goals
             if (nGoals == 0) {
-                throw new noGoalsException("There are no goals in the level");
+                throw new NoGoalsException("There are no goals in the level");
             }
             // Check if number of boxes = goals
             if (nBoxes != nGoals) {
-                throw new inequalNumberOfBoxesGoals("There are " + nBoxes + " boxes and " + nGoals + " goals");
+                throw new InequalNumberOfBoxesGoals("There are " + nBoxes + " boxes and " + nGoals + " goals");
             }
             board.viewBoard();
             return board;

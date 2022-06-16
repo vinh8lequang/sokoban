@@ -2,13 +2,7 @@ package es.upm.pproject.sokoban.model.gamelevel;
 
 import java.io.FileNotFoundException;
 
-import es.upm.pproject.sokoban.model.levelExceptions.inequalNumberOfBoxesGoals;
-import es.upm.pproject.sokoban.model.levelExceptions.invalidLevelCharacterException;
-import es.upm.pproject.sokoban.model.levelExceptions.invalidLevelException;
-import es.upm.pproject.sokoban.model.levelExceptions.multiplePlayersException;
-import es.upm.pproject.sokoban.model.levelExceptions.noBoxesException;
-import es.upm.pproject.sokoban.model.levelExceptions.noGoalsException;
-import es.upm.pproject.sokoban.model.levelExceptions.noPlayersException;
+import es.upm.pproject.sokoban.model.levelExceptions.*;
 import es.upm.pproject.sokoban.view.ViewManager;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
@@ -19,11 +13,11 @@ public class Level {
     StringProperty movesString = new SimpleStringProperty();
 
     // TODO undo stack
-    public Level(String levelPath) throws invalidLevelException {
+    public Level(String levelPath) throws InvalidLevelException {
         try {
             this.board = LevelLoader.loadBoard(levelPath);
-        } catch (FileNotFoundException | invalidLevelCharacterException | multiplePlayersException
-                | inequalNumberOfBoxesGoals | noBoxesException | noGoalsException | noPlayersException e) {
+        } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
+                | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
             ViewManager.showIncorrectLevelDialog();
         } finally {
             this.moves = 0;
