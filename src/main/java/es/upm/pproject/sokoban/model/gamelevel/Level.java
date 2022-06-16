@@ -25,6 +25,7 @@ public class Level {
         } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                 | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
             ViewManager.showIncorrectLevelDialog();
+            throw new InvalidLevelException(e.getMessage());
         } finally {
             this.moves = 0;
             this.movesString.set(moves.toString());
