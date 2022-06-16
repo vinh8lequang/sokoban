@@ -111,4 +111,22 @@ public class Level {
             e.printStackTrace();
         }
     }
+    public void restartLevel(){
+        try {
+            this.board = LevelLoader.loadBoard(levelPath);
+        } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
+                | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
+            e.printStackTrace();
+        } finally{
+            this.moves = 0;
+            this.movesString.set(moves.toString());
+        }
+        MovementExecutor.initStacks();
+        try {
+            App.currentStage.setScene(ViewManager.loadLevelState(this));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+
 }
