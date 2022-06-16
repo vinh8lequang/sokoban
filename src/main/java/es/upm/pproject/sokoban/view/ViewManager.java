@@ -245,11 +245,14 @@ public class ViewManager {
         Stage dialog = new Stage();
         dialog.initModality(Modality.APPLICATION_MODAL);
         dialog.initOwner(CURRENTSTAGE);
-        VBox dialogVbox = new VBox(20);
-        Text dialogText = new Text("You're exiting to the main menu, do you want to save your level?");
+        dialog.setResizable(false);
+        dialog.setOnCloseRequest((event) -> App.toggleMusicOn());
+        VBox dialogVbox = new VBox(5);
+        dialogVbox.setAlignment(Pos.CENTER);
+        Text dialogText = new Text("You're exiting to the main menu, do you want \nto save your level?");
         dialogText.setStyle("-fx-background-color: #ffff00");
-        dialogText.setFont(new Font("Comic Sans", 25));
-        HBox buttons = new HBox(20);
+        dialogText.setFont(new Font("Comic Sans", 18));
+        HBox buttons = new HBox(5);
         Button yesButton = new Button("Yes");
         yesButton.setFont(new Font("Impact", 25));
         yesButton.setStyle("-fx-background-color: #ffff00");
@@ -276,9 +279,10 @@ public class ViewManager {
             dialog.close();
             App.setNewScene(ViewManager.getStartingScene());
         });
-        buttons.getChildren().addAll(yesButton, stayButNoSaveButton, noButton);
+        buttons.getChildren().addAll(yesButton, noButton);
+        buttons.setAlignment(Pos.CENTER);
 
-        dialogVbox.getChildren().addAll(dialogText,buttons);
+        dialogVbox.getChildren().addAll(dialogText,stayButNoSaveButton,buttons);
         Scene dialogScene = new Scene(dialogVbox, 400, 200);
         dialog.setScene(dialogScene);
         dialog.show();
