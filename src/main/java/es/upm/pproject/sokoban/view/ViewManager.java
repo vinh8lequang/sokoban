@@ -22,7 +22,9 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.media.AudioClip;
 import javafx.scene.text.Font;
+import javafx.scene.text.Text;
 import javafx.stage.FileChooser;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 public class ViewManager {
@@ -222,8 +224,18 @@ public class ViewManager {
         return groundImage;
     }
 
-    public static void showIncorrectLevelDialog() {
-
+    public static void showIncorrectLevelDialog(String message) {
+        Stage dialog = new Stage();
+        dialog.initModality(Modality.APPLICATION_MODAL);
+        dialog.initOwner(CURRENTSTAGE);
+        VBox dialogVbox = new VBox(20);
+        Text dialogText = new Text("Incorrect level, reason: \n" + message);
+        dialogText.setStyle("-fx-background-color: #ffff00");
+        dialogText.setFont(new Font("Comic Sans", 25));
+        dialogVbox.getChildren().add(dialogText);
+        Scene dialogScene = new Scene(dialogVbox, 400, 200);
+        dialog.setScene(dialogScene);
+        dialog.show();
     }
 
     public static void exchangeImages(int i1, int j1, int i2, int j2, TileType one, TileType two) {
