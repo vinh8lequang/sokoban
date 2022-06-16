@@ -33,7 +33,7 @@ public class App extends Application {
             Board board = level.getBoard();
             ViewManager.setGUIBoardSize(board);
             ViewManager.loadImages();
-            stage.setScene(ViewManager.loadLevelState(level));
+            stage.setScene(ViewManager.getStartingScene());
             stage.show();
             Media sound = new Media(new File("resources/audio/gameMusic.mp3").toURI().toString());
             MediaPlayer mediaPlayer = new MediaPlayer(sound);
