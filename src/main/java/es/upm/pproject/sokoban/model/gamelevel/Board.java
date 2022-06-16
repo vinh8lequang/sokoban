@@ -105,7 +105,7 @@ public class Board {
             case GROUND:
                 return ' ';
             case GOAL:
-                this.goals++;
+                
                 return '*';
             case BOX:
                 return '#';

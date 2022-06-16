@@ -287,4 +287,7 @@ public class ViewManager {
         dialog.setScene(dialogScene);
         dialog.show();
     }
+
+    public static void createSavedLevelDialog() {
+    }
 }

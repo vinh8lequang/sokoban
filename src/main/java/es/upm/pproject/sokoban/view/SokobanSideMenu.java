@@ -102,6 +102,7 @@ public class SokobanSideMenu extends VBox {
         saveButton.setMinWidth(230);
         saveButton.setOnAction(e -> {
             level.saveLevel();
+            ViewManager.createSavedLevelDialog();
         });
         // add them to the box
         saveStateBox.getChildren().addAll(saveButton);

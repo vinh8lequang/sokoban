@@ -70,7 +70,6 @@ public class LevelLoader {
                     if (type == null) {
                         throw new InvalidLevelCharacterException("Invalid character: " + line.charAt(j));
                     } else if (type == TileType.GOAL) {
-                        board.setGoals(board.getGoals() + 1);
                         nGoals++;
                     } else if (type == TileType.PLAYER) {
                         board.setPlayerPosition(i, j);
@@ -112,6 +111,7 @@ public class LevelLoader {
             if (nBoxes != nGoals) {
                 throw new InequalNumberOfBoxesGoals("There are " + nBoxes + " boxes and " + nGoals + " goals");
             }
+            board.setGoals(nGoals);
             board.viewBoard();
             return board;
         } catch (FileNotFoundException e) {
