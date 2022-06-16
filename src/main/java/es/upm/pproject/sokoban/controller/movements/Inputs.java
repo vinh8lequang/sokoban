@@ -1,5 +1,6 @@
 package es.upm.pproject.sokoban.controller.movements;
 
+import es.upm.pproject.sokoban.controller.MovementExecutor;
 import es.upm.pproject.sokoban.view.ViewManager;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
@@ -16,7 +17,7 @@ public class Inputs {
         scene.setOnKeyPressed(new EventHandler<KeyEvent>() {
             @Override
             public void handle(KeyEvent event) {
-                ViewManager.updateSceneOnInput(event.getCode());
+                MovementExecutor.updateSceneOnInput(event.getCode());
             }
         });
     }

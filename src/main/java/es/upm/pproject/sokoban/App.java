@@ -2,9 +2,12 @@ package es.upm.pproject.sokoban;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.util.Date;
 
 import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
+import es.upm.pproject.sokoban.model.levelExceptions.invalidLevelException;
 import es.upm.pproject.sokoban.view.ViewManager;
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -20,6 +23,7 @@ public class App extends Application {
 
     static Stage currentStage;
     static Level level;
+    static int levelnum =1;
     /**
      * @param stage
      */
@@ -29,11 +33,7 @@ public class App extends Application {
             currentStage = stage;
             stage.getIcons().add(new Image(new FileInputStream("src/main/resources/sokovinhi.png")));
             stage.setTitle("SokoVinh");
-            level = new Level("src/main/resources/Levels/level1.txt");
-            Board board = level.getBoard();
-            ViewManager.setGUIBoardSize(board);
-            ViewManager.loadImages();
-            stage.setScene(ViewManager.loadLevelState(level));
+            stage.setScene(ViewManager.getStartingScene());
             stage.show();
             // Media sound = new Media(new File("src/main/resources/audio/gameMusic.mp3").toURI().toString());
             // MediaPlayer mediaPlayer = new MediaPlayer(sound);
@@ -42,6 +42,22 @@ public class App extends Application {
             e.printStackTrace();
         }
     }
+
+    public static void loadNextLevel(){
+        
+        try {
+            level = new Level("src/main/resources/Levels/level" + levelnum++ + ".txt");
+            Board board = level.getBoard();
+            ViewManager.setGUIBoardSize(board);
+            ViewManager.loadImages();
+            currentStage.setScene(ViewManager.loadLevelState(level));
+        } catch (invalidLevelException e) {
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+
     // getter for the board
     public static Level getCurrentLevel() {
         return level;
