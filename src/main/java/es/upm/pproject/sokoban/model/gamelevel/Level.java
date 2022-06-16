@@ -1,5 +1,11 @@
 package es.upm.pproject.sokoban.model.gamelevel;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Date;
+
 import es.upm.pproject.sokoban.model.levelExceptions.invalidLevelException;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
@@ -67,5 +73,24 @@ public class Level {
 
     public void setStrMoves() {
         this.movesString.set("YOU HAVE WON");
+    }
+
+    public void saveLevel(){
+        Date date = new Date();
+        String nombre = date.toString();
+
+        File saveFile = new File(nombre+".vinh");
+        try {
+            saveFile.createNewFile();
+            BufferedWriter writer = new BufferedWriter(new FileWriter(saveFile));
+            writer.write(board.getRows() + " " + board.getCols() + " " + getMoves());
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    //TODO
+    public void loadSavedLevel(){
+
     }
 }

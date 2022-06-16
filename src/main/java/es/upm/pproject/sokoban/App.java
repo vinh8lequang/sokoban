@@ -2,6 +2,7 @@ package es.upm.pproject.sokoban;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.util.Date;
 
 import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
@@ -55,6 +56,7 @@ public class App extends Application {
      * @param args
      */
     public static void main(String[] args) {
+        System.out.println(date.toString());
         launch();
     }
 
