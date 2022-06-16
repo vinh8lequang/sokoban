@@ -9,15 +9,18 @@ import javafx.scene.input.KeyEvent;
 
 public class Inputs {
 
-    
-    /** 
+    /**
      * @param scene
      */
     public static void setInputHandler(Scene scene) {
         scene.setOnKeyPressed(new EventHandler<KeyEvent>() {
             @Override
             public void handle(KeyEvent event) {
-                MovementExecutor.updateSceneOnInput(event.getCode());
+                if (event.getCode() == KeyCode.UP || event.getCode() == KeyCode.DOWN ||
+                        event.getCode() == KeyCode.RIGHT || event.getCode() == KeyCode.LEFT) {
+                    MovementExecutor.updateSceneOnInput(event.getCode());
+                }
+                
             }
         });
     }

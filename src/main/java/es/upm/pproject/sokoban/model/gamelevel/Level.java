@@ -87,15 +87,18 @@ public class Level {
         this.movesString.set("YOU HAVE WON");
     }
 
-    public void saveLevel(){
+    public void saveLevel() {
+        File saveDir = new File("saves");
+        saveDir.mkdir();
         Date date = new Date();
         String nombre = date.toString();
 
-        File saveFile = new File(nombre+".vinh");
+        File saveFile = new File("saves/" + nombre+".vinh");
         try {
             saveFile.createNewFile();
             BufferedWriter writer = new BufferedWriter(new FileWriter(saveFile));
-            writer.write(board.getRows() + " " + board.getCols() + " " + getMoves());
+            writer.write(board.getRows() + " " + board.getCols() + " " + getMoves() + "\n");
+            writer.write(board.toString());
             writer.close();
         } catch (IOException e) {
             e.printStackTrace();
