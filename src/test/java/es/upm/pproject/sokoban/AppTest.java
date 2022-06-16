@@ -9,12 +9,17 @@ import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
 import es.upm.pproject.sokoban.model.levelExceptions.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertSame;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -113,11 +118,26 @@ public class AppTest {
         }
 
         @Test
-        @DisplayName("Compare tiles")
+        @DisplayName("Compare tiles 1")
         void testTile3() {
             Tile tile1 = new Tile(TileType.GROUND);
             Tile tile2 = new Tile(TileType.PLAYER);
-            assertNotEquals(tile1.equals(tile2), "Should not be equal");
+            assertFalse(tile1.equals(tile2), "Should not be equal");
+        }
+
+        @Test
+        @DisplayName("Compare tiles 2")
+        void testTile4() {
+            Tile tile1 = new Tile(TileType.GROUND);
+            assertTrue(tile1.equals(tile1), "Should be equal");
+        }
+
+        @Test
+        @DisplayName("Compare tiles 3")
+        void testTile5() {
+            Tile tile1 = new Tile(TileType.GROUND);
+            String str = "aa";
+            assertFalse(tile1.equals(str), "Should not be equal");
         }
     }
 
@@ -214,6 +234,24 @@ public class AppTest {
             }
             // assertThrows(InvalidLevelException.class, () -> new Level("src/main/resources/Levels/badlevel1.txt"), "Should throw InvalidLevelException");
         }
+
+        @Test
+        @DisplayName("Save level")
+        void testLevel7() {
+            boolean saved = false;
+            try {
+                Level level = new Level("src/main/resources/Levels/level1.txt",false);
+                String name = "saves/" + level.saveLevel() + ".vinh";
+                File file = new File(name);
+                if (file.exists()) {
+                    saved = true;
+                }
+                // saved = true;
+            } catch (InvalidLevelException e) {
+                e.printStackTrace();
+            }
+            assertTrue(saved);
+        }
     }
 
     @Nested
@@ -272,5 +310,23 @@ public class AppTest {
                 assertEquals(TileType.PLAYER, board.getTile(3, 2).getTileType());
             }
         }
+
+        @Test
+        @DisplayName("Set tile")
+        void testBoard4() {
+            Board board = null;
+            try {
+                board = LevelLoader.loadBoard("src/main/resources/Levels/level1.txt");
+                board.setTile(100, 100, TileType.GROUND);
+            } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
+                    | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+            finally{
+                assertNull(board.getTile(100, 100));
+            }
+        }
+
     }
 }
