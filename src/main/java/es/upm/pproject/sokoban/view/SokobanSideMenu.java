@@ -26,7 +26,8 @@ public class SokobanSideMenu extends VBox {
                 createUndoRedoBox(),
                 createRestartButton(),
                 createSaveStateButton(), 
-                createMusicControlBox());
+                createMusicControlBox(), 
+                createMainMenuButton());
     }
 
     public HBox createUndoRedoBox() {

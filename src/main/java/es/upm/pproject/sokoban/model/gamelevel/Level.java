@@ -44,23 +44,6 @@ public class Level {
         this.movesString = another.getStrMoves();
     }
 
-    public void restartLevel(){
-        try {
-            this.board = LevelLoader.loadBoard(levelPath);
-        } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
-                | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
-            e.printStackTrace();
-        } finally{
-            this.moves = 0;
-            this.movesString.set(moves.toString());
-        }
-        MovementExecutor.initStacks();
-        try {
-            App.currentStage.setScene(ViewManager.loadLevelState(this));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-    }
 
     /**
      * @return the board
@@ -128,15 +111,4 @@ public class Level {
             e.printStackTrace();
         }
     }
-
-    // TODO
-    public void loadSavedLevel() {
-    }
-
-    public void saveState() {
-    }
-
-    public void undo() {
-    }
-
 }

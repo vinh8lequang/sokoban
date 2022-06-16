@@ -17,11 +17,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.input.KeyCode;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.scene.media.AudioClip;
-import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.FileChooser;
@@ -29,7 +26,7 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 
 public class ViewManager {
-    
+
     public static int WIDTH = 960;
     public static int HEIGHT = 720;
 
@@ -75,7 +72,7 @@ public class ViewManager {
             App.loadLevel(selectedFile.getAbsolutePath());
 
         });
-        root.getChildren().addAll(background,playButton, loadLevelButton);
+        root.getChildren().addAll(background, playButton, loadLevelButton);
         return scene;
     }
 
@@ -90,7 +87,6 @@ public class ViewManager {
     private static int boardSize;
     private static int tileSize;
     private static Board CURRENTBOARD;
-    private static boolean GOALTILE; // this variable is true when the player is in a goaltile
     private static Level CURRENTLEVEL;
 
     /**
@@ -183,7 +179,7 @@ public class ViewManager {
         winnerText.setStyle("-fx-font: 70 arial;");
         VBox root = new VBox();
         root.setAlignment(Pos.CENTER);
-        
+
         Button nextLevelButton = new Button("Next Level");
         nextLevelButton.setFont(new Font("Impact", 45));
         // nextLevelButton.setTranslateX(110);
@@ -243,5 +239,48 @@ public class ViewManager {
     public static void exchangeImages(int i1, int j1, int i2, int j2, TileType one, TileType two) {
         CURRENTSCENE.getImageGrid()[i2][j2].setImage(getImage(two));
         CURRENTSCENE.getImageGrid()[i1][j1].setImage(getImage(one));
+    }
+
+    public static void askForSavingLevelDialog() {
+        Stage dialog = new Stage();
+        dialog.initModality(Modality.APPLICATION_MODAL);
+        dialog.initOwner(CURRENTSTAGE);
+        VBox dialogVbox = new VBox(20);
+        Text dialogText = new Text("You're exiting to the main menu, do you want to save your level?");
+        dialogText.setStyle("-fx-background-color: #ffff00");
+        dialogText.setFont(new Font("Comic Sans", 25));
+        HBox buttons = new HBox(20);
+        Button yesButton = new Button("Yes");
+        yesButton.setFont(new Font("Impact", 25));
+        yesButton.setStyle("-fx-background-color: #ffff00");
+        yesButton.setOnAction((event) -> {
+            CURRENTLEVEL.saveLevel();
+            dialog.close();
+            App.setNewScene(ViewManager.getStartingScene());
+        });
+        Button stayButNoSaveButton = new Button("Stay on level but don't save");
+        stayButNoSaveButton.setFont(new Font("Impact", 25));
+        stayButNoSaveButton.setStyle("-fx-background-color: #ffff00");
+        stayButNoSaveButton.setOnAction((event) -> {
+            App.decreaseLevelCounter();
+            dialog.close();
+            App.setNewScene(ViewManager.getStartingScene());
+        });
+
+        Button noButton = new Button("No");
+        noButton.setFont(new Font("Impact", 25));
+        noButton.setStyle("-fx-background-color: #ffff00");
+        
+        noButton.setOnAction((event) -> {
+            App.resetLevelCounter();
+            dialog.close();
+            App.setNewScene(ViewManager.getStartingScene());
+        });
+        buttons.getChildren().addAll(yesButton, stayButNoSaveButton, noButton);
+
+        dialogVbox.getChildren().addAll(dialogText,buttons);
+        Scene dialogScene = new Scene(dialogVbox, 400, 200);
+        dialog.setScene(dialogScene);
+        dialog.show();
     }
 }

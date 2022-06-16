@@ -50,6 +50,14 @@ public class App extends Application {
         }
     }
 
+    public static void resetLevelCounter() {
+        levelnum = 1;
+    }
+    
+    public static void decreaseLevelCounter() {
+        levelnum--;
+    }
+
     public static void loadNextLevel() throws InvalidLevelException {
         try {
             level = new Level("src/main/resources/Levels/level" + levelnum++ + ".txt");
