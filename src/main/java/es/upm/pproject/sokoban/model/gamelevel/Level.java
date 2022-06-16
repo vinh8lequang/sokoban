@@ -109,15 +109,20 @@ public class Level {
         String nombre = date.toString();
 
         File saveFile = new File("saves/" + nombre + ".vinh");
+        BufferedWriter writer;
         try {
-            saveFile.createNewFile();
-            BufferedWriter writer = new BufferedWriter(new FileWriter(saveFile));
-            writer.write(board.getRows() + " " + board.getCols() + "\n");
-            writer.write(board.toString());
-            writer.write( " \n" + getMoves());
-            writer.close();
+            boolean created = saveFile.createNewFile();
+            if(created){
+                writer = new BufferedWriter(new FileWriter(saveFile));
+                writer.write(board.getRows() + " " + board.getCols() + "\n");
+                writer.write(board.toString());
+                writer.write( " \n" + getMoves());
+                writer.close();
+            }
         } catch (IOException e) {
             logger.error(e.getMessage());
+        } finally{
+            writer.close();
         }
         return nombre;
     }
