@@ -74,6 +74,11 @@ public class App extends Application {
         }
     }
 
+  
+    public static Scene getScene() {
+        return currentStage.getScene();
+    }
+
     // getter for the board
     public static Level getCurrentLevel() {
         return level;

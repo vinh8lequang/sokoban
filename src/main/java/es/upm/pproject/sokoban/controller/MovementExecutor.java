@@ -3,6 +3,8 @@ package es.upm.pproject.sokoban.controller;
 import java.io.FileNotFoundException;
 import java.util.Stack;
 
+import javax.swing.text.View;
+
 import es.upm.pproject.sokoban.App;
 import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
@@ -11,34 +13,46 @@ import es.upm.pproject.sokoban.view.SokobanScene;
 import es.upm.pproject.sokoban.view.SokobanSounds;
 import es.upm.pproject.sokoban.view.ViewManager;
 import javafx.scene.input.KeyCode;
+import javafx.util.Pair;
 
 public class MovementExecutor {
     private static Level CURRENTLEVEL;
     private static Board CURRENTBOARD;
 
-    private static Stack<Board> undoStateStack;
+    private static Stack<Pair<Board, TileExchange>> undoStateStack;
     private static Stack<Board> redoStateStack;
+
     /**
      * @param direction
      */
 
-    public static void initStacks(){
-        undoStateStack = new Stack<Board>();
-        redoStateStack = new Stack<Board>();
+    public static void initStacks() {
+        undoStateStack = new Stack<>();
+        redoStateStack = new Stack<>();
     }
 
-    public static void undo(){
-        if(!undoStateStack.isEmpty()){
-            CURRENTBOARD = undoStateStack.pop();
-            CURRENTLEVEL.setBoard(CURRENTBOARD);
-            CURRENTLEVEL.subtractOneMove();
+    public static void undo() {
+        if (!undoStateStack.isEmpty()) {
+
+            Pair<Board, TileExchange> lastState = undoStateStack.pop();
+            Board lastBoard = lastState.getKey();
+            CURRENTLEVEL.setBoard(lastBoard);
             System.out.println(CURRENTBOARD.toString());
-            try {
-                ViewManager.loadLevelState(CURRENTLEVEL);
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
+            TileExchange lastExchange = lastState.getValue();
+            Pair<Integer, Integer> t1 = lastExchange.getTileToReplacePosition();
+            Pair<Integer, Integer> t2 = lastExchange.getTileToReplaceWithPosition();
+            ViewManager.exchangeImages(
+                    t1.getKey(), t1.getValue(),
+                    t2.getKey(), t2.getValue(),
+                    lastBoard.getTile(t1.getKey(),
+                            t1.getValue()).getTileType(),
+                    lastBoard.getTile(t2.getKey(),
+                            t2.getValue()).getTileType());
+            if (lastExchange.isBoxMovement()) {
+                undo();
+            } else {
+                CURRENTLEVEL.subtractOneMove();
             }
-            App.setNewScene(new SokobanScene(ViewManager.WIDTH, ViewManager.HEIGHT, ViewManager.getGUIBoardSize(), CURRENTLEVEL));
         }
     }
 
@@ -58,7 +72,7 @@ public class MovementExecutor {
      * @param tileToReplaceJCol
      */
     private static void executeMovementIfPossible(KeyCode direction, int tileToReplaceIRow, int tileToReplaceJCol) {
-        boolean movedBox = false;
+        boolean isBoxMovement = false;
         if (CURRENTBOARD.getTile(tileToReplaceIRow, tileToReplaceJCol).getTileType().isMoveable()) {
             // player want to move a box
             int tileToReplaceINext = directionToIRow(direction, tileToReplaceIRow);
@@ -66,30 +80,36 @@ public class MovementExecutor {
             // we get the next tile to the box in the direction
             // check if the next tile can be replaced
             if (CURRENTBOARD.getTile(tileToReplaceINext, tileToReplaceJNext).getTileType().isReplaceable()) {
-                Board levelState = new Board(CURRENTBOARD);
-                undoStateStack.add(levelState);
-                movedBox = true;
+                undoStateStack.add(
+                        new Pair<Board, TileExchange>(
+                                new Board(CURRENTBOARD),
+                                new TileExchange(tileToReplaceIRow, tileToReplaceJCol,
+                                        tileToReplaceINext, tileToReplaceJNext, false)));
                 // let's exchange them
                 exchangeTilesAndImageGrid(tileToReplaceIRow, tileToReplaceJCol, tileToReplaceINext, tileToReplaceJNext);
+                isBoxMovement = true;
                 SokobanSounds.playBoxMovingSound();
             }
         }
         if (CURRENTBOARD.getTile(tileToReplaceIRow, tileToReplaceJCol).getTileType().isReplaceable()) {
-            if (!movedBox){
-                Board levelState = new Board(CURRENTBOARD);
-                undoStateStack.add(levelState);
-            }
-            movedBox = false;
-            exchangeTilesAndImageGrid(CURRENTBOARD.getPlayerPositionI(), CURRENTBOARD.getPlayerPositionJ(),
+            int currentTileI = CURRENTBOARD.getPlayerPositionI();
+            int currentTileJ = CURRENTBOARD.getPlayerPositionJ();
+            undoStateStack.add(
+                    new Pair<Board, TileExchange>(
+                            new Board(CURRENTBOARD),
+                            new TileExchange(tileToReplaceIRow, tileToReplaceJCol, currentTileI, currentTileJ,
+                                    isBoxMovement)));
+            exchangeTilesAndImageGrid(currentTileI, currentTileJ,
                     tileToReplaceIRow,
                     tileToReplaceJCol);
             CURRENTLEVEL.addOneMove();
             SokobanSounds.playPlayerMovingSound();
-        } else {
+        } else
+
+        {
             SokobanSounds.playWallSound();
         }
     }
-
 
     /**
      * @param i1
@@ -105,7 +125,6 @@ public class MovementExecutor {
             CURRENTBOARD.setTile(i2, j2, TileType.BOX);
             CURRENTBOARD.setTile(i1, j1, TileType.GOAL);
             CURRENTBOARD.setGoals(CURRENTBOARD.getGoals() + 1);
-
             normalMove = false;
         }
         if (toMoveTo.equals(TileType.GROUND) && origin.equals(TileType.PLAYERINGOAL)) {
@@ -148,8 +167,7 @@ public class MovementExecutor {
             CURRENTBOARD.setPlayerPosition(i2, j2);
         }
         // we have done the move in the board but we have to update the images
-        ViewManager.exchangeImages(i1, j1, i2, j2, one , two);
-       
+        ViewManager.exchangeImages(i1, j1, i2, j2, one, two);
     }
 
     /**
@@ -192,7 +210,5 @@ public class MovementExecutor {
         }
         return i;
     }
-
-
 
 }
