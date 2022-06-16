@@ -57,6 +57,19 @@ public class SokobanSideMenu extends VBox {
         return undoRedoBox;
     }
 
+    public HBox createMainMenuButton() {
+        HBox mainMenuBox = new HBox();
+        Button menuButton = new Button("Go to main menu");
+        menuButton.setFocusTraversable(false);
+        menuButton.setOnAction(e -> {
+            App.toggleMusic();
+            ViewManager.askForSavingLevelDialog();
+        });
+        mainMenuBox.getChildren().add(menuButton);
+        return mainMenuBox;
+    }
+
+
     public HBox createRestartButton(){
         HBox restartBox = new HBox();
         //create a restart button
