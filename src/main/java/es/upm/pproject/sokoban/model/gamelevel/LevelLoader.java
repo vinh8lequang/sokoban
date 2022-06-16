@@ -112,7 +112,7 @@ public class LevelLoader {
                 throw new InequalNumberOfBoxesGoals("There are " + nBoxes + " boxes and " + nGoals + " goals");
             }
             board.setGoals(nGoals);
-            board.viewBoard();
+            // board.viewBoard();
             return board;
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
