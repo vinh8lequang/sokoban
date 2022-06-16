@@ -43,9 +43,8 @@ public class AppTest {
                 board = LevelLoader.loadBoard("src/main/resources/Levels/level1.txt");
             } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                     | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
-                logger.error(e.getMessage());
-            } finally {
-                assertEquals(correctBoard, board.toString());
+                // TODO Auto-generated catch block
+                e.printStackTrace();
             }
         }
 
@@ -147,10 +146,11 @@ public class AppTest {
                 level1 = new Level("src/main/resources/Levels/level1.txt", false);
                 level2 = new Level(level1);
             } catch (InvalidLevelException e) {
-                logger.error(e.getMessage());
-            } finally {
-                assertEquals(correctBoard, level2.getBoard().toString());
-            }
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            } finally{
+                assertEquals(correctBoard, level2.getBoard().toString()); 
+            }  
         }
 
         @Test
@@ -163,10 +163,11 @@ public class AppTest {
                 level2 = new Level("src/main/resources/Levels/level2.txt", false);
                 level2.setBoard(level1.getBoard());
             } catch (InvalidLevelException e) {
-                logger.error(e.getMessage());
-            } finally {
-                assertEquals(correctBoard, level2.getBoard().toString());
-            }
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            } finally{
+                assertEquals(correctBoard, level2.getBoard().toString()); 
+            }  
         }
 
         @Test
@@ -177,10 +178,11 @@ public class AppTest {
                 level = new Level("src/main/resources/Levels/level1.txt", false);
                 level.setMoves(5);
             } catch (InvalidLevelException e) {
-                logger.error(e.getMessage());
-            } finally {
-                assertSame(5, level.getMoves());
-            }
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            } finally{
+                assertSame(5, level.getMoves()); 
+            }  
         }
 
         @Test
@@ -193,17 +195,24 @@ public class AppTest {
                 level.addOneMove();
                 level.subtractOneMove();
             } catch (InvalidLevelException e) {
-                logger.error(e.getMessage());
-            } finally {
-                assertSame(1, level.getMoves());
-            }
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            } finally{
+                assertSame(1, level.getMoves()); 
+            }  
         }
 
         @Test
-        @DisplayName("Copy level")
+        @DisplayName("Bad level")
         void testLevel6() {
-            assertThrows(InvalidLevelException.class, () -> new Level("src/main/resources/Levels/badlevel1.txt", true),
-                    "Should throw InvalidLevelException");
+            boolean exception = false;
+            try {
+                Level level = new Level("src/main/resources/Levels/badlevel1.txt",true);
+            } catch (InvalidLevelException e) {
+                exception = true;
+                assertTrue(exception);
+            }
+            // assertThrows(InvalidLevelException.class, () -> new Level("src/main/resources/Levels/badlevel1.txt"), "Should throw InvalidLevelException");
         }
     }
 
@@ -220,8 +229,10 @@ public class AppTest {
                 tile = board.getTile(1, 1);
             } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                     | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
-                logger.error(e.getMessage());
-            } finally {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+            finally{
                 assertEquals(TileType.GROUND, tile.getTileType());
             }
         }
@@ -236,8 +247,10 @@ public class AppTest {
                 isSymmetric = board.isSymmetric();
             } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                     | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
-                logger.error(e.getMessage());
-            } finally {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+            finally{
                 assertTrue(isSymmetric);
             }
         }
@@ -251,8 +264,10 @@ public class AppTest {
                 board.exchangeTiles(4, 2, 3, 2); // exchange player with ground
             } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                     | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
-                logger.error(e.getMessage());
-            } finally {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+            finally{
                 assertEquals(TileType.GROUND, board.getTile(4, 2).getTileType());
                 assertEquals(TileType.PLAYER, board.getTile(3, 2).getTileType());
             }
