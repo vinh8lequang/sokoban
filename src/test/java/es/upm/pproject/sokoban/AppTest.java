@@ -3,6 +3,8 @@ package es.upm.pproject.sokoban;
 import org.junit.jupiter.api.Test;
 import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.LevelLoader;
+import es.upm.pproject.sokoban.model.gamelevel.tiles.Tile;
+import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
 import es.upm.pproject.sokoban.model.levelExceptions.*;
 import junit.extensions.ExceptionTestCase;
 
@@ -80,5 +82,14 @@ public class AppTest {
     @DisplayName("Board tests")
     class BoardTests {
         
+    @DisplayName("Tile tests")
+    class TileTests {
+        @Test
+        @DisplayName("Get tile type")
+        void testTile1() {
+            Tile tile = new Tile(TileType.WALL);
+            assertEquals(TileType.WALL, tile.getTileType());
+        }
+
     }
 }
