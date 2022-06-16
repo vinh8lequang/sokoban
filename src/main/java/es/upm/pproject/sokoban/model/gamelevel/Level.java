@@ -38,6 +38,12 @@ public class Level {
 
     }
 
+    public Level(Level another){
+        this.board = new Board(another.getBoard());
+        this.moves = another.getMoves();
+        this.movesString = another.getStrMoves();
+    }
+
     /**
      * @return the board
      */

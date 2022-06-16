@@ -1,5 +1,6 @@
 package es.upm.pproject.sokoban.view;
 
+import es.upm.pproject.sokoban.controller.MovementExecutor;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -27,11 +28,13 @@ public class SokobanSideMenu extends VBox {
         HBox undoRedoBox = new HBox();
         // create undo button
         Button undoButton = new Button("Undo");
+        undoButton.setFocusTraversable(false);
         undoButton.setOnAction(e -> {
-            level.undo();
+            MovementExecutor.undo();
         });
         // create redo button
         Button redoButton = new Button("Redo");
+        redoButton.setFocusTraversable(false);
         redoButton.setOnAction(e -> {
             level.undo();
         });
@@ -44,6 +47,7 @@ public class SokobanSideMenu extends VBox {
         HBox saveStateBox = new HBox();
         // create save button
         Button saveButton = new Button("Save level state");
+        saveButton.setFocusTraversable(false);
         saveButton.setOnAction(e -> {
             level.saveLevel();
         });

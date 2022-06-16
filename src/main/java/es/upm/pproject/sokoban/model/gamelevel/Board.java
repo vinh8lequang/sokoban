@@ -42,6 +42,19 @@ public class Board {
         this.goals = 0;
 
     }
+    public Board(Board another){
+        this.cols = another.getCols();
+        this.rows = another.getRows();
+        this.board = new Tile[rows][cols];
+        for(int i = 0; i<this.rows;i++){
+            for(int j =0; j<this.cols;j++){
+                this.board[i][j] = new Tile(another.getTile(i, j));
+            }
+        }
+        this.goals = another.getGoals();
+        this.playerPositionI = another.getPlayerPositionI();
+        this.playerPositionJ = another.getPlayerPositionJ();
+    }
 
     /**
      * Gets the tile of i and j coordinates. Both coordinates must be in board range.

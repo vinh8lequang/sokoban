@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Date;
 
+import es.upm.pproject.sokoban.controller.MovementExecutor;
 import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
 import es.upm.pproject.sokoban.model.levelExceptions.invalidLevelException;
@@ -44,12 +45,12 @@ public class App extends Application {
     }
 
     public static void loadNextLevel(){
-        
         try {
             level = new Level("src/main/resources/Levels/level" + levelnum++ + ".txt");
             Board board = level.getBoard();
             ViewManager.setGUIBoardSize(board);
             ViewManager.loadImages();
+            MovementExecutor.initStacks();
             currentStage.setScene(ViewManager.loadLevelState(level));
         } catch (invalidLevelException e) {
             e.printStackTrace();

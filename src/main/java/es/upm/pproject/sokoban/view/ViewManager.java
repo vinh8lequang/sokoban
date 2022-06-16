@@ -23,8 +23,8 @@ import javafx.stage.Stage;
 
 public class ViewManager {
     
-    private static int WIDTH = 960;
-    private static int HEIGHT = 720;
+    public static int WIDTH = 960;
+    public static int HEIGHT = 720;
 
     static SokobanScene CURRENTSCENE = null;
     static Stage CURRENTSTAGE = null;

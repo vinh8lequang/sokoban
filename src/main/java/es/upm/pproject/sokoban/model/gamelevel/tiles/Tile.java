@@ -10,6 +10,9 @@ public class Tile {
     public Tile(TileType type) {
         this.type = type;
     }
+    public Tile(Tile another){
+        this.type = another.getTileType();
+    }
 
     
     /** 

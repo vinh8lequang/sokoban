@@ -1,9 +1,13 @@
 package es.upm.pproject.sokoban.controller;
 
+import java.io.FileNotFoundException;
+import java.util.Stack;
+
 import es.upm.pproject.sokoban.App;
 import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
+import es.upm.pproject.sokoban.view.SokobanScene;
 import es.upm.pproject.sokoban.view.SokobanSounds;
 import es.upm.pproject.sokoban.view.ViewManager;
 import javafx.scene.input.KeyCode;
@@ -11,9 +15,33 @@ import javafx.scene.input.KeyCode;
 public class MovementExecutor {
     private static Level CURRENTLEVEL;
     private static Board CURRENTBOARD;
+
+    private static Stack<Board> undoStateStack;
+    private static Stack<Board> redoStateStack;
     /**
      * @param direction
      */
+
+    public static void initStacks(){
+        undoStateStack = new Stack<Board>();
+        redoStateStack = new Stack<Board>();
+    }
+
+    public static void undo(){
+        if(!undoStateStack.isEmpty()){
+            CURRENTBOARD = undoStateStack.pop();
+            CURRENTLEVEL.setBoard(CURRENTBOARD);
+            CURRENTLEVEL.subtractOneMove();
+            System.out.println(CURRENTBOARD.toString());
+            try {
+                ViewManager.loadLevelState(CURRENTLEVEL);
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            }
+            App.setNewScene(new SokobanScene(ViewManager.WIDTH, ViewManager.HEIGHT, ViewManager.getGUIBoardSize(), CURRENTLEVEL));
+        }
+    }
+
     public static void updateSceneOnInput(KeyCode direction) {
         CURRENTLEVEL = App.getCurrentLevel();
         CURRENTBOARD = CURRENTLEVEL.getBoard();
@@ -30,6 +58,7 @@ public class MovementExecutor {
      * @param tileToReplaceJCol
      */
     private static void executeMovementIfPossible(KeyCode direction, int tileToReplaceIRow, int tileToReplaceJCol) {
+        boolean movedBox = false;
         if (CURRENTBOARD.getTile(tileToReplaceIRow, tileToReplaceJCol).getTileType().isMoveable()) {
             // player want to move a box
             int tileToReplaceINext = directionToIRow(direction, tileToReplaceIRow);
@@ -37,12 +66,20 @@ public class MovementExecutor {
             // we get the next tile to the box in the direction
             // check if the next tile can be replaced
             if (CURRENTBOARD.getTile(tileToReplaceINext, tileToReplaceJNext).getTileType().isReplaceable()) {
+                Board levelState = new Board(CURRENTBOARD);
+                undoStateStack.add(levelState);
+                movedBox = true;
                 // let's exchange them
                 exchangeTilesAndImageGrid(tileToReplaceIRow, tileToReplaceJCol, tileToReplaceINext, tileToReplaceJNext);
                 SokobanSounds.playBoxMovingSound();
             }
         }
         if (CURRENTBOARD.getTile(tileToReplaceIRow, tileToReplaceJCol).getTileType().isReplaceable()) {
+            if (!movedBox){
+                Board levelState = new Board(CURRENTBOARD);
+                undoStateStack.add(levelState);
+            }
+            movedBox = false;
             exchangeTilesAndImageGrid(CURRENTBOARD.getPlayerPositionI(), CURRENTBOARD.getPlayerPositionJ(),
                     tileToReplaceIRow,
                     tileToReplaceJCol);
