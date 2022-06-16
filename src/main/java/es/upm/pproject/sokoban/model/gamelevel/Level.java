@@ -19,12 +19,13 @@ public class Level {
     StringProperty movesString = new SimpleStringProperty();
 
     // TODO undo stack
-    public Level(String levelPath) {
+    public Level(String levelPath) throws InvalidLevelException {
         try {
             this.board = LevelLoader.loadBoard(levelPath);
         } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                 | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
             ViewManager.showIncorrectLevelDialog();
+            throw new InvalidLevelException(e.getMessage());
         } finally {
             this.moves = 0;
             this.movesString.set(moves.toString());

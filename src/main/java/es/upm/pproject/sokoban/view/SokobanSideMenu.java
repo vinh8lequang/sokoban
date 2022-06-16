@@ -39,7 +39,7 @@ public class SokobanSideMenu extends VBox {
         Button redoButton = new Button("Redo");
         redoButton.setFocusTraversable(false);
         redoButton.setOnAction(e -> {
-            level.undo();
+            MovementExecutor.redo();
         });
         // add them to the box
         undoRedoBox.getChildren().addAll(undoButton, redoButton);

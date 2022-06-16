@@ -9,6 +9,7 @@ import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.Tile;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
+import es.upm.pproject.sokoban.model.levelExceptions.InvalidLevelException;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
@@ -52,7 +53,12 @@ public class ViewManager {
         playButton.setTranslateY(400);
         playButton.setStyle("-fx-background-color: #ffff00");
         playButton.setOnAction((event) -> {
-            App.loadNextLevel();
+            try {
+                App.loadNextLevel();
+            } catch (InvalidLevelException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
             App.toggleMusic();
         });
         Button loadLevelButton = new Button("Select Level");
@@ -180,7 +186,12 @@ public class ViewManager {
         // nextLevelButton.setTranslateY(400);
         nextLevelButton.setStyle("-fx-background-color: #ffff00");
         nextLevelButton.setOnAction((event) -> {
-            App.loadNextLevel();
+            try {
+                App.loadNextLevel();
+            } catch (InvalidLevelException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
             SokobanSounds.stopWinnerSound();
         });
         root.getChildren().addAll(winnerText, nextLevelButton);

@@ -1,15 +1,11 @@
 package es.upm.pproject.sokoban.controller;
 
-import java.io.FileNotFoundException;
 import java.util.Stack;
-
-import javax.swing.text.View;
 
 import es.upm.pproject.sokoban.App;
 import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
-import es.upm.pproject.sokoban.view.SokobanScene;
 import es.upm.pproject.sokoban.view.SokobanSounds;
 import es.upm.pproject.sokoban.view.ViewManager;
 import javafx.scene.input.KeyCode;
@@ -20,7 +16,7 @@ public class MovementExecutor {
     private static Board CURRENTBOARD;
 
     private static Stack<Pair<Board, TileExchange>> undoStateStack;
-    private static Stack<Board> redoStateStack;
+    private static Stack<Pair<Board, TileExchange>> redoStateStack;
 
     /**
      * @param direction
@@ -33,11 +29,11 @@ public class MovementExecutor {
 
     public static void undo() {
         if (!undoStateStack.isEmpty()) {
-
             Pair<Board, TileExchange> lastState = undoStateStack.pop();
+            redoStateStack.push(lastState);
             Board lastBoard = lastState.getKey();
             CURRENTLEVEL.setBoard(lastBoard);
-            System.out.println(CURRENTBOARD.toString());
+            System.out.println(lastBoard.toString());
             TileExchange lastExchange = lastState.getValue();
             Pair<Integer, Integer> t1 = lastExchange.getTileToReplacePosition();
             Pair<Integer, Integer> t2 = lastExchange.getTileToReplaceWithPosition();
@@ -56,13 +52,36 @@ public class MovementExecutor {
         }
     }
 
+    public static void redo() {
+        if (!redoStateStack.isEmpty()) {
+            Pair<Board, TileExchange> lastState = redoStateStack.pop();
+            Board lastBoard = lastState.getKey();
+            CURRENTLEVEL.setBoard(lastBoard);
+            System.out.println(lastBoard.toString());
+            TileExchange lastExchange = lastState.getValue();
+            Pair<Integer, Integer> t1 = lastExchange.getTileToReplacePosition();
+            Pair<Integer, Integer> t2 = lastExchange.getTileToReplaceWithPosition();
+            ViewManager.exchangeImages(
+                    t1.getKey(), t1.getValue(),
+                    t2.getKey(), t2.getValue(),
+                    lastBoard.getTile(t1.getKey(),
+                            t1.getValue()).getTileType(),
+                    lastBoard.getTile(t2.getKey(),
+                            t2.getValue()).getTileType());
+            if (lastExchange.isBoxMovement()) {
+                redo();
+            } else {
+                CURRENTLEVEL.addOneMove();
+            }
+        }
+    }
+
+
     public static void updateSceneOnInput(KeyCode direction) {
         CURRENTLEVEL = App.getCurrentLevel();
         CURRENTBOARD = CURRENTLEVEL.getBoard();
         int tileToReplaceI = directionToIRow(direction, CURRENTBOARD.getPlayerPositionI());
         int tileToReplaceJ = directionToJCol(direction, CURRENTBOARD.getPlayerPositionJ());
-        // TODO finish movement checking and image setting for the possible distinct
-        // cases
         executeMovementIfPossible(direction, tileToReplaceI, tileToReplaceJ);
     }
 
@@ -104,6 +123,7 @@ public class MovementExecutor {
                     tileToReplaceJCol);
             CURRENTLEVEL.addOneMove();
             SokobanSounds.playPlayerMovingSound();
+            redoStateStack = new Stack<>();
         } else
 
         {
