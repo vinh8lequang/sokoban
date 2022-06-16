@@ -4,15 +4,20 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
+// import org.slf4j.Logger;
+// import org.slf4j.LoggerFactory;
+
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
 import es.upm.pproject.sokoban.model.levelExceptions.invalidLevelCharacterException;
+import es.upm.pproject.sokoban.model.levelExceptions.invalidLevelException;
 
 /**
  * This class is in charge of reading a level file and loading into memory
  */
 public class LevelLoader {
 
-    
+    // create a logger
+    // private static final Logger LOGGER = LoggerFactory.getLogger(LevelLoader.class);
     /** 
      * @param type
      * @return TileType
@@ -33,18 +38,18 @@ public class LevelLoader {
             return null;
         }
     }
-
     
     /** 
      * @param path
      * @return Board
+     * @throws invalidLevelException
      */
-    public static Board loadBoard(String path) {
+    public static Board loadBoard(String path) throws invalidLevelException {
         File level = new File(path);
         try (Scanner sc = new Scanner(level)) {
             int rows = sc.nextInt();
             int cols = sc.nextInt();
-            String skip = sc.nextLine(); // this is for skipping the first line
+            sc.nextLine(); // this is for skipping the first line
             Board board = new Board(rows, cols);
             for (int i = 0; sc.hasNextLine() && (i < rows); i++) {
                 // StringBuilder debugLine = new StringBuilder();
@@ -75,7 +80,7 @@ public class LevelLoader {
         } catch (FileNotFoundException | invalidLevelCharacterException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
-            return null;
+            throw new invalidLevelException("Nivel incorrecto");
         }
     }
 }
