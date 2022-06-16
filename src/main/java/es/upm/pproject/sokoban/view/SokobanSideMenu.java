@@ -25,8 +25,8 @@ public class SokobanSideMenu extends VBox {
                 creeateMovesBox(),
                 createUndoRedoBox(),
                 createRestartButton(),
-                createSaveStateButton(), 
-                createMusicControlBox(), 
+                createSaveStateButton(),
+                createMusicControlBox(),
                 createMainMenuButton());
     }
 
@@ -73,10 +73,9 @@ public class SokobanSideMenu extends VBox {
         return mainMenuBox;
     }
 
-
-    public HBox createRestartButton(){
+    public HBox createRestartButton() {
         HBox restartBox = new HBox();
-        //create a restart button
+        // create a restart button
         Button restartButton = new Button("Restart");
         restartButton.setFocusTraversable(false);
         restartButton.setFont(new Font("Impact", 30));
@@ -101,8 +100,7 @@ public class SokobanSideMenu extends VBox {
         saveButton.setMaxWidth(230);
         saveButton.setMinWidth(230);
         saveButton.setOnAction(e -> {
-            level.saveLevel();
-            ViewManager.createSavedLevelDialog();
+            ViewManager.createSavedLevelDialog(level.saveLevel());
         });
         // add them to the box
         saveStateBox.getChildren().addAll(saveButton);

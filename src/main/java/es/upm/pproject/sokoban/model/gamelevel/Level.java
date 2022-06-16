@@ -94,7 +94,7 @@ public class Level {
         this.movesString.set("YOU HAVE WON");
     }
 
-    public void saveLevel() {
+    public String saveLevel() {
         File saveDir = new File("saves");
         saveDir.mkdir();
         Date date = new Date();
@@ -111,6 +111,7 @@ public class Level {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return nombre;
     }
     public void restartLevel(){
         try {

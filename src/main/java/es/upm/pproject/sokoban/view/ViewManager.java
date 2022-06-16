@@ -288,6 +288,20 @@ public class ViewManager {
         dialog.show();
     }
 
-    public static void createSavedLevelDialog() {
+    public static void createSavedLevelDialog(String savedName) {
+        VBox dialogVbox = new VBox(5);
+        dialogVbox.setAlignment(Pos.CENTER);
+        Text dialogText = new Text("Level was correctly saved on saves folder as \n\"" + savedName + '"');
+        dialogText.setStyle("-fx-background-color: #ffff00");
+        dialogText.setFont(new Font("Comic Sans", 18));
+        Scene dialogScene = new Scene(dialogVbox, 400, 200);
+        Stage dialog = new Stage();
+        dialogVbox.getChildren().add(dialogText);
+        dialog.initModality(Modality.APPLICATION_MODAL);
+        dialog.initOwner(CURRENTSTAGE);
+        dialog.setResizable(false);
+        dialog.setOnCloseRequest((event) -> App.toggleMusicOn());
+        dialog.setScene(dialogScene);
+        dialog.show();
     }
 }
