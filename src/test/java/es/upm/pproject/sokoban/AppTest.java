@@ -9,6 +9,7 @@ import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
 import es.upm.pproject.sokoban.model.levelExceptions.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertSame;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -42,7 +43,6 @@ public class AppTest {
                 board = LevelLoader.loadBoard("src/main/resources/Levels/level1.txt");
             } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                     | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
             finally{
@@ -79,6 +79,12 @@ public class AppTest {
         void testIncorrectBoard5() {
             assertThrows(InequalNumberOfBoxesGoals.class, () -> LevelLoader.loadBoard("src/main/resources/Levels/badlevel5.txt"), "Should throw InequalNumberOfBoxesGoals");
         }
+
+        @Test
+        @DisplayName("File not found")
+        void testIncorrectBoard6() {
+            assertThrows(FileNotFoundException.class, () -> LevelLoader.loadBoard("src/main/resources/Levels/aaa.txt"), "Should throw FileNotFoundException");
+        }
     }
         
     @Nested
@@ -99,6 +105,13 @@ public class AppTest {
             assertEquals(TileType.BOX, tile.getTileType());
         }
 
+        @Test
+        @DisplayName("Compare tiles")
+        void testTile3() {
+            Tile tile1 = new Tile(TileType.GROUND);
+            Tile tile2 = new Tile(TileType.PLAYER);
+            assertNotEquals(tile1.equals(tile2), "Should not be equal");
+        }
     }
 
     @Nested
@@ -109,7 +122,7 @@ public class AppTest {
         void testLevel1() {
             Level level = null;
             try {
-                level = new Level("src/main/resources/Levels/level1.txt");
+                level = new Level("src/main/resources/Levels/level1.txt",false);
             } catch (InvalidLevelException e) {
                 e.printStackTrace();
             } finally{
@@ -123,10 +136,9 @@ public class AppTest {
             Level level1 = null;
             Level level2 = null;
             try {
-                level1 = new Level("src/main/resources/Levels/level1.txt");
+                level1 = new Level("src/main/resources/Levels/level1.txt",false);
                 level2 = new Level(level1);
             } catch (InvalidLevelException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             } finally{
                 assertEquals(correctBoard, level2.getBoard().toString()); 
@@ -139,11 +151,10 @@ public class AppTest {
             Level level1 = null;
             Level level2 = null;
             try {
-                level1 = new Level("src/main/resources/Levels/level1.txt");
-                level2 = new Level("src/main/resources/Levels/level2.txt");
+                level1 = new Level("src/main/resources/Levels/level1.txt",false);
+                level2 = new Level("src/main/resources/Levels/level2.txt",false);
                 level2.setBoard(level1.getBoard());
             } catch (InvalidLevelException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             } finally{
                 assertEquals(correctBoard, level2.getBoard().toString()); 
@@ -155,10 +166,9 @@ public class AppTest {
         void testLevel4() {
             Level level = null;
             try {
-                level = new Level("src/main/resources/Levels/level1.txt");
+                level = new Level("src/main/resources/Levels/level1.txt",false);
                 level.setMoves(5);
             } catch (InvalidLevelException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             } finally{
                 assertSame(5, level.getMoves()); 
@@ -170,20 +180,77 @@ public class AppTest {
         void testLevel5() {
             Level level = null;
             try {
-                level = new Level("src/main/resources/Levels/level1.txt");
+                level = new Level("src/main/resources/Levels/level1.txt",false);
                 level.addOneMove();
                 level.addOneMove();
                 level.subtractOneMove();
             } catch (InvalidLevelException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             } finally{
                 assertSame(1, level.getMoves()); 
             }  
         }
+
+        @Test
+        @DisplayName("Copy level")
+        void testLevel6() {
+            assertThrows(InvalidLevelException.class, () -> new Level("src/main/resources/Levels/badlevel1.txt",true), "Should throw InvalidLevelException");
+        }
     }
 
-    // @Nested
-    // @DisplayName("Board tests")
-    // class BoardTests {}
+    @Nested
+    @DisplayName("Board tests")
+    class BoardTests {
+        @Test
+        @DisplayName("Get tile")
+        void testBoard1() {
+            Board board = null;
+            Tile tile = null;
+            try {
+                board = LevelLoader.loadBoard("src/main/resources/Levels/level1.txt");
+                tile = board.getTile(1, 1);
+            } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
+                    | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
+                e.printStackTrace();
+            }
+            finally{
+                assertEquals(TileType.GROUND, tile.getTileType());
+            }
+        }
+
+        @Test
+        @DisplayName("Symmetric board")
+        void testBoard2() {
+            Board board = null;
+            boolean isSymmetric = false;
+            try {
+                board = LevelLoader.loadBoard("src/main/resources/Levels/level1.txt");
+                isSymmetric = board.isSymmetric();
+            } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
+                    | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
+                e.printStackTrace();
+            }
+            finally{
+                assertTrue(isSymmetric);
+            }
+        }
+
+        
+        @Test
+        @DisplayName("Exchange tiles")
+        void testBoard3() {
+            Board board = null;
+            try {
+                board = LevelLoader.loadBoard("src/main/resources/Levels/level1.txt");
+                board.exchangeTiles(4, 2, 3, 2); //exchange player with ground
+            } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
+                    | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
+                e.printStackTrace();
+            }
+            finally{
+                assertEquals(TileType.GROUND, board.getTile(4, 2).getTileType());
+                assertEquals(TileType.PLAYER, board.getTile(3, 2).getTileType());
+            }
+        }
+    }
 }

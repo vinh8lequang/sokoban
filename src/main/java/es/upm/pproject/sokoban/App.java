@@ -60,7 +60,7 @@ public class App extends Application {
 
     public static void loadNextLevel() throws InvalidLevelException {
         try {
-            level = new Level("src/main/resources/Levels/level" + levelnum++ + ".txt");
+            level = new Level("src/main/resources/Levels/level" + levelnum++ + ".txt",false);
             Board board = level.getBoard();
             ViewManager.setGUIBoardSize(board);
             ViewManager.loadImages();
@@ -74,7 +74,7 @@ public class App extends Application {
 
     public static void loadLevel(String file) {
         try {
-            level = new Level(file);
+            level = new Level(file,false);
             Board board = level.getBoard();
             ViewManager.setGUIBoardSize(board);
             ViewManager.loadImages();
