@@ -79,6 +79,9 @@ public class AppTest {
     }
 
     @Nested
+    @DisplayName("Board tests")
+    class BoardTests {
+        
     @DisplayName("Tile tests")
     class TileTests {
         @Test
