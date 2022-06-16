@@ -44,23 +44,24 @@ public class LevelLoader {
      * @return Board
      * @throws Exception
      */
-    public static Board loadBoard(String path) throws FileNotFoundException, InvalidLevelCharacterException ,
-                    MultiplePlayersException , InequalNumberOfBoxesGoals ,
-                    NoBoxesException , NoGoalsException , NoPlayersException {
-        int nPlayers = 0; //number of players
-        int nBoxes = 0; //number of boxes
-        int nGoals = 0; //number of goals
+    public static Board loadBoard(String path) throws FileNotFoundException, InvalidLevelCharacterException,
+            MultiplePlayersException, InequalNumberOfBoxesGoals,
+            NoBoxesException, NoGoalsException, NoPlayersException {
+        int nPlayers = 0; // number of players
+        int nBoxes = 0; // number of boxes
+        int nGoals = 0; // number of goals
         File level = new File(path);
         try (Scanner sc = new Scanner(level)) {
             int rows = sc.nextInt();
             int cols = sc.nextInt();
-            // int moves = sc.nextInt(); 
+            // int moves = sc.nextInt();
             // TODO load moves when file has moves
             sc.nextLine(); // this is for skipping the first line
             Board board = new Board(rows, cols);
             for (int i = 0; sc.hasNextLine() && (i < rows); i++) {
                 // StringBuilder debugLine = new StringBuilder();
                 String line = sc.nextLine();
+                System.out.println(line);
                 for (int j = 0; j < line.length(); j++) {
                     char c = line.charAt(j); // getting de character
                     // debugLine.append(c);
@@ -87,6 +88,13 @@ public class LevelLoader {
                     board.setTile(i, k, TileType.GROUND);
                 }
                 // System.out.println(debugLine);
+            }
+            if (sc.hasNextLine()) {
+                String nextLine = sc.nextLine();
+                Integer score = sc.nextInt();
+                if (score != null) {
+                    board.setMoves(score);
+                }
             }
             // Check if there is not a player
             if (nPlayers == 0) {

@@ -53,7 +53,7 @@ public class SokobanSideMenu extends VBox {
             MovementExecutor.redo();
         });
         // add them to the box
-        undoRedoBox.getChildren().addAll(undoButton, redoButton);
+        undoRedoBox.getChildren().addAll(undoButton);
         return undoRedoBox;
     }
 
