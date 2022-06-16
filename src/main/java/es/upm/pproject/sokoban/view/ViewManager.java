@@ -4,6 +4,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import es.upm.pproject.sokoban.App;
 import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
@@ -33,6 +36,8 @@ public class ViewManager {
     static SokobanScene CURRENTSCENE = null;
     static Stage CURRENTSTAGE = null;
 
+    private static Logger logger = LoggerFactory.getLogger(ViewManager.class);
+
     /**
      * @return Scene
      */
@@ -57,7 +62,7 @@ public class ViewManager {
                 App.loadNextLevel();
             } catch (InvalidLevelException e) {
                 // TODO Auto-generated catch block
-                e.printStackTrace();
+                logger.error(e.getMessage());
             }
             App.toggleMusic();
         });
@@ -193,7 +198,7 @@ public class ViewManager {
                 App.loadNextLevel();
             } catch (InvalidLevelException e) {
                 // TODO Auto-generated catch block
-                e.printStackTrace();
+                logger.error(e.getMessage());
             }
             SokobanSounds.stopWinnerSound();
         });

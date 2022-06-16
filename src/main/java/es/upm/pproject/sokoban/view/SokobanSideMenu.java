@@ -14,13 +14,21 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
+import javafx.scene.text.Text;
+import javafx.scene.text.TextAlignment;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class SokobanSideMenu extends VBox {
 
     private Label moves;
     private Label movesVal;
     private Level level;
+
+    private static Logger logger = LoggerFactory.getLogger(SokobanSideMenu.class);
     // constructor
 
     public SokobanSideMenu(Level level) {
@@ -34,15 +42,14 @@ public class SokobanSideMenu extends VBox {
                 creeateMovesBox(),
                 createUndoRedoBox(),
                 createRestartButton(),
-                createSaveStateButton(), 
-                createMusicControlBox(), 
+                createSaveStateButton(),
+                createMusicControlBox(),
                 createMainMenuButton(),
-                star);
-        } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+                star,
+                createCredits());
+        }catch(FileNotFoundException e){
+            logger.error(e.getMessage());
         }
-        
     }
 
     public HBox createUndoRedoBox() {
@@ -168,6 +175,14 @@ public class SokobanSideMenu extends VBox {
         HBox movesBox = new HBox();
         movesBox.getChildren().addAll(moves, movesVal);
         return movesBox;
+    }
+    public Text createCredits(){
+        Font fuente = new Font("Helvetica", 12);
+        Text text = new Text("-----------------------------------------------\nSokovinh by:\nNicolas Cossio Miravalles\nAlvaro G. Mendez\nVinh LeQuang\nSebastian Revilla Rojas");
+        text.setFont(fuente);
+        text.setFill(Color.GREY);
+        text.setTextAlignment(TextAlignment.RIGHT);
+        return text;
     }
     
 }
