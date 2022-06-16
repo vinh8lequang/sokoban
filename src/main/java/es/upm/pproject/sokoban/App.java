@@ -17,6 +17,7 @@ import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 /**
@@ -24,7 +25,7 @@ import javafx.stage.Stage;
  */
 public class App extends Application {
 
-    static Stage currentStage;
+    public static Stage currentStage;
     static Level level;
     static int levelnum = 1;
     static MediaPlayer mediaPlayer;
@@ -49,6 +50,14 @@ public class App extends Application {
         }
     }
 
+    public static void resetLevelCounter() {
+        levelnum = 1;
+    }
+    
+    public static void decreaseLevelCounter() {
+        levelnum--;
+    }
+
     public static void loadNextLevel() throws InvalidLevelException {
         try {
             level = new Level("src/main/resources/Levels/level" + levelnum++ + ".txt");
@@ -56,7 +65,8 @@ public class App extends Application {
             ViewManager.setGUIBoardSize(board);
             ViewManager.loadImages();
             MovementExecutor.initStacks();
-            currentStage.setScene(ViewManager.loadLevelState(level));
+            Scene scene = ViewManager.loadLevelState(level);
+            currentStage.setScene(scene);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

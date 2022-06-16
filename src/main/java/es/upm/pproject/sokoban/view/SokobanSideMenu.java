@@ -24,8 +24,10 @@ public class SokobanSideMenu extends VBox {
         this.getChildren().addAll(
                 creeateMovesBox(),
                 createUndoRedoBox(),
+                createRestartButton(),
                 createSaveStateButton(), 
-                createMusicControlBox());
+                createMusicControlBox(), 
+                createMainMenuButton());
     }
 
     public HBox createUndoRedoBox() {
@@ -53,6 +55,23 @@ public class SokobanSideMenu extends VBox {
         // add them to the box
         undoRedoBox.getChildren().addAll(undoButton, redoButton);
         return undoRedoBox;
+    }
+
+    public HBox createRestartButton(){
+        HBox restartBox = new HBox();
+        //create a restart button
+        Button restartButton = new Button("Restart");
+        restartButton.setFocusTraversable(false);
+        restartButton.setFont(new Font("Impact", 30));
+        restartButton.setStyle("-fx-background-color: #ffff00");
+        restartButton.setMaxWidth(230);
+        restartButton.setMinWidth(230);
+        restartButton.setOnAction(e -> {
+            level.restartLevel();
+        });
+        // add them to the box
+        restartBox.getChildren().addAll(restartButton);
+        return restartBox;
     }
 
     public HBox createSaveStateButton() {
