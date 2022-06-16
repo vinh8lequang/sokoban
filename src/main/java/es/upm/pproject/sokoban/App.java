@@ -48,9 +48,11 @@ public class App extends Application {
             stage.setTitle("SokoVinh");
             logger.info(stage.getTitle() + " started");
             stage.setScene(ViewManager.getStartingScene());
+            logger.info(stage.getScene().toString());
             stage.show();
             mediaPlayer = new MediaPlayer(
                     new Media(new File("src/main/resources/audio/gameMusic.mp3").toURI().toString()));
+            logger.info(mediaPlayer.toString());
             musicState = false;
         } catch (Exception e) {
             logger.error(e.getMessage());
@@ -59,21 +61,27 @@ public class App extends Application {
 
     public static void resetLevelCounter() {
         levelnum = 1;
+        logger.info(Integer.toString(levelnum));
     }
 
     public static void decreaseLevelCounter() {
         levelnum--;
+        logger.info(Integer.toString(levelnum));
     }
 
     public static void loadNextLevel() throws InvalidLevelException {
         try {
             level = new Level("src/main/resources/Levels/level" + levelnum++ + ".txt", false);
+            logger.info(level.toString());
             Board board = level.getBoard();
+            logger.info(board.toString());
             ViewManager.setGUIBoardSize(board);
             ViewManager.loadImages();
             MovementExecutor.initStacks();
             Scene scene = ViewManager.loadLevelState(level);
+            logger.info(scene.toString());
             currentStage.setScene(scene);
+            logger.info(currentStage.toString());
         } catch (FileNotFoundException e) {
             logger.error(e.getMessage());
         }
@@ -82,11 +90,14 @@ public class App extends Application {
     public static void loadLevel(String file) {
         try {
             level = new Level(file, false);
+            logger.info(level.toString());
             Board board = level.getBoard();
+            logger.info(board.toString());
             ViewManager.setGUIBoardSize(board);
             ViewManager.loadImages();
             MovementExecutor.initStacks();
             currentStage.setScene(ViewManager.loadLevelState(level));
+            logger.info(currentStage.toString());
         } catch (FileNotFoundException e) {
             logger.error(e.getMessage());
         } catch (InvalidLevelException e) {
@@ -95,11 +106,13 @@ public class App extends Application {
     }
 
     public static Scene getScene() {
+        logger.info(currentStage.toString());
         return currentStage.getScene();
     }
 
     // getter for the board
     public static Level getCurrentLevel() {
+        logger.info(level.toString());
         return level;
     }
 
@@ -109,30 +122,38 @@ public class App extends Application {
     public static void setNewScene(Scene newScene) {
         currentStage.setScene(newScene);
         currentStage.show();
+        logger.info(currentStage.toString());
     }
 
     public static void toggleMusicOff() {
         mediaPlayer.stop();
+        logger.info(mediaPlayer.toString());
     }
 
     public static void toggleMusicOn() {
         if (musicState)
             mediaPlayer.play();
+        logger.info(mediaPlayer.toString());
     }
 
     public static boolean toggleMusic() {
         if (!musicState) {
             mediaPlayer.play();
+            logger.info(mediaPlayer.toString());
             musicState = true;
+            logger.info(Boolean.toString(musicState));
         } else {
             mediaPlayer.stop();
+            logger.info(mediaPlayer.toString());
             musicState = false;
+            logger.info(Boolean.toString(musicState));
         }
         return musicState;
     }
 
     public static void setVolume(double value) {
         mediaPlayer.setVolume(value);
+        logger.info(Double.toString(mediaPlayer.getVolume()));
         Platform.runLater(((SokobanScene) currentStage.getScene()).getBoardGrid()::requestFocus);
     }
 
@@ -141,6 +162,7 @@ public class App extends Application {
      */
     public static void main(String[] args) {
         BasicConfigurator.configure();
+        logger.info(BasicConfigurator.class.toString());
         launch();
     }
 }
