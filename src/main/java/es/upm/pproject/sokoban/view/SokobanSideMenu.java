@@ -24,7 +24,8 @@ public class SokobanSideMenu extends VBox {
                 creeateMovesBox(),
                 createUndoRedoBox(),
                 createSaveStateButton(), 
-                createMusicControlBox());
+                createMusicControlBox(), 
+                createMainMenuButton());
     }
 
     public HBox createUndoRedoBox() {
@@ -45,6 +46,19 @@ public class SokobanSideMenu extends VBox {
         undoRedoBox.getChildren().addAll(undoButton, redoButton);
         return undoRedoBox;
     }
+
+    public HBox createMainMenuButton() {
+        HBox mainMenuBox = new HBox();
+        Button menuButton = new Button("Go to main menu");
+        menuButton.setFocusTraversable(false);
+        menuButton.setOnAction(e -> {
+            App.toggleMusic();
+            ViewManager.askForSavingLevelDialog();
+        });
+        mainMenuBox.getChildren().add(menuButton);
+        return mainMenuBox;
+    }
+
 
     public HBox createSaveStateButton() {
         HBox saveStateBox = new HBox();

@@ -39,6 +39,8 @@ public class Level {
         this.movesString = another.getStrMoves();
     }
 
+
+
     /**
      * @return the board
      */
@@ -105,15 +107,4 @@ public class Level {
             e.printStackTrace();
         }
     }
-
-    // TODO
-    public void loadSavedLevel() {
-    }
-
-    public void saveState() {
-    }
-
-    public void undo() {
-    }
-
 }
