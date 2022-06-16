@@ -8,6 +8,8 @@ import java.util.Date;
 
 import java.io.FileNotFoundException;
 
+import es.upm.pproject.sokoban.App;
+import es.upm.pproject.sokoban.controller.MovementExecutor;
 import es.upm.pproject.sokoban.model.levelExceptions.*;
 import es.upm.pproject.sokoban.view.ViewManager;
 import javafx.beans.property.SimpleStringProperty;
@@ -16,10 +18,12 @@ import javafx.beans.property.StringProperty;
 public class Level {
     private Board board;
     private Integer moves;
+    public String levelPath;
     StringProperty movesString = new SimpleStringProperty();
 
     // TODO undo stack
     public Level(String levelPath) throws InvalidLevelException {
+        this.levelPath=levelPath;
         try {
             this.board = LevelLoader.loadBoard(levelPath);
         } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
@@ -34,11 +38,11 @@ public class Level {
     }
 
     public Level(Level another) {
+        this.levelPath = another.levelPath;
         this.board = new Board(another.getBoard());
         this.moves = another.getMoves();
         this.movesString = another.getStrMoves();
     }
-
 
 
     /**

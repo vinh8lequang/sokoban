@@ -8,6 +8,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+import javafx.scene.text.Font;
 
 public class SokobanSideMenu extends VBox {
 
@@ -17,28 +18,37 @@ public class SokobanSideMenu extends VBox {
     // constructor
 
     public SokobanSideMenu(Level level) {
-        super();
+        super(5);
         this.level = level;
         this.setFocusTraversable(false);
         this.getChildren().addAll(
                 creeateMovesBox(),
                 createUndoRedoBox(),
+                createRestartButton(),
                 createSaveStateButton(), 
                 createMusicControlBox(), 
                 createMainMenuButton());
     }
 
     public HBox createUndoRedoBox() {
-        HBox undoRedoBox = new HBox();
+        HBox undoRedoBox = new HBox(6);
         // create undo button
         Button undoButton = new Button("Undo");
         undoButton.setFocusTraversable(false);
+        undoButton.setFont(new Font("Impact", 30));
+        undoButton.setStyle("-fx-background-color: #ffff00");
+        undoButton.setMaxWidth(112);
+        undoButton.setMinWidth(112);
         undoButton.setOnAction(e -> {
             MovementExecutor.undo();
         });
         // create redo button
         Button redoButton = new Button("Redo");
         redoButton.setFocusTraversable(false);
+        redoButton.setFont(new Font("Impact", 30));
+        redoButton.setStyle("-fx-background-color: #ffff00");
+        redoButton.setMaxWidth(112);
+        redoButton.setMinWidth(112);
         redoButton.setOnAction(e -> {
             MovementExecutor.redo();
         });
@@ -47,24 +57,32 @@ public class SokobanSideMenu extends VBox {
         return undoRedoBox;
     }
 
-    public HBox createMainMenuButton() {
-        HBox mainMenuBox = new HBox();
-        Button menuButton = new Button("Go to main menu");
-        menuButton.setFocusTraversable(false);
-        menuButton.setOnAction(e -> {
-            App.toggleMusic();
-            ViewManager.askForSavingLevelDialog();
+    public HBox createRestartButton(){
+        HBox restartBox = new HBox();
+        //create a restart button
+        Button restartButton = new Button("Restart");
+        restartButton.setFocusTraversable(false);
+        restartButton.setFont(new Font("Impact", 30));
+        restartButton.setStyle("-fx-background-color: #ffff00");
+        restartButton.setMaxWidth(230);
+        restartButton.setMinWidth(230);
+        restartButton.setOnAction(e -> {
+            level.restartLevel();
         });
-        mainMenuBox.getChildren().add(menuButton);
-        return mainMenuBox;
+        // add them to the box
+        restartBox.getChildren().addAll(restartButton);
+        return restartBox;
     }
-
 
     public HBox createSaveStateButton() {
         HBox saveStateBox = new HBox();
         // create save button
         Button saveButton = new Button("Save level state");
         saveButton.setFocusTraversable(false);
+        saveButton.setFont(new Font("Impact", 30));
+        saveButton.setStyle("-fx-background-color: #ffff00");
+        saveButton.setMaxWidth(230);
+        saveButton.setMinWidth(230);
         saveButton.setOnAction(e -> {
             level.saveLevel();
         });
@@ -79,6 +97,10 @@ public class SokobanSideMenu extends VBox {
         // create music button
         Button musicButton = new Button("Music");
         musicButton.setFocusTraversable(false);
+        musicButton.setFont(new Font("Impact", 30));
+        musicButton.setStyle("-fx-background-color: #ffff00");
+        musicButton.setMaxWidth(230);
+        musicButton.setMinWidth(230);
         musicButton.setOnAction(e -> {
             if (App.toggleMusic()) {
                 musicButton.setText("Stop music");
@@ -95,6 +117,7 @@ public class SokobanSideMenu extends VBox {
         volumeSlider.setMax(1.0);
         volumeSlider.setMin(0.0);
         volumeSlider.setValue(1.0);
+        volumeSlider.setMaxWidth(230);
         volumeSlider.setOnMouseReleased(e -> {
             App.setVolume(volumeSlider.getValue());
         });
@@ -106,10 +129,10 @@ public class SokobanSideMenu extends VBox {
 
     public HBox creeateMovesBox() {
         moves = new Label();
-        moves.setStyle("-fx-font: 24 arial;");
-        moves.setText("Moves:\t");
+        moves.setFont(new Font("Impact", 30));
+        moves.setText("Vinh Moves:\t");
         movesVal = new Label();
-        movesVal.setStyle("-fx-font: 24 arial;");
+        movesVal.setFont(new Font("Impact", 30));
         movesVal.textProperty().bind(level.getStrMoves());
         HBox movesBox = new HBox();
         movesBox.getChildren().addAll(moves, movesVal);

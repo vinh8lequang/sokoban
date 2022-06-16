@@ -136,6 +136,7 @@ public class ViewManager {
     public static Scene loadLevelState(Level level) throws FileNotFoundException {
 
         SokobanScene scene = new SokobanScene(WIDTH, HEIGHT, boardSize, level);
+        
         CURRENTSCENE = scene;
         CURRENTBOARD = level.getBoard();
         CURRENTLEVEL = level;
