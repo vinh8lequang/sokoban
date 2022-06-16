@@ -14,7 +14,6 @@ public class Level {
         try {
             this.board = LevelLoader.loadBoard(levelPath);
         } catch (invalidLevelException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         this.moves = 0;
