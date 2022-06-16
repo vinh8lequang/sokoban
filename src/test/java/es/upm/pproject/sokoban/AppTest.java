@@ -24,13 +24,13 @@ import org.junit.jupiter.api.Nested;
  */
 public class AppTest {
     private String correctBoard = "++++    \n" +
-    "+  +    \n" +
-    "+  +++++\n" +
-    "+      +\n" +
-    "++W*+# +\n" +
-    "+   +  +\n" +
-    "+   ++++\n" +
-    "+++++   \n";
+            "+  +    \n" +
+            "+  +++++\n" +
+            "+      +\n" +
+            "++W*+# +\n" +
+            "+   +  +\n" +
+            "+   ++++\n" +
+            "+++++   \n";
 
     @Nested
     @DisplayName("Board level loading tests")
@@ -43,50 +43,58 @@ public class AppTest {
                 board = LevelLoader.loadBoard("src/main/resources/Levels/level1.txt");
             } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                     | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
-                e.printStackTrace();
+                logger.error(e.getMessage());
+            } finally {
+                assertEquals(correctBoard, board.toString());
             }
-            finally{
-                assertEquals(correctBoard, board.toString()); 
-            }  
         }
 
         @Test
         @DisplayName("No player")
         void testIncorrectBoard1() {
-            assertThrows(NoPlayersException.class, () -> LevelLoader.loadBoard("src/main/resources/Levels/badlevel1.txt"), "Should throw NoPlayersException");
+            assertThrows(NoPlayersException.class,
+                    () -> LevelLoader.loadBoard("src/main/resources/Levels/badlevel1.txt"),
+                    "Should throw NoPlayersException");
         }
 
         @Test
         @DisplayName("Mulitple players")
         void testIncorrectBoard2() {
-            assertThrows(MultiplePlayersException.class, () -> LevelLoader.loadBoard("src/main/resources/Levels/badlevel2.txt"), "Should throw MultiplePlayersException");
+            assertThrows(MultiplePlayersException.class,
+                    () -> LevelLoader.loadBoard("src/main/resources/Levels/badlevel2.txt"),
+                    "Should throw MultiplePlayersException");
         }
 
         @Test
         @DisplayName("No boxes")
         void testIncorrectBoard3() {
-            assertThrows(NoBoxesException.class, () -> LevelLoader.loadBoard("src/main/resources/Levels/badlevel3.txt"), "Should throw NoBoxesException");
+            assertThrows(NoBoxesException.class, () -> LevelLoader.loadBoard("src/main/resources/Levels/badlevel3.txt"),
+                    "Should throw NoBoxesException");
         }
 
         @Test
         @DisplayName("No goals")
         void testIncorrectBoard4() {
-            assertThrows(NoGoalsException.class, () -> LevelLoader.loadBoard("src/main/resources/Levels/badlevel4.txt"), "Should throw NoGoalsException");
+            assertThrows(NoGoalsException.class, () -> LevelLoader.loadBoard("src/main/resources/Levels/badlevel4.txt"),
+                    "Should throw NoGoalsException");
         }
 
         @Test
         @DisplayName("Inequal number of boxes and goals")
         void testIncorrectBoard5() {
-            assertThrows(InequalNumberOfBoxesGoals.class, () -> LevelLoader.loadBoard("src/main/resources/Levels/badlevel5.txt"), "Should throw InequalNumberOfBoxesGoals");
+            assertThrows(InequalNumberOfBoxesGoals.class,
+                    () -> LevelLoader.loadBoard("src/main/resources/Levels/badlevel5.txt"),
+                    "Should throw InequalNumberOfBoxesGoals");
         }
 
         @Test
         @DisplayName("File not found")
         void testIncorrectBoard6() {
-            assertThrows(FileNotFoundException.class, () -> LevelLoader.loadBoard("src/main/resources/Levels/aaa.txt"), "Should throw FileNotFoundException");
+            assertThrows(FileNotFoundException.class, () -> LevelLoader.loadBoard("src/main/resources/Levels/aaa.txt"),
+                    "Should throw FileNotFoundException");
         }
     }
-        
+
     @Nested
     @DisplayName("Tile tests")
     class TileTests {
@@ -122,12 +130,12 @@ public class AppTest {
         void testLevel1() {
             Level level = null;
             try {
-                level = new Level("src/main/resources/Levels/level1.txt",false);
+                level = new Level("src/main/resources/Levels/level1.txt", false);
             } catch (InvalidLevelException e) {
-                e.printStackTrace();
-            } finally{
-                assertEquals(correctBoard, level.getBoard().toString()); 
-            }  
+                logger.error(e.getMessage());
+            } finally {
+                assertEquals(correctBoard, level.getBoard().toString());
+            }
         }
 
         @Test
@@ -136,13 +144,13 @@ public class AppTest {
             Level level1 = null;
             Level level2 = null;
             try {
-                level1 = new Level("src/main/resources/Levels/level1.txt",false);
+                level1 = new Level("src/main/resources/Levels/level1.txt", false);
                 level2 = new Level(level1);
             } catch (InvalidLevelException e) {
-                e.printStackTrace();
-            } finally{
-                assertEquals(correctBoard, level2.getBoard().toString()); 
-            }  
+                logger.error(e.getMessage());
+            } finally {
+                assertEquals(correctBoard, level2.getBoard().toString());
+            }
         }
 
         @Test
@@ -151,14 +159,14 @@ public class AppTest {
             Level level1 = null;
             Level level2 = null;
             try {
-                level1 = new Level("src/main/resources/Levels/level1.txt",false);
-                level2 = new Level("src/main/resources/Levels/level2.txt",false);
+                level1 = new Level("src/main/resources/Levels/level1.txt", false);
+                level2 = new Level("src/main/resources/Levels/level2.txt", false);
                 level2.setBoard(level1.getBoard());
             } catch (InvalidLevelException e) {
-                e.printStackTrace();
-            } finally{
-                assertEquals(correctBoard, level2.getBoard().toString()); 
-            }  
+                logger.error(e.getMessage());
+            } finally {
+                assertEquals(correctBoard, level2.getBoard().toString());
+            }
         }
 
         @Test
@@ -166,13 +174,13 @@ public class AppTest {
         void testLevel4() {
             Level level = null;
             try {
-                level = new Level("src/main/resources/Levels/level1.txt",false);
+                level = new Level("src/main/resources/Levels/level1.txt", false);
                 level.setMoves(5);
             } catch (InvalidLevelException e) {
-                e.printStackTrace();
-            } finally{
-                assertSame(5, level.getMoves()); 
-            }  
+                logger.error(e.getMessage());
+            } finally {
+                assertSame(5, level.getMoves());
+            }
         }
 
         @Test
@@ -180,21 +188,22 @@ public class AppTest {
         void testLevel5() {
             Level level = null;
             try {
-                level = new Level("src/main/resources/Levels/level1.txt",false);
+                level = new Level("src/main/resources/Levels/level1.txt", false);
                 level.addOneMove();
                 level.addOneMove();
                 level.subtractOneMove();
             } catch (InvalidLevelException e) {
-                e.printStackTrace();
-            } finally{
-                assertSame(1, level.getMoves()); 
-            }  
+                logger.error(e.getMessage());
+            } finally {
+                assertSame(1, level.getMoves());
+            }
         }
 
         @Test
         @DisplayName("Copy level")
         void testLevel6() {
-            assertThrows(InvalidLevelException.class, () -> new Level("src/main/resources/Levels/badlevel1.txt",true), "Should throw InvalidLevelException");
+            assertThrows(InvalidLevelException.class, () -> new Level("src/main/resources/Levels/badlevel1.txt", true),
+                    "Should throw InvalidLevelException");
         }
     }
 
@@ -211,9 +220,8 @@ public class AppTest {
                 tile = board.getTile(1, 1);
             } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                     | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
-                e.printStackTrace();
-            }
-            finally{
+                logger.error(e.getMessage());
+            } finally {
                 assertEquals(TileType.GROUND, tile.getTileType());
             }
         }
@@ -228,26 +236,23 @@ public class AppTest {
                 isSymmetric = board.isSymmetric();
             } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                     | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
-                e.printStackTrace();
-            }
-            finally{
+                logger.error(e.getMessage());
+            } finally {
                 assertTrue(isSymmetric);
             }
         }
 
-        
         @Test
         @DisplayName("Exchange tiles")
         void testBoard3() {
             Board board = null;
             try {
                 board = LevelLoader.loadBoard("src/main/resources/Levels/level1.txt");
-                board.exchangeTiles(4, 2, 3, 2); //exchange player with ground
+                board.exchangeTiles(4, 2, 3, 2); // exchange player with ground
             } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                     | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
-                e.printStackTrace();
-            }
-            finally{
+                logger.error(e.getMessage());
+            } finally {
                 assertEquals(TileType.GROUND, board.getTile(4, 2).getTileType());
                 assertEquals(TileType.PLAYER, board.getTile(3, 2).getTileType());
             }

@@ -57,7 +57,7 @@ public class ViewManager {
                 App.loadNextLevel();
             } catch (InvalidLevelException e) {
                 // TODO Auto-generated catch block
-                e.printStackTrace();
+                logger.error(e.getMessage());
             }
             App.toggleMusic();
         });
@@ -193,7 +193,7 @@ public class ViewManager {
                 App.loadNextLevel();
             } catch (InvalidLevelException e) {
                 // TODO Auto-generated catch block
-                e.printStackTrace();
+                logger.error(e.getMessage());
             }
             SokobanSounds.stopWinnerSound();
         });

@@ -34,21 +34,15 @@ public class SokobanSideMenu extends VBox {
                 creeateMovesBox(),
                 createUndoRedoBox(),
                 createRestartButton(),
-<<<<<<< HEAD
                 createSaveStateButton(), 
                 createMusicControlBox(), 
                 createMainMenuButton(),
                 star);
         } catch (FileNotFoundException e) {
             // TODO Auto-generated catch block
-            e.printStackTrace();
+            logger.error(e.getMessage());
         }
         
-=======
-                createSaveStateButton(),
-                createMusicControlBox(),
-                createMainMenuButton());
->>>>>>> cc511a1bd387085172820bba691c13ecc6ec99cc
     }
 
     public HBox createUndoRedoBox() {

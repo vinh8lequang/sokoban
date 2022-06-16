@@ -81,7 +81,7 @@ public class Level {
     public void subtractOneMove() {
         this.moves--;
         this.movesString.set(moves.toString());
-    }
+    }   
 
     /**
      * @return the strMoves
@@ -109,7 +109,7 @@ public class Level {
             writer.write( " \n" + getMoves());
             writer.close();
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error(e.getMessage());
         }
         return nombre;
     }
@@ -118,7 +118,7 @@ public class Level {
             this.board = LevelLoader.loadBoard(levelPath);
         } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                 | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
-            e.printStackTrace();
+            logger.error(e.getMessage());
         } finally{
             this.moves = 0;
             this.movesString.set(moves.toString());
@@ -127,7 +127,7 @@ public class Level {
         try {
             App.currentStage.setScene(ViewManager.loadLevelState(this));
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+            logger.error(e.getMessage());
         }
     }
 
