@@ -1,7 +1,7 @@
 package es.upm.pproject.sokoban.model.levelExceptions;
 
-public class noGoalsException extends Exception {
-    public noGoalsException(String message) {
+public class NoGoalsException extends Exception {
+    public NoGoalsException(String message) {
         super(message);
     }
 }

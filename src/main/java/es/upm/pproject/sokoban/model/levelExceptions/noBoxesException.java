@@ -1,7 +1,7 @@
 package es.upm.pproject.sokoban.model.levelExceptions;
 
-public class noBoxesException extends Exception {
-    public noBoxesException(String message) {
+public class NoBoxesException extends Exception {
+    public NoBoxesException(String message) {
         super(message);
     }
 }

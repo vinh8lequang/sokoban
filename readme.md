@@ -38,6 +38,10 @@ Por ejemplo:
 # Comandos para ejecutar/testear código 
 ## Sonar -> comprobar si pasa el quality gate
 `mvn verify sonar:sonar -Dsonar.id=NMAT -Dsonar.login=YOUR TOKEN`
+mvn clean verify sonar:sonar \
+  -Dsonar.projectKey=sokoVinh \
+  -Dsonar.host.url=https://costa.ls.fi.upm.es/sonar \
+  -Dsonar.login=0a42d0d768688b21d47bb8b0c0ad3234efabe066
  
 To check the results you can access to the SonarQube web interface and see whether the project
 passes the quality gate. 

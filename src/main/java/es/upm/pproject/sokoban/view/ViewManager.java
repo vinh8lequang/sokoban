@@ -1,5 +1,6 @@
 package es.upm.pproject.sokoban.view;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
@@ -17,8 +18,10 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.HBox;
+import javafx.scene.layout.VBox;
 import javafx.scene.media.AudioClip;
 import javafx.scene.text.Font;
+import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 
 public class ViewManager {
@@ -48,12 +51,22 @@ public class ViewManager {
         playButton.setTranslateX(110);
         playButton.setTranslateY(400);
         playButton.setStyle("-fx-background-color: #ffff00");
-        //TODO Cambiar al nivel 
         playButton.setOnAction((event) -> {
             App.loadNextLevel();
-          });
+            App.toggleMusic();
+        });
+        Button loadLevelButton = new Button("Select Level");
+        loadLevelButton.setFont(new Font("Impact", 45));
+        loadLevelButton.setTranslateX(110);
+        loadLevelButton.setTranslateY(500);
+        loadLevelButton.setStyle("-fx-background-color: #ffff00");
+        loadLevelButton.setOnAction((event) -> {
+            FileChooser fileChooser = new FileChooser();
+            File selectedFile = fileChooser.showOpenDialog(CURRENTSTAGE);
+            App.loadLevel(selectedFile.getAbsolutePath());
 
-        root.getChildren().addAll(background,playButton);
+        });
+        root.getChildren().addAll(background,playButton, loadLevelButton);
         return scene;
     }
 
@@ -117,13 +130,11 @@ public class ViewManager {
      */
     public static Scene loadLevelState(Level level) throws FileNotFoundException {
 
-        SokobanScene scene = new SokobanScene(WIDTH, HEIGHT, boardSize, level); // This is the object to be returned,
-                                                                                // must be
+        SokobanScene scene = new SokobanScene(WIDTH, HEIGHT, boardSize, level);
         CURRENTSCENE = scene;
         CURRENTBOARD = level.getBoard();
         CURRENTLEVEL = level;
         ImageView[][] imageGrid = scene.getImageGrid();
-        // TODO Read level board and load the tiles to the graphical interface
         for (int i = 0; i < boardSize; i++) {
             for (int j = 0; j < boardSize; j++) {
                 Tile tile = CURRENTBOARD.getTile(i, j);
@@ -160,9 +171,19 @@ public class ViewManager {
         Label winnerText = new Label();
         winnerText.setText("You have won");
         winnerText.setStyle("-fx-font: 70 arial;");
-        HBox root = new HBox();
+        VBox root = new VBox();
         root.setAlignment(Pos.CENTER);
-        root.getChildren().add(winnerText);
+        
+        Button nextLevelButton = new Button("Next Level");
+        nextLevelButton.setFont(new Font("Impact", 45));
+        // nextLevelButton.setTranslateX(110);
+        // nextLevelButton.setTranslateY(400);
+        nextLevelButton.setStyle("-fx-background-color: #ffff00");
+        nextLevelButton.setOnAction((event) -> {
+            App.loadNextLevel();
+            SokobanSounds.stopWinnerSound();
+        });
+        root.getChildren().addAll(winnerText, nextLevelButton);
         Scene newScene = new Scene(root, WIDTH, HEIGHT);
         App.setNewScene(newScene);
     }

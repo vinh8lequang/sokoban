@@ -1,7 +1,7 @@
 package es.upm.pproject.sokoban.model.levelExceptions;
 
-public class invalidLevelCharacterException extends Exception {
-    public invalidLevelCharacterException(String message) {
+public class InvalidLevelCharacterException extends Exception {
+    public InvalidLevelCharacterException(String message) {
         super(message);
     }
 }

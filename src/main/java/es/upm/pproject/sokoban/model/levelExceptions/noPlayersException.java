@@ -1,7 +1,7 @@
 package es.upm.pproject.sokoban.model.levelExceptions;
 
-public class noPlayersException extends Exception {
-    public noPlayersException(String message) {
+public class NoPlayersException extends Exception {
+    public NoPlayersException(String message) {
         super(message);
     }
 }
