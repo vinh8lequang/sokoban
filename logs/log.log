@@ -12,3 +12,5 @@
 2022-06-17 01:33:06 ERROR Level:120 - saves\Fri Jun 17 01:33:06 CEST 2022.vinh (El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correctos)
 2022-06-17 01:33:06 ERROR LevelLoader:116 - src\main\resources\Levels\aaa.txt (El sistema no puede encontrar el archivo especificado)
 2022-06-17 01:33:40 ERROR LevelLoader:116 - src/main/resources/Levels/aaa.txt (No such file or directory)
+2022-06-17 01:38:12 ERROR LevelLoader:116 - src/main/resources/Levels/aaa.txt (No such file or directory)
+2022-06-17 01:50:35 ERROR LevelLoader:116 - src/main/resources/Levels/aaa.txt (No such file or directory)

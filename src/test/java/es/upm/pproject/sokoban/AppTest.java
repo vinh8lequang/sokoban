@@ -241,6 +241,7 @@ public class AppTest {
             boolean saved = false;
             try {
                 Level level = new Level("src/main/resources/Levels/level1.txt",false);
+                level.saveLevel();
                 String name = "saves/" + level.saveLevel() + ".vinh";
                 File file = new File(name);
                 if (file.exists()) {
@@ -251,6 +252,19 @@ public class AppTest {
                 e.printStackTrace();
             }
             assertTrue(saved);
+        }
+
+        @Test
+        @DisplayName("Restart level")
+        void testLevel8() {
+            boolean restart = false;
+            try {
+                Level level = new Level("src/main/resources/Levels/level1.txt",false);
+                level.restartLevel();
+            } catch (InvalidLevelException | java.lang.NullPointerException e) {
+                restart = !false;
+            }
+            assertTrue(restart);
         }
     }
 
