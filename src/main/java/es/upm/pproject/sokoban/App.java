@@ -8,7 +8,7 @@ import java.util.Date;
 import es.upm.pproject.sokoban.controller.MovementExecutor;
 import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
-import es.upm.pproject.sokoban.model.levelExceptions.invalidLevelException;
+import es.upm.pproject.sokoban.model.levelExceptions.InvalidLevelException;
 import es.upm.pproject.sokoban.view.SokobanScene;
 import es.upm.pproject.sokoban.view.ViewManager;
 import javafx.application.Application;
@@ -57,7 +57,7 @@ public class App extends Application {
             ViewManager.loadImages();
             MovementExecutor.initStacks();
             currentStage.setScene(ViewManager.loadLevelState(level));
-        } catch (invalidLevelException e) {
+        } catch (InvalidLevelException e) {
             e.printStackTrace();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
@@ -71,7 +71,7 @@ public class App extends Application {
             ViewManager.setGUIBoardSize(board);
             ViewManager.loadImages();
             currentStage.setScene(ViewManager.loadLevelState(level));
-        } catch (invalidLevelException e) {
+        } catch (InvalidLevelException e) {
             e.printStackTrace();
         } catch (FileNotFoundException e) {
             e.printStackTrace();

@@ -1,10 +1,7 @@
 package es.upm.pproject.sokoban.view;
 
-<<<<<<< HEAD
 import es.upm.pproject.sokoban.controller.MovementExecutor;
-=======
 import es.upm.pproject.sokoban.App;
->>>>>>> 3331f77013774e669c11403232fdb8ed0cd58d86
 import es.upm.pproject.sokoban.model.gamelevel.Level;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
