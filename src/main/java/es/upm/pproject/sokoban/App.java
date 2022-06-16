@@ -29,10 +29,10 @@ public class App extends Application {
             currentStage = stage;
             stage.getIcons().add(new Image(new FileInputStream("src/main/resources/sokovinhi.png")));
             stage.setTitle("SokoVinh");
-            Level level = new Level("src/main/resources/Levels/level1.txt");
-            Board board = level.getBoard();
-            ViewManager.setGUIBoardSize(board);
-            ViewManager.loadImages();
+            //Level level = new Level("src/main/resources/Levels/level1.txt");
+            //Board board = level.getBoard();
+            //ViewManager.setGUIBoardSize(board);
+            //ViewManager.loadImages();
             stage.setScene(ViewManager.getStartingScene());
             stage.show();
             Media sound = new Media(new File("src/main/resources/audio/gameMusic.mp3").toURI().toString());

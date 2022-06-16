@@ -31,7 +31,7 @@ public class ViewManager {
      * @return Scene
      */
     public static Scene getStartingScene() {
-        Image back = new Image("file:resources/maintitle.png");
+        Image back = new Image("file:src/main/resources/maintitle.png");
         ImageView background = new ImageView();
         Group root = new Group();
         Scene scene = new Scene(root);
