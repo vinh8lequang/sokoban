@@ -43,6 +43,7 @@ public class AppTest {
                 board = LevelLoader.loadBoard("src/main/resources/Levels/level1.txt");
             } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                     | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
+                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
             finally{
@@ -139,6 +140,7 @@ public class AppTest {
                 level1 = new Level("src/main/resources/Levels/level1.txt",false);
                 level2 = new Level(level1);
             } catch (InvalidLevelException e) {
+                // TODO Auto-generated catch block
                 e.printStackTrace();
             } finally{
                 assertEquals(correctBoard, level2.getBoard().toString()); 
@@ -155,6 +157,7 @@ public class AppTest {
                 level2 = new Level("src/main/resources/Levels/level2.txt",false);
                 level2.setBoard(level1.getBoard());
             } catch (InvalidLevelException e) {
+                // TODO Auto-generated catch block
                 e.printStackTrace();
             } finally{
                 assertEquals(correctBoard, level2.getBoard().toString()); 
@@ -169,6 +172,7 @@ public class AppTest {
                 level = new Level("src/main/resources/Levels/level1.txt",false);
                 level.setMoves(5);
             } catch (InvalidLevelException e) {
+                // TODO Auto-generated catch block
                 e.printStackTrace();
             } finally{
                 assertSame(5, level.getMoves()); 
@@ -185,6 +189,7 @@ public class AppTest {
                 level.addOneMove();
                 level.subtractOneMove();
             } catch (InvalidLevelException e) {
+                // TODO Auto-generated catch block
                 e.printStackTrace();
             } finally{
                 assertSame(1, level.getMoves()); 
@@ -192,9 +197,16 @@ public class AppTest {
         }
 
         @Test
-        @DisplayName("Copy level")
+        @DisplayName("Bad level")
         void testLevel6() {
-            assertThrows(InvalidLevelException.class, () -> new Level("src/main/resources/Levels/badlevel1.txt",true), "Should throw InvalidLevelException");
+            boolean exception = false;
+            try {
+                Level level = new Level("src/main/resources/Levels/badlevel1.txt",true);
+            } catch (InvalidLevelException e) {
+                exception = true;
+                assertTrue(exception);
+            }
+            // assertThrows(InvalidLevelException.class, () -> new Level("src/main/resources/Levels/badlevel1.txt"), "Should throw InvalidLevelException");
         }
     }
 
@@ -211,6 +223,7 @@ public class AppTest {
                 tile = board.getTile(1, 1);
             } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                     | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
+                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
             finally{
@@ -228,6 +241,7 @@ public class AppTest {
                 isSymmetric = board.isSymmetric();
             } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                     | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
+                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
             finally{
@@ -245,6 +259,7 @@ public class AppTest {
                 board.exchangeTiles(4, 2, 3, 2); //exchange player with ground
             } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                     | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
+                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
             finally{

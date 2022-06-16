@@ -28,13 +28,16 @@ public class Level {
             this.board = LevelLoader.loadBoard(levelPath);
         } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                 | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
-            if (!debug) ViewManager.showIncorrectLevelDialog(e.getMessage());
+            if (!debug) {
+                ViewManager.showIncorrectLevelDialog(e.getMessage());
+            }
             throw new InvalidLevelException(e.getMessage());
         } finally {
-            this.moves = board.getMoves();
-            this.movesString.set(moves.toString());
+            if (board != null) {
+                this.moves = board.getMoves();
+                this.movesString.set(moves.toString());
+            }
         }
-
     }
 
     public Level(Level another) {
