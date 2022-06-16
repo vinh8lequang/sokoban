@@ -91,5 +91,13 @@ public class AppTest {
             assertEquals(TileType.WALL, tile.getTileType());
         }
 
+        @Test
+        @DisplayName("Set tile type")
+        void testTile2() {
+            Tile tile = new Tile(TileType.WALL);
+            tile.setTileType(TileType.BOX);
+            assertEquals(TileType.BOX, tile.getTileType());
+        }
+
     }
 }
