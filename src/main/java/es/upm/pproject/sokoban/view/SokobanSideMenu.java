@@ -1,11 +1,17 @@
 package es.upm.pproject.sokoban.view;
 
 import es.upm.pproject.sokoban.controller.MovementExecutor;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
 import es.upm.pproject.sokoban.App;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Font;
@@ -21,13 +27,22 @@ public class SokobanSideMenu extends VBox {
         super(5);
         this.level = level;
         this.setFocusTraversable(false);
-        this.getChildren().addAll(
+        ImageView star;
+        try {
+            star = new ImageView(new Image(new FileInputStream("src/main/resources/star.png")));
+            this.getChildren().addAll(
                 creeateMovesBox(),
                 createUndoRedoBox(),
                 createRestartButton(),
                 createSaveStateButton(), 
                 createMusicControlBox(), 
-                createMainMenuButton());
+                createMainMenuButton(),
+                star);
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        
     }
 
     public HBox createUndoRedoBox() {
@@ -37,8 +52,8 @@ public class SokobanSideMenu extends VBox {
         undoButton.setFocusTraversable(false);
         undoButton.setFont(new Font("Impact", 30));
         undoButton.setStyle("-fx-background-color: #ffff00");
-        undoButton.setMaxWidth(112);
-        undoButton.setMinWidth(112);
+        undoButton.setMaxWidth(230);
+        undoButton.setMinWidth(230);
         undoButton.setOnAction(e -> {
             MovementExecutor.undo();
         });
@@ -156,5 +171,5 @@ public class SokobanSideMenu extends VBox {
         movesBox.getChildren().addAll(moves, movesVal);
         return movesBox;
     }
-
+    
 }

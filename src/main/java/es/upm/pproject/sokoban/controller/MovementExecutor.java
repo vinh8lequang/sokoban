@@ -33,7 +33,6 @@ public class MovementExecutor {
             redoStateStack.push(lastState);
             Board lastBoard = lastState.getKey();
             CURRENTLEVEL.setBoard(lastBoard);
-            System.out.println(lastBoard.toString());
             TileExchange lastExchange = lastState.getValue();
             Pair<Integer, Integer> t1 = lastExchange.getTileToReplacePosition();
             Pair<Integer, Integer> t2 = lastExchange.getTileToReplaceWithPosition();
@@ -162,6 +161,7 @@ public class MovementExecutor {
             CURRENTBOARD.setGoals(goals - 1);
             SokobanSounds.playCorrectSound();
             if (CURRENTBOARD.getGoals() == 0) {
+                App.globalScore += CURRENTLEVEL.getMoves();
                 ViewManager.showWinnerScene();
             }
             normalMove = false;
