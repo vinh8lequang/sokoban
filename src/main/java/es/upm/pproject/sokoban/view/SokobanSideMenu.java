@@ -16,6 +16,7 @@ public class SokobanSideMenu extends VBox {
     public SokobanSideMenu(Level level) {
         super();
         this.level = level;
+        this.setFocusTraversable(false);
         this.getChildren().addAll(
             creeateMovesBox(),
             createUndoRedoBox(), 
@@ -27,11 +28,14 @@ public class SokobanSideMenu extends VBox {
         HBox undoRedoBox = new HBox();
         // create undo button
         Button undoButton = new Button("Undo");
+        undoButton.setFocusTraversable(false);
         undoButton.setOnAction(e -> {
             level.undo();
         });
         // create redo button
         Button redoButton = new Button("Redo");
+        redoButton.setFocusTraversable(false);
+
         redoButton.setOnAction(e -> {
             level.undo();
         });
@@ -44,6 +48,7 @@ public class SokobanSideMenu extends VBox {
         HBox saveStateBox = new HBox();
         // create save button
         Button saveButton = new Button("Save level state");
+        saveButton.setFocusTraversable(false);
         saveButton.setOnAction(e -> {
             level.saveState();
         });
