@@ -38,7 +38,6 @@ public class LevelLoader {
             return null;
         }
     }
-
     
     /** 
      * @param path
@@ -50,7 +49,7 @@ public class LevelLoader {
         try (Scanner sc = new Scanner(level)) {
             int rows = sc.nextInt();
             int cols = sc.nextInt();
-            String skip = sc.nextLine(); // this is for skipping the first line
+            sc.nextLine(); // this is for skipping the first line
             Board board = new Board(rows, cols);
             for (int i = 0; sc.hasNextLine() && (i < rows); i++) {
                 // StringBuilder debugLine = new StringBuilder();
