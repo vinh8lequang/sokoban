@@ -4,6 +4,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import es.upm.pproject.sokoban.App;
 import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
@@ -32,6 +35,8 @@ public class ViewManager {
 
     static SokobanScene CURRENTSCENE = null;
     static Stage CURRENTSTAGE = null;
+
+    private static Logger logger = LoggerFactory.getLogger(ViewManager.class);
 
     /**
      * @return Scene

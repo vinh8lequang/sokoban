@@ -4,6 +4,9 @@ import java.io.File;
 
 import javafx.scene.media.AudioClip;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class SokobanSounds {
 
     static AudioClip winnerSound;
@@ -11,6 +14,9 @@ public class SokobanSounds {
     static AudioClip correctSound;
     static AudioClip playerMovingSound;
     static AudioClip boxMovingSound;
+
+    private static Logger logger = LoggerFactory.getLogger(SokobanSounds.class);
+
     public static void playWallSound() {
         AudioClip wallSound = new AudioClip(new File("src/main/resources/audio/wall.wav").toURI().toString());
         wallSound.play();

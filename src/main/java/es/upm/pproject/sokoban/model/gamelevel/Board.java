@@ -1,7 +1,7 @@
 package es.upm.pproject.sokoban.model.gamelevel;
 
-// import org.slf4j.Logger;
-// import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import es.upm.pproject.sokoban.model.gamelevel.tiles.Tile;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
@@ -10,7 +10,7 @@ import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
  * Matrix of tiles. The board's coordinates starts from 0 to N-1.
  */
 public class Board {
-    // private static final Logger LOGGER = LoggerFactory.getLogger(Board.class);
+    private static Logger logger = LoggerFactory.getLogger(Board.class);
 
     /**
      * @return the goals

@@ -131,7 +131,7 @@ public class AppTest {
             try {
                 level = new Level("src/main/resources/Levels/level1.txt", false);
             } catch (InvalidLevelException e) {
-                logger.error(e.getMessage());
+                e.printStackTrace();
             } finally {
                 assertEquals(correctBoard, level.getBoard().toString());
             }

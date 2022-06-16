@@ -4,8 +4,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-// import org.slf4j.Logger;
-// import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
 import es.upm.pproject.sokoban.model.levelExceptions.*;
@@ -15,9 +15,8 @@ import es.upm.pproject.sokoban.model.levelExceptions.*;
  */
 public class LevelLoader {
 
-    // create a logger
-    // private static final Logger LOGGER =
-    // LoggerFactory.getLogger(LevelLoader.class);
+    private static Logger logger = LoggerFactory.getLogger(LevelLoader.class);
+
     /**
      * @param type
      * @return TileType

@@ -15,11 +15,16 @@ import es.upm.pproject.sokoban.view.ViewManager;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class Level {
     private Board board;
     private Integer moves;
     public String levelPath;
     StringProperty movesString = new SimpleStringProperty();
+
+    private static Logger logger = LoggerFactory.getLogger(Level.class);
 
     // TODO undo stack
     public Level(String levelPath, boolean debug) throws InvalidLevelException {

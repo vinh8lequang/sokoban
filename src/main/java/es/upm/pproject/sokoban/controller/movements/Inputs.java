@@ -7,7 +7,12 @@ import javafx.scene.Scene;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class Inputs {
+
+    private static Logger logger = LoggerFactory.getLogger(Inputs.class);
 
     /**
      * @param scene

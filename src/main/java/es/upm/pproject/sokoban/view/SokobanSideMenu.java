@@ -19,11 +19,16 @@ import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.scene.text.TextAlignment;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class SokobanSideMenu extends VBox {
 
     private Label moves;
     private Label movesVal;
     private Level level;
+
+    private static Logger logger = LoggerFactory.getLogger(SokobanSideMenu.class);
     // constructor
 
     public SokobanSideMenu(Level level) {
