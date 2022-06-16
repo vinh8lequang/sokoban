@@ -1,7 +1,5 @@
 package es.upm.pproject.sokoban.model.gamelevel.tiles;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * The class that creates a tile. A tile can be of different TileTypes (enum).
@@ -9,8 +7,6 @@ import org.slf4j.LoggerFactory;
 public class Tile {
 
     private TileType type;
-
-    private static Logger logger = LoggerFactory.getLogger(Tile.class);
 
     public Tile(TileType type) {
         this.type = type;

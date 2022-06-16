@@ -1,7 +1,5 @@
 package es.upm.pproject.sokoban.model.gamelevel;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import es.upm.pproject.sokoban.model.gamelevel.tiles.Tile;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
@@ -10,7 +8,6 @@ import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
  * Matrix of tiles. The board's coordinates starts from 0 to N-1.
  */
 public class Board {
-    private static Logger logger = LoggerFactory.getLogger(Board.class);
 
     /**
      * @return the goals
@@ -85,10 +82,6 @@ public class Board {
     public void setTile(int i, int j, TileType type) {
         // Checking if range is valid
         if (i < 0 || j < 0 || i >= rows || j >= cols) {
-            int rowRange = this.rows - 1;
-            int colRange = this.cols - 1;
-            // LOGGER.error("Invalid tile coordinates. Must be in range i: 0- {} j: 0- {}",
-            // colRange, rowRange);
         } else {
             board[i][j] = new Tile(type);
         }

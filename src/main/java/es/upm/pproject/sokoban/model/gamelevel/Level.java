@@ -26,7 +26,6 @@ public class Level {
 
     private static Logger logger = LoggerFactory.getLogger(Level.class);
 
-    // TODO undo stack
     public Level(String levelPath, boolean debug) throws InvalidLevelException {
         this.levelPath=levelPath;
         try {
@@ -109,11 +108,9 @@ public class Level {
         String nombre = date.toString();
 
         File saveFile = new File("saves/" + nombre + ".vinh");
-        BufferedWriter writer;
-        try {
+        try(BufferedWriter writer = new BufferedWriter(new FileWriter(saveFile))) {
             boolean created = saveFile.createNewFile();
             if(created){
-                writer = new BufferedWriter(new FileWriter(saveFile));
                 writer.write(board.getRows() + " " + board.getCols() + "\n");
                 writer.write(board.toString());
                 writer.write( " \n" + getMoves());
@@ -121,8 +118,6 @@ public class Level {
             }
         } catch (IOException e) {
             logger.error(e.getMessage());
-        } finally{
-            writer.close();
         }
         return nombre;
     }

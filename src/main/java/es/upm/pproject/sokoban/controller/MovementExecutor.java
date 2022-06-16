@@ -11,8 +11,6 @@ import es.upm.pproject.sokoban.view.ViewManager;
 import javafx.scene.input.KeyCode;
 import javafx.util.Pair;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class MovementExecutor {
     private static Level CURRENTLEVEL;
@@ -20,8 +18,6 @@ public class MovementExecutor {
 
     private static Stack<Pair<Board, TileExchange>> undoStateStack;
     private static Stack<Pair<Board, TileExchange>> redoStateStack;
-
-    private static Logger logger = LoggerFactory.getLogger(MovementExecutor.class);
 
     /**
      * @param direction

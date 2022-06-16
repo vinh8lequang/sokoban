@@ -2,19 +2,12 @@ package es.upm.pproject.sokoban.view;
 
 import es.upm.pproject.sokoban.controller.movements.Inputs;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.property.StringProperty;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.scene.paint.Color;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class SokobanScene extends Scene {
 
@@ -22,12 +15,10 @@ public class SokobanScene extends Scene {
     private GridPane boardGrid;
     private HBox mainHBox;
     private ImageView[][] imageGrid;
-    private Level level;
 
     public SokobanScene(double width, double height, int boardSize, Level level) {
         super(new HBox(5), width, height);
         this.mainHBox = (HBox) this.getRoot();
-        this.level = level;
         imageGrid = new ImageView[boardSize][boardSize];
         Inputs.setInputHandler(this);
         VBox gridContainer = new VBox(); 
