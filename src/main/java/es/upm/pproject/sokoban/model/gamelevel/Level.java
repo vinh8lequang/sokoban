@@ -22,13 +22,13 @@ public class Level {
     StringProperty movesString = new SimpleStringProperty();
 
     // TODO undo stack
-    public Level(String levelPath) throws InvalidLevelException {
+    public Level(String levelPath, boolean debug) throws InvalidLevelException {
         this.levelPath=levelPath;
         try {
             this.board = LevelLoader.loadBoard(levelPath);
         } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                 | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
-            ViewManager.showIncorrectLevelDialog(e.getMessage());
+            if (!debug) ViewManager.showIncorrectLevelDialog(e.getMessage());
             throw new InvalidLevelException(e.getMessage());
         } finally {
             this.moves = board.getMoves();
@@ -94,7 +94,7 @@ public class Level {
         this.movesString.set("YOU HAVE WON");
     }
 
-    public void saveLevel() {
+    public String saveLevel() {
         File saveDir = new File("saves");
         saveDir.mkdir();
         Date date = new Date();
@@ -111,6 +111,7 @@ public class Level {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return nombre;
     }
     public void restartLevel(){
         try {
