@@ -14,34 +14,22 @@ import javafx.scene.layout.VBox;
 
 public class SokobanScene extends Scene {
 
-    private ImageView[][] imageGrid;
+    
     private GridPane boardGrid;
-    private HBox hbox;
-    private Label moves;
-    private Label movesVal;
+    private HBox mainHBox;
+    private ImageView[][] imageGrid;
     private Level level;
 
     public SokobanScene(double width, double height, int boardSize, Level level) {
         super(new HBox(5), width, height);
+        this.mainHBox = (HBox) this.getRoot();
         this.level = level;
+        imageGrid = new ImageView[boardSize][boardSize];
         Inputs.setInputHandler(this);
-        // Crate scene components infrastructure
-        VBox gridContainer = new VBox(); // Contains the graphical representation of the board status
-        this.boardGrid = new GridPane(); // Graphical representation of the board status // code bellow
-        this.imageGrid = new ImageView[boardSize][boardSize];
-        moves = new Label();
-        moves.setStyle("-fx-font: 24 arial;");
-        moves.setText("Moves:\t");
-        movesVal = new Label();
-        movesVal.setStyle("-fx-font: 24 arial;");
-        movesVal.textProperty().bind(level.getStrMoves());
+        VBox gridContainer = new VBox(); 
+        this.boardGrid = new GridPane();
         gridContainer.getChildren().addAll(boardGrid);
-        this.hbox = (HBox) this.getRoot();
-        VBox stats = new VBox();
-        HBox movesBox = new HBox();
-        movesBox.getChildren().addAll(moves, movesVal);
-        stats.getChildren().addAll(movesBox);
-        this.hbox.getChildren().addAll(gridContainer, stats);
+        this.mainHBox.getChildren().addAll(gridContainer, new SokobanSideMenu(level));
     }
 
     /**
@@ -76,13 +64,13 @@ public class SokobanScene extends Scene {
      * @return the hbox
      */
     public HBox getHbox() {
-        return hbox;
+        return mainHBox;
     }
 
     /**
      * @param hbox the hbox to set
      */
     public void setHbox(HBox hbox) {
-        this.hbox = hbox;
+        this.mainHBox = hbox;
     }
 }

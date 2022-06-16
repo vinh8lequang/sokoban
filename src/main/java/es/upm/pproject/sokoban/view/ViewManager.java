@@ -19,6 +19,7 @@ import javafx.scene.input.KeyCode;
 import javafx.scene.layout.HBox;
 import javafx.scene.media.AudioClip;
 import javafx.scene.text.Font;
+import javafx.stage.Stage;
 
 public class ViewManager {
     
@@ -26,6 +27,7 @@ public class ViewManager {
     private static int HEIGHT = 720;
 
     static SokobanScene CURRENTSCENE = null;
+    static Stage CURRENTSTAGE = null;
 
     /**
      * @return Scene
@@ -329,5 +331,9 @@ public class ViewManager {
         } else {
             SokobanSounds.playWallSound();
         }
+    }
+
+    public static void showIncorrectLevelDialog() {
+        
     }
 }
