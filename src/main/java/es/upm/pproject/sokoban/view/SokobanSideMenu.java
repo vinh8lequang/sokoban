@@ -34,7 +34,6 @@ public class SokobanSideMenu extends VBox {
                 creeateMovesBox(),
                 createUndoRedoBox(),
                 createRestartButton(),
-<<<<<<< HEAD
                 createSaveStateButton(), 
                 createMusicControlBox(), 
                 createMainMenuButton(),
@@ -44,11 +43,6 @@ public class SokobanSideMenu extends VBox {
             e.printStackTrace();
         }
         
-=======
-                createSaveStateButton(),
-                createMusicControlBox(),
-                createMainMenuButton());
->>>>>>> cc511a1bd387085172820bba691c13ecc6ec99cc
     }
 
     public HBox createUndoRedoBox() {
