@@ -49,7 +49,7 @@ public class App extends Application {
         }
     }
 
-    public static void loadNextLevel() throws InvalidLevelException{
+    public static void loadNextLevel() throws InvalidLevelException {
         try {
             level = new Level("src/main/resources/Levels/level" + levelnum++ + ".txt");
             Board board = level.getBoard();
@@ -70,7 +70,7 @@ public class App extends Application {
             ViewManager.loadImages();
             MovementExecutor.initStacks();
             currentStage.setScene(ViewManager.loadLevelState(level));
-      
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (InvalidLevelException e) {
@@ -79,7 +79,6 @@ public class App extends Application {
         }
     }
 
-  
     public static Scene getScene() {
         return currentStage.getScene();
     }

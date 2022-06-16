@@ -24,7 +24,7 @@ public class Level {
             this.board = LevelLoader.loadBoard(levelPath);
         } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                 | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
-            ViewManager.showIncorrectLevelDialog();
+            ViewManager.showIncorrectLevelDialog(e.getMessage());
             throw new InvalidLevelException(e.getMessage());
         } finally {
             this.moves = 0;
@@ -33,7 +33,7 @@ public class Level {
 
     }
 
-    public Level(Level another){
+    public Level(Level another) {
         this.board = new Board(another.getBoard());
         this.moves = another.getMoves();
         this.movesString = another.getStrMoves();
@@ -94,7 +94,7 @@ public class Level {
         Date date = new Date();
         String nombre = date.toString();
 
-        File saveFile = new File("saves/" + nombre+".vinh");
+        File saveFile = new File("saves/" + nombre + ".vinh");
         try {
             saveFile.createNewFile();
             BufferedWriter writer = new BufferedWriter(new FileWriter(saveFile));
@@ -105,13 +105,15 @@ public class Level {
             e.printStackTrace();
         }
     }
-    //TODO
-    public void loadSavedLevel(){}
+
+    // TODO
+    public void loadSavedLevel() {
+    }
 
     public void saveState() {
     }
 
     public void undo() {
     }
-    
+
 }
