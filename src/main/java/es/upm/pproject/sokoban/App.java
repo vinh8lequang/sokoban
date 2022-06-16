@@ -57,8 +57,6 @@ public class App extends Application {
             ViewManager.loadImages();
             MovementExecutor.initStacks();
             currentStage.setScene(ViewManager.loadLevelState(level));
-        } catch (InvalidLevelException e) {
-            e.printStackTrace();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -71,11 +69,14 @@ public class App extends Application {
             ViewManager.setGUIBoardSize(board);
             ViewManager.loadImages();
             currentStage.setScene(ViewManager.loadLevelState(level));
-        } catch (InvalidLevelException e) {
-            e.printStackTrace();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
+    }
+
+  
+    public static Scene getScene() {
+        return currentStage.getScene();
     }
 
     // getter for the board
