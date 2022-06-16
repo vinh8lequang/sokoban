@@ -10,8 +10,12 @@ public class Level {
     StringProperty movesString = new SimpleStringProperty();
 
     // TODO undo stack
-    public Level(String levelPath) throws invalidLevelException {
-        this.board = LevelLoader.loadBoard(levelPath);
+    public Level(String levelPath) {
+        try {
+            this.board = LevelLoader.loadBoard(levelPath);
+        } catch (invalidLevelException e) {
+            e.printStackTrace();
+        }
         this.moves = 0;
         this.movesString.set(moves.toString());
     }

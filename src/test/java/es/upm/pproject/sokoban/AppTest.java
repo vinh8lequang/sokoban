@@ -27,8 +27,14 @@ public class AppTest {
                     "+   +  +\n" +
                     "+   ++++\n" +
                     "+++++   \n";
-            Board board = LevelLoader.loadBoard("src/main/resources/Levels/level1.txt");
-            assertEquals(correctBoard, board.toString());
+            Board board;
+            try {
+                board = LevelLoader.loadBoard("src/main/resources/Levels/level1.txt");
+                assertEquals(correctBoard, board.toString());
+            } catch (invalidLevelException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
         }
     }
 }

@@ -11,15 +11,20 @@ import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.HBox;
 import javafx.scene.media.AudioClip;
+import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
 public class ViewManager {
+    
+    private static int WIDTH = 960;
+    private static int HEIGHT = 720;
 
     static SokobanScene CURRENTSCENE = null;
     static Stage CURRENTSTAGE = null;
@@ -28,7 +33,7 @@ public class ViewManager {
      * @return Scene
      */
     public static Scene getStartingScene() {
-        Image back = new Image("file:src/main/resources/titleImage.png");
+        Image back = new Image("file:src/main/resources/maintitle.png");
         ImageView background = new ImageView();
         Group root = new Group();
         Scene scene = new Scene(root);
@@ -37,7 +42,18 @@ public class ViewManager {
         background.setPreserveRatio(true);
         background.setSmooth(true);
         background.setCache(true);
-        root.getChildren().add(background);
+
+        Button playButton = new Button("Play Game");
+        playButton.setFont(new Font("Impact", 45));
+        playButton.setTranslateX(110);
+        playButton.setTranslateY(400);
+        playButton.setStyle("-fx-background-color: #ffff00");
+        //TODO Cambiar al nivel 
+        playButton.setOnAction((event) -> {
+            System.out.println("Button clicked");
+          });
+
+        root.getChildren().addAll(background,playButton);
         return scene;
     }
 
@@ -54,8 +70,6 @@ public class ViewManager {
     private static Board CURRENTBOARD;
     private static boolean GOALTILE; // this variable is true when the player is in a goaltile
     private static Level CURRENTLEVEL;
-    private static int WIDTH = 960;
-    private static int HEIGHT = 720;
 
     /**
      * @param board

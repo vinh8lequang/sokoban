@@ -8,8 +8,7 @@ import java.util.Scanner;
 // import org.slf4j.LoggerFactory;
 
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
-import es.upm.pproject.sokoban.model.levelExceptions.invalidLevelCharacterException;
-import es.upm.pproject.sokoban.model.levelExceptions.invalidLevelException;
+import es.upm.pproject.sokoban.model.levelExceptions.*;
 
 /**
  * This class is in charge of reading a level file and loading into memory
@@ -38,7 +37,6 @@ public class LevelLoader {
             return null;
         }
     }
-
     
     /** 
      * @param path
@@ -46,11 +44,14 @@ public class LevelLoader {
      * @throws invalidLevelException
      */
     public static Board loadBoard(String path) throws invalidLevelException {
+        int nPlayers = 0; //number of players
+        int nBoxes = 0; //number of boxes
+        int nGoals = 0; //number of goals
         File level = new File(path);
         try (Scanner sc = new Scanner(level)) {
             int rows = sc.nextInt();
             int cols = sc.nextInt();
-            String skip = sc.nextLine(); // this is for skipping the first line
+            sc.nextLine(); // this is for skipping the first line
             Board board = new Board(rows, cols);
             for (int i = 0; sc.hasNextLine() && (i < rows); i++) {
                 // StringBuilder debugLine = new StringBuilder();
@@ -62,12 +63,18 @@ public class LevelLoader {
                     // Throws exception if it's an invalid character
                     if (type == null) {
                         throw new invalidLevelCharacterException("Invalid character: " + line.charAt(j));
-                    }
-                    if (type == TileType.GOAL) {
+                    } else if (type == TileType.GOAL) {
                         board.setGoals(board.getGoals()+1);
-                    }
-                    if (type == TileType.PLAYER)
+                        nGoals++;
+                    } else if (type == TileType.PLAYER) {
                         board.setPlayerPosition(i, j);
+                        nPlayers++;
+                        if (nPlayers > 1) { // Check if there is more than one player
+                            throw new multiplePlayersException("There is more than one player in the level");
+                        }
+                    } else if (type == TileType.BOX) {
+                        nBoxes++;
+                    }
                     board.setTile(i, j, type);
                 }
                 // Filling in the empty tiles on the right
@@ -76,9 +83,27 @@ public class LevelLoader {
                 }
                 // System.out.println(debugLine);
             }
+            // Check if there is not a player
+            if (nPlayers == 0) {
+                throw new noPlayersException("There is no player in the level");
+            }
+            // Check if there are no boxes
+            if (nBoxes == 0) {
+                throw new noBoxesException("There are no boxes in the level");
+            }
+            //Check if there are no goals
+            if (nGoals == 0) {
+                throw new noGoalsException("There are no goals in the level");
+            }
+            // Check if number of boxes = goals
+            if (nBoxes != nGoals) {
+                throw new inequalNumberOfBoxesGoals("There are " + nBoxes + " boxes and " + nGoals + " goals");
+            }
             board.viewBoard();
             return board;
-        } catch (FileNotFoundException | invalidLevelCharacterException e) {
+        } catch (FileNotFoundException | invalidLevelCharacterException |
+                    multiplePlayersException | inequalNumberOfBoxesGoals | 
+                    noBoxesException | noGoalsException | noPlayersException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
             throw new invalidLevelException("Nivel incorrecto");
