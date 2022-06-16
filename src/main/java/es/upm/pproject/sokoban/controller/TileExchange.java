@@ -20,13 +20,16 @@ public class TileExchange {
     }
     
     public boolean isBoxMovement() {
+        logger.info(Boolean.toString(isBoxMovement));
         return isBoxMovement;
     }
     public Pair<Integer, Integer> getTileToReplacePosition() {
+        logger.info(tileToReplacePosition.toString());
         return tileToReplacePosition;
     }
     
     public Pair<Integer, Integer> getTileToReplaceWithPosition() {
+        logger.info(tileToReplaceWithPosition.toString());
         return tileToReplaceWithPosition;
     }
 }
