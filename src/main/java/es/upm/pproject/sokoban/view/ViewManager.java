@@ -61,7 +61,6 @@ public class ViewManager {
             try {
                 App.loadNextLevel();
             } catch (InvalidLevelException e) {
-                // TODO Auto-generated catch block
                 logger.error(e.getMessage());
             }
             App.toggleMusic();
@@ -85,7 +84,6 @@ public class ViewManager {
     private static Image goalImage;
     private static Image groundImage;
     private static Image playerRightImage;
-    private static Image playerLeftImage;
     private static Image wallImage;
     private static Image boxInGoalImage;
 
@@ -125,8 +123,6 @@ public class ViewManager {
                 false);
         playerRightImage = new Image(new FileInputStream("src/main/resources/Tiles/playerright.png"), tileSize,
                 tileSize, true, false);
-        playerLeftImage = new Image(new FileInputStream("src/main/resources/Tiles/playerleft.png"), tileSize, tileSize,
-                true, false);
         wallImage = new Image(new FileInputStream("src/main/resources/Tiles/wall.png"), tileSize, tileSize, true,
                 false);
         boxInGoalImage = new Image(new FileInputStream("src/main/resources/Tiles/boxingoal.png"), tileSize, tileSize,
@@ -197,7 +193,6 @@ public class ViewManager {
             try {
                 App.loadNextLevel();
             } catch (InvalidLevelException e) {
-                // TODO Auto-generated catch block
                 logger.error(e.getMessage());
             }
             SokobanSounds.stopWinnerSound();

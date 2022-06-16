@@ -54,7 +54,6 @@ public class LevelLoader {
             int rows = sc.nextInt();
             int cols = sc.nextInt();
             // int moves = sc.nextInt();
-            // TODO load moves when file has moves
             sc.nextLine(); // this is for skipping the first line
             Board board = new Board(rows, cols);
             for (int i = 0; sc.hasNextLine() && (i < rows); i++) {
@@ -114,7 +113,6 @@ public class LevelLoader {
             // board.viewBoard();
             return board;
         } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
             logger.error(e.getMessage());
             throw e;
         }
