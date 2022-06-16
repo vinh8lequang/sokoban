@@ -17,10 +17,12 @@ import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.HBox;
 import javafx.scene.media.AudioClip;
+import javafx.stage.Stage;
 
 public class ViewManager {
 
     static SokobanScene CURRENTSCENE = null;
+    static Stage CURRENTSTAGE = null;
 
     /**
      * @return Scene

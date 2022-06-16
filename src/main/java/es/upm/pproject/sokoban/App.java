@@ -19,7 +19,7 @@ import javafx.stage.Stage;
 public class App extends Application {
 
     static Stage currentStage;
-
+    static Level level;
     /**
      * @param stage
      */
@@ -29,19 +29,24 @@ public class App extends Application {
             currentStage = stage;
             stage.getIcons().add(new Image(new FileInputStream("src/main/resources/sokovinhi.png")));
             stage.setTitle("SokoVinh");
-            Level level = new Level("src/main/resources/Levels/level1.txt");
+            level = new Level("src/main/resources/Levels/level1.txt");
             Board board = level.getBoard();
             ViewManager.setGUIBoardSize(board);
             ViewManager.loadImages();
             stage.setScene(ViewManager.loadLevelState(level));
             stage.show();
-            Media sound = new Media(new File("src/main/resources/audio/gameMusic.mp3").toURI().toString());
-            MediaPlayer mediaPlayer = new MediaPlayer(sound);
-            mediaPlayer.play();
+            // Media sound = new Media(new File("src/main/resources/audio/gameMusic.mp3").toURI().toString());
+            // MediaPlayer mediaPlayer = new MediaPlayer(sound);
+            // mediaPlayer.play();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
+    // getter for the board
+    public static Level getCurrentLevel() {
+        return level;
+    }
+
 
     /**
      * @param newScene

@@ -1,5 +1,6 @@
 package es.upm.pproject.sokoban.model.gamelevel;
 
+import es.upm.pproject.sokoban.model.levelExceptions.invalidLevelException;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
@@ -9,7 +10,7 @@ public class Level {
     StringProperty movesString = new SimpleStringProperty();
 
     // TODO undo stack
-    public Level(String levelPath) {
+    public Level(String levelPath) throws invalidLevelException {
         this.board = LevelLoader.loadBoard(levelPath);
         this.moves = 0;
         this.movesString.set(moves.toString());
@@ -62,5 +63,11 @@ public class Level {
 
     public void setStrMoves() {
         this.movesString.set("YOU HAVE WON");
+    }
+
+    public void saveState() {
+    }
+
+    public void undo() {
     }
 }
