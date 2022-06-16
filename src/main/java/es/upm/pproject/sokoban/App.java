@@ -68,6 +68,7 @@ public class App extends Application {
             Board board = level.getBoard();
             ViewManager.setGUIBoardSize(board);
             ViewManager.loadImages();
+            MovementExecutor.initStacks();
             currentStage.setScene(ViewManager.loadLevelState(level));
 
         } catch (FileNotFoundException e) {

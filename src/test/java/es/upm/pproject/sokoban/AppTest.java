@@ -80,10 +80,6 @@ public class AppTest {
             assertThrows(InequalNumberOfBoxesGoals.class, () -> LevelLoader.loadBoard("src/main/resources/Levels/badlevel5.txt"), "Should throw InequalNumberOfBoxesGoals");
         }
     }
-
-    // @Nested
-    // @DisplayName("Board tests")
-    // class BoardTests {
         
     @Nested
     @DisplayName("Tile tests")
@@ -186,4 +182,8 @@ public class AppTest {
             }  
         }
     }
+
+    // @Nested
+    // @DisplayName("Board tests")
+    // class BoardTests {}
 }
