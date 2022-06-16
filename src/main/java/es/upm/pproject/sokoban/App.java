@@ -43,7 +43,6 @@ public class App extends Application {
             mediaPlayer = new MediaPlayer(
                     new Media(new File("src/main/resources/audio/gameMusic.mp3").toURI().toString()));
             musicState = false;
-            toggleMusic();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -53,6 +52,20 @@ public class App extends Application {
 
         try {
             level = new Level("src/main/resources/Levels/level" + levelnum++ + ".txt");
+            Board board = level.getBoard();
+            ViewManager.setGUIBoardSize(board);
+            ViewManager.loadImages();
+            currentStage.setScene(ViewManager.loadLevelState(level));
+        } catch (invalidLevelException e) {
+            e.printStackTrace();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void loadLevel(String file) {
+        try {
+            level = new Level(file);
             Board board = level.getBoard();
             ViewManager.setGUIBoardSize(board);
             ViewManager.loadImages();
