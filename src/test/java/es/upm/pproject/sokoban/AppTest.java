@@ -80,7 +80,7 @@ public class AppTest {
 
     @Nested
     @DisplayName("Board tests")
-    class BoardTests {
+    class BoardTests {}
         
     @DisplayName("Tile tests")
     class TileTests {
