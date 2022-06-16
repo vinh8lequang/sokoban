@@ -87,7 +87,6 @@ public class Level {
         this.movesString.set("YOU HAVE WON");
     }
 
-<<<<<<< HEAD
     public void saveLevel(){
         Date date = new Date();
         String nombre = date.toString();
@@ -103,14 +102,12 @@ public class Level {
         }
     }
     //TODO
-    public void loadSavedLevel(){
+    public void loadSavedLevel(){}
 
-=======
     public void saveState() {
     }
 
     public void undo() {
->>>>>>> 9aeaeae221e6f18076744d0310fde5d6acc1ddc2
     }
     
 }

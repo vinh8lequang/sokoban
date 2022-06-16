@@ -45,7 +45,7 @@ public class SokobanSideMenu extends VBox {
         // create save button
         Button saveButton = new Button("Save level state");
         saveButton.setOnAction(e -> {
-            level.saveState();
+            level.saveLevel();
         });
         // add them to the box
         saveStateBox.getChildren().addAll(saveButton);
