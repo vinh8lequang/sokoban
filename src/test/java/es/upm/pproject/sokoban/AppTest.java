@@ -17,16 +17,15 @@ public class AppTest {
         @Test
         @DisplayName("Correct board")
         void testCorrectBoard() {
-            String correctBoard = 
-            "++++    \n" + 
-            "+  +    \n" + 
-            "+  +++++\n" + 
-            "+      +\n" + 
-            "++W*+# +\n" + 
-            "+   +  +\n" + 
-            "+   ++++\n" + 
-            "+++++   \n";
-            Board board = LevelLoader.loadBoard("resources/Levels/level1.txt");
+            String correctBoard = "++++    \n" +
+                    "+  +    \n" +
+                    "+  +++++\n" +
+                    "+      +\n" +
+                    "++W*+# +\n" +
+                    "+   +  +\n" +
+                    "+   ++++\n" +
+                    "+++++   \n";
+            Board board = LevelLoader.loadBoard("src/main/resources/Levels/level1.txt");
             assertEquals(correctBoard, board.toString());
         }
     }

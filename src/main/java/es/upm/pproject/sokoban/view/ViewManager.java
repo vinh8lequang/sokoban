@@ -26,7 +26,7 @@ public class ViewManager {
      * @return Scene
      */
     public static Scene getStartingScene() {
-        Image back = new Image("file:resources/titleImage.png");
+        Image back = new Image("file:src/main/resources/titleImage.png");
         ImageView background = new ImageView();
         Group root = new Group();
         Scene scene = new Scene(root);
@@ -79,13 +79,19 @@ public class ViewManager {
      */
     public static void loadImages() throws FileNotFoundException {
         tileSize = 720 / boardSize;
-        boxImage = new Image(new FileInputStream("resources/Tiles/box.png"), tileSize, tileSize, true, false);
-        goalImage = new Image(new FileInputStream("resources/Tiles/goal.png"), tileSize, tileSize, true, false);
-        groundImage = new Image(new FileInputStream("resources/Tiles/ground.png"), tileSize, tileSize, true, false);
-        playerRightImage = new Image(new FileInputStream("resources/Tiles/playerright.png"), tileSize, tileSize, true, false);
-        playerLeftImage = new Image(new FileInputStream("resources/Tiles/playerleft.png"), tileSize, tileSize, true, false);
-        wallImage = new Image(new FileInputStream("resources/Tiles/wall.png"), tileSize, tileSize, true, false);
-        boxInGoalImage = new Image(new FileInputStream("resources/Tiles/boxingoal.png"), tileSize, tileSize, true, false);
+        boxImage = new Image(new FileInputStream("src/main/resources/Tiles/box.png"), tileSize, tileSize, true, false);
+        goalImage = new Image(new FileInputStream("src/main/resources/Tiles/goal.png"), tileSize, tileSize, true,
+                false);
+        groundImage = new Image(new FileInputStream("src/main/resources/Tiles/ground.png"), tileSize, tileSize, true,
+                false);
+        playerRightImage = new Image(new FileInputStream("src/main/resources/Tiles/playerright.png"), tileSize,
+                tileSize, true, false);
+        playerLeftImage = new Image(new FileInputStream("src/main/resources/Tiles/playerleft.png"), tileSize, tileSize,
+                true, false);
+        wallImage = new Image(new FileInputStream("src/main/resources/Tiles/wall.png"), tileSize, tileSize, true,
+                false);
+        boxInGoalImage = new Image(new FileInputStream("src/main/resources/Tiles/boxingoal.png"), tileSize, tileSize,
+                true, false);
     }
 
     /**
@@ -95,7 +101,8 @@ public class ViewManager {
      */
     public static Scene loadLevelState(Level level) throws FileNotFoundException {
 
-        SokobanScene scene = new SokobanScene(WIDTH, HEIGHT, boardSize, level); // This is the object to be returned, must be
+        SokobanScene scene = new SokobanScene(WIDTH, HEIGHT, boardSize, level); // This is the object to be returned,
+                                                                                // must be
         CURRENTSCENE = scene;
         CURRENTBOARD = level.getBoard();
         CURRENTLEVEL = level;
@@ -106,21 +113,21 @@ public class ViewManager {
                 Tile tile = CURRENTBOARD.getTile(i, j);
                 if (tile != null) {
                     switch (tile.getTileType()) {
-                    case BOX:
-                        imageGrid[i][j] = new ImageView(boxImage);
-                        break;
-                    case GOAL:
-                        imageGrid[i][j] = new ImageView(goalImage);
-                        break;
-                    case PLAYER:
-                        imageGrid[i][j] = new ImageView(playerRightImage);
-                        break;
-                    case WALL:
-                        imageGrid[i][j] = new ImageView(wallImage);
-                        break;
-                    default:
-                        imageGrid[i][j] = new ImageView(groundImage);
-                        break;
+                        case BOX:
+                            imageGrid[i][j] = new ImageView(boxImage);
+                            break;
+                        case GOAL:
+                            imageGrid[i][j] = new ImageView(goalImage);
+                            break;
+                        case PLAYER:
+                            imageGrid[i][j] = new ImageView(playerRightImage);
+                            break;
+                        case WALL:
+                            imageGrid[i][j] = new ImageView(wallImage);
+                            break;
+                        default:
+                            imageGrid[i][j] = new ImageView(groundImage);
+                            break;
                     }
                     scene.getBoardGrid().add(imageGrid[i][j], j, i);
                 } else {
@@ -151,16 +158,16 @@ public class ViewManager {
      */
     private static int directionToJCol(KeyCode direction, int j) {
         switch (direction) {
-        case LEFT:
-            j--;
-            break;
+            case LEFT:
+                j--;
+                break;
 
-        case RIGHT:
-            j++;
-            break;
-        default:
-            // LOGGER.error("Unknown input with no appropiate handle");
-            break;
+            case RIGHT:
+                j++;
+                break;
+            default:
+                // LOGGER.error("Unknown input with no appropiate handle");
+                break;
         }
         return j;
     }
@@ -172,15 +179,15 @@ public class ViewManager {
      */
     private static int directionToIRow(KeyCode direction, int i) {
         switch (direction) {
-        case UP:
-            i--;
-            break;
-        case DOWN:
-            i++;
-            break;
-        default:
-            // LOGGER.error("Unknown input with no appropiate handle");
-            break;
+            case UP:
+                i--;
+                break;
+            case DOWN:
+                i++;
+                break;
+            default:
+                // LOGGER.error("Unknown input with no appropiate handle");
+                break;
         }
         return i;
     }
@@ -208,7 +215,8 @@ public class ViewManager {
             normalMove = false;
         }
         if (toMoveTo.equals(TileType.GOAL) && origin.equals(TileType.BOX)) {
-            // update the goaltile type so we know next move we only update the next tile to player
+            // update the goaltile type so we know next move we only update the next tile to
+            // player
             // We change the goaltile to the player but the old player one stays the same
             CURRENTBOARD.setTile(i2, j2, TileType.BOXINGOAL);
             CURRENTBOARD.setTile(i1, j1, TileType.GROUND);
@@ -222,7 +230,8 @@ public class ViewManager {
         }
         // 1. player wants to move to a goal tile
         if (toMoveTo.equals(TileType.GOAL) && origin.equals(TileType.PLAYER)) {
-            // update the goaltile type so we know next move we only update the next tile to player
+            // update the goaltile type so we know next move we only update the next tile to
+            // player
             // We change the goaltile to the player but the old player one stays the same
             CURRENTBOARD.setTile(i2, j2, TileType.PLAYERINGOAL);
             CURRENTBOARD.setTile(i1, j1, TileType.GROUND);
@@ -234,7 +243,8 @@ public class ViewManager {
         }
         TileType one = CURRENTBOARD.getTile(i1, j1).getTileType();
         TileType two = CURRENTBOARD.getTile(i2, j2).getTileType();
-        // we also have to update the player position, tiles can be exchanged and neither have to be a player necessarily
+        // we also have to update the player position, tiles can be exchanged and
+        // neither have to be a player necessarily
         if (two.equals(TileType.PLAYER) || two.equals(TileType.PLAYERINGOAL)) {
             CURRENTBOARD.setPlayerPosition(i2, j2);
         }
@@ -297,7 +307,8 @@ public class ViewManager {
             }
         }
         if (CURRENTBOARD.getTile(tileToReplaceIRow, tileToReplaceJCol).getTileType().isReplaceable()) {
-            exchangeTilesAndImageGrid(CURRENTBOARD.getPlayerPositionI(), CURRENTBOARD.getPlayerPositionJ(), tileToReplaceIRow,
+            exchangeTilesAndImageGrid(CURRENTBOARD.getPlayerPositionI(), CURRENTBOARD.getPlayerPositionJ(),
+                    tileToReplaceIRow,
                     tileToReplaceJCol);
             CURRENTLEVEL.addOneMove();
             SokobanSounds.playPlayerMovingSound();
