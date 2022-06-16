@@ -32,6 +32,7 @@ public class Board {
     private int playerPositionI;
     private int playerPositionJ;
     private int goals;
+    private Integer moves;
 
     public Board(int rows, int cols) {
         this.rows = rows;
@@ -40,14 +41,15 @@ public class Board {
         playerPositionI = -1;
         playerPositionJ = -1;
         this.goals = 0;
-
+        this.moves = 0;
     }
-    public Board(Board another){
+
+    public Board(Board another) {
         this.cols = another.getCols();
         this.rows = another.getRows();
         this.board = new Tile[rows][cols];
-        for(int i = 0; i<this.rows;i++){
-            for(int j =0; j<this.cols;j++){
+        for (int i = 0; i < this.rows; i++) {
+            for (int j = 0; j < this.cols; j++) {
                 this.board[i][j] = new Tile(another.getTile(i, j));
             }
         }
@@ -57,7 +59,8 @@ public class Board {
     }
 
     /**
-     * Gets the tile of i and j coordinates. Both coordinates must be in board range.
+     * Gets the tile of i and j coordinates. Both coordinates must be in board
+     * range.
      * 
      * @param i
      * @param j
@@ -97,19 +100,19 @@ public class Board {
      */
     private char tileToChar(Tile tile) {
         switch (tile.getTileType()) {
-        case WALL:
-            return '+';
-        case GROUND:
-            return ' ';
-        case GOAL:
-            this.goals++;
-            return '*';
-        case BOX:
-            return '#';
-        case PLAYER:
-            return 'W';
-        default:
-            return 'i';
+            case WALL:
+                return '+';
+            case GROUND:
+                return ' ';
+            case GOAL:
+                
+                return '*';
+            case BOX:
+                return '#';
+            case PLAYER:
+                return 'W';
+            default:
+                return 'i';
         }
     }
 
@@ -207,6 +210,14 @@ public class Board {
         Tile tmp = this.board[i1][j1];
         this.board[i1][j1] = this.board[i2][j2];
         this.board[i2][j2] = tmp;
+    }
+
+    public void setMoves(Integer score) {
+        this.moves = score;
+    }
+
+    public Integer getMoves() {
+        return this.moves;
     }
 
 }

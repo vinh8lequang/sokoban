@@ -31,7 +31,7 @@ public class Level {
             if (!debug) ViewManager.showIncorrectLevelDialog(e.getMessage());
             throw new InvalidLevelException(e.getMessage());
         } finally {
-            this.moves = 0;
+            this.moves = board.getMoves();
             this.movesString.set(moves.toString());
         }
 
@@ -94,7 +94,7 @@ public class Level {
         this.movesString.set("YOU HAVE WON");
     }
 
-    public void saveLevel() {
+    public String saveLevel() {
         File saveDir = new File("saves");
         saveDir.mkdir();
         Date date = new Date();
@@ -104,12 +104,14 @@ public class Level {
         try {
             saveFile.createNewFile();
             BufferedWriter writer = new BufferedWriter(new FileWriter(saveFile));
-            writer.write(board.getRows() + " " + board.getCols() + " " + getMoves() + "\n");
+            writer.write(board.getRows() + " " + board.getCols() + "\n");
             writer.write(board.toString());
+            writer.write( " \n" + getMoves());
             writer.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return nombre;
     }
     public void restartLevel(){
         try {

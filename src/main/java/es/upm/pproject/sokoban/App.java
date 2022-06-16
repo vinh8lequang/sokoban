@@ -30,12 +30,14 @@ public class App extends Application {
     static int levelnum = 1;
     static MediaPlayer mediaPlayer;
     static boolean musicState;
+    public int globalScore =0;
 
     /**
      * @param stage
      */
     @Override
     public void start(Stage stage) {
+        stage.setResizable(false);
         try {
             currentStage = stage;
             stage.getIcons().add(new Image(new FileInputStream("src/main/resources/sokovinhi.png")));
@@ -104,6 +106,13 @@ public class App extends Application {
     public static void setNewScene(Scene newScene) {
         currentStage.setScene(newScene);
         currentStage.show();
+    }
+    public static void toggleMusicOff() {
+        mediaPlayer.stop();
+    }
+    public static void toggleMusicOn() {
+        if (musicState)
+        mediaPlayer.play();
     }
 
     public static boolean toggleMusic() {

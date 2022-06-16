@@ -25,8 +25,8 @@ public class SokobanSideMenu extends VBox {
                 creeateMovesBox(),
                 createUndoRedoBox(),
                 createRestartButton(),
-                createSaveStateButton(), 
-                createMusicControlBox(), 
+                createSaveStateButton(),
+                createMusicControlBox(),
                 createMainMenuButton());
     }
 
@@ -53,26 +53,29 @@ public class SokobanSideMenu extends VBox {
             MovementExecutor.redo();
         });
         // add them to the box
-        undoRedoBox.getChildren().addAll(undoButton, redoButton);
+        undoRedoBox.getChildren().addAll(undoButton);
         return undoRedoBox;
     }
 
     public HBox createMainMenuButton() {
         HBox mainMenuBox = new HBox();
-        Button menuButton = new Button("Go to main menu");
+        Button menuButton = new Button("Main menu");
         menuButton.setFocusTraversable(false);
+        menuButton.setFont(new Font("Impact", 30));
+        menuButton.setStyle("-fx-background-color: #ffff00");
+        menuButton.setMaxWidth(230);
+        menuButton.setMinWidth(230);
         menuButton.setOnAction(e -> {
-            App.toggleMusic();
+            App.toggleMusicOff();
             ViewManager.askForSavingLevelDialog();
         });
         mainMenuBox.getChildren().add(menuButton);
         return mainMenuBox;
     }
 
-
-    public HBox createRestartButton(){
+    public HBox createRestartButton() {
         HBox restartBox = new HBox();
-        //create a restart button
+        // create a restart button
         Button restartButton = new Button("Restart");
         restartButton.setFocusTraversable(false);
         restartButton.setFont(new Font("Impact", 30));
@@ -90,14 +93,14 @@ public class SokobanSideMenu extends VBox {
     public HBox createSaveStateButton() {
         HBox saveStateBox = new HBox();
         // create save button
-        Button saveButton = new Button("Save level state");
+        Button saveButton = new Button("Save level");
         saveButton.setFocusTraversable(false);
         saveButton.setFont(new Font("Impact", 30));
         saveButton.setStyle("-fx-background-color: #ffff00");
         saveButton.setMaxWidth(230);
         saveButton.setMinWidth(230);
         saveButton.setOnAction(e -> {
-            level.saveLevel();
+            ViewManager.createSavedLevelDialog(level.saveLevel());
         });
         // add them to the box
         saveStateBox.getChildren().addAll(saveButton);
@@ -126,7 +129,7 @@ public class SokobanSideMenu extends VBox {
         Slider volumeSlider = new Slider(BASELINE_OFFSET_SAME_AS_HEIGHT, USE_COMPUTED_SIZE,
                 BASELINE_OFFSET_SAME_AS_HEIGHT);
         volumeSlider.setFocusTraversable(false);
-        musicButton.setText("Turn off music");
+        musicButton.setText("Stop music");
         volumeSlider.setMax(1.0);
         volumeSlider.setMin(0.0);
         volumeSlider.setValue(1.0);
