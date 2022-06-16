@@ -3,13 +3,15 @@ package es.upm.pproject.sokoban;
 import org.junit.jupiter.api.Test;
 import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.LevelLoader;
+import es.upm.pproject.sokoban.model.gamelevel.Level;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.Tile;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
 import es.upm.pproject.sokoban.model.levelExceptions.*;
-import junit.extensions.ExceptionTestCase;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertSame;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.io.FileNotFoundException;
 
@@ -20,20 +22,21 @@ import org.junit.jupiter.api.Nested;
  * Unit test for simple App.
  */
 public class AppTest {
+    private String correctBoard = "++++    \n" +
+    "+  +    \n" +
+    "+  +++++\n" +
+    "+      +\n" +
+    "++W*+# +\n" +
+    "+   +  +\n" +
+    "+   ++++\n" +
+    "+++++   \n";
+
     @Nested
     @DisplayName("Board level loading tests")
     class BoardLevelLoadingTests {
         @Test
         @DisplayName("Correct board")
         void testCorrectBoard() throws InvalidLevelException {
-            String correctBoard = "++++    \n" +
-                    "+  +    \n" +
-                    "+  +++++\n" +
-                    "+      +\n" +
-                    "++W*+# +\n" +
-                    "+   +  +\n" +
-                    "+   ++++\n" +
-                    "+++++   \n";
             Board board = null;
             try {
                 board = LevelLoader.loadBoard("src/main/resources/Levels/level1.txt");
@@ -78,10 +81,11 @@ public class AppTest {
         }
     }
 
-    @Nested
-    @DisplayName("Board tests")
-    class BoardTests {
+    // @Nested
+    // @DisplayName("Board tests")
+    // class BoardTests {
         
+    @Nested
     @DisplayName("Tile tests")
     class TileTests {
         @Test
@@ -99,5 +103,87 @@ public class AppTest {
             assertEquals(TileType.BOX, tile.getTileType());
         }
 
+    }
+
+    @Nested
+    @DisplayName("Level tests")
+    class LevelTests {
+        @Test
+        @DisplayName("Incorrect level")
+        void testLevel1() {
+            Level level = null;
+            try {
+                level = new Level("src/main/resources/Levels/level1.txt");
+            } catch (InvalidLevelException e) {
+                e.printStackTrace();
+            } finally{
+                assertEquals(correctBoard, level.getBoard().toString()); 
+            }  
+        }
+
+        @Test
+        @DisplayName("Copy level")
+        void testLevel2() {
+            Level level1 = null;
+            Level level2 = null;
+            try {
+                level1 = new Level("src/main/resources/Levels/level1.txt");
+                level2 = new Level(level1);
+            } catch (InvalidLevelException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            } finally{
+                assertEquals(correctBoard, level2.getBoard().toString()); 
+            }  
+        }
+
+        @Test
+        @DisplayName("Set board")
+        void testLevel3() {
+            Level level1 = null;
+            Level level2 = null;
+            try {
+                level1 = new Level("src/main/resources/Levels/level1.txt");
+                level2 = new Level("src/main/resources/Levels/level2.txt");
+                level2.setBoard(level1.getBoard());
+            } catch (InvalidLevelException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            } finally{
+                assertEquals(correctBoard, level2.getBoard().toString()); 
+            }  
+        }
+
+        @Test
+        @DisplayName("Set moves")
+        void testLevel4() {
+            Level level = null;
+            try {
+                level = new Level("src/main/resources/Levels/level1.txt");
+                level.setMoves(5);
+            } catch (InvalidLevelException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            } finally{
+                assertSame(5, level.getMoves()); 
+            }  
+        }
+
+        @Test
+        @DisplayName("Add/Subtract one move")
+        void testLevel5() {
+            Level level = null;
+            try {
+                level = new Level("src/main/resources/Levels/level1.txt");
+                level.addOneMove();
+                level.addOneMove();
+                level.subtractOneMove();
+            } catch (InvalidLevelException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            } finally{
+                assertSame(1, level.getMoves()); 
+            }  
+        }
     }
 }
