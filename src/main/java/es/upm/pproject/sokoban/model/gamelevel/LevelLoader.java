@@ -41,9 +41,11 @@ public class LevelLoader {
     /** 
      * @param path
      * @return Board
-     * @throws invalidLevelException
+     * @throws Exception
      */
-    public static Board loadBoard(String path) throws invalidLevelException {
+    public static Board loadBoard(String path) throws FileNotFoundException, invalidLevelCharacterException ,
+                    multiplePlayersException , inequalNumberOfBoxesGoals ,
+                    noBoxesException , noGoalsException , noPlayersException {
         int nPlayers = 0; //number of players
         int nBoxes = 0; //number of boxes
         int nGoals = 0; //number of goals
@@ -101,12 +103,10 @@ public class LevelLoader {
             }
             board.viewBoard();
             return board;
-        } catch (FileNotFoundException | invalidLevelCharacterException |
-                    multiplePlayersException | inequalNumberOfBoxesGoals | 
-                    noBoxesException | noGoalsException | noPlayersException e) {
+        } catch (FileNotFoundException  e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
-            throw new invalidLevelException("Nivel incorrecto");
+            throw e;
         }
     }
 }

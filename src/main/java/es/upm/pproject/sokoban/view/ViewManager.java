@@ -332,4 +332,8 @@ public class ViewManager {
             SokobanSounds.playWallSound();
         }
     }
+
+    public static void showIncorrectLevelDialog() {
+        
+    }
 }
