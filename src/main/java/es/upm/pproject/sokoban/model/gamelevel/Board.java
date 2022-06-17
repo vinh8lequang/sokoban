@@ -101,12 +101,15 @@ public class Board {
             case GROUND:
                 return ' ';
             case GOAL:
-
                 return '*';
             case BOX:
                 return '#';
             case PLAYER:
                 return 'W';
+            case PLAYERINGOAL:
+                return 'M';
+            case BOXINGOAL:
+                return 'O';
             default:
                 return 'i';
         }
