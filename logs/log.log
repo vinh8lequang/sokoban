@@ -11045,6 +11045,24 @@
 +   ++++
 +++++   
 
+<<<<<<< HEAD
+2022-06-17 02:19:04 INFO  Level:152 - 0
+2022-06-17 02:19:04 INFO  Level:154 - StringProperty [value: 0]
+2022-06-17 02:19:09 INFO  Board:42 - 8
+2022-06-17 02:19:09 INFO  Board:44 - 8
+2022-06-17 02:19:09 INFO  Board:42 - 8
+2022-06-17 02:19:09 INFO  Board:44 - 8
+2022-06-17 02:19:09 INFO  Board:42 - 8
+2022-06-17 02:19:09 INFO  Board:44 - 8
+2022-06-17 02:19:09 INFO  Board:42 - 8
+2022-06-17 02:19:09 INFO  Board:44 - 8
+2022-06-17 02:19:09 INFO  Board:42 - 8
+2022-06-17 02:19:09 INFO  Board:44 - 8
+2022-06-17 02:19:09 ERROR LevelLoader:116 - src/main/resources/Levels/aaa.txt (No such file or directory)
+2022-06-17 02:19:09 INFO  Board:42 - 8
+2022-06-17 02:19:09 INFO  Board:44 - 8
+2022-06-17 02:19:09 INFO  Board:29 - 1
+=======
 2022-06-17 09:12:15 INFO  Board:205 - Exchaning tile: (3 5) of type with (BOX 3) of type
 2022-06-17 09:12:15 INFO  Board:49 - Duplicating board++++    
 +  +    
@@ -15207,6 +15225,7 @@
 2022-06-17 09:25:30 INFO  ViewManager:296 - Clicked on no
 2022-06-17 09:25:30 INFO  ViewManager:48 - Getting starting scene
 2022-06-17 09:25:30 INFO  App:118 - Setting new scene
+<<<<<<< HEAD
 2022-06-17 09:51:54 INFO  App:44 - Starting Sokovinhi
 2022-06-17 09:51:54 INFO  ViewManager:48 - Getting starting scene
 2022-06-17 09:58:46 INFO  App:44 - Starting Sokovinhi
@@ -20740,3 +20759,6 @@
 2022-06-17 10:32:51 INFO  SokobanSideMenu:39 - Creating Sokoban Side Menu...
 2022-06-17 10:32:51 INFO  ViewManager:180 - Level state loaded
 2022-06-17 10:32:51 INFO  ViewManager:202 - Loading next level
+=======
+>>>>>>> 2d5c1dfa8457cafe1c750a4daafe08686fff0f2b
+>>>>>>> dd7c5add01042865655844fb51ff3aa008b22d16
