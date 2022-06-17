@@ -108,5 +108,5 @@ We followed the popular MVC design pattern for this project. The directory struc
 - Nicolas Cossio Miravalles
 - Vinh LeQuan
 - Sebastian Revilla
-- Alvaro Mendez
+- Alvaro Gonzalez Mendez
   
