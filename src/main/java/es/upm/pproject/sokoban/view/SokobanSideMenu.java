@@ -202,7 +202,7 @@ public class SokobanSideMenu extends VBox {
     public Text createCredits() {
         Font fuente = new Font("Helvetica", 12);
         Text text = new Text("-----------------------------------------------\nSokovinh by:" +
-                "\nNicolas Cossio Miravalles\nAlvaro G. Mendez\nVinh LeQuang\nSebastian Revilla Rojas");
+                "\nNicolas Cossio Miravalles\nAlvaro G. Mendez\nVinh Le Quang\nSebastian Revilla Rojas");
         text.setFont(fuente);
         text.setFill(Color.GREY);
         text.setTextAlignment(TextAlignment.RIGHT);
