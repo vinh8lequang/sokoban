@@ -76,7 +76,11 @@ Example of restart:
 
 #### Save level
 
-Clicking on this button will save this games progress. 
+Clicking on this button will save this games progress. You can then load it in the main menu screen, and you will have your progress saved.
+
+Example:
+<img src="readme-resources/SaveLevel.gif" alt="Select level" width="400"/>
+
 
 #### Stop/Play music and volume slider
 
