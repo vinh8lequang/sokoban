@@ -27,13 +27,17 @@ public class Level {
     private static Logger logger = LoggerFactory.getLogger(Level.class);
 
     public Level(String levelPath, boolean debug) throws InvalidLevelException {
+        logger.info("Creating a level for file " + levelPath);
         this.levelPath=levelPath;
         try {
             this.board = LevelLoader.loadBoard(levelPath);
+            logger.info("Level correctly loaded");
         } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                 | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
+                    logger.error("Error loading level: " + e.getMessage());
             if (!debug) {
                 ViewManager.showIncorrectLevelDialog(e.getMessage());
+                logger.info("Showing incorrect level dialog");
             }
             throw new InvalidLevelException(e.getMessage());
         } finally {
@@ -42,7 +46,7 @@ public class Level {
                 this.movesString.set(moves.toString());
             }
             else{
-                logger.error("Board Is null");
+                logger.error("Board has not been initialized but no exception was thrown");
             }
         }
     }
@@ -123,19 +127,22 @@ public class Level {
         }
         return nombre;
     }
+
     public void restartLevel(){
         try {
+            logger.info("Restarting level...");
             this.board = LevelLoader.loadBoard(levelPath);
         } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                 | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
-            logger.error(e.getMessage());
-        } finally{
+            logger.error("Error restarting level, reason {}", e.getMessage());
+        } finally {
             this.moves = 0;
             this.movesString.set(moves.toString());
         }
         MovementExecutor.initStacks();
         try {
             App.getStage().setScene(ViewManager.loadLevelState(this));
+            logger.info("Restarting level finished, correctly loaded");
         } catch (FileNotFoundException e) {
             logger.error(e.getMessage());
         }

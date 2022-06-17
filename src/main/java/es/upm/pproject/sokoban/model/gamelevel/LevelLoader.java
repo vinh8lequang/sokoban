@@ -46,6 +46,8 @@ public class LevelLoader {
     public static Board loadBoard(String path) throws FileNotFoundException, InvalidLevelCharacterException,
             MultiplePlayersException, InequalNumberOfBoxesGoals,
             NoBoxesException, NoGoalsException, NoPlayersException {
+
+        logger.info("Loading board from file: " + path);
         int nPlayers = 0; // number of players
         int nBoxes = 0; // number of boxes
         int nGoals = 0; // number of goals
@@ -86,6 +88,7 @@ public class LevelLoader {
                 String nextLine = sc.nextLine();
                 Integer score = sc.nextInt();
                 if (score != null) {
+                    logger.info("This board has a moves counter, this will be used for the moves on the level");
                     board.setMoves(score);
                 }
             }
@@ -107,8 +110,6 @@ public class LevelLoader {
             }
             board.setGoals(nGoals);
             return board;
-        } catch (FileNotFoundException e) {
-            throw e;
         }
     }
 }

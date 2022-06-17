@@ -41,6 +41,7 @@ public class App extends Application {
      */
     @Override
     public void start(Stage stage) {
+        logger.info("Starting Sokovinhi"); 
         currentStage = stage;
         stage.setResizable(false);
         try {
@@ -74,6 +75,7 @@ public class App extends Application {
 
     public static void loadNextLevel() throws InvalidLevelException {
         try {
+            logger.info("Loading next level {} ", levelnum);
             level = new Level("src/main/resources/Levels/level" + levelnum++ + ".txt", false);
             Board board = level.getBoard();
             ViewManager.setGUIBoardSize(board);
@@ -88,6 +90,7 @@ public class App extends Application {
 
     public static void loadLevel(String file) {
         try {
+            logger.info("Loading selected level by the user {}", file);
             level = new Level(file, false);
             Board board = level.getBoard();
             ViewManager.setGUIBoardSize(board);
@@ -112,6 +115,7 @@ public class App extends Application {
      * @param newScene
      */
     public static void setNewScene(Scene newScene) {
+        logger.info("Setting new scene");
         currentStage.setScene(newScene);
         currentStage.show();
     }
