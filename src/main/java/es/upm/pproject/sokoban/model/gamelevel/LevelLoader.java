@@ -46,6 +46,8 @@ public class LevelLoader {
     public static Board loadBoard(String path) throws FileNotFoundException, InvalidLevelCharacterException,
             MultiplePlayersException, InequalNumberOfBoxesGoals,
             NoBoxesException, NoGoalsException, NoPlayersException {
+
+        logger.info("Loading board from file: " + path);
         int nPlayers = 0; // number of players
         int nBoxes = 0; // number of boxes
         int nGoals = 0; // number of goals
@@ -53,16 +55,13 @@ public class LevelLoader {
         try (Scanner sc = new Scanner(level)) {
             int rows = sc.nextInt();
             int cols = sc.nextInt();
-            // int moves = sc.nextInt();
             sc.nextLine(); // this is for skipping the first line
             Board board = new Board(rows, cols);
             for (int i = 0; sc.hasNextLine() && (i < rows); i++) {
-                // StringBuilder debugLine = new StringBuilder();
                 String line = sc.nextLine();
                 System.out.println(line);
                 for (int j = 0; j < line.length(); j++) {
                     char c = line.charAt(j); // getting de character
-                    // debugLine.append(c);
                     TileType type = charToTileType(c);
                     // Throws exception if it's an invalid character
                     if (type == null) {
@@ -84,12 +83,12 @@ public class LevelLoader {
                 for (int k = line.length(); k < cols; k++) {
                     board.setTile(i, k, TileType.GROUND);
                 }
-                // System.out.println(debugLine);
             }
             if (sc.hasNextLine()) {
                 String nextLine = sc.nextLine();
                 Integer score = sc.nextInt();
                 if (score != null) {
+                    logger.info("This board has a moves counter, this will be used for the moves on the level");
                     board.setMoves(score);
                 }
             }
@@ -110,11 +109,7 @@ public class LevelLoader {
                 throw new InequalNumberOfBoxesGoals("There are " + nBoxes + " boxes and " + nGoals + " goals");
             }
             board.setGoals(nGoals);
-            // board.viewBoard();
             return board;
-        } catch (FileNotFoundException e) {
-            logger.error(e.getMessage());
-            throw e;
         }
     }
 }
