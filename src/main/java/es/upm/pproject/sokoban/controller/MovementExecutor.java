@@ -33,6 +33,7 @@ public class MovementExecutor {
     }
 
     public static void undo() {
+        logger.info("Clicked Undo");
         if (!undoStateStack.isEmpty()) {
             Pair<Board, TileExchange> lastState = undoStateStack.pop();
             redoStateStack.push(lastState);
@@ -50,12 +51,12 @@ public class MovementExecutor {
                             t2.getValue()).getTileType());
             if (lastExchange.isBoxMovement()) {
                 undo();
+                logger.debug("Box movement, another undo is needed");
             } else {
                 CURRENTLEVEL.subtractOneMove();
             }
-        }
-        else{
-            logger.info("Undo Stack is empty, user cannot undo more");
+        } else {
+            logger.debug("Undo Stack is empty, user cannot undo more");
         }
     }
 
@@ -79,19 +80,20 @@ public class MovementExecutor {
             } else {
                 CURRENTLEVEL.addOneMove();
             }
-        }
-        else{
+        } else {
             logger.info("Redo Stack is empty, user cannot redo more");
         }
     }
 
-
     public static void updateSceneOnInput(KeyCode direction) {
+        logger.info("Recieved input: " + direction.getName());
         CURRENTLEVEL = App.getCurrentLevel();
         CURRENTBOARD = CURRENTLEVEL.getBoard();
         int tileToReplaceI = directionToIRow(direction, CURRENTBOARD.getPlayerPositionI());
         int tileToReplaceJ = directionToJCol(direction, CURRENTBOARD.getPlayerPositionJ());
-        executeMovementIfPossible(direction, tileToReplaceI, tileToReplaceJ);
+        if (executeMovementIfPossible(direction, tileToReplaceI, tileToReplaceJ)) {
+            logger.info(CURRENTBOARD.toString());
+        }
     }
 
     /**
@@ -99,7 +101,9 @@ public class MovementExecutor {
      * @param tileToReplaceIRow
      * @param tileToReplaceJCol
      */
-    private static void executeMovementIfPossible(KeyCode direction, int tileToReplaceIRow, int tileToReplaceJCol) {
+    private static boolean executeMovementIfPossible(KeyCode direction, int tileToReplaceIRow, int tileToReplaceJCol) {
+        logger.info("Executing movement");
+        boolean wasMovementExecuted = false;
         boolean isBoxMovement = false;
         if (CURRENTBOARD.getTile(tileToReplaceIRow, tileToReplaceJCol).getTileType().isMoveable()) {
             // player want to move a box
@@ -116,6 +120,10 @@ public class MovementExecutor {
                 // let's exchange them
                 exchangeTilesAndImageGrid(tileToReplaceIRow, tileToReplaceJCol, tileToReplaceINext, tileToReplaceJNext);
                 isBoxMovement = true;
+                wasMovementExecuted = true;
+                logger.info(
+                        "Box movement executed, exchanged tile: ({}, {}) with ({},{})", tileToReplaceIRow,
+                        tileToReplaceJCol, tileToReplaceINext, tileToReplaceJNext);
                 SokobanSounds.playBoxMovingSound();
             }
         }
@@ -130,14 +138,19 @@ public class MovementExecutor {
             exchangeTilesAndImageGrid(currentTileI, currentTileJ,
                     tileToReplaceIRow,
                     tileToReplaceJCol);
+            logger.info(
+                    "Box movement executed, exchanged tile: ({}, {}) with ({},{})", currentTileI, currentTileJ,
+                    tileToReplaceIRow,
+                    tileToReplaceJCol);
             CURRENTLEVEL.addOneMove();
             SokobanSounds.playPlayerMovingSound();
             redoStateStack = new Stack<>();
-        } else
-
-        {
+            wasMovementExecuted = true;
+        } else {
+            logger.info("Tile to replace is not replaceable (Wall)");
             SokobanSounds.playWallSound();
         }
+        return wasMovementExecuted;
     }
 
     /**
@@ -147,18 +160,23 @@ public class MovementExecutor {
      * @param j2
      */
     public static void exchangeTilesAndImageGrid(int i1, int j1, int i2, int j2) {
+        logger.info("Exchanging tiles: ({}, {}) with ({},{})", i1, j1, i2, j2);
         TileType toMoveTo = CURRENTBOARD.getTile(i2, j2).getTileType();
         TileType origin = CURRENTBOARD.getTile(i1, j1).getTileType();
         boolean normalMove = true;
         if (toMoveTo.equals(TileType.GROUND) && origin.equals(TileType.BOXINGOAL)) {
             CURRENTBOARD.setTile(i2, j2, TileType.BOX);
             CURRENTBOARD.setTile(i1, j1, TileType.GOAL);
+            logger.info("Setting tile ({},{}) to BOX", i2, j2);
+            logger.info("Setting tile ({},{}) to GOAL", i1, j1);
             CURRENTBOARD.setGoals(CURRENTBOARD.getGoals() + 1);
             normalMove = false;
         }
         if (toMoveTo.equals(TileType.GROUND) && origin.equals(TileType.PLAYERINGOAL)) {
             CURRENTBOARD.setTile(i2, j2, TileType.PLAYER);
             CURRENTBOARD.setTile(i1, j1, TileType.GOAL);
+            logger.info("Setting tile ({},{}) to PLAYER", i2, j2);
+            logger.info("Setting tile ({},{}) to GOAL", i1, j1);
             normalMove = false;
         }
         if (toMoveTo.equals(TileType.GOAL) && origin.equals(TileType.BOX)) {
@@ -167,11 +185,13 @@ public class MovementExecutor {
             // We change the goaltile to the player but the old player one stays the same
             CURRENTBOARD.setTile(i2, j2, TileType.BOXINGOAL);
             CURRENTBOARD.setTile(i1, j1, TileType.GROUND);
+            logger.info("Setting tile ({},{}) to BOXINGOAL", i2, j2);
+            logger.info("Setting tile ({},{}) to GROUND", i1, j1);
             int goals = CURRENTBOARD.getGoals();
             CURRENTBOARD.setGoals(goals - 1);
             SokobanSounds.playCorrectSound();
             if (CURRENTBOARD.getGoals() == 0) {
-                App.setGlobalScore(App.getGlobalScore()+CURRENTLEVEL.getMoves()); 
+                App.setGlobalScore(App.getGlobalScore() + CURRENTLEVEL.getMoves());
                 ViewManager.showWinnerScene();
             }
             normalMove = false;
@@ -183,11 +203,14 @@ public class MovementExecutor {
             // We change the goaltile to the player but the old player one stays the same
             CURRENTBOARD.setTile(i2, j2, TileType.PLAYERINGOAL);
             CURRENTBOARD.setTile(i1, j1, TileType.GROUND);
+            logger.info("Setting tile ({},{}) to PLAYERINGOAL", i2, j2);
+            logger.info("Setting tile ({},{}) to GROUND", i1, j1);
             normalMove = false;
         }
         // 3. Normal case when we just exchange a player tile with a ground tile
         if (normalMove) {
             CURRENTBOARD.exchangeTiles(i1, j1, i2, j2);
+            logger.info("Exchanged tiles in board: ({}, {}) with ({},{})", i1, j1, i2, j2);
         }
         TileType one = CURRENTBOARD.getTile(i1, j1).getTileType();
         TileType two = CURRENTBOARD.getTile(i2, j2).getTileType();
@@ -208,14 +231,16 @@ public class MovementExecutor {
     private static int directionToJCol(KeyCode direction, int j) {
         switch (direction) {
             case LEFT:
+                logger.info("Direction: LEFT");
                 j--;
                 break;
 
             case RIGHT:
+                logger.info("Direction: RIGHT");
+
                 j++;
                 break;
             default:
-                logger.error("Unknown input with no appropiate handle");
                 break;
         }
         return j;
@@ -229,13 +254,14 @@ public class MovementExecutor {
     private static int directionToIRow(KeyCode direction, int i) {
         switch (direction) {
             case UP:
+                logger.info("Direction: UP");
                 i--;
                 break;
             case DOWN:
+                logger.info("Direction: DOWN");
                 i++;
                 break;
             default:
-                logger.error("Unknown input with no appropiate handle");
                 break;
         }
         return i;

@@ -1,5 +1,7 @@
 package es.upm.pproject.sokoban.model.gamelevel;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import es.upm.pproject.sokoban.model.gamelevel.tiles.Tile;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
@@ -9,6 +11,7 @@ import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
  */
 public class Board {
 
+    private static Logger logger = LoggerFactory.getLogger(Board.class);
 
     /**
      * @return the goals
@@ -98,12 +101,15 @@ public class Board {
             case GROUND:
                 return ' ';
             case GOAL:
-                
                 return '*';
             case BOX:
                 return '#';
             case PLAYER:
                 return 'W';
+            case PLAYERINGOAL:
+                return 'M';
+            case BOXINGOAL:
+                return 'O';
             default:
                 return 'i';
         }
@@ -143,10 +149,9 @@ public class Board {
      * @return boolean
      */
     public boolean isSymmetric() {
-        if (rows == cols){
+        if (rows == cols) {
             return true;
-        }
-        else{
+        } else {
             return false;
         }
     }
@@ -156,6 +161,7 @@ public class Board {
      * @param j
      */
     public void setPlayerPosition(int i, int j) {
+        logger.info("Setting new player position: ({}, {})", i, j);
         setPlayerPositionI(i);
         setPlayerPositionJ(j);
     }
@@ -198,6 +204,8 @@ public class Board {
         Tile tmp = this.tileMatrix[i1][j1];
         this.tileMatrix[i1][j1] = this.tileMatrix[i2][j2];
         this.tileMatrix[i2][j2] = tmp;
+        logger.info("Exchaning tile: ({} {}) of type with ({} {}) of type", i1, j1, tmp.getTileType(), i2, j2,
+                this.tileMatrix[i2][j2].getTileType());
     }
 
     public void setMoves(Integer score) {

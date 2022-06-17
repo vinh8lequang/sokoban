@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
+import javax.swing.text.View;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,7 +14,7 @@ import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.Tile;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
-import es.upm.pproject.sokoban.model.levelexceptions.InvalidLevelException;
+import es.upm.pproject.sokoban.model.levelExceptions.InvalidLevelException;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
@@ -45,6 +47,7 @@ public class ViewManager {
      * @return Scene
      */
     public static Scene getStartingScene() {
+        logger.info("Getting starting scene");
         Image back = new Image("file:src/main/resources/maintitle.png");
         ImageView background = new ImageView();
         Group root = new Group();
@@ -101,10 +104,9 @@ public class ViewManager {
     public static void setGUIBoardSize(Board board) {
         int col = board.getCols();
         int row = board.getRows();
-        if (col >= row){
+        if (col >= row) {
             boardSize = col;
-        }
-        else{
+        } else {
             boardSize = row;
         }
     }
@@ -120,6 +122,7 @@ public class ViewManager {
      * @throws FileNotFoundException
      */
     public static void loadImages() throws FileNotFoundException {
+        logger.info("Loading game images");
         tileSize = 720 / boardSize;
         boxImage = new Image(new FileInputStream("src/main/resources/Tiles/box.png"), tileSize, tileSize, true, false);
         goalImage = new Image(new FileInputStream("src/main/resources/Tiles/goal.png"), tileSize, tileSize, true,
@@ -132,6 +135,7 @@ public class ViewManager {
                 false);
         boxInGoalImage = new Image(new FileInputStream("src/main/resources/Tiles/boxingoal.png"), tileSize, tileSize,
                 true, false);
+        logger.info("Game images loaded");
     }
 
     /**
@@ -140,9 +144,9 @@ public class ViewManager {
      * @throws FileNotFoundException
      */
     public static Scene loadLevelState(Level level) throws FileNotFoundException {
-
+        logger.info("Loading level state");
         SokobanScene scene = new SokobanScene(WIDTH, HEIGHT, boardSize, level);
-        
+
         CURRENTSCENE = scene;
         CURRENTBOARD = level.getBoard();
         CURRENTLEVEL = level;
@@ -158,8 +162,12 @@ public class ViewManager {
                         case GOAL:
                             imageGrid[i][j] = new ImageView(goalImage);
                             break;
+                        case PLAYERINGOAL:
                         case PLAYER:
                             imageGrid[i][j] = new ImageView(playerRightImage);
+                            break;
+                        case BOXINGOAL:
+                            imageGrid[i][j] = new ImageView(boxInGoalImage);
                             break;
                         case WALL:
                             imageGrid[i][j] = new ImageView(wallImage);
@@ -174,17 +182,18 @@ public class ViewManager {
                 }
             }
         }
-
+        logger.info("Level state loaded");
         return scene;
     }
 
     public static void showWinnerScene() {
+        logger.info("Showing winner scene");
         SokobanSounds.playWinnerSound();
         Label winnerText = new Label();
         winnerText.setText("You have won");
         winnerText.setStyle("-fx-font: 70 impact;");
         Label globalScoreText = new Label();
-        globalScoreText.setText("Your global score is: "+ App.getGlobalScore());
+        globalScoreText.setText("Your global score is: " + App.getGlobalScore());
         globalScoreText.setStyle("-fx-font: 25 impact;");
         VBox root = new VBox();
         root.setAlignment(Pos.CENTER);
@@ -195,12 +204,13 @@ public class ViewManager {
         nextLevelButton.setOnAction(event -> {
             try {
                 App.loadNextLevel();
+                logger.info("Loading next level");
             } catch (InvalidLevelException e) {
                 logger.error(e.getMessage());
             }
             SokobanSounds.stopWinnerSound();
         });
-        root.getChildren().addAll(winnerText,globalScoreText, nextLevelButton);
+        root.getChildren().addAll(winnerText, globalScoreText, nextLevelButton);
         Scene newScene = new Scene(root, WIDTH, HEIGHT);
         App.setNewScene(newScene);
     }
@@ -229,6 +239,7 @@ public class ViewManager {
     }
 
     public static void showIncorrectLevelDialog(String message) {
+        logger.info("Showing incorrect level dialog");
         Stage dialog = new Stage();
         dialog.initModality(Modality.APPLICATION_MODAL);
         dialog.initOwner(CURRENTSTAGE);
@@ -243,11 +254,13 @@ public class ViewManager {
     }
 
     public static void exchangeImages(int i1, int j1, int i2, int j2, TileType one, TileType two) {
+        logger.info("Exchanging images between tiles: ({}, {}) and ({}, {})", i1, j1, i2, j2);
         CURRENTSCENE.getImageGrid()[i2][j2].setImage(getImage(two));
         CURRENTSCENE.getImageGrid()[i1][j1].setImage(getImage(one));
     }
 
     public static void askForSavingLevelDialog() {
+        logger.info("Showiung save level dialog");
         Stage dialog = new Stage();
         dialog.initModality(Modality.APPLICATION_MODAL);
         dialog.initOwner(CURRENTSTAGE);
@@ -265,6 +278,7 @@ public class ViewManager {
         yesButton.setOnAction(event -> {
             CURRENTLEVEL.saveLevel();
             dialog.close();
+            logger.info("Clicking yes button");
             App.setNewScene(ViewManager.getStartingScene());
         });
         Button stayButNoSaveButton = new Button("Stay on level but don't save");
@@ -274,27 +288,30 @@ public class ViewManager {
             App.decreaseLevelCounter();
             dialog.close();
             App.setNewScene(ViewManager.getStartingScene());
+            logger.info("Clicking on stay on level but don't save");
         });
 
         Button noButton = new Button("No");
         noButton.setFont(new Font(impactFont, 25));
         noButton.setStyle(yellowStyle);
-        
+
         noButton.setOnAction(event -> {
             App.resetLevelCounter();
             dialog.close();
+            logger.info("Clicked on no");
             App.setNewScene(ViewManager.getStartingScene());
         });
         buttons.getChildren().addAll(yesButton, noButton);
         buttons.setAlignment(Pos.CENTER);
 
-        dialogVbox.getChildren().addAll(dialogText,stayButNoSaveButton,buttons);
+        dialogVbox.getChildren().addAll(dialogText, stayButNoSaveButton, buttons);
         Scene dialogScene = new Scene(dialogVbox, 400, 200);
         dialog.setScene(dialogScene);
         dialog.show();
     }
 
     public static void createSavedLevelDialog(String savedName) {
+        logger.info("Showing correctly saved level dialog");
         VBox dialogVbox = new VBox(5);
         dialogVbox.setAlignment(Pos.CENTER);
         Text dialogText = new Text("Level was correctly saved on saves folder as \n\"" + savedName + '"');
@@ -309,5 +326,32 @@ public class ViewManager {
         dialog.setOnCloseRequest(event -> App.toggleMusicOn());
         dialog.setScene(dialogScene);
         dialog.show();
+    }
+
+    public static void showGameOverScene() {
+        logger.info("Showing Game Over scene");
+        SokobanSounds.playWinnerSound();
+        Label gameOverText = new Label();
+        gameOverText.setText("Game Over!");
+        gameOverText.setStyle("-fx-font: 70 impact;");
+        Label globalScoreText = new Label();
+        globalScoreText.setText("Your global score is: " + App.getGlobalScore());
+        globalScoreText.setStyle("-fx-font: 25 impact;");
+        VBox root = new VBox();
+        root.setAlignment(Pos.CENTER);
+
+        Button mainMenuButton = new Button("Exit to main menu");
+        mainMenuButton.setFont(new Font(impactFont, 45));
+        mainMenuButton.setStyle(yellowStyle);
+        mainMenuButton.setOnAction(event -> {
+            App.resetLevelCounter();
+            App.toggleMusicOff();
+            App.setGlobalScore(0);
+            App.setNewScene(ViewManager.getStartingScene());
+            logger.info("Loading starting scene");
+        });
+        root.getChildren().addAll(gameOverText, globalScoreText, mainMenuButton);
+        Scene newScene = new Scene(root, WIDTH, HEIGHT);
+        App.setNewScene(newScene);
     }
 }

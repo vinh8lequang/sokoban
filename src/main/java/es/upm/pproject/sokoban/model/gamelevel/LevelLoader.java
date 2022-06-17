@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
-import es.upm.pproject.sokoban.model.levelexceptions.*;
+import es.upm.pproject.sokoban.model.levelExceptions.*;
 
 /**
  * This class is in charge of reading a level file and loading into memory
@@ -33,6 +33,10 @@ public class LevelLoader {
                 return TileType.BOX;
             case 'W':
                 return TileType.PLAYER;
+            case 'M':
+                return TileType.PLAYERINGOAL;
+            case 'O':
+                return TileType.BOXINGOAL;
             default:
                 return null;
         }
@@ -46,6 +50,8 @@ public class LevelLoader {
     public static Board loadBoard(String path) throws FileNotFoundException, InvalidLevelCharacterException,
             MultiplePlayersException, InequalNumberOfBoxesGoals,
             NoBoxesException, NoGoalsException, NoPlayersException {
+
+        logger.info("Loading board from file: " + path);
         int nPlayers = 0; // number of players
         int nBoxes = 0; // number of boxes
         int nGoals = 0; // number of goals
@@ -72,8 +78,18 @@ public class LevelLoader {
                         if (nPlayers > 1) { // Check if there is more than one player
                             throw new MultiplePlayersException("There is more than one player in the level");
                         }
+                    } else if (type == TileType.PLAYERINGOAL) {
+                        board.setPlayerPosition(i, j);
+                        nPlayers++;
+                        nGoals++;
+                        if (nPlayers > 1) { // Check if there is more than one player
+                            throw new MultiplePlayersException("There is more than one player in the level");
+                        }
                     } else if (type == TileType.BOX) {
                         nBoxes++;
+                    } else if (type == TileType.BOXINGOAL) {
+                        nBoxes++;
+                        nGoals++;
                     }
                     board.setTile(i, j, type);
                 }
@@ -86,6 +102,7 @@ public class LevelLoader {
                 String nextLine = sc.nextLine();
                 Integer score = sc.nextInt();
                 if (score != null) {
+                    logger.info("This board has a moves counter, this will be used for the moves on the level");
                     board.setMoves(score);
                 }
             }
@@ -107,8 +124,6 @@ public class LevelLoader {
             }
             board.setGoals(nGoals);
             return board;
-        } catch (FileNotFoundException e) {
-            throw e;
         }
     }
 }

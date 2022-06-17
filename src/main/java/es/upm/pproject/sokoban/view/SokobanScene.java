@@ -1,5 +1,8 @@
 package es.upm.pproject.sokoban.view;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import es.upm.pproject.sokoban.controller.movements.Inputs;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
 import javafx.scene.Scene;
@@ -11,6 +14,7 @@ import javafx.scene.layout.VBox;
 
 public class SokobanScene extends Scene {
 
+    private static Logger logger = LoggerFactory.getLogger(SokobanScene.class);
     
     private GridPane boardGrid;
     private HBox mainHBox;
@@ -18,6 +22,7 @@ public class SokobanScene extends Scene {
 
     public SokobanScene(double width, double height, int boardSize, Level level) {
         super(new HBox(5), width, height);
+        logger.info("Creating Sokoban scene...");
         this.mainHBox = (HBox) this.getRoot();
         imageGrid = new ImageView[boardSize][boardSize];
         Inputs.setInputHandler(this);

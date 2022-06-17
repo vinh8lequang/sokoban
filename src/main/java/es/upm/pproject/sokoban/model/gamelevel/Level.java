@@ -10,7 +10,7 @@ import java.io.FileNotFoundException;
 
 import es.upm.pproject.sokoban.App;
 import es.upm.pproject.sokoban.controller.MovementExecutor;
-import es.upm.pproject.sokoban.model.levelexceptions.*;
+import es.upm.pproject.sokoban.model.levelExceptions.*;
 import es.upm.pproject.sokoban.view.ViewManager;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
@@ -27,13 +27,17 @@ public class Level {
     private static Logger logger = LoggerFactory.getLogger(Level.class);
 
     public Level(String levelPath, boolean debug) throws InvalidLevelException {
+        logger.info("Creating a level for file " + levelPath);
         this.levelPath=levelPath;
         try {
             this.board = LevelLoader.loadBoard(levelPath);
+            logger.info("Level correctly loaded");
         } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                 | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
+                    logger.error("Error loading level: " + e.getMessage());
             if (!debug) {
                 ViewManager.showIncorrectLevelDialog(e.getMessage());
+                logger.info("Showing incorrect level dialog");
             }
             throw new InvalidLevelException(e.getMessage());
         } finally {
@@ -42,7 +46,7 @@ public class Level {
                 this.movesString.set(moves.toString());
             }
             else{
-                logger.error("Board Is null");
+                logger.error("Board has not been initialized but no exception was thrown");
             }
         }
     }
@@ -86,11 +90,13 @@ public class Level {
     public void addOneMove() {
         this.moves++;
         this.movesString.set(moves.toString());
+        App.setStrGlobalMoves();
     }
 
     public void subtractOneMove() {
         this.moves--;
         this.movesString.set(moves.toString());
+        App.setStrGlobalMoves();
     }   
 
     /**
@@ -109,11 +115,11 @@ public class Level {
         saveDir.mkdir();
         Date date = new Date();
         String nombre = date.toString();
+        nombre = nombre.replace(":", "");
 
         File saveFile = new File("saves/" + nombre + ".vinh");
         try(BufferedWriter writer = new BufferedWriter(new FileWriter(saveFile))) {
-            boolean created = saveFile.createNewFile();
-            if(created){
+            if(!saveFile.createNewFile()){
                 writer.write(board.getRows() + " " + board.getCols() + "\n");
                 writer.write(board.toString());
                 writer.write( " \n" + getMoves());
@@ -123,19 +129,22 @@ public class Level {
         }
         return nombre;
     }
+
     public void restartLevel(){
         try {
+            logger.info("Restarting level...");
             this.board = LevelLoader.loadBoard(levelPath);
         } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                 | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
-            logger.error(e.getMessage());
-        } finally{
+            logger.error("Error restarting level, reason {}", e.getMessage());
+        } finally {
             this.moves = 0;
             this.movesString.set(moves.toString());
         }
         MovementExecutor.initStacks();
         try {
             App.getStage().setScene(ViewManager.loadLevelState(this));
+            logger.info("Restarting level finished, correctly loaded");
         } catch (FileNotFoundException e) {
             logger.error(e.getMessage());
         }

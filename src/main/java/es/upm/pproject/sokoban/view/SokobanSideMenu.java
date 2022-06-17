@@ -36,21 +36,23 @@ public class SokobanSideMenu extends VBox {
 
     public SokobanSideMenu(Level level) {
         super(5);
+        logger.info("Creating Sokoban Side Menu...");
         this.level = level;
         this.setFocusTraversable(false);
         ImageView star;
         try {
             star = new ImageView(new Image(new FileInputStream("src/main/resources/star.png")));
             this.getChildren().addAll(
-                creeateMovesBox(),
-                createUndoRedoBox(),
-                createRestartButton(),
-                createSaveStateButton(),
-                createMusicControlBox(),
-                createMainMenuButton(),
-                star,
-                createCredits());
-        }catch(FileNotFoundException e){
+                    createGlobalMovesBox(),
+                    createLocalMovesBox(),
+                    createUndoRedoBox(),
+                    createRestartButton(),
+                    createSaveStateButton(),
+                    createMusicControlBox(),
+                    createMainMenuButton(),
+                    star,
+                    createCredits());
+        } catch (FileNotFoundException e) {
             logger.error(e.getMessage());
         }
     }
@@ -93,6 +95,7 @@ public class SokobanSideMenu extends VBox {
         menuButton.setOnAction(e -> {
             App.toggleMusicOff();
             ViewManager.askForSavingLevelDialog();
+            logger.info("Going to main menu...");
         });
         mainMenuBox.getChildren().add(menuButton);
         return mainMenuBox;
@@ -109,6 +112,7 @@ public class SokobanSideMenu extends VBox {
         restartButton.setMinWidth(230);
         restartButton.setOnAction(e -> {
             level.restartLevel();
+            logger.info("Restarting level...");
         });
         // add them to the box
         restartBox.getChildren().addAll(restartButton);
@@ -126,6 +130,7 @@ public class SokobanSideMenu extends VBox {
         saveButton.setMinWidth(230);
         saveButton.setOnAction(e -> {
             ViewManager.createSavedLevelDialog(level.saveLevel());
+            logger.info("Saving level...");
         });
         // add them to the box
         saveStateBox.getChildren().addAll(saveButton);
@@ -145,9 +150,10 @@ public class SokobanSideMenu extends VBox {
         musicButton.setOnAction(e -> {
             if (App.toggleMusic()) {
                 musicButton.setText("Stop music");
+                logger.info("Music stopped...");
             } else {
                 musicButton.setText("Play music");
-
+                logger.info("Music started...");
             }
         });
         // create a javafx slider
@@ -161,6 +167,7 @@ public class SokobanSideMenu extends VBox {
         volumeSlider.setMaxWidth(230);
         volumeSlider.setOnMouseReleased(e -> {
             App.setVolume(volumeSlider.getValue());
+            logger.info("Volume set to " + volumeSlider.getValue());
         });
 
         // add them to the box
@@ -168,7 +175,7 @@ public class SokobanSideMenu extends VBox {
         return musicControlBox;
     }
 
-    public HBox creeateMovesBox() {
+    public HBox createLocalMovesBox() {
         moves = new Label();
         moves.setFont(new Font(impactFont, 30));
         moves.setText("Vinh Moves:\t");
@@ -179,7 +186,20 @@ public class SokobanSideMenu extends VBox {
         movesBox.getChildren().addAll(moves, movesVal);
         return movesBox;
     }
-    public Text createCredits(){
+
+    public HBox createGlobalMovesBox() {
+        moves = new Label();
+        moves.setFont(new Font(impactFont, 30));
+        moves.setText("Total Moves:\t");
+        movesVal = new Label();
+        movesVal.setFont(new Font(impactFont, 30));
+        movesVal.textProperty().bind(App.getStrGlobalScore());
+        HBox movesBox = new HBox();
+        movesBox.getChildren().addAll(moves, movesVal);
+        return movesBox;
+    }
+
+    public Text createCredits() {
         Font fuente = new Font("Helvetica", 12);
         Text text = new Text("-----------------------------------------------\nSokovinh by:" +
                 "\nNicolas Cossio Miravalles\nAlvaro G. Mendez\nVinh LeQuang\nSebastian Revilla Rojas");
@@ -188,5 +208,5 @@ public class SokobanSideMenu extends VBox {
         text.setTextAlignment(TextAlignment.RIGHT);
         return text;
     }
-    
+
 }
