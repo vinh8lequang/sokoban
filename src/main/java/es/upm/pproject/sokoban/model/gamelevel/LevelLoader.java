@@ -33,6 +33,10 @@ public class LevelLoader {
                 return TileType.BOX;
             case 'W':
                 return TileType.PLAYER;
+            case 'M':
+                return TileType.PLAYERINGOAL;
+            case 'O':
+                return TileType.BOXINGOAL;
             default:
                 return null;
         }
@@ -74,8 +78,18 @@ public class LevelLoader {
                         if (nPlayers > 1) { // Check if there is more than one player
                             throw new MultiplePlayersException("There is more than one player in the level");
                         }
+                    } else if (type == TileType.PLAYERINGOAL) {
+                        board.setPlayerPosition(i, j);
+                        nPlayers++;
+                        nGoals++;
+                        if (nPlayers > 1) { // Check if there is more than one player
+                            throw new MultiplePlayersException("There is more than one player in the level");
+                        }
                     } else if (type == TileType.BOX) {
                         nBoxes++;
+                    } else if (type == TileType.BOXINGOAL) {
+                        nBoxes++;
+                        nGoals++;
                     }
                     board.setTile(i, j, type);
                 }

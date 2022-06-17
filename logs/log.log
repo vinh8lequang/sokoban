@@ -22360,3 +22360,2644 @@
 =======
 >>>>>>> dd7c5add01042865655844fb51ff3aa008b22d16
 >>>>>>> d8ca6aa0fca5712913a39a9f466fe4fcc9a3cb88
+2022-06-17 11:54:26 INFO  App:44 - Starting Sokovinhi
+2022-06-17 11:54:26 INFO  ViewManager:48 - Getting starting scene
+2022-06-17 11:54:32 INFO  App:78 - Loading next level 1 
+2022-06-17 11:54:32 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 11:54:32 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 11:54:32 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 11:54:32 INFO  Level:34 - Level correctly loaded
+2022-06-17 11:54:32 INFO  ViewManager:124 - Loading game images
+2022-06-17 11:54:32 INFO  ViewManager:137 - Game images loaded
+2022-06-17 11:54:32 INFO  ViewManager:146 - Loading level state
+2022-06-17 11:54:32 INFO  SokobanScene:25 - Creating Sokoban scene...
+2022-06-17 11:54:32 INFO  SokobanSideMenu:39 - Creating Sokoban Side Menu...
+2022-06-17 11:54:32 INFO  ViewManager:184 - Level state loaded
+2022-06-17 11:54:34 INFO  SokobanSideMenu:155 - Music started...
+2022-06-17 11:54:35 INFO  App:89 - Recieved input: Up
+2022-06-17 11:54:35 INFO  App:257 - Direction: UP
+2022-06-17 11:54:35 INFO  App:105 - Executing movement
+2022-06-17 11:54:35 INFO  App:163 - Exchanging tiles: (4, 2) with (3,2)
+2022-06-17 11:54:35 INFO  Board:207 - Exchaning tile: (4 2) of type with (PLAYER 3) of type
+2022-06-17 11:54:35 INFO  App:213 - Exchanged tiles in board: (4, 2) with (3,2)
+2022-06-17 11:54:35 INFO  Board:164 - Setting new player position: (3, 2)
+2022-06-17 11:54:35 INFO  ViewManager:256 - Exchanging images between tiles: (4, 2) and (3, 2)
+2022-06-17 11:54:35 INFO  App:141 - Box movement executed, exchanged tile: (4, 2) with (3,2)
+2022-06-17 11:54:35 INFO  App:95 - ++++    
++  +    
++  +++++
++ W    +
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:35 INFO  App:89 - Recieved input: Right
+2022-06-17 11:54:35 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:54:35 INFO  App:105 - Executing movement
+2022-06-17 11:54:35 INFO  App:163 - Exchanging tiles: (3, 2) with (3,3)
+2022-06-17 11:54:35 INFO  Board:207 - Exchaning tile: (3 2) of type with (PLAYER 3) of type
+2022-06-17 11:54:35 INFO  App:213 - Exchanged tiles in board: (3, 2) with (3,3)
+2022-06-17 11:54:35 INFO  Board:164 - Setting new player position: (3, 3)
+2022-06-17 11:54:35 INFO  ViewManager:256 - Exchanging images between tiles: (3, 2) and (3, 3)
+2022-06-17 11:54:35 INFO  App:141 - Box movement executed, exchanged tile: (3, 2) with (3,3)
+2022-06-17 11:54:35 INFO  App:95 - ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:35 INFO  App:89 - Recieved input: Right
+2022-06-17 11:54:35 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:54:35 INFO  App:105 - Executing movement
+2022-06-17 11:54:35 INFO  App:163 - Exchanging tiles: (3, 3) with (3,4)
+2022-06-17 11:54:35 INFO  Board:207 - Exchaning tile: (3 3) of type with (PLAYER 3) of type
+2022-06-17 11:54:35 INFO  App:213 - Exchanged tiles in board: (3, 3) with (3,4)
+2022-06-17 11:54:35 INFO  Board:164 - Setting new player position: (3, 4)
+2022-06-17 11:54:36 INFO  ViewManager:256 - Exchanging images between tiles: (3, 3) and (3, 4)
+2022-06-17 11:54:36 INFO  App:141 - Box movement executed, exchanged tile: (3, 3) with (3,4)
+2022-06-17 11:54:36 INFO  App:95 - ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:36 INFO  App:89 - Recieved input: Right
+2022-06-17 11:54:36 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:54:36 INFO  App:105 - Executing movement
+2022-06-17 11:54:36 INFO  App:163 - Exchanging tiles: (3, 4) with (3,5)
+2022-06-17 11:54:36 INFO  Board:207 - Exchaning tile: (3 4) of type with (PLAYER 3) of type
+2022-06-17 11:54:36 INFO  App:213 - Exchanged tiles in board: (3, 4) with (3,5)
+2022-06-17 11:54:36 INFO  Board:164 - Setting new player position: (3, 5)
+2022-06-17 11:54:36 INFO  ViewManager:256 - Exchanging images between tiles: (3, 4) and (3, 5)
+2022-06-17 11:54:36 INFO  App:141 - Box movement executed, exchanged tile: (3, 4) with (3,5)
+2022-06-17 11:54:36 INFO  App:95 - ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:36 INFO  App:89 - Recieved input: Right
+2022-06-17 11:54:36 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:54:36 INFO  App:105 - Executing movement
+2022-06-17 11:54:36 INFO  App:163 - Exchanging tiles: (3, 5) with (3,6)
+2022-06-17 11:54:36 INFO  Board:207 - Exchaning tile: (3 5) of type with (PLAYER 3) of type
+2022-06-17 11:54:36 INFO  App:213 - Exchanged tiles in board: (3, 5) with (3,6)
+2022-06-17 11:54:36 INFO  Board:164 - Setting new player position: (3, 6)
+2022-06-17 11:54:36 INFO  ViewManager:256 - Exchanging images between tiles: (3, 5) and (3, 6)
+2022-06-17 11:54:36 INFO  App:141 - Box movement executed, exchanged tile: (3, 5) with (3,6)
+2022-06-17 11:54:36 INFO  App:95 - ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:36 INFO  App:89 - Recieved input: Down
+2022-06-17 11:54:36 INFO  App:261 - Direction: DOWN
+2022-06-17 11:54:36 INFO  App:105 - Executing movement
+2022-06-17 11:54:36 INFO  App:163 - Exchanging tiles: (3, 6) with (4,6)
+2022-06-17 11:54:36 INFO  Board:207 - Exchaning tile: (3 6) of type with (PLAYER 4) of type
+2022-06-17 11:54:36 INFO  App:213 - Exchanged tiles in board: (3, 6) with (4,6)
+2022-06-17 11:54:36 INFO  Board:164 - Setting new player position: (4, 6)
+2022-06-17 11:54:36 INFO  ViewManager:256 - Exchanging images between tiles: (3, 6) and (4, 6)
+2022-06-17 11:54:36 INFO  App:141 - Box movement executed, exchanged tile: (3, 6) with (4,6)
+2022-06-17 11:54:36 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:36 INFO  App:89 - Recieved input: Down
+2022-06-17 11:54:36 INFO  App:261 - Direction: DOWN
+2022-06-17 11:54:36 INFO  App:105 - Executing movement
+2022-06-17 11:54:36 INFO  App:163 - Exchanging tiles: (4, 6) with (5,6)
+2022-06-17 11:54:36 INFO  Board:207 - Exchaning tile: (4 6) of type with (PLAYER 5) of type
+2022-06-17 11:54:36 INFO  App:213 - Exchanged tiles in board: (4, 6) with (5,6)
+2022-06-17 11:54:36 INFO  Board:164 - Setting new player position: (5, 6)
+2022-06-17 11:54:36 INFO  ViewManager:256 - Exchanging images between tiles: (4, 6) and (5, 6)
+2022-06-17 11:54:36 INFO  App:141 - Box movement executed, exchanged tile: (4, 6) with (5,6)
+2022-06-17 11:54:36 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+
+2022-06-17 11:54:37 INFO  App:89 - Recieved input: Left
+2022-06-17 11:54:37 INFO  App:234 - Direction: LEFT
+2022-06-17 11:54:37 INFO  App:105 - Executing movement
+2022-06-17 11:54:37 INFO  App:163 - Exchanging tiles: (5, 6) with (5,5)
+2022-06-17 11:54:37 INFO  Board:207 - Exchaning tile: (5 6) of type with (PLAYER 5) of type
+2022-06-17 11:54:37 INFO  App:213 - Exchanged tiles in board: (5, 6) with (5,5)
+2022-06-17 11:54:37 INFO  Board:164 - Setting new player position: (5, 5)
+2022-06-17 11:54:37 INFO  ViewManager:256 - Exchanging images between tiles: (5, 6) and (5, 5)
+2022-06-17 11:54:37 INFO  App:141 - Box movement executed, exchanged tile: (5, 6) with (5,5)
+2022-06-17 11:54:37 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+
+2022-06-17 11:54:37 INFO  App:89 - Recieved input: Up
+2022-06-17 11:54:37 INFO  App:257 - Direction: UP
+2022-06-17 11:54:37 INFO  App:105 - Executing movement
+2022-06-17 11:54:37 INFO  App:257 - Direction: UP
+2022-06-17 11:54:37 INFO  App:163 - Exchanging tiles: (4, 5) with (3,5)
+2022-06-17 11:54:37 INFO  Board:207 - Exchaning tile: (4 5) of type with (BOX 3) of type
+2022-06-17 11:54:37 INFO  App:213 - Exchanged tiles in board: (4, 5) with (3,5)
+2022-06-17 11:54:37 INFO  ViewManager:256 - Exchanging images between tiles: (4, 5) and (3, 5)
+2022-06-17 11:54:37 INFO  App:124 - Box movement executed, exchanged tile: (4, 5) with (3,5)
+2022-06-17 11:54:37 INFO  App:163 - Exchanging tiles: (5, 5) with (4,5)
+2022-06-17 11:54:37 INFO  Board:207 - Exchaning tile: (5 5) of type with (PLAYER 4) of type
+2022-06-17 11:54:37 INFO  App:213 - Exchanged tiles in board: (5, 5) with (4,5)
+2022-06-17 11:54:37 INFO  Board:164 - Setting new player position: (4, 5)
+2022-06-17 11:54:37 INFO  ViewManager:256 - Exchanging images between tiles: (5, 5) and (4, 5)
+2022-06-17 11:54:37 INFO  App:141 - Box movement executed, exchanged tile: (5, 5) with (4,5)
+2022-06-17 11:54:37 INFO  App:95 - ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:37 INFO  App:89 - Recieved input: Right
+2022-06-17 11:54:37 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:54:37 INFO  App:105 - Executing movement
+2022-06-17 11:54:37 INFO  App:163 - Exchanging tiles: (4, 5) with (4,6)
+2022-06-17 11:54:37 INFO  Board:207 - Exchaning tile: (4 5) of type with (PLAYER 4) of type
+2022-06-17 11:54:37 INFO  App:213 - Exchanged tiles in board: (4, 5) with (4,6)
+2022-06-17 11:54:37 INFO  Board:164 - Setting new player position: (4, 6)
+2022-06-17 11:54:37 INFO  ViewManager:256 - Exchanging images between tiles: (4, 5) and (4, 6)
+2022-06-17 11:54:37 INFO  App:141 - Box movement executed, exchanged tile: (4, 5) with (4,6)
+2022-06-17 11:54:37 INFO  App:95 - ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:37 INFO  App:89 - Recieved input: Up
+2022-06-17 11:54:37 INFO  App:257 - Direction: UP
+2022-06-17 11:54:37 INFO  App:105 - Executing movement
+2022-06-17 11:54:37 INFO  App:163 - Exchanging tiles: (4, 6) with (3,6)
+2022-06-17 11:54:37 INFO  Board:207 - Exchaning tile: (4 6) of type with (PLAYER 3) of type
+2022-06-17 11:54:37 INFO  App:213 - Exchanged tiles in board: (4, 6) with (3,6)
+2022-06-17 11:54:37 INFO  Board:164 - Setting new player position: (3, 6)
+2022-06-17 11:54:37 INFO  ViewManager:256 - Exchanging images between tiles: (4, 6) and (3, 6)
+2022-06-17 11:54:37 INFO  App:141 - Box movement executed, exchanged tile: (4, 6) with (3,6)
+2022-06-17 11:54:37 INFO  App:95 - ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:38 INFO  App:89 - Recieved input: Left
+2022-06-17 11:54:38 INFO  App:234 - Direction: LEFT
+2022-06-17 11:54:38 INFO  App:105 - Executing movement
+2022-06-17 11:54:38 INFO  App:234 - Direction: LEFT
+2022-06-17 11:54:38 INFO  App:163 - Exchanging tiles: (3, 5) with (3,4)
+2022-06-17 11:54:38 INFO  Board:207 - Exchaning tile: (3 5) of type with (BOX 3) of type
+2022-06-17 11:54:38 INFO  App:213 - Exchanged tiles in board: (3, 5) with (3,4)
+2022-06-17 11:54:38 INFO  ViewManager:256 - Exchanging images between tiles: (3, 5) and (3, 4)
+2022-06-17 11:54:38 INFO  App:124 - Box movement executed, exchanged tile: (3, 5) with (3,4)
+2022-06-17 11:54:38 INFO  App:163 - Exchanging tiles: (3, 6) with (3,5)
+2022-06-17 11:54:38 INFO  Board:207 - Exchaning tile: (3 6) of type with (PLAYER 3) of type
+2022-06-17 11:54:38 INFO  App:213 - Exchanged tiles in board: (3, 6) with (3,5)
+2022-06-17 11:54:38 INFO  Board:164 - Setting new player position: (3, 5)
+2022-06-17 11:54:38 INFO  ViewManager:256 - Exchanging images between tiles: (3, 6) and (3, 5)
+2022-06-17 11:54:38 INFO  App:141 - Box movement executed, exchanged tile: (3, 6) with (3,5)
+2022-06-17 11:54:38 INFO  App:95 - ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:38 INFO  App:89 - Recieved input: Left
+2022-06-17 11:54:38 INFO  App:234 - Direction: LEFT
+2022-06-17 11:54:38 INFO  App:105 - Executing movement
+2022-06-17 11:54:38 INFO  App:234 - Direction: LEFT
+2022-06-17 11:54:38 INFO  App:163 - Exchanging tiles: (3, 4) with (3,3)
+2022-06-17 11:54:38 INFO  Board:207 - Exchaning tile: (3 4) of type with (BOX 3) of type
+2022-06-17 11:54:38 INFO  App:213 - Exchanged tiles in board: (3, 4) with (3,3)
+2022-06-17 11:54:38 INFO  ViewManager:256 - Exchanging images between tiles: (3, 4) and (3, 3)
+2022-06-17 11:54:38 INFO  App:124 - Box movement executed, exchanged tile: (3, 4) with (3,3)
+2022-06-17 11:54:38 INFO  App:163 - Exchanging tiles: (3, 5) with (3,4)
+2022-06-17 11:54:38 INFO  Board:207 - Exchaning tile: (3 5) of type with (PLAYER 3) of type
+2022-06-17 11:54:38 INFO  App:213 - Exchanged tiles in board: (3, 5) with (3,4)
+2022-06-17 11:54:38 INFO  Board:164 - Setting new player position: (3, 4)
+2022-06-17 11:54:38 INFO  ViewManager:256 - Exchanging images between tiles: (3, 5) and (3, 4)
+2022-06-17 11:54:38 INFO  App:141 - Box movement executed, exchanged tile: (3, 5) with (3,4)
+2022-06-17 11:54:38 INFO  App:95 - ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:38 INFO  App:89 - Recieved input: Left
+2022-06-17 11:54:38 INFO  App:234 - Direction: LEFT
+2022-06-17 11:54:38 INFO  App:105 - Executing movement
+2022-06-17 11:54:38 INFO  App:234 - Direction: LEFT
+2022-06-17 11:54:38 INFO  App:163 - Exchanging tiles: (3, 3) with (3,2)
+2022-06-17 11:54:38 INFO  Board:207 - Exchaning tile: (3 3) of type with (BOX 3) of type
+2022-06-17 11:54:38 INFO  App:213 - Exchanged tiles in board: (3, 3) with (3,2)
+2022-06-17 11:54:38 INFO  ViewManager:256 - Exchanging images between tiles: (3, 3) and (3, 2)
+2022-06-17 11:54:38 INFO  App:124 - Box movement executed, exchanged tile: (3, 3) with (3,2)
+2022-06-17 11:54:38 INFO  App:163 - Exchanging tiles: (3, 4) with (3,3)
+2022-06-17 11:54:38 INFO  Board:207 - Exchaning tile: (3 4) of type with (PLAYER 3) of type
+2022-06-17 11:54:38 INFO  App:213 - Exchanged tiles in board: (3, 4) with (3,3)
+2022-06-17 11:54:38 INFO  Board:164 - Setting new player position: (3, 3)
+2022-06-17 11:54:38 INFO  ViewManager:256 - Exchanging images between tiles: (3, 4) and (3, 3)
+2022-06-17 11:54:38 INFO  App:141 - Box movement executed, exchanged tile: (3, 4) with (3,3)
+2022-06-17 11:54:38 INFO  App:95 - ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:38 INFO  App:89 - Recieved input: Down
+2022-06-17 11:54:38 INFO  App:261 - Direction: DOWN
+2022-06-17 11:54:38 INFO  App:105 - Executing movement
+2022-06-17 11:54:38 INFO  App:163 - Exchanging tiles: (3, 3) with (4,3)
+2022-06-17 11:54:38 INFO  App:206 - Setting tile (4,3) to PLAYERINGOAL
+2022-06-17 11:54:38 INFO  App:207 - Setting tile (3,3) to GROUND
+2022-06-17 11:54:38 INFO  Board:164 - Setting new player position: (4, 3)
+2022-06-17 11:54:38 INFO  ViewManager:256 - Exchanging images between tiles: (3, 3) and (4, 3)
+2022-06-17 11:54:38 INFO  App:141 - Box movement executed, exchanged tile: (3, 3) with (4,3)
+2022-06-17 11:54:38 INFO  App:95 - ++++    
++  +    
++  +++++
++ #    +
+++ M+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:39 INFO  App:89 - Recieved input: Left
+2022-06-17 11:54:39 INFO  App:234 - Direction: LEFT
+2022-06-17 11:54:39 INFO  App:105 - Executing movement
+2022-06-17 11:54:39 INFO  App:163 - Exchanging tiles: (4, 3) with (4,2)
+2022-06-17 11:54:39 INFO  App:178 - Setting tile (4,2) to PLAYER
+2022-06-17 11:54:39 INFO  App:179 - Setting tile (4,3) to GOAL
+2022-06-17 11:54:39 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 11:54:39 INFO  ViewManager:256 - Exchanging images between tiles: (4, 3) and (4, 2)
+2022-06-17 11:54:39 INFO  App:141 - Box movement executed, exchanged tile: (4, 3) with (4,2)
+2022-06-17 11:54:39 INFO  App:95 - ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:39 INFO  App:89 - Recieved input: Up
+2022-06-17 11:54:39 INFO  App:257 - Direction: UP
+2022-06-17 11:54:39 INFO  App:105 - Executing movement
+2022-06-17 11:54:39 INFO  App:257 - Direction: UP
+2022-06-17 11:54:39 INFO  App:163 - Exchanging tiles: (3, 2) with (2,2)
+2022-06-17 11:54:39 INFO  Board:207 - Exchaning tile: (3 2) of type with (BOX 2) of type
+2022-06-17 11:54:39 INFO  App:213 - Exchanged tiles in board: (3, 2) with (2,2)
+2022-06-17 11:54:39 INFO  ViewManager:256 - Exchanging images between tiles: (3, 2) and (2, 2)
+2022-06-17 11:54:39 INFO  App:124 - Box movement executed, exchanged tile: (3, 2) with (2,2)
+2022-06-17 11:54:39 INFO  App:163 - Exchanging tiles: (4, 2) with (3,2)
+2022-06-17 11:54:39 INFO  Board:207 - Exchaning tile: (4 2) of type with (PLAYER 3) of type
+2022-06-17 11:54:39 INFO  App:213 - Exchanged tiles in board: (4, 2) with (3,2)
+2022-06-17 11:54:39 INFO  Board:164 - Setting new player position: (3, 2)
+2022-06-17 11:54:39 INFO  ViewManager:256 - Exchanging images between tiles: (4, 2) and (3, 2)
+2022-06-17 11:54:39 INFO  App:141 - Box movement executed, exchanged tile: (4, 2) with (3,2)
+2022-06-17 11:54:39 INFO  App:95 - ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:39 INFO  App:89 - Recieved input: Left
+2022-06-17 11:54:39 INFO  App:234 - Direction: LEFT
+2022-06-17 11:54:39 INFO  App:105 - Executing movement
+2022-06-17 11:54:39 INFO  App:163 - Exchanging tiles: (3, 2) with (3,1)
+2022-06-17 11:54:39 INFO  Board:207 - Exchaning tile: (3 2) of type with (PLAYER 3) of type
+2022-06-17 11:54:39 INFO  App:213 - Exchanged tiles in board: (3, 2) with (3,1)
+2022-06-17 11:54:39 INFO  Board:164 - Setting new player position: (3, 1)
+2022-06-17 11:54:39 INFO  ViewManager:256 - Exchanging images between tiles: (3, 2) and (3, 1)
+2022-06-17 11:54:39 INFO  App:141 - Box movement executed, exchanged tile: (3, 2) with (3,1)
+2022-06-17 11:54:39 INFO  App:95 - ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:39 INFO  App:89 - Recieved input: Up
+2022-06-17 11:54:39 INFO  App:257 - Direction: UP
+2022-06-17 11:54:39 INFO  App:105 - Executing movement
+2022-06-17 11:54:39 INFO  App:163 - Exchanging tiles: (3, 1) with (2,1)
+2022-06-17 11:54:39 INFO  Board:207 - Exchaning tile: (3 1) of type with (PLAYER 2) of type
+2022-06-17 11:54:39 INFO  App:213 - Exchanged tiles in board: (3, 1) with (2,1)
+2022-06-17 11:54:39 INFO  Board:164 - Setting new player position: (2, 1)
+2022-06-17 11:54:39 INFO  ViewManager:256 - Exchanging images between tiles: (3, 1) and (2, 1)
+2022-06-17 11:54:39 INFO  App:141 - Box movement executed, exchanged tile: (3, 1) with (2,1)
+2022-06-17 11:54:39 INFO  App:95 - ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:40 INFO  App:89 - Recieved input: Up
+2022-06-17 11:54:40 INFO  App:257 - Direction: UP
+2022-06-17 11:54:40 INFO  App:105 - Executing movement
+2022-06-17 11:54:40 INFO  App:163 - Exchanging tiles: (2, 1) with (1,1)
+2022-06-17 11:54:40 INFO  Board:207 - Exchaning tile: (2 1) of type with (PLAYER 1) of type
+2022-06-17 11:54:40 INFO  App:213 - Exchanged tiles in board: (2, 1) with (1,1)
+2022-06-17 11:54:40 INFO  Board:164 - Setting new player position: (1, 1)
+2022-06-17 11:54:40 INFO  ViewManager:256 - Exchanging images between tiles: (2, 1) and (1, 1)
+2022-06-17 11:54:40 INFO  App:141 - Box movement executed, exchanged tile: (2, 1) with (1,1)
+2022-06-17 11:54:40 INFO  App:95 - ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:40 INFO  App:89 - Recieved input: Right
+2022-06-17 11:54:40 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:54:40 INFO  App:105 - Executing movement
+2022-06-17 11:54:40 INFO  App:163 - Exchanging tiles: (1, 1) with (1,2)
+2022-06-17 11:54:40 INFO  Board:207 - Exchaning tile: (1 1) of type with (PLAYER 1) of type
+2022-06-17 11:54:40 INFO  App:213 - Exchanged tiles in board: (1, 1) with (1,2)
+2022-06-17 11:54:40 INFO  Board:164 - Setting new player position: (1, 2)
+2022-06-17 11:54:40 INFO  ViewManager:256 - Exchanging images between tiles: (1, 1) and (1, 2)
+2022-06-17 11:54:40 INFO  App:141 - Box movement executed, exchanged tile: (1, 1) with (1,2)
+2022-06-17 11:54:40 INFO  App:95 - ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:40 INFO  App:89 - Recieved input: Down
+2022-06-17 11:54:40 INFO  App:261 - Direction: DOWN
+2022-06-17 11:54:40 INFO  App:105 - Executing movement
+2022-06-17 11:54:40 INFO  App:261 - Direction: DOWN
+2022-06-17 11:54:40 INFO  App:163 - Exchanging tiles: (2, 2) with (3,2)
+2022-06-17 11:54:40 INFO  Board:207 - Exchaning tile: (2 2) of type with (BOX 3) of type
+2022-06-17 11:54:40 INFO  App:213 - Exchanged tiles in board: (2, 2) with (3,2)
+2022-06-17 11:54:40 INFO  ViewManager:256 - Exchanging images between tiles: (2, 2) and (3, 2)
+2022-06-17 11:54:40 INFO  App:124 - Box movement executed, exchanged tile: (2, 2) with (3,2)
+2022-06-17 11:54:40 INFO  App:163 - Exchanging tiles: (1, 2) with (2,2)
+2022-06-17 11:54:40 INFO  Board:207 - Exchaning tile: (1 2) of type with (PLAYER 2) of type
+2022-06-17 11:54:40 INFO  App:213 - Exchanged tiles in board: (1, 2) with (2,2)
+2022-06-17 11:54:40 INFO  Board:164 - Setting new player position: (2, 2)
+2022-06-17 11:54:40 INFO  ViewManager:256 - Exchanging images between tiles: (1, 2) and (2, 2)
+2022-06-17 11:54:40 INFO  App:141 - Box movement executed, exchanged tile: (1, 2) with (2,2)
+2022-06-17 11:54:40 INFO  App:95 - ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:40 INFO  App:89 - Recieved input: Down
+2022-06-17 11:54:40 INFO  App:261 - Direction: DOWN
+2022-06-17 11:54:40 INFO  App:105 - Executing movement
+2022-06-17 11:54:40 INFO  App:261 - Direction: DOWN
+2022-06-17 11:54:40 INFO  App:163 - Exchanging tiles: (3, 2) with (4,2)
+2022-06-17 11:54:40 INFO  Board:207 - Exchaning tile: (3 2) of type with (BOX 4) of type
+2022-06-17 11:54:40 INFO  App:213 - Exchanged tiles in board: (3, 2) with (4,2)
+2022-06-17 11:54:40 INFO  ViewManager:256 - Exchanging images between tiles: (3, 2) and (4, 2)
+2022-06-17 11:54:40 INFO  App:124 - Box movement executed, exchanged tile: (3, 2) with (4,2)
+2022-06-17 11:54:40 INFO  App:163 - Exchanging tiles: (2, 2) with (3,2)
+2022-06-17 11:54:40 INFO  Board:207 - Exchaning tile: (2 2) of type with (PLAYER 3) of type
+2022-06-17 11:54:40 INFO  App:213 - Exchanged tiles in board: (2, 2) with (3,2)
+2022-06-17 11:54:40 INFO  Board:164 - Setting new player position: (3, 2)
+2022-06-17 11:54:40 INFO  ViewManager:256 - Exchanging images between tiles: (2, 2) and (3, 2)
+2022-06-17 11:54:40 INFO  App:141 - Box movement executed, exchanged tile: (2, 2) with (3,2)
+2022-06-17 11:54:40 INFO  App:95 - ++++    
++  +    
++  +++++
++ W    +
+++#*+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:54:41 INFO  App:89 - Recieved input: Down
+2022-06-17 11:54:41 INFO  App:261 - Direction: DOWN
+2022-06-17 11:54:41 INFO  App:105 - Executing movement
+2022-06-17 11:54:41 INFO  App:261 - Direction: DOWN
+2022-06-17 11:54:41 INFO  App:163 - Exchanging tiles: (4, 2) with (5,2)
+2022-06-17 11:54:41 INFO  Board:207 - Exchaning tile: (4 2) of type with (BOX 5) of type
+2022-06-17 11:54:41 INFO  App:213 - Exchanged tiles in board: (4, 2) with (5,2)
+2022-06-17 11:54:41 INFO  ViewManager:256 - Exchanging images between tiles: (4, 2) and (5, 2)
+2022-06-17 11:54:41 INFO  App:124 - Box movement executed, exchanged tile: (4, 2) with (5,2)
+2022-06-17 11:54:41 INFO  App:163 - Exchanging tiles: (3, 2) with (4,2)
+2022-06-17 11:54:41 INFO  Board:207 - Exchaning tile: (3 2) of type with (PLAYER 4) of type
+2022-06-17 11:54:41 INFO  App:213 - Exchanged tiles in board: (3, 2) with (4,2)
+2022-06-17 11:54:41 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 11:54:41 INFO  ViewManager:256 - Exchanging images between tiles: (3, 2) and (4, 2)
+2022-06-17 11:54:41 INFO  App:141 - Box movement executed, exchanged tile: (3, 2) with (4,2)
+2022-06-17 11:54:41 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++W*+  +
++ # +  +
++   ++++
++++++   
+
+2022-06-17 11:54:41 INFO  App:89 - Recieved input: Right
+2022-06-17 11:54:41 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:54:41 INFO  App:105 - Executing movement
+2022-06-17 11:54:41 INFO  App:163 - Exchanging tiles: (4, 2) with (4,3)
+2022-06-17 11:54:41 INFO  App:206 - Setting tile (4,3) to PLAYERINGOAL
+2022-06-17 11:54:41 INFO  App:207 - Setting tile (4,2) to GROUND
+2022-06-17 11:54:41 INFO  Board:164 - Setting new player position: (4, 3)
+2022-06-17 11:54:41 INFO  ViewManager:256 - Exchanging images between tiles: (4, 2) and (4, 3)
+2022-06-17 11:54:41 INFO  App:141 - Box movement executed, exchanged tile: (4, 2) with (4,3)
+2022-06-17 11:54:41 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ M+  +
++ # +  +
++   ++++
++++++   
+
+2022-06-17 11:54:41 INFO  App:89 - Recieved input: Down
+2022-06-17 11:54:41 INFO  App:261 - Direction: DOWN
+2022-06-17 11:54:41 INFO  App:105 - Executing movement
+2022-06-17 11:54:41 INFO  App:163 - Exchanging tiles: (4, 3) with (5,3)
+2022-06-17 11:54:41 INFO  App:178 - Setting tile (5,3) to PLAYER
+2022-06-17 11:54:41 INFO  App:179 - Setting tile (4,3) to GOAL
+2022-06-17 11:54:41 INFO  Board:164 - Setting new player position: (5, 3)
+2022-06-17 11:54:41 INFO  ViewManager:256 - Exchanging images between tiles: (4, 3) and (5, 3)
+2022-06-17 11:54:41 INFO  App:141 - Box movement executed, exchanged tile: (4, 3) with (5,3)
+2022-06-17 11:54:41 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ #W+  +
++   ++++
++++++   
+
+2022-06-17 11:54:41 INFO  App:89 - Recieved input: Down
+2022-06-17 11:54:41 INFO  App:261 - Direction: DOWN
+2022-06-17 11:54:41 INFO  App:105 - Executing movement
+2022-06-17 11:54:41 INFO  App:163 - Exchanging tiles: (5, 3) with (6,3)
+2022-06-17 11:54:41 INFO  Board:207 - Exchaning tile: (5 3) of type with (PLAYER 6) of type
+2022-06-17 11:54:41 INFO  App:213 - Exchanged tiles in board: (5, 3) with (6,3)
+2022-06-17 11:54:41 INFO  Board:164 - Setting new player position: (6, 3)
+2022-06-17 11:54:41 INFO  ViewManager:256 - Exchanging images between tiles: (5, 3) and (6, 3)
+2022-06-17 11:54:41 INFO  App:141 - Box movement executed, exchanged tile: (5, 3) with (6,3)
+2022-06-17 11:54:41 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++  W++++
++++++   
+
+2022-06-17 11:54:42 INFO  App:89 - Recieved input: Left
+2022-06-17 11:54:42 INFO  App:234 - Direction: LEFT
+2022-06-17 11:54:42 INFO  App:105 - Executing movement
+2022-06-17 11:54:42 INFO  App:163 - Exchanging tiles: (6, 3) with (6,2)
+2022-06-17 11:54:42 INFO  Board:207 - Exchaning tile: (6 3) of type with (PLAYER 6) of type
+2022-06-17 11:54:42 INFO  App:213 - Exchanged tiles in board: (6, 3) with (6,2)
+2022-06-17 11:54:42 INFO  Board:164 - Setting new player position: (6, 2)
+2022-06-17 11:54:42 INFO  ViewManager:256 - Exchanging images between tiles: (6, 3) and (6, 2)
+2022-06-17 11:54:42 INFO  App:141 - Box movement executed, exchanged tile: (6, 3) with (6,2)
+2022-06-17 11:54:42 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++ W ++++
++++++   
+
+2022-06-17 11:54:42 INFO  App:89 - Recieved input: Left
+2022-06-17 11:54:42 INFO  App:234 - Direction: LEFT
+2022-06-17 11:54:42 INFO  App:105 - Executing movement
+2022-06-17 11:54:42 INFO  App:163 - Exchanging tiles: (6, 2) with (6,1)
+2022-06-17 11:54:42 INFO  Board:207 - Exchaning tile: (6 2) of type with (PLAYER 6) of type
+2022-06-17 11:54:42 INFO  App:213 - Exchanged tiles in board: (6, 2) with (6,1)
+2022-06-17 11:54:42 INFO  Board:164 - Setting new player position: (6, 1)
+2022-06-17 11:54:42 INFO  ViewManager:256 - Exchanging images between tiles: (6, 2) and (6, 1)
+2022-06-17 11:54:42 INFO  App:141 - Box movement executed, exchanged tile: (6, 2) with (6,1)
+2022-06-17 11:54:42 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++W  ++++
++++++   
+
+2022-06-17 11:54:42 INFO  App:89 - Recieved input: Left
+2022-06-17 11:54:42 INFO  App:234 - Direction: LEFT
+2022-06-17 11:54:42 INFO  App:105 - Executing movement
+2022-06-17 11:54:42 INFO  App:150 - Tile to replace is not replaceable (Wall)
+2022-06-17 11:54:42 INFO  App:89 - Recieved input: Up
+2022-06-17 11:54:42 INFO  App:257 - Direction: UP
+2022-06-17 11:54:42 INFO  App:105 - Executing movement
+2022-06-17 11:54:42 INFO  App:163 - Exchanging tiles: (6, 1) with (5,1)
+2022-06-17 11:54:42 INFO  Board:207 - Exchaning tile: (6 1) of type with (PLAYER 5) of type
+2022-06-17 11:54:42 INFO  App:213 - Exchanged tiles in board: (6, 1) with (5,1)
+2022-06-17 11:54:42 INFO  Board:164 - Setting new player position: (5, 1)
+2022-06-17 11:54:42 INFO  ViewManager:256 - Exchanging images between tiles: (6, 1) and (5, 1)
+2022-06-17 11:54:42 INFO  App:141 - Box movement executed, exchanged tile: (6, 1) with (5,1)
+2022-06-17 11:54:42 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++W# +  +
++   ++++
++++++   
+
+2022-06-17 11:54:42 INFO  App:89 - Recieved input: Right
+2022-06-17 11:54:42 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:54:42 INFO  App:105 - Executing movement
+2022-06-17 11:54:42 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:54:42 INFO  App:163 - Exchanging tiles: (5, 2) with (5,3)
+2022-06-17 11:54:42 INFO  Board:207 - Exchaning tile: (5 2) of type with (BOX 5) of type
+2022-06-17 11:54:42 INFO  App:213 - Exchanged tiles in board: (5, 2) with (5,3)
+2022-06-17 11:54:42 INFO  ViewManager:256 - Exchanging images between tiles: (5, 2) and (5, 3)
+2022-06-17 11:54:42 INFO  App:124 - Box movement executed, exchanged tile: (5, 2) with (5,3)
+2022-06-17 11:54:42 INFO  App:163 - Exchanging tiles: (5, 1) with (5,2)
+2022-06-17 11:54:42 INFO  Board:207 - Exchaning tile: (5 1) of type with (PLAYER 5) of type
+2022-06-17 11:54:42 INFO  App:213 - Exchanged tiles in board: (5, 1) with (5,2)
+2022-06-17 11:54:42 INFO  Board:164 - Setting new player position: (5, 2)
+2022-06-17 11:54:42 INFO  ViewManager:256 - Exchanging images between tiles: (5, 1) and (5, 2)
+2022-06-17 11:54:42 INFO  App:141 - Box movement executed, exchanged tile: (5, 1) with (5,2)
+2022-06-17 11:54:42 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ W#+  +
++   ++++
++++++   
+
+2022-06-17 11:54:43 INFO  App:89 - Recieved input: Down
+2022-06-17 11:54:43 INFO  App:261 - Direction: DOWN
+2022-06-17 11:54:43 INFO  App:105 - Executing movement
+2022-06-17 11:54:43 INFO  App:163 - Exchanging tiles: (5, 2) with (6,2)
+2022-06-17 11:54:43 INFO  Board:207 - Exchaning tile: (5 2) of type with (PLAYER 6) of type
+2022-06-17 11:54:43 INFO  App:213 - Exchanged tiles in board: (5, 2) with (6,2)
+2022-06-17 11:54:43 INFO  Board:164 - Setting new player position: (6, 2)
+2022-06-17 11:54:43 INFO  ViewManager:256 - Exchanging images between tiles: (5, 2) and (6, 2)
+2022-06-17 11:54:43 INFO  App:141 - Box movement executed, exchanged tile: (5, 2) with (6,2)
+2022-06-17 11:54:43 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++  #+  +
++ W ++++
++++++   
+
+2022-06-17 11:54:44 INFO  App:89 - Recieved input: Up
+2022-06-17 11:54:44 INFO  App:257 - Direction: UP
+2022-06-17 11:54:44 INFO  App:105 - Executing movement
+2022-06-17 11:54:44 INFO  App:163 - Exchanging tiles: (6, 2) with (5,2)
+2022-06-17 11:54:44 INFO  Board:207 - Exchaning tile: (6 2) of type with (PLAYER 5) of type
+2022-06-17 11:54:44 INFO  App:213 - Exchanged tiles in board: (6, 2) with (5,2)
+2022-06-17 11:54:44 INFO  Board:164 - Setting new player position: (5, 2)
+2022-06-17 11:54:44 INFO  ViewManager:256 - Exchanging images between tiles: (6, 2) and (5, 2)
+2022-06-17 11:54:44 INFO  App:141 - Box movement executed, exchanged tile: (6, 2) with (5,2)
+2022-06-17 11:54:44 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ W#+  +
++   ++++
++++++   
+
+2022-06-17 11:54:44 INFO  App:89 - Recieved input: Up
+2022-06-17 11:54:44 INFO  App:257 - Direction: UP
+2022-06-17 11:54:44 INFO  App:105 - Executing movement
+2022-06-17 11:54:44 INFO  App:163 - Exchanging tiles: (5, 2) with (4,2)
+2022-06-17 11:54:44 INFO  Board:207 - Exchaning tile: (5 2) of type with (PLAYER 4) of type
+2022-06-17 11:54:44 INFO  App:213 - Exchanged tiles in board: (5, 2) with (4,2)
+2022-06-17 11:54:44 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 11:54:44 INFO  ViewManager:256 - Exchanging images between tiles: (5, 2) and (4, 2)
+2022-06-17 11:54:44 INFO  App:141 - Box movement executed, exchanged tile: (5, 2) with (4,2)
+2022-06-17 11:54:44 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++W*+  +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:54:44 INFO  App:89 - Recieved input: Right
+2022-06-17 11:54:44 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:54:44 INFO  App:105 - Executing movement
+2022-06-17 11:54:44 INFO  App:163 - Exchanging tiles: (4, 2) with (4,3)
+2022-06-17 11:54:44 INFO  App:206 - Setting tile (4,3) to PLAYERINGOAL
+2022-06-17 11:54:44 INFO  App:207 - Setting tile (4,2) to GROUND
+2022-06-17 11:54:44 INFO  Board:164 - Setting new player position: (4, 3)
+2022-06-17 11:54:44 INFO  ViewManager:256 - Exchanging images between tiles: (4, 2) and (4, 3)
+2022-06-17 11:54:44 INFO  App:141 - Box movement executed, exchanged tile: (4, 2) with (4,3)
+2022-06-17 11:54:44 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ M+  +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:55:10 INFO  ViewManager:313 - Showing correctly saved level dialog
+2022-06-17 11:55:10 INFO  SokobanSideMenu:132 - Saving level...
+2022-06-17 11:55:27 INFO  ViewManager:262 - Showiung save level dialog
+2022-06-17 11:55:27 INFO  SokobanSideMenu:97 - Going to main menu...
+2022-06-17 11:55:29 INFO  ViewManager:300 - Clicked on no
+2022-06-17 11:55:29 INFO  ViewManager:48 - Getting starting scene
+2022-06-17 11:55:29 INFO  App:118 - Setting new scene
+2022-06-17 11:55:57 INFO  App:93 - Loading selected level by the user C:\PProject\sokoban\saves\Fri Jun 17 115510 CEST 2022.vinh
+2022-06-17 11:55:57 INFO  Level:30 - Creating a level for file C:\PProject\sokoban\saves\Fri Jun 17 115510 CEST 2022.vinh
+2022-06-17 11:55:57 INFO  LevelLoader:54 - Loading board from file: C:\PProject\sokoban\saves\Fri Jun 17 115510 CEST 2022.vinh
+2022-06-17 11:55:57 INFO  Board:164 - Setting new player position: (4, 3)
+2022-06-17 11:55:57 INFO  LevelLoader:105 - This board has a moves counter, this will be used for the moves on the level
+2022-06-17 11:55:57 INFO  Level:34 - Level correctly loaded
+2022-06-17 11:55:57 INFO  ViewManager:124 - Loading game images
+2022-06-17 11:55:57 INFO  ViewManager:137 - Game images loaded
+2022-06-17 11:55:57 INFO  ViewManager:146 - Loading level state
+2022-06-17 11:55:57 INFO  SokobanScene:25 - Creating Sokoban scene...
+2022-06-17 11:55:57 INFO  SokobanSideMenu:39 - Creating Sokoban Side Menu...
+2022-06-17 11:55:57 INFO  ViewManager:184 - Level state loaded
+2022-06-17 11:55:59 INFO  App:89 - Recieved input: Left
+2022-06-17 11:55:59 INFO  App:234 - Direction: LEFT
+2022-06-17 11:55:59 INFO  App:105 - Executing movement
+2022-06-17 11:55:59 INFO  App:163 - Exchanging tiles: (4, 3) with (4,2)
+2022-06-17 11:55:59 INFO  App:178 - Setting tile (4,2) to PLAYER
+2022-06-17 11:55:59 INFO  App:179 - Setting tile (4,3) to GOAL
+2022-06-17 11:55:59 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 11:55:59 INFO  ViewManager:256 - Exchanging images between tiles: (4, 3) and (4, 2)
+2022-06-17 11:55:59 INFO  App:141 - Box movement executed, exchanged tile: (4, 3) with (4,2)
+2022-06-17 11:55:59 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++W*+  +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:55:59 INFO  App:89 - Recieved input: Up
+2022-06-17 11:55:59 INFO  App:257 - Direction: UP
+2022-06-17 11:55:59 INFO  App:105 - Executing movement
+2022-06-17 11:55:59 INFO  App:163 - Exchanging tiles: (4, 2) with (3,2)
+2022-06-17 11:55:59 INFO  Board:207 - Exchaning tile: (4 2) of type with (PLAYER 3) of type
+2022-06-17 11:55:59 INFO  App:213 - Exchanged tiles in board: (4, 2) with (3,2)
+2022-06-17 11:55:59 INFO  Board:164 - Setting new player position: (3, 2)
+2022-06-17 11:55:59 INFO  ViewManager:256 - Exchanging images between tiles: (4, 2) and (3, 2)
+2022-06-17 11:55:59 INFO  App:141 - Box movement executed, exchanged tile: (4, 2) with (3,2)
+2022-06-17 11:55:59 INFO  App:95 - ++++    
++  +    
++  +++++
++ W    +
+++ *+  +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:55:59 INFO  App:89 - Recieved input: Right
+2022-06-17 11:55:59 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:55:59 INFO  App:105 - Executing movement
+2022-06-17 11:55:59 INFO  App:163 - Exchanging tiles: (3, 2) with (3,3)
+2022-06-17 11:55:59 INFO  Board:207 - Exchaning tile: (3 2) of type with (PLAYER 3) of type
+2022-06-17 11:55:59 INFO  App:213 - Exchanged tiles in board: (3, 2) with (3,3)
+2022-06-17 11:55:59 INFO  Board:164 - Setting new player position: (3, 3)
+2022-06-17 11:55:59 INFO  ViewManager:256 - Exchanging images between tiles: (3, 2) and (3, 3)
+2022-06-17 11:55:59 INFO  App:141 - Box movement executed, exchanged tile: (3, 2) with (3,3)
+2022-06-17 11:55:59 INFO  App:95 - ++++    
++  +    
++  +++++
++  W   +
+++ *+  +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:56:00 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:00 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:00 INFO  App:105 - Executing movement
+2022-06-17 11:56:00 INFO  App:163 - Exchanging tiles: (3, 3) with (3,4)
+2022-06-17 11:56:00 INFO  Board:207 - Exchaning tile: (3 3) of type with (PLAYER 3) of type
+2022-06-17 11:56:00 INFO  App:213 - Exchanged tiles in board: (3, 3) with (3,4)
+2022-06-17 11:56:00 INFO  Board:164 - Setting new player position: (3, 4)
+2022-06-17 11:56:00 INFO  ViewManager:256 - Exchanging images between tiles: (3, 3) and (3, 4)
+2022-06-17 11:56:00 INFO  App:141 - Box movement executed, exchanged tile: (3, 3) with (3,4)
+2022-06-17 11:56:00 INFO  App:95 - ++++    
++  +    
++  +++++
++   W  +
+++ *+  +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:56:00 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:00 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:00 INFO  App:105 - Executing movement
+2022-06-17 11:56:00 INFO  App:163 - Exchanging tiles: (3, 4) with (3,5)
+2022-06-17 11:56:00 INFO  Board:207 - Exchaning tile: (3 4) of type with (PLAYER 3) of type
+2022-06-17 11:56:00 INFO  App:213 - Exchanged tiles in board: (3, 4) with (3,5)
+2022-06-17 11:56:00 INFO  Board:164 - Setting new player position: (3, 5)
+2022-06-17 11:56:00 INFO  ViewManager:256 - Exchanging images between tiles: (3, 4) and (3, 5)
+2022-06-17 11:56:00 INFO  App:141 - Box movement executed, exchanged tile: (3, 4) with (3,5)
+2022-06-17 11:56:00 INFO  App:95 - ++++    
++  +    
++  +++++
++    W +
+++ *+  +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:56:00 INFO  App:89 - Recieved input: Down
+2022-06-17 11:56:00 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:00 INFO  App:105 - Executing movement
+2022-06-17 11:56:00 INFO  App:163 - Exchanging tiles: (3, 5) with (4,5)
+2022-06-17 11:56:00 INFO  Board:207 - Exchaning tile: (3 5) of type with (PLAYER 4) of type
+2022-06-17 11:56:00 INFO  App:213 - Exchanged tiles in board: (3, 5) with (4,5)
+2022-06-17 11:56:00 INFO  Board:164 - Setting new player position: (4, 5)
+2022-06-17 11:56:00 INFO  ViewManager:256 - Exchanging images between tiles: (3, 5) and (4, 5)
+2022-06-17 11:56:00 INFO  App:141 - Box movement executed, exchanged tile: (3, 5) with (4,5)
+2022-06-17 11:56:00 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+W +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:56:01 INFO  App:89 - Recieved input: Up
+2022-06-17 11:56:01 INFO  App:257 - Direction: UP
+2022-06-17 11:56:01 INFO  App:105 - Executing movement
+2022-06-17 11:56:01 INFO  App:163 - Exchanging tiles: (4, 5) with (3,5)
+2022-06-17 11:56:01 INFO  Board:207 - Exchaning tile: (4 5) of type with (PLAYER 3) of type
+2022-06-17 11:56:01 INFO  App:213 - Exchanged tiles in board: (4, 5) with (3,5)
+2022-06-17 11:56:01 INFO  Board:164 - Setting new player position: (3, 5)
+2022-06-17 11:56:01 INFO  ViewManager:256 - Exchanging images between tiles: (4, 5) and (3, 5)
+2022-06-17 11:56:01 INFO  App:141 - Box movement executed, exchanged tile: (4, 5) with (3,5)
+2022-06-17 11:56:01 INFO  App:95 - ++++    
++  +    
++  +++++
++    W +
+++ *+  +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:56:01 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:01 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:01 INFO  App:105 - Executing movement
+2022-06-17 11:56:01 INFO  App:163 - Exchanging tiles: (3, 5) with (3,4)
+2022-06-17 11:56:01 INFO  Board:207 - Exchaning tile: (3 5) of type with (PLAYER 3) of type
+2022-06-17 11:56:01 INFO  App:213 - Exchanged tiles in board: (3, 5) with (3,4)
+2022-06-17 11:56:01 INFO  Board:164 - Setting new player position: (3, 4)
+2022-06-17 11:56:01 INFO  ViewManager:256 - Exchanging images between tiles: (3, 5) and (3, 4)
+2022-06-17 11:56:01 INFO  App:141 - Box movement executed, exchanged tile: (3, 5) with (3,4)
+2022-06-17 11:56:01 INFO  App:95 - ++++    
++  +    
++  +++++
++   W  +
+++ *+  +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:56:01 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:01 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:01 INFO  App:105 - Executing movement
+2022-06-17 11:56:01 INFO  App:163 - Exchanging tiles: (3, 4) with (3,3)
+2022-06-17 11:56:01 INFO  Board:207 - Exchaning tile: (3 4) of type with (PLAYER 3) of type
+2022-06-17 11:56:01 INFO  App:213 - Exchanged tiles in board: (3, 4) with (3,3)
+2022-06-17 11:56:01 INFO  Board:164 - Setting new player position: (3, 3)
+2022-06-17 11:56:01 INFO  ViewManager:256 - Exchanging images between tiles: (3, 4) and (3, 3)
+2022-06-17 11:56:01 INFO  App:141 - Box movement executed, exchanged tile: (3, 4) with (3,3)
+2022-06-17 11:56:01 INFO  App:95 - ++++    
++  +    
++  +++++
++  W   +
+++ *+  +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:56:02 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:02 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:02 INFO  App:105 - Executing movement
+2022-06-17 11:56:02 INFO  App:163 - Exchanging tiles: (3, 3) with (3,2)
+2022-06-17 11:56:02 INFO  Board:207 - Exchaning tile: (3 3) of type with (PLAYER 3) of type
+2022-06-17 11:56:02 INFO  App:213 - Exchanged tiles in board: (3, 3) with (3,2)
+2022-06-17 11:56:02 INFO  Board:164 - Setting new player position: (3, 2)
+2022-06-17 11:56:02 INFO  ViewManager:256 - Exchanging images between tiles: (3, 3) and (3, 2)
+2022-06-17 11:56:02 INFO  App:141 - Box movement executed, exchanged tile: (3, 3) with (3,2)
+2022-06-17 11:56:02 INFO  App:95 - ++++    
++  +    
++  +++++
++ W    +
+++ *+  +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:56:02 INFO  App:89 - Recieved input: Up
+2022-06-17 11:56:02 INFO  App:257 - Direction: UP
+2022-06-17 11:56:02 INFO  App:105 - Executing movement
+2022-06-17 11:56:02 INFO  App:163 - Exchanging tiles: (3, 2) with (2,2)
+2022-06-17 11:56:02 INFO  Board:207 - Exchaning tile: (3 2) of type with (PLAYER 2) of type
+2022-06-17 11:56:02 INFO  App:213 - Exchanged tiles in board: (3, 2) with (2,2)
+2022-06-17 11:56:02 INFO  Board:164 - Setting new player position: (2, 2)
+2022-06-17 11:56:02 INFO  ViewManager:256 - Exchanging images between tiles: (3, 2) and (2, 2)
+2022-06-17 11:56:02 INFO  App:141 - Box movement executed, exchanged tile: (3, 2) with (2,2)
+2022-06-17 11:56:02 INFO  App:95 - ++++    
++  +    
++ W+++++
++      +
+++ *+  +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:56:02 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:02 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:02 INFO  App:105 - Executing movement
+2022-06-17 11:56:02 INFO  App:150 - Tile to replace is not replaceable (Wall)
+2022-06-17 11:56:02 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:02 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:02 INFO  App:105 - Executing movement
+2022-06-17 11:56:02 INFO  App:163 - Exchanging tiles: (2, 2) with (2,1)
+2022-06-17 11:56:02 INFO  Board:207 - Exchaning tile: (2 2) of type with (PLAYER 2) of type
+2022-06-17 11:56:02 INFO  App:213 - Exchanged tiles in board: (2, 2) with (2,1)
+2022-06-17 11:56:02 INFO  Board:164 - Setting new player position: (2, 1)
+2022-06-17 11:56:02 INFO  ViewManager:256 - Exchanging images between tiles: (2, 2) and (2, 1)
+2022-06-17 11:56:02 INFO  App:141 - Box movement executed, exchanged tile: (2, 2) with (2,1)
+2022-06-17 11:56:02 INFO  App:95 - ++++    
++  +    
++W +++++
++      +
+++ *+  +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:56:03 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:03 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:03 INFO  App:105 - Executing movement
+2022-06-17 11:56:03 INFO  App:150 - Tile to replace is not replaceable (Wall)
+2022-06-17 11:56:03 INFO  App:89 - Recieved input: Up
+2022-06-17 11:56:03 INFO  App:257 - Direction: UP
+2022-06-17 11:56:03 INFO  App:105 - Executing movement
+2022-06-17 11:56:03 INFO  App:163 - Exchanging tiles: (2, 1) with (1,1)
+2022-06-17 11:56:03 INFO  Board:207 - Exchaning tile: (2 1) of type with (PLAYER 1) of type
+2022-06-17 11:56:03 INFO  App:213 - Exchanged tiles in board: (2, 1) with (1,1)
+2022-06-17 11:56:03 INFO  Board:164 - Setting new player position: (1, 1)
+2022-06-17 11:56:03 INFO  ViewManager:256 - Exchanging images between tiles: (2, 1) and (1, 1)
+2022-06-17 11:56:03 INFO  App:141 - Box movement executed, exchanged tile: (2, 1) with (1,1)
+2022-06-17 11:56:03 INFO  App:95 - ++++    
++W +    
++  +++++
++      +
+++ *+  +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:56:03 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:03 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:03 INFO  App:105 - Executing movement
+2022-06-17 11:56:03 INFO  App:163 - Exchanging tiles: (1, 1) with (1,2)
+2022-06-17 11:56:03 INFO  Board:207 - Exchaning tile: (1 1) of type with (PLAYER 1) of type
+2022-06-17 11:56:03 INFO  App:213 - Exchanged tiles in board: (1, 1) with (1,2)
+2022-06-17 11:56:03 INFO  Board:164 - Setting new player position: (1, 2)
+2022-06-17 11:56:03 INFO  ViewManager:256 - Exchanging images between tiles: (1, 1) and (1, 2)
+2022-06-17 11:56:03 INFO  App:141 - Box movement executed, exchanged tile: (1, 1) with (1,2)
+2022-06-17 11:56:03 INFO  App:95 - ++++    
++ W+    
++  +++++
++      +
+++ *+  +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:56:03 INFO  App:89 - Recieved input: Down
+2022-06-17 11:56:03 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:03 INFO  App:105 - Executing movement
+2022-06-17 11:56:03 INFO  App:163 - Exchanging tiles: (1, 2) with (2,2)
+2022-06-17 11:56:03 INFO  Board:207 - Exchaning tile: (1 2) of type with (PLAYER 2) of type
+2022-06-17 11:56:03 INFO  App:213 - Exchanged tiles in board: (1, 2) with (2,2)
+2022-06-17 11:56:03 INFO  Board:164 - Setting new player position: (2, 2)
+2022-06-17 11:56:03 INFO  ViewManager:256 - Exchanging images between tiles: (1, 2) and (2, 2)
+2022-06-17 11:56:03 INFO  App:141 - Box movement executed, exchanged tile: (1, 2) with (2,2)
+2022-06-17 11:56:03 INFO  App:95 - ++++    
++  +    
++ W+++++
++      +
+++ *+  +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:56:04 INFO  App:89 - Recieved input: Down
+2022-06-17 11:56:04 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:04 INFO  App:105 - Executing movement
+2022-06-17 11:56:04 INFO  App:163 - Exchanging tiles: (2, 2) with (3,2)
+2022-06-17 11:56:04 INFO  Board:207 - Exchaning tile: (2 2) of type with (PLAYER 3) of type
+2022-06-17 11:56:04 INFO  App:213 - Exchanged tiles in board: (2, 2) with (3,2)
+2022-06-17 11:56:04 INFO  Board:164 - Setting new player position: (3, 2)
+2022-06-17 11:56:04 INFO  ViewManager:256 - Exchanging images between tiles: (2, 2) and (3, 2)
+2022-06-17 11:56:04 INFO  App:141 - Box movement executed, exchanged tile: (2, 2) with (3,2)
+2022-06-17 11:56:04 INFO  App:95 - ++++    
++  +    
++  +++++
++ W    +
+++ *+  +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:56:04 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:04 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:04 INFO  App:105 - Executing movement
+2022-06-17 11:56:04 INFO  App:163 - Exchanging tiles: (3, 2) with (3,3)
+2022-06-17 11:56:04 INFO  Board:207 - Exchaning tile: (3 2) of type with (PLAYER 3) of type
+2022-06-17 11:56:04 INFO  App:213 - Exchanged tiles in board: (3, 2) with (3,3)
+2022-06-17 11:56:04 INFO  Board:164 - Setting new player position: (3, 3)
+2022-06-17 11:56:04 INFO  ViewManager:256 - Exchanging images between tiles: (3, 2) and (3, 3)
+2022-06-17 11:56:04 INFO  App:141 - Box movement executed, exchanged tile: (3, 2) with (3,3)
+2022-06-17 11:56:04 INFO  App:95 - ++++    
++  +    
++  +++++
++  W   +
+++ *+  +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:56:04 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:04 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:04 INFO  App:105 - Executing movement
+2022-06-17 11:56:04 INFO  App:163 - Exchanging tiles: (3, 3) with (3,4)
+2022-06-17 11:56:04 INFO  Board:207 - Exchaning tile: (3 3) of type with (PLAYER 3) of type
+2022-06-17 11:56:04 INFO  App:213 - Exchanged tiles in board: (3, 3) with (3,4)
+2022-06-17 11:56:04 INFO  Board:164 - Setting new player position: (3, 4)
+2022-06-17 11:56:04 INFO  ViewManager:256 - Exchanging images between tiles: (3, 3) and (3, 4)
+2022-06-17 11:56:04 INFO  App:141 - Box movement executed, exchanged tile: (3, 3) with (3,4)
+2022-06-17 11:56:04 INFO  App:95 - ++++    
++  +    
++  +++++
++   W  +
+++ *+  +
++  #+  +
++   ++++
++++++   
+
+2022-06-17 11:56:19 INFO  ViewManager:262 - Showiung save level dialog
+2022-06-17 11:56:19 INFO  SokobanSideMenu:97 - Going to main menu...
+2022-06-17 11:56:22 INFO  ViewManager:300 - Clicked on no
+2022-06-17 11:56:22 INFO  ViewManager:48 - Getting starting scene
+2022-06-17 11:56:22 INFO  App:118 - Setting new scene
+2022-06-17 11:56:23 INFO  App:78 - Loading next level 1 
+2022-06-17 11:56:23 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 11:56:23 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 11:56:23 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 11:56:23 INFO  Level:34 - Level correctly loaded
+2022-06-17 11:56:23 INFO  ViewManager:124 - Loading game images
+2022-06-17 11:56:23 INFO  ViewManager:137 - Game images loaded
+2022-06-17 11:56:23 INFO  ViewManager:146 - Loading level state
+2022-06-17 11:56:23 INFO  SokobanScene:25 - Creating Sokoban scene...
+2022-06-17 11:56:23 INFO  SokobanSideMenu:39 - Creating Sokoban Side Menu...
+2022-06-17 11:56:23 INFO  ViewManager:184 - Level state loaded
+2022-06-17 11:56:23 INFO  App:89 - Recieved input: Up
+2022-06-17 11:56:23 INFO  App:257 - Direction: UP
+2022-06-17 11:56:23 INFO  App:105 - Executing movement
+2022-06-17 11:56:23 INFO  App:163 - Exchanging tiles: (4, 2) with (3,2)
+2022-06-17 11:56:23 INFO  Board:207 - Exchaning tile: (4 2) of type with (PLAYER 3) of type
+2022-06-17 11:56:23 INFO  App:213 - Exchanged tiles in board: (4, 2) with (3,2)
+2022-06-17 11:56:23 INFO  Board:164 - Setting new player position: (3, 2)
+2022-06-17 11:56:23 INFO  ViewManager:256 - Exchanging images between tiles: (4, 2) and (3, 2)
+2022-06-17 11:56:23 INFO  App:141 - Box movement executed, exchanged tile: (4, 2) with (3,2)
+2022-06-17 11:56:24 INFO  App:95 - ++++    
++  +    
++  +++++
++ W    +
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:24 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:24 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:24 INFO  App:105 - Executing movement
+2022-06-17 11:56:24 INFO  App:163 - Exchanging tiles: (3, 2) with (3,3)
+2022-06-17 11:56:24 INFO  Board:207 - Exchaning tile: (3 2) of type with (PLAYER 3) of type
+2022-06-17 11:56:24 INFO  App:213 - Exchanged tiles in board: (3, 2) with (3,3)
+2022-06-17 11:56:24 INFO  Board:164 - Setting new player position: (3, 3)
+2022-06-17 11:56:24 INFO  ViewManager:256 - Exchanging images between tiles: (3, 2) and (3, 3)
+2022-06-17 11:56:24 INFO  App:141 - Box movement executed, exchanged tile: (3, 2) with (3,3)
+2022-06-17 11:56:24 INFO  App:95 - ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:24 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:24 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:24 INFO  App:105 - Executing movement
+2022-06-17 11:56:24 INFO  App:163 - Exchanging tiles: (3, 3) with (3,4)
+2022-06-17 11:56:24 INFO  Board:207 - Exchaning tile: (3 3) of type with (PLAYER 3) of type
+2022-06-17 11:56:24 INFO  App:213 - Exchanged tiles in board: (3, 3) with (3,4)
+2022-06-17 11:56:24 INFO  Board:164 - Setting new player position: (3, 4)
+2022-06-17 11:56:24 INFO  ViewManager:256 - Exchanging images between tiles: (3, 3) and (3, 4)
+2022-06-17 11:56:24 INFO  App:141 - Box movement executed, exchanged tile: (3, 3) with (3,4)
+2022-06-17 11:56:24 INFO  App:95 - ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:24 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:24 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:24 INFO  App:105 - Executing movement
+2022-06-17 11:56:24 INFO  App:163 - Exchanging tiles: (3, 4) with (3,5)
+2022-06-17 11:56:24 INFO  Board:207 - Exchaning tile: (3 4) of type with (PLAYER 3) of type
+2022-06-17 11:56:24 INFO  App:213 - Exchanged tiles in board: (3, 4) with (3,5)
+2022-06-17 11:56:24 INFO  Board:164 - Setting new player position: (3, 5)
+2022-06-17 11:56:24 INFO  ViewManager:256 - Exchanging images between tiles: (3, 4) and (3, 5)
+2022-06-17 11:56:24 INFO  App:141 - Box movement executed, exchanged tile: (3, 4) with (3,5)
+2022-06-17 11:56:24 INFO  App:95 - ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:24 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:24 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:24 INFO  App:105 - Executing movement
+2022-06-17 11:56:24 INFO  App:163 - Exchanging tiles: (3, 5) with (3,6)
+2022-06-17 11:56:24 INFO  Board:207 - Exchaning tile: (3 5) of type with (PLAYER 3) of type
+2022-06-17 11:56:24 INFO  App:213 - Exchanged tiles in board: (3, 5) with (3,6)
+2022-06-17 11:56:24 INFO  Board:164 - Setting new player position: (3, 6)
+2022-06-17 11:56:24 INFO  ViewManager:256 - Exchanging images between tiles: (3, 5) and (3, 6)
+2022-06-17 11:56:24 INFO  App:141 - Box movement executed, exchanged tile: (3, 5) with (3,6)
+2022-06-17 11:56:24 INFO  App:95 - ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:25 INFO  App:89 - Recieved input: Down
+2022-06-17 11:56:25 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:25 INFO  App:105 - Executing movement
+2022-06-17 11:56:25 INFO  App:163 - Exchanging tiles: (3, 6) with (4,6)
+2022-06-17 11:56:25 INFO  Board:207 - Exchaning tile: (3 6) of type with (PLAYER 4) of type
+2022-06-17 11:56:25 INFO  App:213 - Exchanged tiles in board: (3, 6) with (4,6)
+2022-06-17 11:56:25 INFO  Board:164 - Setting new player position: (4, 6)
+2022-06-17 11:56:25 INFO  ViewManager:256 - Exchanging images between tiles: (3, 6) and (4, 6)
+2022-06-17 11:56:25 INFO  App:141 - Box movement executed, exchanged tile: (3, 6) with (4,6)
+2022-06-17 11:56:25 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:25 INFO  App:89 - Recieved input: Down
+2022-06-17 11:56:25 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:25 INFO  App:105 - Executing movement
+2022-06-17 11:56:25 INFO  App:163 - Exchanging tiles: (4, 6) with (5,6)
+2022-06-17 11:56:25 INFO  Board:207 - Exchaning tile: (4 6) of type with (PLAYER 5) of type
+2022-06-17 11:56:25 INFO  App:213 - Exchanged tiles in board: (4, 6) with (5,6)
+2022-06-17 11:56:25 INFO  Board:164 - Setting new player position: (5, 6)
+2022-06-17 11:56:25 INFO  ViewManager:256 - Exchanging images between tiles: (4, 6) and (5, 6)
+2022-06-17 11:56:25 INFO  App:141 - Box movement executed, exchanged tile: (4, 6) with (5,6)
+2022-06-17 11:56:25 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+
+2022-06-17 11:56:25 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:25 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:25 INFO  App:105 - Executing movement
+2022-06-17 11:56:25 INFO  App:163 - Exchanging tiles: (5, 6) with (5,5)
+2022-06-17 11:56:25 INFO  Board:207 - Exchaning tile: (5 6) of type with (PLAYER 5) of type
+2022-06-17 11:56:25 INFO  App:213 - Exchanged tiles in board: (5, 6) with (5,5)
+2022-06-17 11:56:25 INFO  Board:164 - Setting new player position: (5, 5)
+2022-06-17 11:56:25 INFO  ViewManager:256 - Exchanging images between tiles: (5, 6) and (5, 5)
+2022-06-17 11:56:25 INFO  App:141 - Box movement executed, exchanged tile: (5, 6) with (5,5)
+2022-06-17 11:56:25 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+
+2022-06-17 11:56:25 INFO  App:89 - Recieved input: Up
+2022-06-17 11:56:25 INFO  App:257 - Direction: UP
+2022-06-17 11:56:25 INFO  App:105 - Executing movement
+2022-06-17 11:56:25 INFO  App:257 - Direction: UP
+2022-06-17 11:56:25 INFO  App:163 - Exchanging tiles: (4, 5) with (3,5)
+2022-06-17 11:56:25 INFO  Board:207 - Exchaning tile: (4 5) of type with (BOX 3) of type
+2022-06-17 11:56:25 INFO  App:213 - Exchanged tiles in board: (4, 5) with (3,5)
+2022-06-17 11:56:25 INFO  ViewManager:256 - Exchanging images between tiles: (4, 5) and (3, 5)
+2022-06-17 11:56:25 INFO  App:124 - Box movement executed, exchanged tile: (4, 5) with (3,5)
+2022-06-17 11:56:25 INFO  App:163 - Exchanging tiles: (5, 5) with (4,5)
+2022-06-17 11:56:25 INFO  Board:207 - Exchaning tile: (5 5) of type with (PLAYER 4) of type
+2022-06-17 11:56:25 INFO  App:213 - Exchanged tiles in board: (5, 5) with (4,5)
+2022-06-17 11:56:25 INFO  Board:164 - Setting new player position: (4, 5)
+2022-06-17 11:56:25 INFO  ViewManager:256 - Exchanging images between tiles: (5, 5) and (4, 5)
+2022-06-17 11:56:25 INFO  App:141 - Box movement executed, exchanged tile: (5, 5) with (4,5)
+2022-06-17 11:56:25 INFO  App:95 - ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:25 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:25 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:25 INFO  App:105 - Executing movement
+2022-06-17 11:56:25 INFO  App:163 - Exchanging tiles: (4, 5) with (4,6)
+2022-06-17 11:56:25 INFO  Board:207 - Exchaning tile: (4 5) of type with (PLAYER 4) of type
+2022-06-17 11:56:25 INFO  App:213 - Exchanged tiles in board: (4, 5) with (4,6)
+2022-06-17 11:56:25 INFO  Board:164 - Setting new player position: (4, 6)
+2022-06-17 11:56:25 INFO  ViewManager:256 - Exchanging images between tiles: (4, 5) and (4, 6)
+2022-06-17 11:56:25 INFO  App:141 - Box movement executed, exchanged tile: (4, 5) with (4,6)
+2022-06-17 11:56:25 INFO  App:95 - ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:26 INFO  App:89 - Recieved input: Up
+2022-06-17 11:56:26 INFO  App:257 - Direction: UP
+2022-06-17 11:56:26 INFO  App:105 - Executing movement
+2022-06-17 11:56:26 INFO  App:163 - Exchanging tiles: (4, 6) with (3,6)
+2022-06-17 11:56:26 INFO  Board:207 - Exchaning tile: (4 6) of type with (PLAYER 3) of type
+2022-06-17 11:56:26 INFO  App:213 - Exchanged tiles in board: (4, 6) with (3,6)
+2022-06-17 11:56:26 INFO  Board:164 - Setting new player position: (3, 6)
+2022-06-17 11:56:26 INFO  ViewManager:256 - Exchanging images between tiles: (4, 6) and (3, 6)
+2022-06-17 11:56:26 INFO  App:141 - Box movement executed, exchanged tile: (4, 6) with (3,6)
+2022-06-17 11:56:26 INFO  App:95 - ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:26 INFO  App:89 - Recieved input: Up
+2022-06-17 11:56:26 INFO  App:257 - Direction: UP
+2022-06-17 11:56:26 INFO  App:105 - Executing movement
+2022-06-17 11:56:26 INFO  App:150 - Tile to replace is not replaceable (Wall)
+2022-06-17 11:56:26 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:26 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:26 INFO  App:105 - Executing movement
+2022-06-17 11:56:26 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:26 INFO  App:163 - Exchanging tiles: (3, 5) with (3,4)
+2022-06-17 11:56:26 INFO  Board:207 - Exchaning tile: (3 5) of type with (BOX 3) of type
+2022-06-17 11:56:26 INFO  App:213 - Exchanged tiles in board: (3, 5) with (3,4)
+2022-06-17 11:56:26 INFO  ViewManager:256 - Exchanging images between tiles: (3, 5) and (3, 4)
+2022-06-17 11:56:26 INFO  App:124 - Box movement executed, exchanged tile: (3, 5) with (3,4)
+2022-06-17 11:56:26 INFO  App:163 - Exchanging tiles: (3, 6) with (3,5)
+2022-06-17 11:56:26 INFO  Board:207 - Exchaning tile: (3 6) of type with (PLAYER 3) of type
+2022-06-17 11:56:26 INFO  App:213 - Exchanged tiles in board: (3, 6) with (3,5)
+2022-06-17 11:56:26 INFO  Board:164 - Setting new player position: (3, 5)
+2022-06-17 11:56:26 INFO  ViewManager:256 - Exchanging images between tiles: (3, 6) and (3, 5)
+2022-06-17 11:56:26 INFO  App:141 - Box movement executed, exchanged tile: (3, 6) with (3,5)
+2022-06-17 11:56:26 INFO  App:95 - ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:26 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:26 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:26 INFO  App:105 - Executing movement
+2022-06-17 11:56:26 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:26 INFO  App:163 - Exchanging tiles: (3, 4) with (3,3)
+2022-06-17 11:56:26 INFO  Board:207 - Exchaning tile: (3 4) of type with (BOX 3) of type
+2022-06-17 11:56:26 INFO  App:213 - Exchanged tiles in board: (3, 4) with (3,3)
+2022-06-17 11:56:26 INFO  ViewManager:256 - Exchanging images between tiles: (3, 4) and (3, 3)
+2022-06-17 11:56:26 INFO  App:124 - Box movement executed, exchanged tile: (3, 4) with (3,3)
+2022-06-17 11:56:26 INFO  App:163 - Exchanging tiles: (3, 5) with (3,4)
+2022-06-17 11:56:26 INFO  Board:207 - Exchaning tile: (3 5) of type with (PLAYER 3) of type
+2022-06-17 11:56:26 INFO  App:213 - Exchanged tiles in board: (3, 5) with (3,4)
+2022-06-17 11:56:26 INFO  Board:164 - Setting new player position: (3, 4)
+2022-06-17 11:56:26 INFO  ViewManager:256 - Exchanging images between tiles: (3, 5) and (3, 4)
+2022-06-17 11:56:26 INFO  App:141 - Box movement executed, exchanged tile: (3, 5) with (3,4)
+2022-06-17 11:56:26 INFO  App:95 - ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:26 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:26 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:26 INFO  App:105 - Executing movement
+2022-06-17 11:56:26 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:26 INFO  App:163 - Exchanging tiles: (3, 3) with (3,2)
+2022-06-17 11:56:26 INFO  Board:207 - Exchaning tile: (3 3) of type with (BOX 3) of type
+2022-06-17 11:56:26 INFO  App:213 - Exchanged tiles in board: (3, 3) with (3,2)
+2022-06-17 11:56:26 INFO  ViewManager:256 - Exchanging images between tiles: (3, 3) and (3, 2)
+2022-06-17 11:56:26 INFO  App:124 - Box movement executed, exchanged tile: (3, 3) with (3,2)
+2022-06-17 11:56:26 INFO  App:163 - Exchanging tiles: (3, 4) with (3,3)
+2022-06-17 11:56:26 INFO  Board:207 - Exchaning tile: (3 4) of type with (PLAYER 3) of type
+2022-06-17 11:56:26 INFO  App:213 - Exchanged tiles in board: (3, 4) with (3,3)
+2022-06-17 11:56:26 INFO  Board:164 - Setting new player position: (3, 3)
+2022-06-17 11:56:26 INFO  ViewManager:256 - Exchanging images between tiles: (3, 4) and (3, 3)
+2022-06-17 11:56:26 INFO  App:141 - Box movement executed, exchanged tile: (3, 4) with (3,3)
+2022-06-17 11:56:26 INFO  App:95 - ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:27 INFO  App:89 - Recieved input: Down
+2022-06-17 11:56:27 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:27 INFO  App:105 - Executing movement
+2022-06-17 11:56:27 INFO  App:163 - Exchanging tiles: (3, 3) with (4,3)
+2022-06-17 11:56:27 INFO  App:206 - Setting tile (4,3) to PLAYERINGOAL
+2022-06-17 11:56:27 INFO  App:207 - Setting tile (3,3) to GROUND
+2022-06-17 11:56:27 INFO  Board:164 - Setting new player position: (4, 3)
+2022-06-17 11:56:27 INFO  ViewManager:256 - Exchanging images between tiles: (3, 3) and (4, 3)
+2022-06-17 11:56:27 INFO  App:141 - Box movement executed, exchanged tile: (3, 3) with (4,3)
+2022-06-17 11:56:27 INFO  App:95 - ++++    
++  +    
++  +++++
++ #    +
+++ M+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:27 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:27 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:27 INFO  App:105 - Executing movement
+2022-06-17 11:56:27 INFO  App:163 - Exchanging tiles: (4, 3) with (4,2)
+2022-06-17 11:56:27 INFO  App:178 - Setting tile (4,2) to PLAYER
+2022-06-17 11:56:27 INFO  App:179 - Setting tile (4,3) to GOAL
+2022-06-17 11:56:27 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 11:56:27 INFO  ViewManager:256 - Exchanging images between tiles: (4, 3) and (4, 2)
+2022-06-17 11:56:27 INFO  App:141 - Box movement executed, exchanged tile: (4, 3) with (4,2)
+2022-06-17 11:56:27 INFO  App:95 - ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:27 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:27 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:27 INFO  App:105 - Executing movement
+2022-06-17 11:56:27 INFO  App:150 - Tile to replace is not replaceable (Wall)
+2022-06-17 11:56:27 INFO  App:89 - Recieved input: Up
+2022-06-17 11:56:27 INFO  App:257 - Direction: UP
+2022-06-17 11:56:27 INFO  App:105 - Executing movement
+2022-06-17 11:56:27 INFO  App:257 - Direction: UP
+2022-06-17 11:56:27 INFO  App:163 - Exchanging tiles: (3, 2) with (2,2)
+2022-06-17 11:56:27 INFO  Board:207 - Exchaning tile: (3 2) of type with (BOX 2) of type
+2022-06-17 11:56:27 INFO  App:213 - Exchanged tiles in board: (3, 2) with (2,2)
+2022-06-17 11:56:27 INFO  ViewManager:256 - Exchanging images between tiles: (3, 2) and (2, 2)
+2022-06-17 11:56:27 INFO  App:124 - Box movement executed, exchanged tile: (3, 2) with (2,2)
+2022-06-17 11:56:27 INFO  App:163 - Exchanging tiles: (4, 2) with (3,2)
+2022-06-17 11:56:27 INFO  Board:207 - Exchaning tile: (4 2) of type with (PLAYER 3) of type
+2022-06-17 11:56:27 INFO  App:213 - Exchanged tiles in board: (4, 2) with (3,2)
+2022-06-17 11:56:27 INFO  Board:164 - Setting new player position: (3, 2)
+2022-06-17 11:56:27 INFO  ViewManager:256 - Exchanging images between tiles: (4, 2) and (3, 2)
+2022-06-17 11:56:27 INFO  App:141 - Box movement executed, exchanged tile: (4, 2) with (3,2)
+2022-06-17 11:56:27 INFO  App:95 - ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:27 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:27 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:27 INFO  App:105 - Executing movement
+2022-06-17 11:56:27 INFO  App:163 - Exchanging tiles: (3, 2) with (3,1)
+2022-06-17 11:56:27 INFO  Board:207 - Exchaning tile: (3 2) of type with (PLAYER 3) of type
+2022-06-17 11:56:27 INFO  App:213 - Exchanged tiles in board: (3, 2) with (3,1)
+2022-06-17 11:56:27 INFO  Board:164 - Setting new player position: (3, 1)
+2022-06-17 11:56:27 INFO  ViewManager:256 - Exchanging images between tiles: (3, 2) and (3, 1)
+2022-06-17 11:56:27 INFO  App:141 - Box movement executed, exchanged tile: (3, 2) with (3,1)
+2022-06-17 11:56:27 INFO  App:95 - ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:28 INFO  App:89 - Recieved input: Up
+2022-06-17 11:56:28 INFO  App:257 - Direction: UP
+2022-06-17 11:56:28 INFO  App:105 - Executing movement
+2022-06-17 11:56:28 INFO  App:163 - Exchanging tiles: (3, 1) with (2,1)
+2022-06-17 11:56:28 INFO  Board:207 - Exchaning tile: (3 1) of type with (PLAYER 2) of type
+2022-06-17 11:56:28 INFO  App:213 - Exchanged tiles in board: (3, 1) with (2,1)
+2022-06-17 11:56:28 INFO  Board:164 - Setting new player position: (2, 1)
+2022-06-17 11:56:28 INFO  ViewManager:256 - Exchanging images between tiles: (3, 1) and (2, 1)
+2022-06-17 11:56:28 INFO  App:141 - Box movement executed, exchanged tile: (3, 1) with (2,1)
+2022-06-17 11:56:28 INFO  App:95 - ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:28 INFO  App:89 - Recieved input: Up
+2022-06-17 11:56:28 INFO  App:257 - Direction: UP
+2022-06-17 11:56:28 INFO  App:105 - Executing movement
+2022-06-17 11:56:28 INFO  App:163 - Exchanging tiles: (2, 1) with (1,1)
+2022-06-17 11:56:28 INFO  Board:207 - Exchaning tile: (2 1) of type with (PLAYER 1) of type
+2022-06-17 11:56:28 INFO  App:213 - Exchanged tiles in board: (2, 1) with (1,1)
+2022-06-17 11:56:28 INFO  Board:164 - Setting new player position: (1, 1)
+2022-06-17 11:56:28 INFO  ViewManager:256 - Exchanging images between tiles: (2, 1) and (1, 1)
+2022-06-17 11:56:28 INFO  App:141 - Box movement executed, exchanged tile: (2, 1) with (1,1)
+2022-06-17 11:56:28 INFO  App:95 - ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:28 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:28 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:28 INFO  App:105 - Executing movement
+2022-06-17 11:56:28 INFO  App:163 - Exchanging tiles: (1, 1) with (1,2)
+2022-06-17 11:56:28 INFO  Board:207 - Exchaning tile: (1 1) of type with (PLAYER 1) of type
+2022-06-17 11:56:28 INFO  App:213 - Exchanged tiles in board: (1, 1) with (1,2)
+2022-06-17 11:56:28 INFO  Board:164 - Setting new player position: (1, 2)
+2022-06-17 11:56:28 INFO  ViewManager:256 - Exchanging images between tiles: (1, 1) and (1, 2)
+2022-06-17 11:56:28 INFO  App:141 - Box movement executed, exchanged tile: (1, 1) with (1,2)
+2022-06-17 11:56:28 INFO  App:95 - ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:28 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:28 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:28 INFO  App:105 - Executing movement
+2022-06-17 11:56:28 INFO  App:150 - Tile to replace is not replaceable (Wall)
+2022-06-17 11:56:28 INFO  App:89 - Recieved input: Down
+2022-06-17 11:56:28 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:28 INFO  App:105 - Executing movement
+2022-06-17 11:56:28 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:28 INFO  App:163 - Exchanging tiles: (2, 2) with (3,2)
+2022-06-17 11:56:28 INFO  Board:207 - Exchaning tile: (2 2) of type with (BOX 3) of type
+2022-06-17 11:56:28 INFO  App:213 - Exchanged tiles in board: (2, 2) with (3,2)
+2022-06-17 11:56:28 INFO  ViewManager:256 - Exchanging images between tiles: (2, 2) and (3, 2)
+2022-06-17 11:56:28 INFO  App:124 - Box movement executed, exchanged tile: (2, 2) with (3,2)
+2022-06-17 11:56:28 INFO  App:163 - Exchanging tiles: (1, 2) with (2,2)
+2022-06-17 11:56:28 INFO  Board:207 - Exchaning tile: (1 2) of type with (PLAYER 2) of type
+2022-06-17 11:56:28 INFO  App:213 - Exchanged tiles in board: (1, 2) with (2,2)
+2022-06-17 11:56:28 INFO  Board:164 - Setting new player position: (2, 2)
+2022-06-17 11:56:28 INFO  ViewManager:256 - Exchanging images between tiles: (1, 2) and (2, 2)
+2022-06-17 11:56:28 INFO  App:141 - Box movement executed, exchanged tile: (1, 2) with (2,2)
+2022-06-17 11:56:28 INFO  App:95 - ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:28 INFO  App:89 - Recieved input: Down
+2022-06-17 11:56:28 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:28 INFO  App:105 - Executing movement
+2022-06-17 11:56:28 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:28 INFO  App:163 - Exchanging tiles: (3, 2) with (4,2)
+2022-06-17 11:56:28 INFO  Board:207 - Exchaning tile: (3 2) of type with (BOX 4) of type
+2022-06-17 11:56:28 INFO  App:213 - Exchanged tiles in board: (3, 2) with (4,2)
+2022-06-17 11:56:28 INFO  ViewManager:256 - Exchanging images between tiles: (3, 2) and (4, 2)
+2022-06-17 11:56:28 INFO  App:124 - Box movement executed, exchanged tile: (3, 2) with (4,2)
+2022-06-17 11:56:28 INFO  App:163 - Exchanging tiles: (2, 2) with (3,2)
+2022-06-17 11:56:28 INFO  Board:207 - Exchaning tile: (2 2) of type with (PLAYER 3) of type
+2022-06-17 11:56:28 INFO  App:213 - Exchanged tiles in board: (2, 2) with (3,2)
+2022-06-17 11:56:28 INFO  Board:164 - Setting new player position: (3, 2)
+2022-06-17 11:56:28 INFO  ViewManager:256 - Exchanging images between tiles: (2, 2) and (3, 2)
+2022-06-17 11:56:28 INFO  App:141 - Box movement executed, exchanged tile: (2, 2) with (3,2)
+2022-06-17 11:56:28 INFO  App:95 - ++++    
++  +    
++  +++++
++ W    +
+++#*+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 11:56:29 INFO  App:89 - Recieved input: Down
+2022-06-17 11:56:29 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:29 INFO  App:105 - Executing movement
+2022-06-17 11:56:29 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:29 INFO  App:163 - Exchanging tiles: (4, 2) with (5,2)
+2022-06-17 11:56:29 INFO  Board:207 - Exchaning tile: (4 2) of type with (BOX 5) of type
+2022-06-17 11:56:29 INFO  App:213 - Exchanged tiles in board: (4, 2) with (5,2)
+2022-06-17 11:56:29 INFO  ViewManager:256 - Exchanging images between tiles: (4, 2) and (5, 2)
+2022-06-17 11:56:29 INFO  App:124 - Box movement executed, exchanged tile: (4, 2) with (5,2)
+2022-06-17 11:56:29 INFO  App:163 - Exchanging tiles: (3, 2) with (4,2)
+2022-06-17 11:56:29 INFO  Board:207 - Exchaning tile: (3 2) of type with (PLAYER 4) of type
+2022-06-17 11:56:29 INFO  App:213 - Exchanged tiles in board: (3, 2) with (4,2)
+2022-06-17 11:56:29 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 11:56:29 INFO  ViewManager:256 - Exchanging images between tiles: (3, 2) and (4, 2)
+2022-06-17 11:56:29 INFO  App:141 - Box movement executed, exchanged tile: (3, 2) with (4,2)
+2022-06-17 11:56:29 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++W*+  +
++ # +  +
++   ++++
++++++   
+
+2022-06-17 11:56:29 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:29 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:29 INFO  App:105 - Executing movement
+2022-06-17 11:56:29 INFO  App:163 - Exchanging tiles: (4, 2) with (4,3)
+2022-06-17 11:56:29 INFO  App:206 - Setting tile (4,3) to PLAYERINGOAL
+2022-06-17 11:56:29 INFO  App:207 - Setting tile (4,2) to GROUND
+2022-06-17 11:56:29 INFO  Board:164 - Setting new player position: (4, 3)
+2022-06-17 11:56:29 INFO  ViewManager:256 - Exchanging images between tiles: (4, 2) and (4, 3)
+2022-06-17 11:56:29 INFO  App:141 - Box movement executed, exchanged tile: (4, 2) with (4,3)
+2022-06-17 11:56:29 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ M+  +
++ # +  +
++   ++++
++++++   
+
+2022-06-17 11:56:29 INFO  App:89 - Recieved input: Down
+2022-06-17 11:56:29 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:29 INFO  App:105 - Executing movement
+2022-06-17 11:56:29 INFO  App:163 - Exchanging tiles: (4, 3) with (5,3)
+2022-06-17 11:56:29 INFO  App:178 - Setting tile (5,3) to PLAYER
+2022-06-17 11:56:29 INFO  App:179 - Setting tile (4,3) to GOAL
+2022-06-17 11:56:29 INFO  Board:164 - Setting new player position: (5, 3)
+2022-06-17 11:56:29 INFO  ViewManager:256 - Exchanging images between tiles: (4, 3) and (5, 3)
+2022-06-17 11:56:29 INFO  App:141 - Box movement executed, exchanged tile: (4, 3) with (5,3)
+2022-06-17 11:56:29 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ #W+  +
++   ++++
++++++   
+
+2022-06-17 11:56:29 INFO  App:89 - Recieved input: Down
+2022-06-17 11:56:29 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:29 INFO  App:105 - Executing movement
+2022-06-17 11:56:29 INFO  App:163 - Exchanging tiles: (5, 3) with (6,3)
+2022-06-17 11:56:29 INFO  Board:207 - Exchaning tile: (5 3) of type with (PLAYER 6) of type
+2022-06-17 11:56:29 INFO  App:213 - Exchanged tiles in board: (5, 3) with (6,3)
+2022-06-17 11:56:29 INFO  Board:164 - Setting new player position: (6, 3)
+2022-06-17 11:56:29 INFO  ViewManager:256 - Exchanging images between tiles: (5, 3) and (6, 3)
+2022-06-17 11:56:29 INFO  App:141 - Box movement executed, exchanged tile: (5, 3) with (6,3)
+2022-06-17 11:56:29 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++  W++++
++++++   
+
+2022-06-17 11:56:30 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:30 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:30 INFO  App:105 - Executing movement
+2022-06-17 11:56:30 INFO  App:163 - Exchanging tiles: (6, 3) with (6,2)
+2022-06-17 11:56:30 INFO  Board:207 - Exchaning tile: (6 3) of type with (PLAYER 6) of type
+2022-06-17 11:56:30 INFO  App:213 - Exchanged tiles in board: (6, 3) with (6,2)
+2022-06-17 11:56:30 INFO  Board:164 - Setting new player position: (6, 2)
+2022-06-17 11:56:30 INFO  ViewManager:256 - Exchanging images between tiles: (6, 3) and (6, 2)
+2022-06-17 11:56:30 INFO  App:141 - Box movement executed, exchanged tile: (6, 3) with (6,2)
+2022-06-17 11:56:30 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++ W ++++
++++++   
+
+2022-06-17 11:56:30 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:30 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:30 INFO  App:105 - Executing movement
+2022-06-17 11:56:30 INFO  App:163 - Exchanging tiles: (6, 2) with (6,1)
+2022-06-17 11:56:30 INFO  Board:207 - Exchaning tile: (6 2) of type with (PLAYER 6) of type
+2022-06-17 11:56:30 INFO  App:213 - Exchanged tiles in board: (6, 2) with (6,1)
+2022-06-17 11:56:30 INFO  Board:164 - Setting new player position: (6, 1)
+2022-06-17 11:56:30 INFO  ViewManager:256 - Exchanging images between tiles: (6, 2) and (6, 1)
+2022-06-17 11:56:30 INFO  App:141 - Box movement executed, exchanged tile: (6, 2) with (6,1)
+2022-06-17 11:56:30 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++W  ++++
++++++   
+
+2022-06-17 11:56:30 INFO  App:89 - Recieved input: Up
+2022-06-17 11:56:30 INFO  App:257 - Direction: UP
+2022-06-17 11:56:30 INFO  App:105 - Executing movement
+2022-06-17 11:56:30 INFO  App:163 - Exchanging tiles: (6, 1) with (5,1)
+2022-06-17 11:56:30 INFO  Board:207 - Exchaning tile: (6 1) of type with (PLAYER 5) of type
+2022-06-17 11:56:30 INFO  App:213 - Exchanged tiles in board: (6, 1) with (5,1)
+2022-06-17 11:56:30 INFO  Board:164 - Setting new player position: (5, 1)
+2022-06-17 11:56:30 INFO  ViewManager:256 - Exchanging images between tiles: (6, 1) and (5, 1)
+2022-06-17 11:56:30 INFO  App:141 - Box movement executed, exchanged tile: (6, 1) with (5,1)
+2022-06-17 11:56:30 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++W# +  +
++   ++++
++++++   
+
+2022-06-17 11:56:30 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:30 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:30 INFO  App:105 - Executing movement
+2022-06-17 11:56:30 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:30 INFO  App:163 - Exchanging tiles: (5, 2) with (5,3)
+2022-06-17 11:56:30 INFO  Board:207 - Exchaning tile: (5 2) of type with (BOX 5) of type
+2022-06-17 11:56:30 INFO  App:213 - Exchanged tiles in board: (5, 2) with (5,3)
+2022-06-17 11:56:30 INFO  ViewManager:256 - Exchanging images between tiles: (5, 2) and (5, 3)
+2022-06-17 11:56:30 INFO  App:124 - Box movement executed, exchanged tile: (5, 2) with (5,3)
+2022-06-17 11:56:30 INFO  App:163 - Exchanging tiles: (5, 1) with (5,2)
+2022-06-17 11:56:30 INFO  Board:207 - Exchaning tile: (5 1) of type with (PLAYER 5) of type
+2022-06-17 11:56:30 INFO  App:213 - Exchanged tiles in board: (5, 1) with (5,2)
+2022-06-17 11:56:30 INFO  Board:164 - Setting new player position: (5, 2)
+2022-06-17 11:56:30 INFO  ViewManager:256 - Exchanging images between tiles: (5, 1) and (5, 2)
+2022-06-17 11:56:30 INFO  App:141 - Box movement executed, exchanged tile: (5, 1) with (5,2)
+2022-06-17 11:56:30 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ W#+  +
++   ++++
++++++   
+
+2022-06-17 11:56:31 INFO  App:89 - Recieved input: Down
+2022-06-17 11:56:31 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:31 INFO  App:105 - Executing movement
+2022-06-17 11:56:31 INFO  App:163 - Exchanging tiles: (5, 2) with (6,2)
+2022-06-17 11:56:31 INFO  Board:207 - Exchaning tile: (5 2) of type with (PLAYER 6) of type
+2022-06-17 11:56:31 INFO  App:213 - Exchanged tiles in board: (5, 2) with (6,2)
+2022-06-17 11:56:31 INFO  Board:164 - Setting new player position: (6, 2)
+2022-06-17 11:56:31 INFO  ViewManager:256 - Exchanging images between tiles: (5, 2) and (6, 2)
+2022-06-17 11:56:31 INFO  App:141 - Box movement executed, exchanged tile: (5, 2) with (6,2)
+2022-06-17 11:56:31 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++  #+  +
++ W ++++
++++++   
+
+2022-06-17 11:56:31 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:31 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:31 INFO  App:105 - Executing movement
+2022-06-17 11:56:31 INFO  App:163 - Exchanging tiles: (6, 2) with (6,3)
+2022-06-17 11:56:31 INFO  Board:207 - Exchaning tile: (6 2) of type with (PLAYER 6) of type
+2022-06-17 11:56:31 INFO  App:213 - Exchanged tiles in board: (6, 2) with (6,3)
+2022-06-17 11:56:31 INFO  Board:164 - Setting new player position: (6, 3)
+2022-06-17 11:56:31 INFO  ViewManager:256 - Exchanging images between tiles: (6, 2) and (6, 3)
+2022-06-17 11:56:31 INFO  App:141 - Box movement executed, exchanged tile: (6, 2) with (6,3)
+2022-06-17 11:56:31 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++  #+  +
++  W++++
++++++   
+
+2022-06-17 11:56:31 INFO  App:89 - Recieved input: Up
+2022-06-17 11:56:31 INFO  App:257 - Direction: UP
+2022-06-17 11:56:31 INFO  App:105 - Executing movement
+2022-06-17 11:56:31 INFO  App:257 - Direction: UP
+2022-06-17 11:56:31 INFO  App:163 - Exchanging tiles: (5, 3) with (4,3)
+2022-06-17 11:56:31 INFO  App:188 - Setting tile (4,3) to BOXINGOAL
+2022-06-17 11:56:31 INFO  App:189 - Setting tile (5,3) to GROUND
+2022-06-17 11:56:31 INFO  ViewManager:189 - Showing winner scene
+2022-06-17 11:56:31 INFO  App:118 - Setting new scene
+2022-06-17 11:56:31 INFO  ViewManager:256 - Exchanging images between tiles: (5, 3) and (4, 3)
+2022-06-17 11:56:31 INFO  App:124 - Box movement executed, exchanged tile: (5, 3) with (4,3)
+2022-06-17 11:56:31 INFO  App:163 - Exchanging tiles: (6, 3) with (5,3)
+2022-06-17 11:56:31 INFO  Board:207 - Exchaning tile: (6 3) of type with (PLAYER 5) of type
+2022-06-17 11:56:31 INFO  App:213 - Exchanged tiles in board: (6, 3) with (5,3)
+2022-06-17 11:56:31 INFO  Board:164 - Setting new player position: (5, 3)
+2022-06-17 11:56:31 INFO  ViewManager:256 - Exchanging images between tiles: (6, 3) and (5, 3)
+2022-06-17 11:56:31 INFO  App:141 - Box movement executed, exchanged tile: (6, 3) with (5,3)
+2022-06-17 11:56:31 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ O+  +
++  W+  +
++   ++++
++++++   
+
+2022-06-17 11:56:34 INFO  App:78 - Loading next level 2 
+2022-06-17 11:56:34 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level2.txt
+2022-06-17 11:56:34 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level2.txt
+2022-06-17 11:56:34 INFO  Board:164 - Setting new player position: (8, 11)
+2022-06-17 11:56:34 INFO  Level:34 - Level correctly loaded
+2022-06-17 11:56:34 INFO  ViewManager:124 - Loading game images
+2022-06-17 11:56:34 INFO  ViewManager:137 - Game images loaded
+2022-06-17 11:56:34 INFO  ViewManager:146 - Loading level state
+2022-06-17 11:56:34 INFO  SokobanScene:25 - Creating Sokoban scene...
+2022-06-17 11:56:34 INFO  SokobanSideMenu:39 - Creating Sokoban Side Menu...
+2022-06-17 11:56:34 INFO  ViewManager:184 - Level state loaded
+2022-06-17 11:56:34 INFO  ViewManager:206 - Loading next level
+2022-06-17 11:56:36 INFO  App:89 - Recieved input: Up
+2022-06-17 11:56:36 INFO  App:257 - Direction: UP
+2022-06-17 11:56:36 INFO  App:105 - Executing movement
+2022-06-17 11:56:36 INFO  App:163 - Exchanging tiles: (8, 11) with (7,11)
+2022-06-17 11:56:36 INFO  Board:207 - Exchaning tile: (8 11) of type with (PLAYER 7) of type
+2022-06-17 11:56:36 INFO  App:213 - Exchanged tiles in board: (8, 11) with (7,11)
+2022-06-17 11:56:36 INFO  Board:164 - Setting new player position: (7, 11)
+2022-06-17 11:56:36 INFO  ViewManager:256 - Exchanging images between tiles: (8, 11) and (7, 11)
+2022-06-17 11:56:36 INFO  App:141 - Box movement executed, exchanged tile: (8, 11) with (7,11)
+2022-06-17 11:56:36 INFO  App:95 -     +++++          
+    +   +          
+    +#  +          
+  +++  #++         
+  +  # # +         
++++ + ++ +   ++++++
++   + ++ +++++  **+
++ #  #     W    **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:37 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:37 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:37 INFO  App:105 - Executing movement
+2022-06-17 11:56:37 INFO  App:163 - Exchanging tiles: (7, 11) with (7,10)
+2022-06-17 11:56:37 INFO  Board:207 - Exchaning tile: (7 11) of type with (PLAYER 7) of type
+2022-06-17 11:56:37 INFO  App:213 - Exchanged tiles in board: (7, 11) with (7,10)
+2022-06-17 11:56:37 INFO  Board:164 - Setting new player position: (7, 10)
+2022-06-17 11:56:37 INFO  ViewManager:256 - Exchanging images between tiles: (7, 11) and (7, 10)
+2022-06-17 11:56:37 INFO  App:141 - Box movement executed, exchanged tile: (7, 11) with (7,10)
+2022-06-17 11:56:37 INFO  App:95 -     +++++          
+    +   +          
+    +#  +          
+  +++  #++         
+  +  # # +         
++++ + ++ +   ++++++
++   + ++ +++++  **+
++ #  #    W     **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:37 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:37 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:37 INFO  App:105 - Executing movement
+2022-06-17 11:56:37 INFO  App:163 - Exchanging tiles: (7, 10) with (7,9)
+2022-06-17 11:56:37 INFO  Board:207 - Exchaning tile: (7 10) of type with (PLAYER 7) of type
+2022-06-17 11:56:37 INFO  App:213 - Exchanged tiles in board: (7, 10) with (7,9)
+2022-06-17 11:56:37 INFO  Board:164 - Setting new player position: (7, 9)
+2022-06-17 11:56:37 INFO  ViewManager:256 - Exchanging images between tiles: (7, 10) and (7, 9)
+2022-06-17 11:56:37 INFO  App:141 - Box movement executed, exchanged tile: (7, 10) with (7,9)
+2022-06-17 11:56:37 INFO  App:95 -     +++++          
+    +   +          
+    +#  +          
+  +++  #++         
+  +  # # +         
++++ + ++ +   ++++++
++   + ++ +++++  **+
++ #  #   W      **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:38 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:38 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:38 INFO  App:105 - Executing movement
+2022-06-17 11:56:38 INFO  App:163 - Exchanging tiles: (7, 9) with (7,8)
+2022-06-17 11:56:38 INFO  Board:207 - Exchaning tile: (7 9) of type with (PLAYER 7) of type
+2022-06-17 11:56:38 INFO  App:213 - Exchanged tiles in board: (7, 9) with (7,8)
+2022-06-17 11:56:38 INFO  Board:164 - Setting new player position: (7, 8)
+2022-06-17 11:56:38 INFO  ViewManager:256 - Exchanging images between tiles: (7, 9) and (7, 8)
+2022-06-17 11:56:38 INFO  App:141 - Box movement executed, exchanged tile: (7, 9) with (7,8)
+2022-06-17 11:56:38 INFO  App:95 -     +++++          
+    +   +          
+    +#  +          
+  +++  #++         
+  +  # # +         
++++ + ++ +   ++++++
++   + ++ +++++  **+
++ #  #  W       **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:39 INFO  App:89 - Recieved input: Up
+2022-06-17 11:56:39 INFO  App:257 - Direction: UP
+2022-06-17 11:56:39 INFO  App:105 - Executing movement
+2022-06-17 11:56:39 INFO  App:163 - Exchanging tiles: (7, 8) with (6,8)
+2022-06-17 11:56:39 INFO  Board:207 - Exchaning tile: (7 8) of type with (PLAYER 6) of type
+2022-06-17 11:56:39 INFO  App:213 - Exchanged tiles in board: (7, 8) with (6,8)
+2022-06-17 11:56:39 INFO  Board:164 - Setting new player position: (6, 8)
+2022-06-17 11:56:39 INFO  ViewManager:256 - Exchanging images between tiles: (7, 8) and (6, 8)
+2022-06-17 11:56:39 INFO  App:141 - Box movement executed, exchanged tile: (7, 8) with (6,8)
+2022-06-17 11:56:39 INFO  App:95 -     +++++          
+    +   +          
+    +#  +          
+  +++  #++         
+  +  # # +         
++++ + ++ +   ++++++
++   + ++W+++++  **+
++ #  #          **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:39 INFO  App:89 - Recieved input: Up
+2022-06-17 11:56:39 INFO  App:257 - Direction: UP
+2022-06-17 11:56:39 INFO  App:105 - Executing movement
+2022-06-17 11:56:39 INFO  App:163 - Exchanging tiles: (6, 8) with (5,8)
+2022-06-17 11:56:39 INFO  Board:207 - Exchaning tile: (6 8) of type with (PLAYER 5) of type
+2022-06-17 11:56:39 INFO  App:213 - Exchanged tiles in board: (6, 8) with (5,8)
+2022-06-17 11:56:39 INFO  Board:164 - Setting new player position: (5, 8)
+2022-06-17 11:56:39 INFO  ViewManager:256 - Exchanging images between tiles: (6, 8) and (5, 8)
+2022-06-17 11:56:39 INFO  App:141 - Box movement executed, exchanged tile: (6, 8) with (5,8)
+2022-06-17 11:56:39 INFO  App:95 -     +++++          
+    +   +          
+    +#  +          
+  +++  #++         
+  +  # # +         
++++ + ++W+   ++++++
++   + ++ +++++  **+
++ #  #          **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:39 INFO  App:89 - Recieved input: Up
+2022-06-17 11:56:39 INFO  App:257 - Direction: UP
+2022-06-17 11:56:39 INFO  App:105 - Executing movement
+2022-06-17 11:56:39 INFO  App:163 - Exchanging tiles: (5, 8) with (4,8)
+2022-06-17 11:56:39 INFO  Board:207 - Exchaning tile: (5 8) of type with (PLAYER 4) of type
+2022-06-17 11:56:39 INFO  App:213 - Exchanged tiles in board: (5, 8) with (4,8)
+2022-06-17 11:56:39 INFO  Board:164 - Setting new player position: (4, 8)
+2022-06-17 11:56:39 INFO  ViewManager:256 - Exchanging images between tiles: (5, 8) and (4, 8)
+2022-06-17 11:56:39 INFO  App:141 - Box movement executed, exchanged tile: (5, 8) with (4,8)
+2022-06-17 11:56:39 INFO  App:95 -     +++++          
+    +   +          
+    +#  +          
+  +++  #++         
+  +  # #W+         
++++ + ++ +   ++++++
++   + ++ +++++  **+
++ #  #          **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:40 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:40 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:40 INFO  App:105 - Executing movement
+2022-06-17 11:56:40 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:40 INFO  App:163 - Exchanging tiles: (4, 7) with (4,6)
+2022-06-17 11:56:40 INFO  Board:207 - Exchaning tile: (4 7) of type with (BOX 4) of type
+2022-06-17 11:56:40 INFO  App:213 - Exchanged tiles in board: (4, 7) with (4,6)
+2022-06-17 11:56:40 INFO  ViewManager:256 - Exchanging images between tiles: (4, 7) and (4, 6)
+2022-06-17 11:56:40 INFO  App:124 - Box movement executed, exchanged tile: (4, 7) with (4,6)
+2022-06-17 11:56:40 INFO  App:163 - Exchanging tiles: (4, 8) with (4,7)
+2022-06-17 11:56:40 INFO  Board:207 - Exchaning tile: (4 8) of type with (PLAYER 4) of type
+2022-06-17 11:56:40 INFO  App:213 - Exchanged tiles in board: (4, 8) with (4,7)
+2022-06-17 11:56:40 INFO  Board:164 - Setting new player position: (4, 7)
+2022-06-17 11:56:40 INFO  ViewManager:256 - Exchanging images between tiles: (4, 8) and (4, 7)
+2022-06-17 11:56:40 INFO  App:141 - Box movement executed, exchanged tile: (4, 8) with (4,7)
+2022-06-17 11:56:40 INFO  App:95 -     +++++          
+    +   +          
+    +#  +          
+  +++  #++         
+  +  ##W +         
++++ + ++ +   ++++++
++   + ++ +++++  **+
++ #  #          **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:43 INFO  App:89 - Recieved input: Up
+2022-06-17 11:56:43 INFO  App:257 - Direction: UP
+2022-06-17 11:56:43 INFO  App:105 - Executing movement
+2022-06-17 11:56:43 INFO  App:257 - Direction: UP
+2022-06-17 11:56:43 INFO  App:163 - Exchanging tiles: (3, 7) with (2,7)
+2022-06-17 11:56:43 INFO  Board:207 - Exchaning tile: (3 7) of type with (BOX 2) of type
+2022-06-17 11:56:43 INFO  App:213 - Exchanged tiles in board: (3, 7) with (2,7)
+2022-06-17 11:56:43 INFO  ViewManager:256 - Exchanging images between tiles: (3, 7) and (2, 7)
+2022-06-17 11:56:43 INFO  App:124 - Box movement executed, exchanged tile: (3, 7) with (2,7)
+2022-06-17 11:56:43 INFO  App:163 - Exchanging tiles: (4, 7) with (3,7)
+2022-06-17 11:56:43 INFO  Board:207 - Exchaning tile: (4 7) of type with (PLAYER 3) of type
+2022-06-17 11:56:43 INFO  App:213 - Exchanged tiles in board: (4, 7) with (3,7)
+2022-06-17 11:56:43 INFO  Board:164 - Setting new player position: (3, 7)
+2022-06-17 11:56:43 INFO  ViewManager:256 - Exchanging images between tiles: (4, 7) and (3, 7)
+2022-06-17 11:56:43 INFO  App:141 - Box movement executed, exchanged tile: (4, 7) with (3,7)
+2022-06-17 11:56:43 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++  W++         
+  +  ##  +         
++++ + ++ +   ++++++
++   + ++ +++++  **+
++ #  #          **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:43 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:43 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:43 INFO  App:105 - Executing movement
+2022-06-17 11:56:43 INFO  App:163 - Exchanging tiles: (3, 7) with (3,6)
+2022-06-17 11:56:43 INFO  Board:207 - Exchaning tile: (3 7) of type with (PLAYER 3) of type
+2022-06-17 11:56:43 INFO  App:213 - Exchanged tiles in board: (3, 7) with (3,6)
+2022-06-17 11:56:43 INFO  Board:164 - Setting new player position: (3, 6)
+2022-06-17 11:56:43 INFO  ViewManager:256 - Exchanging images between tiles: (3, 7) and (3, 6)
+2022-06-17 11:56:43 INFO  App:141 - Box movement executed, exchanged tile: (3, 7) with (3,6)
+2022-06-17 11:56:43 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++ W ++         
+  +  ##  +         
++++ + ++ +   ++++++
++   + ++ +++++  **+
++ #  #          **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:43 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:43 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:43 INFO  App:105 - Executing movement
+2022-06-17 11:56:43 INFO  App:163 - Exchanging tiles: (3, 6) with (3,5)
+2022-06-17 11:56:43 INFO  Board:207 - Exchaning tile: (3 6) of type with (PLAYER 3) of type
+2022-06-17 11:56:43 INFO  App:213 - Exchanged tiles in board: (3, 6) with (3,5)
+2022-06-17 11:56:43 INFO  Board:164 - Setting new player position: (3, 5)
+2022-06-17 11:56:43 INFO  ViewManager:256 - Exchanging images between tiles: (3, 6) and (3, 5)
+2022-06-17 11:56:43 INFO  App:141 - Box movement executed, exchanged tile: (3, 6) with (3,5)
+2022-06-17 11:56:43 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++W  ++         
+  +  ##  +         
++++ + ++ +   ++++++
++   + ++ +++++  **+
++ #  #          **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:44 INFO  App:89 - Recieved input: Down
+2022-06-17 11:56:44 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:44 INFO  App:105 - Executing movement
+2022-06-17 11:56:44 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:44 INFO  App:163 - Exchanging tiles: (4, 5) with (5,5)
+2022-06-17 11:56:44 INFO  Board:207 - Exchaning tile: (4 5) of type with (BOX 5) of type
+2022-06-17 11:56:44 INFO  App:213 - Exchanged tiles in board: (4, 5) with (5,5)
+2022-06-17 11:56:44 INFO  ViewManager:256 - Exchanging images between tiles: (4, 5) and (5, 5)
+2022-06-17 11:56:44 INFO  App:124 - Box movement executed, exchanged tile: (4, 5) with (5,5)
+2022-06-17 11:56:44 INFO  App:163 - Exchanging tiles: (3, 5) with (4,5)
+2022-06-17 11:56:44 INFO  Board:207 - Exchaning tile: (3 5) of type with (PLAYER 4) of type
+2022-06-17 11:56:44 INFO  App:213 - Exchanged tiles in board: (3, 5) with (4,5)
+2022-06-17 11:56:44 INFO  Board:164 - Setting new player position: (4, 5)
+2022-06-17 11:56:44 INFO  ViewManager:256 - Exchanging images between tiles: (3, 5) and (4, 5)
+2022-06-17 11:56:44 INFO  App:141 - Box movement executed, exchanged tile: (3, 5) with (4,5)
+2022-06-17 11:56:44 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +  W#  +         
++++ +#++ +   ++++++
++   + ++ +++++  **+
++ #  #          **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:44 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:44 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:44 INFO  App:105 - Executing movement
+2022-06-17 11:56:44 INFO  App:163 - Exchanging tiles: (4, 5) with (4,4)
+2022-06-17 11:56:44 INFO  Board:207 - Exchaning tile: (4 5) of type with (PLAYER 4) of type
+2022-06-17 11:56:44 INFO  App:213 - Exchanged tiles in board: (4, 5) with (4,4)
+2022-06-17 11:56:44 INFO  Board:164 - Setting new player position: (4, 4)
+2022-06-17 11:56:44 INFO  ViewManager:256 - Exchanging images between tiles: (4, 5) and (4, 4)
+2022-06-17 11:56:44 INFO  App:141 - Box movement executed, exchanged tile: (4, 5) with (4,4)
+2022-06-17 11:56:44 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  + W #  +         
++++ +#++ +   ++++++
++   + ++ +++++  **+
++ #  #          **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:44 INFO  App:89 - Recieved input: Left
+2022-06-17 11:56:44 INFO  App:234 - Direction: LEFT
+2022-06-17 11:56:44 INFO  App:105 - Executing movement
+2022-06-17 11:56:44 INFO  App:163 - Exchanging tiles: (4, 4) with (4,3)
+2022-06-17 11:56:44 INFO  Board:207 - Exchaning tile: (4 4) of type with (PLAYER 4) of type
+2022-06-17 11:56:44 INFO  App:213 - Exchanged tiles in board: (4, 4) with (4,3)
+2022-06-17 11:56:44 INFO  Board:164 - Setting new player position: (4, 3)
+2022-06-17 11:56:44 INFO  ViewManager:256 - Exchanging images between tiles: (4, 4) and (4, 3)
+2022-06-17 11:56:44 INFO  App:141 - Box movement executed, exchanged tile: (4, 4) with (4,3)
+2022-06-17 11:56:44 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +W  #  +         
++++ +#++ +   ++++++
++   + ++ +++++  **+
++ #  #          **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:45 INFO  App:89 - Recieved input: Down
+2022-06-17 11:56:45 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:45 INFO  App:105 - Executing movement
+2022-06-17 11:56:45 INFO  App:163 - Exchanging tiles: (4, 3) with (5,3)
+2022-06-17 11:56:45 INFO  Board:207 - Exchaning tile: (4 3) of type with (PLAYER 5) of type
+2022-06-17 11:56:45 INFO  App:213 - Exchanged tiles in board: (4, 3) with (5,3)
+2022-06-17 11:56:45 INFO  Board:164 - Setting new player position: (5, 3)
+2022-06-17 11:56:45 INFO  ViewManager:256 - Exchanging images between tiles: (4, 3) and (5, 3)
+2022-06-17 11:56:45 INFO  App:141 - Box movement executed, exchanged tile: (4, 3) with (5,3)
+2022-06-17 11:56:45 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++W+#++ +   ++++++
++   + ++ +++++  **+
++ #  #          **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:45 INFO  App:89 - Recieved input: Down
+2022-06-17 11:56:45 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:45 INFO  App:105 - Executing movement
+2022-06-17 11:56:45 INFO  App:163 - Exchanging tiles: (5, 3) with (6,3)
+2022-06-17 11:56:45 INFO  Board:207 - Exchaning tile: (5 3) of type with (PLAYER 6) of type
+2022-06-17 11:56:45 INFO  App:213 - Exchanged tiles in board: (5, 3) with (6,3)
+2022-06-17 11:56:45 INFO  Board:164 - Setting new player position: (6, 3)
+2022-06-17 11:56:45 INFO  ViewManager:256 - Exchanging images between tiles: (5, 3) and (6, 3)
+2022-06-17 11:56:45 INFO  App:141 - Box movement executed, exchanged tile: (5, 3) with (6,3)
+2022-06-17 11:56:45 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++  W+ ++ +++++  **+
++ #  #          **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:45 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:45 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:45 INFO  App:105 - Executing movement
+2022-06-17 11:56:45 INFO  App:150 - Tile to replace is not replaceable (Wall)
+2022-06-17 11:56:45 INFO  App:89 - Recieved input: Down
+2022-06-17 11:56:45 INFO  App:261 - Direction: DOWN
+2022-06-17 11:56:45 INFO  App:105 - Executing movement
+2022-06-17 11:56:45 INFO  App:163 - Exchanging tiles: (6, 3) with (7,3)
+2022-06-17 11:56:45 INFO  Board:207 - Exchaning tile: (6 3) of type with (PLAYER 7) of type
+2022-06-17 11:56:45 INFO  App:213 - Exchanged tiles in board: (6, 3) with (7,3)
+2022-06-17 11:56:45 INFO  Board:164 - Setting new player position: (7, 3)
+2022-06-17 11:56:45 INFO  ViewManager:256 - Exchanging images between tiles: (6, 3) and (7, 3)
+2022-06-17 11:56:45 INFO  App:141 - Box movement executed, exchanged tile: (6, 3) with (7,3)
+2022-06-17 11:56:45 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++   + ++ +++++  **+
++ #W #          **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:45 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:45 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:45 INFO  App:105 - Executing movement
+2022-06-17 11:56:45 INFO  App:163 - Exchanging tiles: (7, 3) with (7,4)
+2022-06-17 11:56:45 INFO  Board:207 - Exchaning tile: (7 3) of type with (PLAYER 7) of type
+2022-06-17 11:56:45 INFO  App:213 - Exchanged tiles in board: (7, 3) with (7,4)
+2022-06-17 11:56:45 INFO  Board:164 - Setting new player position: (7, 4)
+2022-06-17 11:56:45 INFO  ViewManager:256 - Exchanging images between tiles: (7, 3) and (7, 4)
+2022-06-17 11:56:45 INFO  App:141 - Box movement executed, exchanged tile: (7, 3) with (7,4)
+2022-06-17 11:56:45 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++   + ++ +++++  **+
++ # W#          **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:46 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:105 - Executing movement
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 5) with (7,6)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 5) of type with (BOX 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 5) with (7,6)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 5) and (7, 6)
+2022-06-17 11:56:46 INFO  App:124 - Box movement executed, exchanged tile: (7, 5) with (7,6)
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 4) with (7,5)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 4) of type with (PLAYER 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 4) with (7,5)
+2022-06-17 11:56:46 INFO  Board:164 - Setting new player position: (7, 5)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 4) and (7, 5)
+2022-06-17 11:56:46 INFO  App:141 - Box movement executed, exchanged tile: (7, 4) with (7,5)
+2022-06-17 11:56:46 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++   + ++ +++++  **+
++ #  W#         **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:46 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:105 - Executing movement
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 6) with (7,7)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 6) of type with (BOX 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 6) with (7,7)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 6) and (7, 7)
+2022-06-17 11:56:46 INFO  App:124 - Box movement executed, exchanged tile: (7, 6) with (7,7)
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 5) with (7,6)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 5) of type with (PLAYER 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 5) with (7,6)
+2022-06-17 11:56:46 INFO  Board:164 - Setting new player position: (7, 6)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 5) and (7, 6)
+2022-06-17 11:56:46 INFO  App:141 - Box movement executed, exchanged tile: (7, 5) with (7,6)
+2022-06-17 11:56:46 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++   + ++ +++++  **+
++ #   W#        **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:46 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:105 - Executing movement
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 7) with (7,8)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 7) of type with (BOX 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 7) with (7,8)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 7) and (7, 8)
+2022-06-17 11:56:46 INFO  App:124 - Box movement executed, exchanged tile: (7, 7) with (7,8)
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 6) with (7,7)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 6) of type with (PLAYER 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 6) with (7,7)
+2022-06-17 11:56:46 INFO  Board:164 - Setting new player position: (7, 7)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 6) and (7, 7)
+2022-06-17 11:56:46 INFO  App:141 - Box movement executed, exchanged tile: (7, 6) with (7,7)
+2022-06-17 11:56:46 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++   + ++ +++++  **+
++ #    W#       **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:46 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:105 - Executing movement
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 8) with (7,9)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 8) of type with (BOX 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 8) with (7,9)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 8) and (7, 9)
+2022-06-17 11:56:46 INFO  App:124 - Box movement executed, exchanged tile: (7, 8) with (7,9)
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 7) with (7,8)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 7) of type with (PLAYER 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 7) with (7,8)
+2022-06-17 11:56:46 INFO  Board:164 - Setting new player position: (7, 8)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 7) and (7, 8)
+2022-06-17 11:56:46 INFO  App:141 - Box movement executed, exchanged tile: (7, 7) with (7,8)
+2022-06-17 11:56:46 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++   + ++ +++++  **+
++ #     W#      **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:46 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:105 - Executing movement
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 9) with (7,10)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 9) of type with (BOX 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 9) with (7,10)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 9) and (7, 10)
+2022-06-17 11:56:46 INFO  App:124 - Box movement executed, exchanged tile: (7, 9) with (7,10)
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 8) with (7,9)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 8) of type with (PLAYER 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 8) with (7,9)
+2022-06-17 11:56:46 INFO  Board:164 - Setting new player position: (7, 9)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 8) and (7, 9)
+2022-06-17 11:56:46 INFO  App:141 - Box movement executed, exchanged tile: (7, 8) with (7,9)
+2022-06-17 11:56:46 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++   + ++ +++++  **+
++ #      W#     **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:46 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:105 - Executing movement
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 10) with (7,11)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 10) of type with (BOX 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 10) with (7,11)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 10) and (7, 11)
+2022-06-17 11:56:46 INFO  App:124 - Box movement executed, exchanged tile: (7, 10) with (7,11)
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 9) with (7,10)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 9) of type with (PLAYER 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 9) with (7,10)
+2022-06-17 11:56:46 INFO  Board:164 - Setting new player position: (7, 10)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 9) and (7, 10)
+2022-06-17 11:56:46 INFO  App:141 - Box movement executed, exchanged tile: (7, 9) with (7,10)
+2022-06-17 11:56:46 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++   + ++ +++++  **+
++ #       W#    **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:46 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:105 - Executing movement
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 11) with (7,12)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 11) of type with (BOX 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 11) with (7,12)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 11) and (7, 12)
+2022-06-17 11:56:46 INFO  App:124 - Box movement executed, exchanged tile: (7, 11) with (7,12)
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 10) with (7,11)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 10) of type with (PLAYER 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 10) with (7,11)
+2022-06-17 11:56:46 INFO  Board:164 - Setting new player position: (7, 11)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 10) and (7, 11)
+2022-06-17 11:56:46 INFO  App:141 - Box movement executed, exchanged tile: (7, 10) with (7,11)
+2022-06-17 11:56:46 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++   + ++ +++++  **+
++ #        W#   **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:46 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:105 - Executing movement
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 12) with (7,13)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 12) of type with (BOX 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 12) with (7,13)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 12) and (7, 13)
+2022-06-17 11:56:46 INFO  App:124 - Box movement executed, exchanged tile: (7, 12) with (7,13)
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 11) with (7,12)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 11) of type with (PLAYER 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 11) with (7,12)
+2022-06-17 11:56:46 INFO  Board:164 - Setting new player position: (7, 12)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 11) and (7, 12)
+2022-06-17 11:56:46 INFO  App:141 - Box movement executed, exchanged tile: (7, 11) with (7,12)
+2022-06-17 11:56:46 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++   + ++ +++++  **+
++ #         W#  **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:46 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:105 - Executing movement
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 13) with (7,14)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 13) of type with (BOX 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 13) with (7,14)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 13) and (7, 14)
+2022-06-17 11:56:46 INFO  App:124 - Box movement executed, exchanged tile: (7, 13) with (7,14)
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 12) with (7,13)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 12) of type with (PLAYER 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 12) with (7,13)
+2022-06-17 11:56:46 INFO  Board:164 - Setting new player position: (7, 13)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 12) and (7, 13)
+2022-06-17 11:56:46 INFO  App:141 - Box movement executed, exchanged tile: (7, 12) with (7,13)
+2022-06-17 11:56:46 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++   + ++ +++++  **+
++ #          W# **+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:46 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:105 - Executing movement
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 14) with (7,15)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 14) of type with (BOX 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 14) with (7,15)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 14) and (7, 15)
+2022-06-17 11:56:46 INFO  App:124 - Box movement executed, exchanged tile: (7, 14) with (7,15)
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 13) with (7,14)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 13) of type with (PLAYER 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 13) with (7,14)
+2022-06-17 11:56:46 INFO  Board:164 - Setting new player position: (7, 14)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 13) and (7, 14)
+2022-06-17 11:56:46 INFO  App:141 - Box movement executed, exchanged tile: (7, 13) with (7,14)
+2022-06-17 11:56:46 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++   + ++ +++++  **+
++ #           W#**+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:46 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:105 - Executing movement
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 15) with (7,16)
+2022-06-17 11:56:46 INFO  App:188 - Setting tile (7,16) to BOXINGOAL
+2022-06-17 11:56:46 INFO  App:189 - Setting tile (7,15) to GROUND
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 15) and (7, 16)
+2022-06-17 11:56:46 INFO  App:124 - Box movement executed, exchanged tile: (7, 15) with (7,16)
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 14) with (7,15)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 14) of type with (PLAYER 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 14) with (7,15)
+2022-06-17 11:56:46 INFO  Board:164 - Setting new player position: (7, 15)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 14) and (7, 15)
+2022-06-17 11:56:46 INFO  App:141 - Box movement executed, exchanged tile: (7, 14) with (7,15)
+2022-06-17 11:56:46 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++   + ++ +++++  **+
++ #            WO*+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:46 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:105 - Executing movement
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 16) with (7,17)
+2022-06-17 11:56:46 INFO  Board:207 - Exchaning tile: (7 16) of type with (BOXINGOAL 7) of type
+2022-06-17 11:56:46 INFO  App:213 - Exchanged tiles in board: (7, 16) with (7,17)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 16) and (7, 17)
+2022-06-17 11:56:46 INFO  App:124 - Box movement executed, exchanged tile: (7, 16) with (7,17)
+2022-06-17 11:56:46 INFO  App:163 - Exchanging tiles: (7, 15) with (7,16)
+2022-06-17 11:56:46 INFO  App:206 - Setting tile (7,16) to PLAYERINGOAL
+2022-06-17 11:56:46 INFO  App:207 - Setting tile (7,15) to GROUND
+2022-06-17 11:56:46 INFO  Board:164 - Setting new player position: (7, 16)
+2022-06-17 11:56:46 INFO  ViewManager:256 - Exchanging images between tiles: (7, 15) and (7, 16)
+2022-06-17 11:56:46 INFO  App:141 - Box movement executed, exchanged tile: (7, 15) with (7,16)
+2022-06-17 11:56:46 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++   + ++ +++++  **+
++ #             MO+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:56:46 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:105 - Executing movement
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:150 - Tile to replace is not replaceable (Wall)
+2022-06-17 11:56:46 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:105 - Executing movement
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:150 - Tile to replace is not replaceable (Wall)
+2022-06-17 11:56:46 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:105 - Executing movement
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:150 - Tile to replace is not replaceable (Wall)
+2022-06-17 11:56:46 INFO  App:89 - Recieved input: Right
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:105 - Executing movement
+2022-06-17 11:56:46 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:56:46 INFO  App:150 - Tile to replace is not replaceable (Wall)
+2022-06-17 11:56:49 INFO  ViewManager:313 - Showing correctly saved level dialog
+2022-06-17 11:56:49 INFO  SokobanSideMenu:132 - Saving level...
+2022-06-17 11:56:55 INFO  ViewManager:262 - Showiung save level dialog
+2022-06-17 11:56:55 INFO  SokobanSideMenu:97 - Going to main menu...
+2022-06-17 11:56:56 INFO  ViewManager:300 - Clicked on no
+2022-06-17 11:56:56 INFO  ViewManager:48 - Getting starting scene
+2022-06-17 11:56:56 INFO  App:118 - Setting new scene
+2022-06-17 11:57:05 INFO  App:93 - Loading selected level by the user C:\PProject\sokoban\saves\Fri Jun 17 115649 CEST 2022.vinh
+2022-06-17 11:57:05 INFO  Level:30 - Creating a level for file C:\PProject\sokoban\saves\Fri Jun 17 115649 CEST 2022.vinh
+2022-06-17 11:57:05 INFO  LevelLoader:54 - Loading board from file: C:\PProject\sokoban\saves\Fri Jun 17 115649 CEST 2022.vinh
+2022-06-17 11:57:05 INFO  Board:164 - Setting new player position: (7, 16)
+2022-06-17 11:57:05 INFO  LevelLoader:105 - This board has a moves counter, this will be used for the moves on the level
+2022-06-17 11:57:05 INFO  Level:34 - Level correctly loaded
+2022-06-17 11:57:05 INFO  ViewManager:124 - Loading game images
+2022-06-17 11:57:05 INFO  ViewManager:137 - Game images loaded
+2022-06-17 11:57:05 INFO  ViewManager:146 - Loading level state
+2022-06-17 11:57:05 INFO  SokobanScene:25 - Creating Sokoban scene...
+2022-06-17 11:57:05 INFO  SokobanSideMenu:39 - Creating Sokoban Side Menu...
+2022-06-17 11:57:05 INFO  ViewManager:184 - Level state loaded
+2022-06-17 11:57:07 INFO  App:89 - Recieved input: Down
+2022-06-17 11:57:07 INFO  App:261 - Direction: DOWN
+2022-06-17 11:57:07 INFO  App:105 - Executing movement
+2022-06-17 11:57:07 INFO  App:163 - Exchanging tiles: (7, 16) with (8,16)
+2022-06-17 11:57:07 INFO  Board:207 - Exchaning tile: (7 16) of type with (PLAYERINGOAL 8) of type
+2022-06-17 11:57:07 INFO  App:213 - Exchanged tiles in board: (7, 16) with (8,16)
+2022-06-17 11:57:07 INFO  Board:164 - Setting new player position: (8, 16)
+2022-06-17 11:57:07 INFO  ViewManager:256 - Exchanging images between tiles: (7, 16) and (8, 16)
+2022-06-17 11:57:07 INFO  App:141 - Box movement executed, exchanged tile: (7, 16) with (8,16)
+2022-06-17 11:57:07 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++   + ++ +++++  **+
++ #             *O+
++++++ +++ + ++  M*+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:57:07 INFO  App:89 - Recieved input: Right
+2022-06-17 11:57:07 INFO  App:239 - Direction: RIGHT
+2022-06-17 11:57:07 INFO  App:105 - Executing movement
+2022-06-17 11:57:07 INFO  App:163 - Exchanging tiles: (8, 16) with (8,17)
+2022-06-17 11:57:07 INFO  Board:207 - Exchaning tile: (8 16) of type with (PLAYERINGOAL 8) of type
+2022-06-17 11:57:07 INFO  App:213 - Exchanged tiles in board: (8, 16) with (8,17)
+2022-06-17 11:57:07 INFO  Board:164 - Setting new player position: (8, 17)
+2022-06-17 11:57:07 INFO  ViewManager:256 - Exchanging images between tiles: (8, 16) and (8, 17)
+2022-06-17 11:57:07 INFO  App:141 - Box movement executed, exchanged tile: (8, 16) with (8,17)
+2022-06-17 11:57:07 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++   + ++ +++++  **+
++ #             *O+
++++++ +++ + ++  *M+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:57:08 INFO  App:89 - Recieved input: Up
+2022-06-17 11:57:08 INFO  App:257 - Direction: UP
+2022-06-17 11:57:08 INFO  App:105 - Executing movement
+2022-06-17 11:57:08 INFO  App:257 - Direction: UP
+2022-06-17 11:57:08 INFO  App:163 - Exchanging tiles: (7, 17) with (6,17)
+2022-06-17 11:57:08 INFO  Board:207 - Exchaning tile: (7 17) of type with (BOXINGOAL 6) of type
+2022-06-17 11:57:08 INFO  App:213 - Exchanged tiles in board: (7, 17) with (6,17)
+2022-06-17 11:57:08 INFO  ViewManager:256 - Exchanging images between tiles: (7, 17) and (6, 17)
+2022-06-17 11:57:08 INFO  App:124 - Box movement executed, exchanged tile: (7, 17) with (6,17)
+2022-06-17 11:57:08 INFO  App:163 - Exchanging tiles: (8, 17) with (7,17)
+2022-06-17 11:57:08 INFO  Board:207 - Exchaning tile: (8 17) of type with (PLAYERINGOAL 7) of type
+2022-06-17 11:57:08 INFO  App:213 - Exchanged tiles in board: (8, 17) with (7,17)
+2022-06-17 11:57:08 INFO  Board:164 - Setting new player position: (7, 17)
+2022-06-17 11:57:08 INFO  ViewManager:256 - Exchanging images between tiles: (8, 17) and (7, 17)
+2022-06-17 11:57:08 INFO  App:141 - Box movement executed, exchanged tile: (8, 17) with (7,17)
+2022-06-17 11:57:08 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++   + ++ +++++  *O+
++ #             *M+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:57:08 INFO  App:89 - Recieved input: Left
+2022-06-17 11:57:08 INFO  App:234 - Direction: LEFT
+2022-06-17 11:57:08 INFO  App:105 - Executing movement
+2022-06-17 11:57:08 INFO  App:163 - Exchanging tiles: (7, 17) with (7,16)
+2022-06-17 11:57:08 INFO  Board:207 - Exchaning tile: (7 17) of type with (PLAYERINGOAL 7) of type
+2022-06-17 11:57:08 INFO  App:213 - Exchanged tiles in board: (7, 17) with (7,16)
+2022-06-17 11:57:08 INFO  Board:164 - Setting new player position: (7, 16)
+2022-06-17 11:57:08 INFO  ViewManager:256 - Exchanging images between tiles: (7, 17) and (7, 16)
+2022-06-17 11:57:08 INFO  App:141 - Box movement executed, exchanged tile: (7, 17) with (7,16)
+2022-06-17 11:57:08 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++   + ++ +++++  *O+
++ #             M*+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 11:57:08 INFO  App:89 - Recieved input: Left
+2022-06-17 11:57:08 INFO  App:234 - Direction: LEFT
+2022-06-17 11:57:08 INFO  App:105 - Executing movement
+2022-06-17 11:57:08 INFO  App:163 - Exchanging tiles: (7, 16) with (7,15)
+2022-06-17 11:57:08 INFO  App:178 - Setting tile (7,15) to PLAYER
+2022-06-17 11:57:08 INFO  App:179 - Setting tile (7,16) to GOAL
+2022-06-17 11:57:08 INFO  Board:164 - Setting new player position: (7, 15)
+2022-06-17 11:57:08 INFO  ViewManager:256 - Exchanging images between tiles: (7, 16) and (7, 15)
+2022-06-17 11:57:08 INFO  App:141 - Box movement executed, exchanged tile: (7, 16) with (7,15)
+2022-06-17 11:57:08 INFO  App:95 -     +++++          
+    +   +          
+    +# #+          
+  +++   ++         
+  +   #  +         
++++ +#++ +   ++++++
++   + ++ +++++  *O+
++ #            W**+
++++++ +++ + ++  **+
+    +     +++++++++
+    +++++++        
+

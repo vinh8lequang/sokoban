@@ -161,8 +161,12 @@ public class ViewManager {
                         case GOAL:
                             imageGrid[i][j] = new ImageView(goalImage);
                             break;
+                        case PLAYERINGOAL:
                         case PLAYER:
                             imageGrid[i][j] = new ImageView(playerRightImage);
+                            break;
+                        case BOXINGOAL:
+                            imageGrid[i][j] = new ImageView(boxInGoalImage);
                             break;
                         case WALL:
                             imageGrid[i][j] = new ImageView(wallImage);
