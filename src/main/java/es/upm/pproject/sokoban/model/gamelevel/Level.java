@@ -113,11 +113,11 @@ public class Level {
         saveDir.mkdir();
         Date date = new Date();
         String nombre = date.toString();
+        nombre = nombre.replace(":", "");
 
         File saveFile = new File("saves/" + nombre + ".vinh");
         try(BufferedWriter writer = new BufferedWriter(new FileWriter(saveFile))) {
-            boolean created = saveFile.createNewFile();
-            if(created){
+            if(!saveFile.createNewFile()){
                 writer.write(board.getRows() + " " + board.getCols() + "\n");
                 writer.write(board.toString());
                 writer.write( " \n" + getMoves());
