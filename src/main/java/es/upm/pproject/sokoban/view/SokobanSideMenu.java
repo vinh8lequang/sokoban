@@ -28,6 +28,9 @@ public class SokobanSideMenu extends VBox {
     private Label movesVal;
     private Level level;
 
+    private String yellowStyle = "-fx-background-color: #ffff00";
+    private String impactFont = "Impact";
+
     private static Logger logger = LoggerFactory.getLogger(SokobanSideMenu.class);
     // constructor
 
@@ -57,8 +60,8 @@ public class SokobanSideMenu extends VBox {
         // create undo button
         Button undoButton = new Button("Undo");
         undoButton.setFocusTraversable(false);
-        undoButton.setFont(new Font("Impact", 30));
-        undoButton.setStyle("-fx-background-color: #ffff00");
+        undoButton.setFont(new Font(impactFont, 30));
+        undoButton.setStyle(yellowStyle);
         undoButton.setMaxWidth(230);
         undoButton.setMinWidth(230);
         undoButton.setOnAction(e -> {
@@ -67,8 +70,8 @@ public class SokobanSideMenu extends VBox {
         // create redo button
         Button redoButton = new Button("Redo");
         redoButton.setFocusTraversable(false);
-        redoButton.setFont(new Font("Impact", 30));
-        redoButton.setStyle("-fx-background-color: #ffff00");
+        redoButton.setFont(new Font(impactFont, 30));
+        redoButton.setStyle(yellowStyle);
         redoButton.setMaxWidth(112);
         redoButton.setMinWidth(112);
         redoButton.setOnAction(e -> {
@@ -83,8 +86,8 @@ public class SokobanSideMenu extends VBox {
         HBox mainMenuBox = new HBox();
         Button menuButton = new Button("Main menu");
         menuButton.setFocusTraversable(false);
-        menuButton.setFont(new Font("Impact", 30));
-        menuButton.setStyle("-fx-background-color: #ffff00");
+        menuButton.setFont(new Font(impactFont, 30));
+        menuButton.setStyle(yellowStyle);
         menuButton.setMaxWidth(230);
         menuButton.setMinWidth(230);
         menuButton.setOnAction(e -> {
@@ -100,8 +103,8 @@ public class SokobanSideMenu extends VBox {
         // create a restart button
         Button restartButton = new Button("Restart");
         restartButton.setFocusTraversable(false);
-        restartButton.setFont(new Font("Impact", 30));
-        restartButton.setStyle("-fx-background-color: #ffff00");
+        restartButton.setFont(new Font(impactFont, 30));
+        restartButton.setStyle(yellowStyle);
         restartButton.setMaxWidth(230);
         restartButton.setMinWidth(230);
         restartButton.setOnAction(e -> {
@@ -117,8 +120,8 @@ public class SokobanSideMenu extends VBox {
         // create save button
         Button saveButton = new Button("Save level");
         saveButton.setFocusTraversable(false);
-        saveButton.setFont(new Font("Impact", 30));
-        saveButton.setStyle("-fx-background-color: #ffff00");
+        saveButton.setFont(new Font(impactFont, 30));
+        saveButton.setStyle(yellowStyle);
         saveButton.setMaxWidth(230);
         saveButton.setMinWidth(230);
         saveButton.setOnAction(e -> {
@@ -135,8 +138,8 @@ public class SokobanSideMenu extends VBox {
         // create music button
         Button musicButton = new Button("Music");
         musicButton.setFocusTraversable(false);
-        musicButton.setFont(new Font("Impact", 30));
-        musicButton.setStyle("-fx-background-color: #ffff00");
+        musicButton.setFont(new Font(impactFont, 30));
+        musicButton.setStyle(yellowStyle);
         musicButton.setMaxWidth(230);
         musicButton.setMinWidth(230);
         musicButton.setOnAction(e -> {
@@ -167,10 +170,10 @@ public class SokobanSideMenu extends VBox {
 
     public HBox creeateMovesBox() {
         moves = new Label();
-        moves.setFont(new Font("Impact", 30));
+        moves.setFont(new Font(impactFont, 30));
         moves.setText("Vinh Moves:\t");
         movesVal = new Label();
-        movesVal.setFont(new Font("Impact", 30));
+        movesVal.setFont(new Font(impactFont, 30));
         movesVal.textProperty().bind(level.getStrMoves());
         HBox movesBox = new HBox();
         movesBox.getChildren().addAll(moves, movesVal);

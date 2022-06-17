@@ -114,7 +114,6 @@ public class Level {
                 writer.write(board.getRows() + " " + board.getCols() + "\n");
                 writer.write(board.toString());
                 writer.write( " \n" + getMoves());
-                writer.close();
             }
         } catch (IOException e) {
             logger.error(e.getMessage());

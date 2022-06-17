@@ -18,7 +18,6 @@ public class Inputs {
                 if (event.getCode() == KeyCode.UP || event.getCode() == KeyCode.DOWN ||
                         event.getCode() == KeyCode.RIGHT || event.getCode() == KeyCode.LEFT) {
                     MovementExecutor.updateSceneOnInput(event.getCode());
-                    logger.info(MovementExecutor.class.toString());
                 }
                 
             }
