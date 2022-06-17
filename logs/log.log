@@ -12,3 +12,9432 @@
 2022-06-17 01:33:06 ERROR Level:120 - saves\Fri Jun 17 01:33:06 CEST 2022.vinh (El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correctos)
 2022-06-17 01:33:06 ERROR LevelLoader:116 - src\main\resources\Levels\aaa.txt (El sistema no puede encontrar el archivo especificado)
 2022-06-17 01:33:40 ERROR LevelLoader:116 - src/main/resources/Levels/aaa.txt (No such file or directory)
+2022-06-17 01:38:12 ERROR LevelLoader:116 - src/main/resources/Levels/aaa.txt (No such file or directory)
+2022-06-17 01:50:35 ERROR LevelLoader:116 - src/main/resources/Levels/aaa.txt (No such file or directory)
+2022-06-17 02:05:47 INFO  App:165 - class org.apache.log4j.BasicConfigurator
+2022-06-17 02:05:47 INFO  App:49 - SokoVinh started
+2022-06-17 02:05:47 INFO  App:51 - javafx.scene.Scene@7b166f4b
+2022-06-17 02:05:47 INFO  App:55 - javafx.scene.media.MediaPlayer@b49eac3
+2022-06-17 02:05:49 INFO  App:75 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:49 INFO  App:77 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:49 INFO  App:82 - es.upm.pproject.sokoban.view.SokobanScene@769bbed1
+2022-06-17 02:05:49 INFO  App:84 - javafx.stage.Stage@7a315b0d
+2022-06-17 02:05:49 INFO  App:142 - javafx.scene.media.MediaPlayer@b49eac3
+2022-06-17 02:05:49 INFO  App:144 - true
+2022-06-17 02:05:50 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:50 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:50 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:50 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:05:50 INFO  App:97 - 4
+2022-06-17 02:05:50 INFO  App:99 - 3
+2022-06-17 02:05:50 INFO  App:133 - 4
+2022-06-17 02:05:50 INFO  App:135 - 2
+2022-06-17 02:05:50 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938]
+2022-06-17 02:05:50 INFO  App:164 - GOAL
+2022-06-17 02:05:50 INFO  App:166 - PLAYER
+2022-06-17 02:05:50 INFO  App:204 - ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:50 INFO  App:218 - ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:50 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:50 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:50 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:50 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:50 INFO  App:97 - 3
+2022-06-17 02:05:50 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:05:50 INFO  App:99 - 3
+2022-06-17 02:05:50 INFO  App:133 - 4
+2022-06-17 02:05:50 INFO  App:135 - 3
+2022-06-17 02:05:50 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d]
+2022-06-17 02:05:50 INFO  App:164 - GROUND
+2022-06-17 02:05:50 INFO  App:166 - PLAYERINGOAL
+2022-06-17 02:05:50 INFO  App:178 - ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:50 INFO  App:218 - ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:50 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:50 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:50 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:50 INFO  App:95 - ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:50 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:05:50 INFO  App:97 - 3
+2022-06-17 02:05:50 INFO  App:99 - 4
+2022-06-17 02:05:50 INFO  App:133 - 3
+2022-06-17 02:05:50 INFO  App:135 - 3
+2022-06-17 02:05:50 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10]
+2022-06-17 02:05:50 INFO  App:164 - GROUND
+2022-06-17 02:05:50 INFO  App:166 - PLAYER
+2022-06-17 02:05:50 INFO  App:210 - ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:50 INFO  App:218 - ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:50 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:50 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:50 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:50 INFO  App:95 - ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:50 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:05:50 INFO  App:97 - 3
+2022-06-17 02:05:50 INFO  App:99 - 5
+2022-06-17 02:05:50 INFO  App:133 - 3
+2022-06-17 02:05:50 INFO  App:135 - 4
+2022-06-17 02:05:50 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7]
+2022-06-17 02:05:50 INFO  App:164 - GROUND
+2022-06-17 02:05:50 INFO  App:166 - PLAYER
+2022-06-17 02:05:50 INFO  App:210 - ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:50 INFO  App:218 - ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:50 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:51 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:51 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:51 INFO  App:95 - ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:51 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:05:51 INFO  App:97 - 3
+2022-06-17 02:05:51 INFO  App:99 - 6
+2022-06-17 02:05:51 INFO  App:133 - 3
+2022-06-17 02:05:51 INFO  App:135 - 5
+2022-06-17 02:05:51 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9]
+2022-06-17 02:05:51 INFO  App:164 - GROUND
+2022-06-17 02:05:51 INFO  App:166 - PLAYER
+2022-06-17 02:05:51 INFO  App:210 - ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:51 INFO  App:218 - ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:51 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:51 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:51 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:51 INFO  App:95 - ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:51 INFO  App:97 - 4
+2022-06-17 02:05:51 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:05:51 INFO  App:99 - 6
+2022-06-17 02:05:51 INFO  App:133 - 3
+2022-06-17 02:05:51 INFO  App:135 - 6
+2022-06-17 02:05:51 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055]
+2022-06-17 02:05:51 INFO  App:164 - GROUND
+2022-06-17 02:05:51 INFO  App:166 - PLAYER
+2022-06-17 02:05:51 INFO  App:210 - ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:51 INFO  App:218 - ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:51 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:51 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:51 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:51 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:51 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:05:51 INFO  App:97 - 4
+2022-06-17 02:05:51 INFO  App:99 - 5
+2022-06-17 02:05:51 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:05:51 INFO  App:113 - 4
+2022-06-17 02:05:51 INFO  App:115 - 4
+2022-06-17 02:05:51 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:51 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:51 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:51 INFO  App:97 - 5
+2022-06-17 02:05:51 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:05:51 INFO  App:99 - 6
+2022-06-17 02:05:51 INFO  App:133 - 4
+2022-06-17 02:05:51 INFO  App:135 - 6
+2022-06-17 02:05:51 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043]
+2022-06-17 02:05:51 INFO  App:164 - GROUND
+2022-06-17 02:05:51 INFO  App:166 - PLAYER
+2022-06-17 02:05:51 INFO  App:210 - ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+
+2022-06-17 02:05:51 INFO  App:218 - ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+
+2022-06-17 02:05:51 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:52 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:52 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:52 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+
+2022-06-17 02:05:52 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:05:52 INFO  App:97 - 5
+2022-06-17 02:05:52 INFO  App:99 - 5
+2022-06-17 02:05:52 INFO  App:133 - 5
+2022-06-17 02:05:52 INFO  App:135 - 6
+2022-06-17 02:05:52 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a]
+2022-06-17 02:05:52 INFO  App:164 - GROUND
+2022-06-17 02:05:52 INFO  App:166 - PLAYER
+2022-06-17 02:05:52 INFO  App:210 - ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+
+2022-06-17 02:05:52 INFO  App:218 - ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+
+2022-06-17 02:05:52 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:52 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:52 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:52 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+
+2022-06-17 02:05:52 INFO  App:97 - 4
+2022-06-17 02:05:52 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:05:52 INFO  App:99 - 5
+2022-06-17 02:05:52 INFO  App:113 - 3
+2022-06-17 02:05:52 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:05:52 INFO  App:115 - 5
+2022-06-17 02:05:52 INFO  App:124 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433]
+2022-06-17 02:05:52 INFO  App:164 - GROUND
+2022-06-17 02:05:52 INFO  App:166 - BOX
+2022-06-17 02:05:52 INFO  App:210 - ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+
+2022-06-17 02:05:52 INFO  App:133 - 5
+2022-06-17 02:05:52 INFO  App:135 - 5
+2022-06-17 02:05:52 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c]
+2022-06-17 02:05:52 INFO  App:164 - GROUND
+2022-06-17 02:05:52 INFO  App:166 - PLAYER
+2022-06-17 02:05:52 INFO  App:210 - ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:52 INFO  App:218 - ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:52 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:52 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:52 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:52 INFO  App:95 - ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:52 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:05:52 INFO  App:97 - 4
+2022-06-17 02:05:52 INFO  App:99 - 6
+2022-06-17 02:05:52 INFO  App:133 - 4
+2022-06-17 02:05:52 INFO  App:135 - 5
+2022-06-17 02:05:52 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870]
+2022-06-17 02:05:52 INFO  App:164 - GROUND
+2022-06-17 02:05:52 INFO  App:166 - PLAYER
+2022-06-17 02:05:52 INFO  App:210 - ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:52 INFO  App:218 - ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:52 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:53 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:53 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:53 INFO  App:95 - ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:53 INFO  App:97 - 3
+2022-06-17 02:05:53 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:05:53 INFO  App:99 - 6
+2022-06-17 02:05:53 INFO  App:133 - 4
+2022-06-17 02:05:53 INFO  App:135 - 6
+2022-06-17 02:05:53 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593]
+2022-06-17 02:05:53 INFO  App:164 - GROUND
+2022-06-17 02:05:53 INFO  App:166 - PLAYER
+2022-06-17 02:05:53 INFO  App:210 - ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:53 INFO  App:218 - ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:53 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:53 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:53 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:53 INFO  App:95 - ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:53 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:05:53 INFO  App:97 - 3
+2022-06-17 02:05:53 INFO  App:99 - 5
+2022-06-17 02:05:53 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:05:53 INFO  App:113 - 3
+2022-06-17 02:05:53 INFO  App:115 - 4
+2022-06-17 02:05:53 INFO  App:124 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1]
+2022-06-17 02:05:53 INFO  App:164 - GROUND
+2022-06-17 02:05:53 INFO  App:166 - BOX
+2022-06-17 02:05:53 INFO  App:210 - ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:53 INFO  App:133 - 3
+2022-06-17 02:05:53 INFO  App:135 - 6
+2022-06-17 02:05:53 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288]
+2022-06-17 02:05:53 INFO  App:164 - GROUND
+2022-06-17 02:05:53 INFO  App:166 - PLAYER
+2022-06-17 02:05:53 INFO  App:210 - ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:53 INFO  App:218 - ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:53 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:53 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:53 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:53 INFO  App:95 - ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:53 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:05:53 INFO  App:97 - 3
+2022-06-17 02:05:53 INFO  App:99 - 4
+2022-06-17 02:05:53 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:05:53 INFO  App:113 - 3
+2022-06-17 02:05:53 INFO  App:115 - 3
+2022-06-17 02:05:53 INFO  App:124 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d]
+2022-06-17 02:05:53 INFO  App:164 - GROUND
+2022-06-17 02:05:53 INFO  App:166 - BOX
+2022-06-17 02:05:53 INFO  App:210 - ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:53 INFO  App:133 - 3
+2022-06-17 02:05:53 INFO  App:135 - 5
+2022-06-17 02:05:53 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce]
+2022-06-17 02:05:53 INFO  App:164 - GROUND
+2022-06-17 02:05:53 INFO  App:166 - PLAYER
+2022-06-17 02:05:53 INFO  App:210 - ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:53 INFO  App:218 - ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:53 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:54 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:54 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:05:54 INFO  App:95 - ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:54 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:05:54 INFO  App:97 - 3
+2022-06-17 02:05:54 INFO  App:99 - 3
+2022-06-17 02:05:54 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:05:54 INFO  App:113 - 3
+2022-06-17 02:05:54 INFO  App:115 - 2
+2022-06-17 02:05:54 INFO  App:124 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707]
+2022-06-17 02:05:54 INFO  App:164 - GROUND
+2022-06-17 02:05:54 INFO  App:166 - BOX
+2022-06-17 02:05:54 INFO  App:210 - ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:54 INFO  App:133 - 3
+2022-06-17 02:05:54 INFO  App:135 - 4
+2022-06-17 02:05:54 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a]
+2022-06-17 02:05:54 INFO  App:164 - GROUND
+2022-06-17 02:05:54 INFO  App:166 - PLAYER
+2022-06-17 02:05:54 INFO  App:210 - ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:54 INFO  App:218 - ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:05:54 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:02 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:02 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:02 INFO  App:95 - ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:02 INFO  App:97 - 4
+2022-06-17 02:06:02 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:06:02 INFO  App:99 - 3
+2022-06-17 02:06:02 INFO  App:133 - 3
+2022-06-17 02:06:02 INFO  App:135 - 3
+2022-06-17 02:06:02 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284]
+2022-06-17 02:06:02 INFO  App:164 - GOAL
+2022-06-17 02:06:02 INFO  App:166 - PLAYER
+2022-06-17 02:06:02 INFO  App:204 - ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:02 INFO  App:218 - ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:02 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:02 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:02 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:02 INFO  App:95 - ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:02 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:06:02 INFO  App:97 - 4
+2022-06-17 02:06:02 INFO  App:99 - 2
+2022-06-17 02:06:02 INFO  App:133 - 4
+2022-06-17 02:06:02 INFO  App:135 - 3
+2022-06-17 02:06:02 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe]
+2022-06-17 02:06:02 INFO  App:164 - GROUND
+2022-06-17 02:06:02 INFO  App:166 - PLAYERINGOAL
+2022-06-17 02:06:02 INFO  App:178 - ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:02 INFO  App:218 - ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:02 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:02 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:02 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:02 INFO  App:95 - ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:02 INFO  App:97 - 3
+2022-06-17 02:06:02 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:06:02 INFO  App:99 - 2
+2022-06-17 02:06:02 INFO  App:113 - 2
+2022-06-17 02:06:02 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:06:02 INFO  App:115 - 2
+2022-06-17 02:06:02 INFO  App:124 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817]
+2022-06-17 02:06:02 INFO  App:164 - GROUND
+2022-06-17 02:06:02 INFO  App:166 - BOX
+2022-06-17 02:06:02 INFO  App:210 - ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:02 INFO  App:133 - 4
+2022-06-17 02:06:02 INFO  App:135 - 2
+2022-06-17 02:06:02 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9]
+2022-06-17 02:06:02 INFO  App:164 - GROUND
+2022-06-17 02:06:02 INFO  App:166 - PLAYER
+2022-06-17 02:06:02 INFO  App:210 - ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:02 INFO  App:218 - ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:02 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:03 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:03 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:03 INFO  App:95 - ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:03 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:06:03 INFO  App:97 - 3
+2022-06-17 02:06:03 INFO  App:99 - 1
+2022-06-17 02:06:03 INFO  App:133 - 3
+2022-06-17 02:06:03 INFO  App:135 - 2
+2022-06-17 02:06:03 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481]
+2022-06-17 02:06:03 INFO  App:164 - GROUND
+2022-06-17 02:06:03 INFO  App:166 - PLAYER
+2022-06-17 02:06:03 INFO  App:210 - ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:03 INFO  App:218 - ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:03 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:03 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:03 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:03 INFO  App:95 - ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:03 INFO  App:97 - 2
+2022-06-17 02:06:03 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:06:03 INFO  App:99 - 1
+2022-06-17 02:06:03 INFO  App:133 - 3
+2022-06-17 02:06:03 INFO  App:135 - 1
+2022-06-17 02:06:03 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74]
+2022-06-17 02:06:03 INFO  App:164 - GROUND
+2022-06-17 02:06:03 INFO  App:166 - PLAYER
+2022-06-17 02:06:03 INFO  App:210 - ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:03 INFO  App:218 - ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:03 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:03 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:03 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:03 INFO  App:95 - ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:03 INFO  App:97 - 1
+2022-06-17 02:06:03 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:06:03 INFO  App:99 - 1
+2022-06-17 02:06:03 INFO  App:133 - 2
+2022-06-17 02:06:03 INFO  App:135 - 1
+2022-06-17 02:06:03 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65]
+2022-06-17 02:06:03 INFO  App:164 - GROUND
+2022-06-17 02:06:03 INFO  App:166 - PLAYER
+2022-06-17 02:06:03 INFO  App:210 - ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:03 INFO  App:218 - ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:03 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:03 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:03 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:03 INFO  App:95 - ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:03 INFO  App:97 - 0
+2022-06-17 02:06:03 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:06:03 INFO  App:99 - 1
+2022-06-17 02:06:03 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:03 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:03 INFO  App:95 - ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:03 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:06:03 INFO  App:97 - 1
+2022-06-17 02:06:03 INFO  App:99 - 2
+2022-06-17 02:06:03 INFO  App:133 - 1
+2022-06-17 02:06:03 INFO  App:135 - 1
+2022-06-17 02:06:03 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65, ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c8aada9]
+2022-06-17 02:06:03 INFO  App:164 - GROUND
+2022-06-17 02:06:03 INFO  App:166 - PLAYER
+2022-06-17 02:06:03 INFO  App:210 - ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:03 INFO  App:218 - ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:03 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:04 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:04 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:04 INFO  App:95 - ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:04 INFO  App:97 - 2
+2022-06-17 02:06:04 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:06:04 INFO  App:99 - 2
+2022-06-17 02:06:04 INFO  App:113 - 3
+2022-06-17 02:06:04 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:06:04 INFO  App:115 - 2
+2022-06-17 02:06:04 INFO  App:124 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65, ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c8aada9, ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@665cf1d1]
+2022-06-17 02:06:04 INFO  App:164 - GROUND
+2022-06-17 02:06:04 INFO  App:166 - BOX
+2022-06-17 02:06:04 INFO  App:210 - ++++    
++ W+    
++  +++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:04 INFO  App:133 - 1
+2022-06-17 02:06:04 INFO  App:135 - 2
+2022-06-17 02:06:04 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65, ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c8aada9, ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@665cf1d1, ++++    
++ W+    
++  +++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56d2b79b]
+2022-06-17 02:06:04 INFO  App:164 - GROUND
+2022-06-17 02:06:04 INFO  App:166 - PLAYER
+2022-06-17 02:06:04 INFO  App:210 - ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:04 INFO  App:218 - ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:04 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:04 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:04 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:04 INFO  App:95 - ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:04 INFO  App:97 - 3
+2022-06-17 02:06:04 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:06:04 INFO  App:99 - 2
+2022-06-17 02:06:04 INFO  App:113 - 4
+2022-06-17 02:06:04 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:06:04 INFO  App:115 - 2
+2022-06-17 02:06:04 INFO  App:124 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65, ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c8aada9, ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@665cf1d1, ++++    
++ W+    
++  +++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56d2b79b, ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3608bd9a]
+2022-06-17 02:06:04 INFO  App:164 - GROUND
+2022-06-17 02:06:04 INFO  App:166 - BOX
+2022-06-17 02:06:04 INFO  App:210 - ++++    
++  +    
++ W+++++
++      +
+++#*+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:04 INFO  App:133 - 2
+2022-06-17 02:06:04 INFO  App:135 - 2
+2022-06-17 02:06:04 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65, ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c8aada9, ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@665cf1d1, ++++    
++ W+    
++  +++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56d2b79b, ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3608bd9a, ++++    
++  +    
++ W+++++
++      +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f56a917]
+2022-06-17 02:06:04 INFO  App:164 - GROUND
+2022-06-17 02:06:04 INFO  App:166 - PLAYER
+2022-06-17 02:06:04 INFO  App:210 - ++++    
++  +    
++  +++++
++ W    +
+++#*+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:04 INFO  App:218 - ++++    
++  +    
++  +++++
++ W    +
+++#*+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:04 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:04 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:04 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:04 INFO  App:95 - ++++    
++  +    
++  +++++
++ W    +
+++#*+  +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:06:04 INFO  App:97 - 4
+2022-06-17 02:06:04 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:06:04 INFO  App:99 - 2
+2022-06-17 02:06:04 INFO  App:113 - 5
+2022-06-17 02:06:04 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:06:04 INFO  App:115 - 2
+2022-06-17 02:06:04 INFO  App:124 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65, ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c8aada9, ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@665cf1d1, ++++    
++ W+    
++  +++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56d2b79b, ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3608bd9a, ++++    
++  +    
++ W+++++
++      +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f56a917, ++++    
++  +    
++  +++++
++ W    +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@e850355]
+2022-06-17 02:06:04 INFO  App:164 - GROUND
+2022-06-17 02:06:04 INFO  App:166 - BOX
+2022-06-17 02:06:04 INFO  App:210 - ++++    
++  +    
++  +++++
++ W    +
+++ *+  +
++ # +  +
++   ++++
++++++   
+
+2022-06-17 02:06:04 INFO  App:133 - 3
+2022-06-17 02:06:04 INFO  App:135 - 2
+2022-06-17 02:06:04 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65, ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c8aada9, ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@665cf1d1, ++++    
++ W+    
++  +++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56d2b79b, ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3608bd9a, ++++    
++  +    
++ W+++++
++      +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f56a917, ++++    
++  +    
++  +++++
++ W    +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@e850355, ++++    
++  +    
++  +++++
++ W    +
+++ *+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4da80371]
+2022-06-17 02:06:04 INFO  App:164 - GROUND
+2022-06-17 02:06:04 INFO  App:166 - PLAYER
+2022-06-17 02:06:04 INFO  App:210 - ++++    
++  +    
++  +++++
++      +
+++W*+  +
++ # +  +
++   ++++
++++++   
+
+2022-06-17 02:06:04 INFO  App:218 - ++++    
++  +    
++  +++++
++      +
+++W*+  +
++ # +  +
++   ++++
++++++   
+
+2022-06-17 02:06:04 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:04 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:04 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:04 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++W*+  +
++ # +  +
++   ++++
++++++   
+
+2022-06-17 02:06:04 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:06:04 INFO  App:97 - 4
+2022-06-17 02:06:04 INFO  App:99 - 3
+2022-06-17 02:06:04 INFO  App:133 - 4
+2022-06-17 02:06:04 INFO  App:135 - 2
+2022-06-17 02:06:04 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65, ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c8aada9, ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@665cf1d1, ++++    
++ W+    
++  +++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56d2b79b, ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3608bd9a, ++++    
++  +    
++ W+++++
++      +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f56a917, ++++    
++  +    
++  +++++
++ W    +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@e850355, ++++    
++  +    
++  +++++
++ W    +
+++ *+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4da80371, ++++    
++  +    
++  +++++
++      +
+++W*+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3ebf8333]
+2022-06-17 02:06:04 INFO  App:164 - GOAL
+2022-06-17 02:06:04 INFO  App:166 - PLAYER
+2022-06-17 02:06:04 INFO  App:204 - ++++    
++  +    
++  +++++
++      +
+++ i+  +
++ # +  +
++   ++++
++++++   
+
+2022-06-17 02:06:04 INFO  App:218 - ++++    
++  +    
++  +++++
++      +
+++ i+  +
++ # +  +
++   ++++
++++++   
+
+2022-06-17 02:06:04 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:05 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:05 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:05 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ i+  +
++ # +  +
++   ++++
++++++   
+
+2022-06-17 02:06:05 INFO  App:97 - 5
+2022-06-17 02:06:05 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:06:05 INFO  App:99 - 3
+2022-06-17 02:06:05 INFO  App:133 - 4
+2022-06-17 02:06:05 INFO  App:135 - 3
+2022-06-17 02:06:05 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65, ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c8aada9, ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@665cf1d1, ++++    
++ W+    
++  +++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56d2b79b, ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3608bd9a, ++++    
++  +    
++ W+++++
++      +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f56a917, ++++    
++  +    
++  +++++
++ W    +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@e850355, ++++    
++  +    
++  +++++
++ W    +
+++ *+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4da80371, ++++    
++  +    
++  +++++
++      +
+++W*+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3ebf8333, ++++    
++  +    
++  +++++
++      +
+++ i+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@41b9be2]
+2022-06-17 02:06:05 INFO  App:164 - GROUND
+2022-06-17 02:06:05 INFO  App:166 - PLAYERINGOAL
+2022-06-17 02:06:05 INFO  App:178 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ #W+  +
++   ++++
++++++   
+
+2022-06-17 02:06:05 INFO  App:218 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ #W+  +
++   ++++
++++++   
+
+2022-06-17 02:06:05 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:05 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:05 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:05 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ #W+  +
++   ++++
++++++   
+
+2022-06-17 02:06:05 INFO  App:97 - 6
+2022-06-17 02:06:05 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:06:05 INFO  App:99 - 3
+2022-06-17 02:06:05 INFO  App:133 - 5
+2022-06-17 02:06:05 INFO  App:135 - 3
+2022-06-17 02:06:05 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65, ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c8aada9, ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@665cf1d1, ++++    
++ W+    
++  +++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56d2b79b, ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3608bd9a, ++++    
++  +    
++ W+++++
++      +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f56a917, ++++    
++  +    
++  +++++
++ W    +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@e850355, ++++    
++  +    
++  +++++
++ W    +
+++ *+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4da80371, ++++    
++  +    
++  +++++
++      +
+++W*+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3ebf8333, ++++    
++  +    
++  +++++
++      +
+++ i+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@41b9be2, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ #W+  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@22a2af9f]
+2022-06-17 02:06:05 INFO  App:164 - GROUND
+2022-06-17 02:06:05 INFO  App:166 - PLAYER
+2022-06-17 02:06:05 INFO  App:210 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++  W++++
++++++   
+
+2022-06-17 02:06:05 INFO  App:218 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++  W++++
++++++   
+
+2022-06-17 02:06:05 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:05 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:05 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:05 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++  W++++
++++++   
+
+2022-06-17 02:06:05 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:06:05 INFO  App:97 - 6
+2022-06-17 02:06:05 INFO  App:99 - 2
+2022-06-17 02:06:05 INFO  App:133 - 6
+2022-06-17 02:06:05 INFO  App:135 - 3
+2022-06-17 02:06:05 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65, ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c8aada9, ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@665cf1d1, ++++    
++ W+    
++  +++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56d2b79b, ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3608bd9a, ++++    
++  +    
++ W+++++
++      +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f56a917, ++++    
++  +    
++  +++++
++ W    +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@e850355, ++++    
++  +    
++  +++++
++ W    +
+++ *+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4da80371, ++++    
++  +    
++  +++++
++      +
+++W*+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3ebf8333, ++++    
++  +    
++  +++++
++      +
+++ i+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@41b9be2, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ #W+  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@22a2af9f, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++  W++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2f1c9331]
+2022-06-17 02:06:05 INFO  App:164 - GROUND
+2022-06-17 02:06:05 INFO  App:166 - PLAYER
+2022-06-17 02:06:05 INFO  App:210 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++ W ++++
++++++   
+
+2022-06-17 02:06:05 INFO  App:218 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++ W ++++
++++++   
+
+2022-06-17 02:06:05 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:05 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:05 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:05 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++ W ++++
++++++   
+
+2022-06-17 02:06:05 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:06:05 INFO  App:97 - 6
+2022-06-17 02:06:05 INFO  App:99 - 1
+2022-06-17 02:06:05 INFO  App:133 - 6
+2022-06-17 02:06:05 INFO  App:135 - 2
+2022-06-17 02:06:05 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65, ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c8aada9, ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@665cf1d1, ++++    
++ W+    
++  +++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56d2b79b, ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3608bd9a, ++++    
++  +    
++ W+++++
++      +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f56a917, ++++    
++  +    
++  +++++
++ W    +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@e850355, ++++    
++  +    
++  +++++
++ W    +
+++ *+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4da80371, ++++    
++  +    
++  +++++
++      +
+++W*+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3ebf8333, ++++    
++  +    
++  +++++
++      +
+++ i+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@41b9be2, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ #W+  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@22a2af9f, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++  W++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2f1c9331, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++ W ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6df82bfa]
+2022-06-17 02:06:05 INFO  App:164 - GROUND
+2022-06-17 02:06:05 INFO  App:166 - PLAYER
+2022-06-17 02:06:05 INFO  App:210 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++W  ++++
++++++   
+
+2022-06-17 02:06:05 INFO  App:218 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++W  ++++
++++++   
+
+2022-06-17 02:06:05 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:06 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:06 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:06 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++W  ++++
++++++   
+
+2022-06-17 02:06:06 INFO  App:97 - 5
+2022-06-17 02:06:06 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:06:06 INFO  App:99 - 1
+2022-06-17 02:06:06 INFO  App:133 - 6
+2022-06-17 02:06:06 INFO  App:135 - 1
+2022-06-17 02:06:06 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65, ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c8aada9, ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@665cf1d1, ++++    
++ W+    
++  +++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56d2b79b, ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3608bd9a, ++++    
++  +    
++ W+++++
++      +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f56a917, ++++    
++  +    
++  +++++
++ W    +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@e850355, ++++    
++  +    
++  +++++
++ W    +
+++ *+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4da80371, ++++    
++  +    
++  +++++
++      +
+++W*+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3ebf8333, ++++    
++  +    
++  +++++
++      +
+++ i+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@41b9be2, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ #W+  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@22a2af9f, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++  W++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2f1c9331, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++ W ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6df82bfa, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++W  ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35e4692c]
+2022-06-17 02:06:06 INFO  App:164 - GROUND
+2022-06-17 02:06:06 INFO  App:166 - PLAYER
+2022-06-17 02:06:06 INFO  App:210 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++W# +  +
++   ++++
++++++   
+
+2022-06-17 02:06:06 INFO  App:218 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++W# +  +
++   ++++
++++++   
+
+2022-06-17 02:06:06 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:06 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:06 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:06 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++W# +  +
++   ++++
++++++   
+
+2022-06-17 02:06:06 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:06:06 INFO  App:97 - 5
+2022-06-17 02:06:06 INFO  App:99 - 2
+2022-06-17 02:06:06 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:06:06 INFO  App:113 - 5
+2022-06-17 02:06:06 INFO  App:115 - 3
+2022-06-17 02:06:06 INFO  App:124 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65, ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c8aada9, ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@665cf1d1, ++++    
++ W+    
++  +++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56d2b79b, ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3608bd9a, ++++    
++  +    
++ W+++++
++      +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f56a917, ++++    
++  +    
++  +++++
++ W    +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@e850355, ++++    
++  +    
++  +++++
++ W    +
+++ *+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4da80371, ++++    
++  +    
++  +++++
++      +
+++W*+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3ebf8333, ++++    
++  +    
++  +++++
++      +
+++ i+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@41b9be2, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ #W+  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@22a2af9f, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++  W++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2f1c9331, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++ W ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6df82bfa, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++W  ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35e4692c, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++W# +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@20df658]
+2022-06-17 02:06:06 INFO  App:164 - GROUND
+2022-06-17 02:06:06 INFO  App:166 - BOX
+2022-06-17 02:06:06 INFO  App:210 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++W #+  +
++   ++++
++++++   
+
+2022-06-17 02:06:06 INFO  App:133 - 5
+2022-06-17 02:06:06 INFO  App:135 - 1
+2022-06-17 02:06:06 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65, ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c8aada9, ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@665cf1d1, ++++    
++ W+    
++  +++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56d2b79b, ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3608bd9a, ++++    
++  +    
++ W+++++
++      +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f56a917, ++++    
++  +    
++  +++++
++ W    +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@e850355, ++++    
++  +    
++  +++++
++ W    +
+++ *+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4da80371, ++++    
++  +    
++  +++++
++      +
+++W*+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3ebf8333, ++++    
++  +    
++  +++++
++      +
+++ i+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@41b9be2, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ #W+  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@22a2af9f, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++  W++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2f1c9331, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++ W ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6df82bfa, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++W  ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35e4692c, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++W# +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@20df658, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++W #+  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@49437833]
+2022-06-17 02:06:06 INFO  App:164 - GROUND
+2022-06-17 02:06:06 INFO  App:166 - PLAYER
+2022-06-17 02:06:06 INFO  App:210 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ W#+  +
++   ++++
++++++   
+
+2022-06-17 02:06:06 INFO  App:218 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ W#+  +
++   ++++
++++++   
+
+2022-06-17 02:06:06 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:06 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:06 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:06 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ W#+  +
++   ++++
++++++   
+
+2022-06-17 02:06:06 INFO  App:97 - 6
+2022-06-17 02:06:06 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:06:06 INFO  App:99 - 2
+2022-06-17 02:06:06 INFO  App:133 - 5
+2022-06-17 02:06:06 INFO  App:135 - 2
+2022-06-17 02:06:06 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65, ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c8aada9, ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@665cf1d1, ++++    
++ W+    
++  +++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56d2b79b, ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3608bd9a, ++++    
++  +    
++ W+++++
++      +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f56a917, ++++    
++  +    
++  +++++
++ W    +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@e850355, ++++    
++  +    
++  +++++
++ W    +
+++ *+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4da80371, ++++    
++  +    
++  +++++
++      +
+++W*+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3ebf8333, ++++    
++  +    
++  +++++
++      +
+++ i+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@41b9be2, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ #W+  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@22a2af9f, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++  W++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2f1c9331, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++ W ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6df82bfa, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++W  ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35e4692c, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++W# +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@20df658, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++W #+  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@49437833, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ W#+  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@65482d1a]
+2022-06-17 02:06:06 INFO  App:164 - GROUND
+2022-06-17 02:06:06 INFO  App:166 - PLAYER
+2022-06-17 02:06:06 INFO  App:210 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++  #+  +
++ W ++++
++++++   
+
+2022-06-17 02:06:06 INFO  App:218 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++  #+  +
++ W ++++
++++++   
+
+2022-06-17 02:06:06 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:06 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:06 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:06 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++  #+  +
++ W ++++
++++++   
+
+2022-06-17 02:06:06 ERROR App:259 - Unknown input with no appropiate handle
+2022-06-17 02:06:06 INFO  App:97 - 6
+2022-06-17 02:06:06 INFO  App:99 - 3
+2022-06-17 02:06:06 INFO  App:133 - 6
+2022-06-17 02:06:06 INFO  App:135 - 2
+2022-06-17 02:06:06 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65, ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c8aada9, ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@665cf1d1, ++++    
++ W+    
++  +++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56d2b79b, ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3608bd9a, ++++    
++  +    
++ W+++++
++      +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f56a917, ++++    
++  +    
++  +++++
++ W    +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@e850355, ++++    
++  +    
++  +++++
++ W    +
+++ *+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4da80371, ++++    
++  +    
++  +++++
++      +
+++W*+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3ebf8333, ++++    
++  +    
++  +++++
++      +
+++ i+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@41b9be2, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ #W+  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@22a2af9f, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++  W++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2f1c9331, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++ W ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6df82bfa, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++W  ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35e4692c, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++W# +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@20df658, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++W #+  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@49437833, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ W#+  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@65482d1a, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++  #+  +
++ W ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@73739596]
+2022-06-17 02:06:06 INFO  App:164 - GROUND
+2022-06-17 02:06:06 INFO  App:166 - PLAYER
+2022-06-17 02:06:06 INFO  App:210 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++  #+  +
++  W++++
++++++   
+
+2022-06-17 02:06:06 INFO  App:218 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++  #+  +
++  W++++
++++++   
+
+2022-06-17 02:06:06 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:06 INFO  App:115 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:06 INFO  App:93 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:06 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++  #+  +
++  W++++
++++++   
+
+2022-06-17 02:06:06 INFO  App:97 - 5
+2022-06-17 02:06:06 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:06:06 INFO  App:99 - 3
+2022-06-17 02:06:06 INFO  App:113 - 4
+2022-06-17 02:06:06 ERROR App:239 - Unknown input with no appropiate handle
+2022-06-17 02:06:06 INFO  App:115 - 3
+2022-06-17 02:06:06 INFO  App:124 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65, ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c8aada9, ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@665cf1d1, ++++    
++ W+    
++  +++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56d2b79b, ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3608bd9a, ++++    
++  +    
++ W+++++
++      +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f56a917, ++++    
++  +    
++  +++++
++ W    +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@e850355, ++++    
++  +    
++  +++++
++ W    +
+++ *+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4da80371, ++++    
++  +    
++  +++++
++      +
+++W*+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3ebf8333, ++++    
++  +    
++  +++++
++      +
+++ i+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@41b9be2, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ #W+  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@22a2af9f, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++  W++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2f1c9331, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++ W ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6df82bfa, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++W  ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35e4692c, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++W# +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@20df658, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++W #+  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@49437833, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ W#+  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@65482d1a, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++  #+  +
++ W ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@73739596, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++  #+  +
++  W++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1e211296]
+2022-06-17 02:06:06 INFO  App:164 - GOAL
+2022-06-17 02:06:06 INFO  App:166 - BOX
+2022-06-17 02:06:06 INFO  App:190 - ++++    
++  +    
++  +++++
++      +
+++ i+  +
++   +  +
++  W++++
++++++   
+
+2022-06-17 02:06:07 INFO  App:125 - javafx.stage.Stage@7a315b0d
+2022-06-17 02:06:07 INFO  App:133 - 6
+2022-06-17 02:06:07 INFO  App:135 - 3
+2022-06-17 02:06:07 INFO  App:141 - [++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@212a9938, ++++    
++  +    
++  +++++
++      +
+++ i+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@372b36d, ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@17fb2f10, ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@75cd2ff7, ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@195501c9, ++++    
++  +    
++  +++++
++     W+
+++ *+# +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f2a3055, ++++    
++  +    
++  +++++
++      +
+++ *+#W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5dc92043, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   + W+
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c23397a, ++++    
++  +    
++  +++++
++      +
+++ *+# +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32551433, ++++    
++  +    
++  +++++
++    # +
+++ *+  +
++   +W +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5ffc921c, ++++    
++  +    
++  +++++
++    # +
+++ *+W +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2ae19870, ++++    
++  +    
++  +++++
++    # +
+++ *+ W+
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@308ff593, ++++    
++  +    
++  +++++
++    #W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@60bce0f1, ++++    
++  +    
++  +++++
++   # W+
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5b6bf288, ++++    
++  +    
++  +++++
++   #W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@7defd38d, ++++    
++  +    
++  +++++
++  # W +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@328392ce, ++++    
++  +    
++  +++++
++  #W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35bf4707, ++++    
++  +    
++  +++++
++ # W  +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@31c41c8a, ++++    
++  +    
++  +++++
++ #W   +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@32b4d284, ++++    
++  +    
++  +++++
++ #    +
+++ i+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1c8f23fe, ++++    
++  +    
++  +++++
++ #    +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5347d817, ++++    
++  +    
++ #+++++
++      +
+++W*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4276beb9, ++++    
++  +    
++ #+++++
++ W    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56c26481, ++++    
++  +    
++ #+++++
++W     +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@33373d74, ++++    
++  +    
++W#+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@5eddcc65, ++++    
++W +    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6c8aada9, ++++    
++ W+    
++ #+++++
++      +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@665cf1d1, ++++    
++ W+    
++  +++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@56d2b79b, ++++    
++  +    
++ W+++++
++ #    +
+++ *+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3608bd9a, ++++    
++  +    
++ W+++++
++      +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@f56a917, ++++    
++  +    
++  +++++
++ W    +
+++#*+  +
++   +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@e850355, ++++    
++  +    
++  +++++
++ W    +
+++ *+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@4da80371, ++++    
++  +    
++  +++++
++      +
+++W*+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@3ebf8333, ++++    
++  +    
++  +++++
++      +
+++ i+  +
++ # +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@41b9be2, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ #W+  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@22a2af9f, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++  W++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@2f1c9331, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++ W ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@6df82bfa, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +  +
++W  ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@35e4692c, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++W# +  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@20df658, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++W #+  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@49437833, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ W#+  +
++   ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@65482d1a, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++  #+  +
++ W ++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@73739596, ++++    
++  +    
++  +++++
++      +
+++ *+  +
++  #+  +
++  W++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@1e211296, ++++    
++  +    
++  +++++
++      +
+++ i+  +
++   +  +
++  W++++
++++++   
+=es.upm.pproject.sokoban.controller.TileExchange@14967040]
+2022-06-17 02:06:07 INFO  App:164 - GROUND
+2022-06-17 02:06:07 INFO  App:166 - PLAYER
+2022-06-17 02:06:07 INFO  App:210 - ++++    
++  +    
++  +++++
++      +
+++ i+  +
++  W+  +
++   ++++
++++++   
+
+2022-06-17 02:06:07 INFO  App:218 - ++++    
++  +    
++  +++++
++      +
+++ i+  +
++  W+  +
++   ++++
++++++   
+
+2022-06-17 02:06:07 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@67686a14
+2022-06-17 02:06:08 INFO  App:75 - es.upm.pproject.sokoban.model.gamelevel.Level@31f59953
+2022-06-17 02:06:08 INFO  App:77 -     +++++          
+    +   +          
+    +#  +          
+  +++  #++         
+  +  # # +         
++++ + ++ +   ++++++
++   + ++ +++++  **+
++ #  #          **+
++++++ +++ +W++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 02:06:08 INFO  App:82 - es.upm.pproject.sokoban.view.SokobanScene@340fc124
+2022-06-17 02:06:08 INFO  App:84 - javafx.stage.Stage@7a315b0d
