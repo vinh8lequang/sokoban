@@ -90,11 +90,13 @@ public class Level {
     public void addOneMove() {
         this.moves++;
         this.movesString.set(moves.toString());
+        App.setStrGlobalMoves();
     }
 
     public void subtractOneMove() {
         this.moves--;
         this.movesString.set(moves.toString());
+        App.setStrGlobalMoves();
     }   
 
     /**

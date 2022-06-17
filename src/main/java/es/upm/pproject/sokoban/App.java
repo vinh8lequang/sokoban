@@ -16,6 +16,9 @@ import es.upm.pproject.sokoban.view.SokobanScene;
 import es.upm.pproject.sokoban.view.ViewManager;
 import javafx.application.Application;
 import javafx.application.Platform;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
+import javafx.beans.value.ObservableValue;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.scene.media.Media;
@@ -32,7 +35,8 @@ public class App extends Application {
     static int levelnum = 1;
     static MediaPlayer mediaPlayer;
     static boolean musicState;
-    static int globalScore = 0;
+    static Integer globalScore = 0;
+    static StringProperty sp = new SimpleStringProperty();
 
     private static Logger logger = LoggerFactory.getLogger(App.class);
 
@@ -41,7 +45,7 @@ public class App extends Application {
      */
     @Override
     public void start(Stage stage) {
-        logger.info("Starting Sokovinhi"); 
+        logger.info("Starting Sokovinhi");
         currentStage = stage;
         stage.setResizable(false);
         try {
@@ -53,15 +57,16 @@ public class App extends Application {
             logger.error(e.getMessage());
         }
     }
-    public static Stage getStage(){
+
+    public static Stage getStage() {
         return currentStage;
     }
 
-    public static int getGlobalScore(){
+    public static Integer getGlobalScore() {
         return globalScore;
     }
 
-    public static void setGlobalScore(int newGS){
+    public static void setGlobalScore(int newGS) {
         globalScore = newGS;
     }
 
@@ -76,15 +81,15 @@ public class App extends Application {
     public static void loadNextLevel() throws InvalidLevelException {
         try {
             logger.info("Loading next level {} ", levelnum);
-            level = new Level("src/main/resources/Levels/level" + levelnum++ + ".txt", false);
+            level = new Level("src/main/resources/Levels/level" + levelnum++ + ".txt", true);
             Board board = level.getBoard();
             ViewManager.setGUIBoardSize(board);
             ViewManager.loadImages();
             MovementExecutor.initStacks();
             Scene scene = ViewManager.loadLevelState(level);
             currentStage.setScene(scene);
-        } catch (FileNotFoundException e) {
-            logger.error(e.getMessage());
+        } catch (FileNotFoundException | InvalidLevelException e) {
+            ViewManager.showGameOverScene();
         }
     }
 
@@ -97,7 +102,7 @@ public class App extends Application {
             ViewManager.loadImages();
             MovementExecutor.initStacks();
             currentStage.setScene(ViewManager.loadLevelState(level));
-        } catch (FileNotFoundException|InvalidLevelException e) {
+        } catch (FileNotFoundException | InvalidLevelException e) {
             logger.error(e.getMessage());
         }
     }
@@ -125,7 +130,7 @@ public class App extends Application {
     }
 
     public static void toggleMusicOn() {
-        if (musicState){
+        if (musicState) {
             mediaPlayer.play();
         }
     }
@@ -155,5 +160,14 @@ public class App extends Application {
                 new Media(new File("src/main/resources/audio/gameMusic.mp3").toURI().toString()));
         musicState = false;
         launch();
+    }
+
+    public static StringProperty getStrGlobalScore() {
+        sp.set(globalScore.toString());
+        return sp;
+    }
+
+    public static void setStrGlobalMoves() {
+        sp.set(globalScore.toString());
     }
 }

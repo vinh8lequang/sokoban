@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
+import javax.swing.text.View;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -102,10 +104,9 @@ public class ViewManager {
     public static void setGUIBoardSize(Board board) {
         int col = board.getCols();
         int row = board.getRows();
-        if (col >= row){
+        if (col >= row) {
             boardSize = col;
-        }
-        else{
+        } else {
             boardSize = row;
         }
     }
@@ -145,7 +146,7 @@ public class ViewManager {
     public static Scene loadLevelState(Level level) throws FileNotFoundException {
         logger.info("Loading level state");
         SokobanScene scene = new SokobanScene(WIDTH, HEIGHT, boardSize, level);
-        
+
         CURRENTSCENE = scene;
         CURRENTBOARD = level.getBoard();
         CURRENTLEVEL = level;
@@ -188,7 +189,7 @@ public class ViewManager {
         winnerText.setText("You have won");
         winnerText.setStyle("-fx-font: 70 impact;");
         Label globalScoreText = new Label();
-        globalScoreText.setText("Your global score is: "+ App.getGlobalScore());
+        globalScoreText.setText("Your global score is: " + App.getGlobalScore());
         globalScoreText.setStyle("-fx-font: 25 impact;");
         VBox root = new VBox();
         root.setAlignment(Pos.CENTER);
@@ -205,7 +206,7 @@ public class ViewManager {
             }
             SokobanSounds.stopWinnerSound();
         });
-        root.getChildren().addAll(winnerText,globalScoreText, nextLevelButton);
+        root.getChildren().addAll(winnerText, globalScoreText, nextLevelButton);
         Scene newScene = new Scene(root, WIDTH, HEIGHT);
         App.setNewScene(newScene);
     }
@@ -289,7 +290,7 @@ public class ViewManager {
         Button noButton = new Button("No");
         noButton.setFont(new Font(impactFont, 25));
         noButton.setStyle(yellowStyle);
-        
+
         noButton.setOnAction(event -> {
             App.resetLevelCounter();
             dialog.close();
@@ -299,7 +300,7 @@ public class ViewManager {
         buttons.getChildren().addAll(yesButton, noButton);
         buttons.setAlignment(Pos.CENTER);
 
-        dialogVbox.getChildren().addAll(dialogText,stayButNoSaveButton,buttons);
+        dialogVbox.getChildren().addAll(dialogText, stayButNoSaveButton, buttons);
         Scene dialogScene = new Scene(dialogVbox, 400, 200);
         dialog.setScene(dialogScene);
         dialog.show();
@@ -321,5 +322,32 @@ public class ViewManager {
         dialog.setOnCloseRequest(event -> App.toggleMusicOn());
         dialog.setScene(dialogScene);
         dialog.show();
+    }
+
+    public static void showGameOverScene() {
+        logger.info("Showing Game Over scene");
+        SokobanSounds.playWinnerSound();
+        Label gameOverText = new Label();
+        gameOverText.setText("Game Over!");
+        gameOverText.setStyle("-fx-font: 70 impact;");
+        Label globalScoreText = new Label();
+        globalScoreText.setText("Your global score is: " + App.getGlobalScore());
+        globalScoreText.setStyle("-fx-font: 25 impact;");
+        VBox root = new VBox();
+        root.setAlignment(Pos.CENTER);
+
+        Button mainMenuButton = new Button("Exit to main menu");
+        mainMenuButton.setFont(new Font(impactFont, 45));
+        mainMenuButton.setStyle(yellowStyle);
+        mainMenuButton.setOnAction(event -> {
+            App.resetLevelCounter();
+            App.toggleMusicOff();
+            App.setGlobalScore(0);
+            App.setNewScene(ViewManager.getStartingScene());
+            logger.info("Loading starting scene");
+        });
+        root.getChildren().addAll(gameOverText, globalScoreText, mainMenuButton);
+        Scene newScene = new Scene(root, WIDTH, HEIGHT);
+        App.setNewScene(newScene);
     }
 }

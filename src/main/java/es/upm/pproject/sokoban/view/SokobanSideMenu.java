@@ -43,15 +43,16 @@ public class SokobanSideMenu extends VBox {
         try {
             star = new ImageView(new Image(new FileInputStream("src/main/resources/star.png")));
             this.getChildren().addAll(
-                creeateMovesBox(),
-                createUndoRedoBox(),
-                createRestartButton(),
-                createSaveStateButton(),
-                createMusicControlBox(),
-                createMainMenuButton(),
-                star,
+                    createGlobalMovesBox(),
+                    createLocalMovesBox(),
+                    createUndoRedoBox(),
+                    createRestartButton(),
+                    createSaveStateButton(),
+                    createMusicControlBox(),
+                    createMainMenuButton(),
+                    star,
                     createCredits());
-        }catch(FileNotFoundException e){
+        } catch (FileNotFoundException e) {
             logger.error(e.getMessage());
         }
     }
@@ -174,7 +175,7 @@ public class SokobanSideMenu extends VBox {
         return musicControlBox;
     }
 
-    public HBox creeateMovesBox() {
+    public HBox createLocalMovesBox() {
         moves = new Label();
         moves.setFont(new Font(impactFont, 30));
         moves.setText("Vinh Moves:\t");
@@ -185,7 +186,20 @@ public class SokobanSideMenu extends VBox {
         movesBox.getChildren().addAll(moves, movesVal);
         return movesBox;
     }
-    public Text createCredits(){
+
+    public HBox createGlobalMovesBox() {
+        moves = new Label();
+        moves.setFont(new Font(impactFont, 30));
+        moves.setText("Total Moves:\t");
+        movesVal = new Label();
+        movesVal.setFont(new Font(impactFont, 30));
+        movesVal.textProperty().bind(App.getStrGlobalScore());
+        HBox movesBox = new HBox();
+        movesBox.getChildren().addAll(moves, movesVal);
+        return movesBox;
+    }
+
+    public Text createCredits() {
         Font fuente = new Font("Helvetica", 12);
         Text text = new Text("-----------------------------------------------\nSokovinh by:" +
                 "\nNicolas Cossio Miravalles\nAlvaro G. Mendez\nVinh LeQuang\nSebastian Revilla Rojas");
@@ -194,5 +208,5 @@ public class SokobanSideMenu extends VBox {
         text.setTextAlignment(TextAlignment.RIGHT);
         return text;
     }
-    
+
 }
