@@ -106,7 +106,7 @@ We followed the popular MVC design pattern for this project. The directory struc
 ## Credits
 
 - Nicolas Cossio Miravalles
-- Vinh LeQuan
+- Vinh Le Quang
 - Sebastian Revilla
 - Alvaro Gonzalez Mendez
   
