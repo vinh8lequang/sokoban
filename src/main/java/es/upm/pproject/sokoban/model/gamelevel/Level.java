@@ -10,7 +10,7 @@ import java.io.FileNotFoundException;
 
 import es.upm.pproject.sokoban.App;
 import es.upm.pproject.sokoban.controller.MovementExecutor;
-import es.upm.pproject.sokoban.model.levelexceptions.*;
+import es.upm.pproject.sokoban.model.levelExceptions.*;
 import es.upm.pproject.sokoban.view.ViewManager;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;

@@ -12,7 +12,7 @@ import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.Tile;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
-import es.upm.pproject.sokoban.model.levelexceptions.InvalidLevelException;
+import es.upm.pproject.sokoban.model.levelExceptions.InvalidLevelException;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;

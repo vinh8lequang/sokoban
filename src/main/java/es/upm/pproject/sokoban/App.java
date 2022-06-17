@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 import es.upm.pproject.sokoban.controller.MovementExecutor;
 import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
-import es.upm.pproject.sokoban.model.levelexceptions.InvalidLevelException;
+import es.upm.pproject.sokoban.model.levelExceptions.InvalidLevelException;
 import es.upm.pproject.sokoban.view.SokobanScene;
 import es.upm.pproject.sokoban.view.ViewManager;
 import javafx.application.Application;

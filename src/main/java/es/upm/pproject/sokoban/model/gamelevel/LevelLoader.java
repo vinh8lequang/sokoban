@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
-import es.upm.pproject.sokoban.model.levelexceptions.*;
+import es.upm.pproject.sokoban.model.levelExceptions.*;
 
 /**
  * This class is in charge of reading a level file and loading into memory
