@@ -1,4 +1,4 @@
-# Sokovinhi™️®️ - A Sokoban like game with a little of 🇻🇳
+# Sokovinh™️®️ - A Sokoban like game with a little of 🇻🇳
 
 Sokovinh™️®️ is a game based on the Sokoban game. The main character Vinh wakes up in weird place filled with boxes and weird flags, he's confused but remembers that he has to find his way back to the village.
 
