@@ -35,6 +35,15 @@ public class AppTest {
             "+   ++++\n" +
             "+++++   \n";
 
+    private String correctBoard2 = "++++    \n" +
+            "+  +    \n" +
+            "+  +++++\n" +
+            "+      +\n" +
+            "++ M+  +\n" +
+            "+ # +O +\n" +
+            "+   ++++\n" +
+            "+++++   \n";
+
     @Nested
     @DisplayName("Board level loading tests")
     class BoardLevelLoadingTests {
@@ -44,6 +53,17 @@ public class AppTest {
             Board board = null;
             try {
                 board = LevelLoader.loadBoard("src/main/resources/Levels/level1.txt");
+            } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
+                    | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
+                e.printStackTrace();
+            }
+        }
+        @Test
+        @DisplayName("Correct board 2")
+        void testCorrectBoard2() throws InvalidLevelException {
+            Board board = null;
+            try {
+                board = LevelLoader.loadBoard("src/main/resources/Levels/inpositionlevel.txt");
             } catch (FileNotFoundException | InvalidLevelCharacterException | MultiplePlayersException
                     | InequalNumberOfBoxesGoals | NoBoxesException | NoGoalsException | NoPlayersException e) {
                 e.printStackTrace();
@@ -107,11 +127,27 @@ public class AppTest {
         }
 
         @Test
-        @DisplayName("Set tile type")
+        @DisplayName("Set tile type 1")
         void testTile2() {
             Tile tile = new Tile(TileType.WALL);
             tile.setTileType(TileType.BOX);
             assertEquals(TileType.BOX, tile.getTileType());
+        }
+
+        @Test
+        @DisplayName("Set tile type 3")
+        void testTile2_2() {
+            Tile tile = new Tile(TileType.BOX);
+            tile.setTileType(TileType.BOXINGOAL);
+            assertEquals(TileType.BOXINGOAL, tile.getTileType());
+        }
+
+        @Test
+        @DisplayName("Set tile type 3")
+        void testTile2_3() {
+            Tile tile = new Tile(TileType.PLAYER);
+            tile.setTileType(TileType.PLAYERINGOAL);
+            assertEquals(TileType.PLAYERINGOAL, tile.getTileType());
         }
 
         @Test

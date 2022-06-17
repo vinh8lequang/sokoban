@@ -25014,3 +25014,887 @@
 2022-06-17 12:02:50 INFO  SokobanScene:25 - Creating Sokoban scene...
 2022-06-17 12:02:50 INFO  SokobanSideMenu:39 - Creating Sokoban Side Menu...
 2022-06-17 12:02:50 INFO  ViewManager:183 - Level state loaded
+2022-06-17 12:21:18 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:21:18 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:21:18 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:21:18 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:21:18 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:21:18 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:21:18 INFO  Board:207 - Exchaning tile: (4 2) of type with (PLAYER 3) of type
+2022-06-17 12:21:18 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:21:18 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:21:19 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:21:19 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:21:19 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:21:19 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:21:19 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:21:19 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:21:19 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:21:19 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:21:19 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:21:19 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:21:19 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:21:19 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:21:19 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level2.txt
+2022-06-17 12:21:19 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level2.txt
+2022-06-17 12:21:19 INFO  Board:164 - Setting new player position: (8, 11)
+2022-06-17 12:21:19 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:21:19 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:21:19 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:21:19 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:21:19 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:21:19 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:21:19 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:21:19 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:21:19 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:21:19 INFO  Level:30 - Creating a level for file src/main/resources/Levels/badlevel1.txt
+2022-06-17 12:21:19 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel1.txt
+2022-06-17 12:21:19 ERROR Level:37 - Error loading level: There is no player in the level
+2022-06-17 12:21:19 ERROR Level:49 - Board has not been initialized but no exception was thrown
+2022-06-17 12:21:19 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:21:19 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:21:19 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:21:19 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:21:19 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:21:19 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:21:19 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:21:19 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:21:19 INFO  Level:135 - Restarting level...
+2022-06-17 12:21:19 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:21:19 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:21:19 INFO  ViewManager:145 - Loading level state
+2022-06-17 12:21:23 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel1.txt
+2022-06-17 12:21:23 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel2.txt
+2022-06-17 12:21:23 INFO  Board:164 - Setting new player position: (3, 4)
+2022-06-17 12:21:23 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:21:23 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel3.txt
+2022-06-17 12:21:23 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:21:23 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel4.txt
+2022-06-17 12:21:23 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:21:23 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel5.txt
+2022-06-17 12:21:23 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:21:23 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/aaa.txt
+2022-06-17 12:21:23 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:21:23 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:26:39 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:26:39 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:26:39 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:26:39 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:26:39 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:26:39 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:26:39 INFO  Board:207 - Exchaning tile: (4 2) of type with (PLAYER 3) of type
+2022-06-17 12:26:39 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:26:39 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:26:39 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:26:39 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:26:39 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:26:39 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:26:39 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:26:39 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:26:39 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:26:39 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:26:39 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:26:39 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:26:39 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:26:39 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:26:40 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level2.txt
+2022-06-17 12:26:40 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level2.txt
+2022-06-17 12:26:40 INFO  Board:164 - Setting new player position: (8, 11)
+2022-06-17 12:26:40 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:26:40 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:26:40 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:26:40 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:26:40 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:26:40 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:26:40 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:26:40 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:26:40 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:26:40 INFO  Level:30 - Creating a level for file src/main/resources/Levels/badlevel1.txt
+2022-06-17 12:26:40 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel1.txt
+2022-06-17 12:26:40 ERROR Level:37 - Error loading level: There is no player in the level
+2022-06-17 12:26:40 ERROR Level:49 - Board has not been initialized but no exception was thrown
+2022-06-17 12:26:40 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:26:40 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:26:40 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:26:40 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:26:40 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:26:40 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:26:40 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:26:40 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:26:40 INFO  Level:135 - Restarting level...
+2022-06-17 12:26:40 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:26:40 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:26:40 INFO  ViewManager:145 - Loading level state
+2022-06-17 12:26:42 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel1.txt
+2022-06-17 12:26:42 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel2.txt
+2022-06-17 12:26:42 INFO  Board:164 - Setting new player position: (3, 4)
+2022-06-17 12:26:42 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:26:42 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel3.txt
+2022-06-17 12:26:42 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:26:42 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel4.txt
+2022-06-17 12:26:42 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:26:42 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel5.txt
+2022-06-17 12:26:42 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:26:42 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/aaa.txt
+2022-06-17 12:26:42 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:26:42 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:30:26 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:30:26 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:30:26 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:30:26 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:30:26 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:30:26 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:30:26 INFO  Board:207 - Exchaning tile: (4 2) of type with (PLAYER 3) of type
+2022-06-17 12:30:26 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:30:26 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:30:26 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:30:26 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:30:26 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:30:26 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:30:26 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:30:26 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:30:26 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:30:26 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:30:26 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:30:26 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:30:26 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:30:26 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:30:26 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level2.txt
+2022-06-17 12:30:26 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level2.txt
+2022-06-17 12:30:26 INFO  Board:164 - Setting new player position: (8, 11)
+2022-06-17 12:30:26 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:30:26 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:30:26 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:30:26 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:30:26 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:30:26 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:30:26 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:30:26 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:30:26 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:30:26 INFO  Level:30 - Creating a level for file src/main/resources/Levels/badlevel1.txt
+2022-06-17 12:30:26 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel1.txt
+2022-06-17 12:30:26 ERROR Level:37 - Error loading level: There is no player in the level
+2022-06-17 12:30:26 ERROR Level:49 - Board has not been initialized but no exception was thrown
+2022-06-17 12:30:26 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:30:26 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:30:26 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:30:26 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:30:26 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:30:26 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:30:26 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:30:27 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:30:27 INFO  Level:135 - Restarting level...
+2022-06-17 12:30:27 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:30:27 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:30:27 INFO  ViewManager:145 - Loading level state
+2022-06-17 12:30:29 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel1.txt
+2022-06-17 12:30:29 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel2.txt
+2022-06-17 12:30:29 INFO  Board:164 - Setting new player position: (3, 4)
+2022-06-17 12:30:29 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:30:29 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel3.txt
+2022-06-17 12:30:29 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:30:29 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel4.txt
+2022-06-17 12:30:29 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:30:29 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel5.txt
+2022-06-17 12:30:29 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:30:29 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/aaa.txt
+2022-06-17 12:30:29 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:30:29 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:34:02 INFO  App:48 - Starting Sokovinhi
+2022-06-17 12:34:02 INFO  ViewManager:48 - Getting starting scene
+2022-06-17 12:34:09 INFO  App:98 - Loading selected level by the user C:\Users\al_gm\Documents\Repositories\Skoban\src\main\resources\Levels\inpositionlevel.txt
+2022-06-17 12:34:09 INFO  Level:30 - Creating a level for file C:\Users\al_gm\Documents\Repositories\Skoban\src\main\resources\Levels\inpositionlevel.txt
+2022-06-17 12:34:09 INFO  LevelLoader:54 - Loading board from file: C:\Users\al_gm\Documents\Repositories\Skoban\src\main\resources\Levels\inpositionlevel.txt
+2022-06-17 12:34:09 INFO  Board:164 - Setting new player position: (4, 3)
+2022-06-17 12:34:09 ERROR Level:37 - Error loading level: There are 2 boxes and 3 goals
+2022-06-17 12:34:09 INFO  ViewManager:240 - Showing incorrect level dialog
+2022-06-17 12:34:09 INFO  Level:40 - Showing incorrect level dialog
+2022-06-17 12:34:09 ERROR Level:49 - Board has not been initialized but no exception was thrown
+2022-06-17 12:34:09 ERROR App:106 - There are 2 boxes and 3 goals
+2022-06-17 12:34:27 INFO  App:98 - Loading selected level by the user C:\Users\al_gm\Documents\Repositories\Skoban\src\main\resources\Levels\inpositionlevel.txt
+2022-06-17 12:34:27 INFO  Level:30 - Creating a level for file C:\Users\al_gm\Documents\Repositories\Skoban\src\main\resources\Levels\inpositionlevel.txt
+2022-06-17 12:34:27 INFO  LevelLoader:54 - Loading board from file: C:\Users\al_gm\Documents\Repositories\Skoban\src\main\resources\Levels\inpositionlevel.txt
+2022-06-17 12:34:27 INFO  Board:164 - Setting new player position: (4, 3)
+2022-06-17 12:34:27 ERROR Level:37 - Error loading level: There are 2 boxes and 3 goals
+2022-06-17 12:34:27 INFO  ViewManager:240 - Showing incorrect level dialog
+2022-06-17 12:34:27 INFO  Level:40 - Showing incorrect level dialog
+2022-06-17 12:34:27 ERROR Level:49 - Board has not been initialized but no exception was thrown
+2022-06-17 12:34:27 ERROR App:106 - There are 2 boxes and 3 goals
+2022-06-17 12:34:50 INFO  App:98 - Loading selected level by the user C:\Users\al_gm\Documents\Repositories\Skoban\src\main\resources\Levels\inpositionlevel.txt
+2022-06-17 12:34:50 INFO  Level:30 - Creating a level for file C:\Users\al_gm\Documents\Repositories\Skoban\src\main\resources\Levels\inpositionlevel.txt
+2022-06-17 12:34:50 INFO  LevelLoader:54 - Loading board from file: C:\Users\al_gm\Documents\Repositories\Skoban\src\main\resources\Levels\inpositionlevel.txt
+2022-06-17 12:34:50 INFO  Board:164 - Setting new player position: (4, 3)
+2022-06-17 12:34:50 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:34:50 INFO  ViewManager:123 - Loading game images
+2022-06-17 12:34:50 INFO  ViewManager:136 - Game images loaded
+2022-06-17 12:34:50 INFO  ViewManager:145 - Loading level state
+2022-06-17 12:34:50 INFO  SokobanScene:25 - Creating Sokoban scene...
+2022-06-17 12:34:50 INFO  SokobanSideMenu:39 - Creating Sokoban Side Menu...
+2022-06-17 12:34:50 INFO  ViewManager:183 - Level state loaded
+2022-06-17 12:34:51 INFO  App:89 - Recieved input: Down
+2022-06-17 12:34:51 INFO  App:261 - Direction: DOWN
+2022-06-17 12:34:51 INFO  App:105 - Executing movement
+2022-06-17 12:34:51 INFO  App:163 - Exchanging tiles: (4, 3) with (5,3)
+2022-06-17 12:34:51 INFO  App:178 - Setting tile (5,3) to PLAYER
+2022-06-17 12:34:51 INFO  App:179 - Setting tile (4,3) to GOAL
+2022-06-17 12:34:51 INFO  Board:164 - Setting new player position: (5, 3)
+2022-06-17 12:34:51 INFO  ViewManager:255 - Exchanging images between tiles: (4, 3) and (5, 3)
+2022-06-17 12:34:51 INFO  App:141 - Box movement executed, exchanged tile: (4, 3) with (5,3)
+2022-06-17 12:34:51 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+# +
++ #W+* +
++   ++++
++++++   
+
+2022-06-17 12:34:52 INFO  App:89 - Recieved input: Up
+2022-06-17 12:34:52 INFO  App:257 - Direction: UP
+2022-06-17 12:34:52 INFO  App:105 - Executing movement
+2022-06-17 12:34:52 INFO  App:163 - Exchanging tiles: (5, 3) with (4,3)
+2022-06-17 12:34:52 INFO  App:206 - Setting tile (4,3) to PLAYERINGOAL
+2022-06-17 12:34:52 INFO  App:207 - Setting tile (5,3) to GROUND
+2022-06-17 12:34:52 INFO  Board:164 - Setting new player position: (4, 3)
+2022-06-17 12:34:52 INFO  ViewManager:255 - Exchanging images between tiles: (5, 3) and (4, 3)
+2022-06-17 12:34:52 INFO  App:141 - Box movement executed, exchanged tile: (5, 3) with (4,3)
+2022-06-17 12:34:52 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ M+# +
++ # +* +
++   ++++
++++++   
+
+2022-06-17 12:34:52 INFO  App:89 - Recieved input: Up
+2022-06-17 12:34:52 INFO  App:257 - Direction: UP
+2022-06-17 12:34:52 INFO  App:105 - Executing movement
+2022-06-17 12:34:52 INFO  App:163 - Exchanging tiles: (4, 3) with (3,3)
+2022-06-17 12:34:52 INFO  App:178 - Setting tile (3,3) to PLAYER
+2022-06-17 12:34:52 INFO  App:179 - Setting tile (4,3) to GOAL
+2022-06-17 12:34:52 INFO  Board:164 - Setting new player position: (3, 3)
+2022-06-17 12:34:52 INFO  ViewManager:255 - Exchanging images between tiles: (4, 3) and (3, 3)
+2022-06-17 12:34:52 INFO  App:141 - Box movement executed, exchanged tile: (4, 3) with (3,3)
+2022-06-17 12:34:52 INFO  App:95 - ++++    
++  +    
++  +++++
++  W   +
+++ *+# +
++ # +* +
++   ++++
++++++   
+
+2022-06-17 12:34:52 INFO  App:89 - Recieved input: Right
+2022-06-17 12:34:52 INFO  App:239 - Direction: RIGHT
+2022-06-17 12:34:52 INFO  App:105 - Executing movement
+2022-06-17 12:34:52 INFO  App:163 - Exchanging tiles: (3, 3) with (3,4)
+2022-06-17 12:34:52 INFO  Board:207 - Exchaning tile: (3 3) of type with (PLAYER 3) of type
+2022-06-17 12:34:52 INFO  App:213 - Exchanged tiles in board: (3, 3) with (3,4)
+2022-06-17 12:34:52 INFO  Board:164 - Setting new player position: (3, 4)
+2022-06-17 12:34:52 INFO  ViewManager:255 - Exchanging images between tiles: (3, 3) and (3, 4)
+2022-06-17 12:34:52 INFO  App:141 - Box movement executed, exchanged tile: (3, 3) with (3,4)
+2022-06-17 12:34:52 INFO  App:95 - ++++    
++  +    
++  +++++
++   W  +
+++ *+# +
++ # +* +
++   ++++
++++++   
+
+2022-06-17 12:34:53 INFO  App:89 - Recieved input: Right
+2022-06-17 12:34:53 INFO  App:239 - Direction: RIGHT
+2022-06-17 12:34:53 INFO  App:105 - Executing movement
+2022-06-17 12:34:53 INFO  App:163 - Exchanging tiles: (3, 4) with (3,5)
+2022-06-17 12:34:53 INFO  Board:207 - Exchaning tile: (3 4) of type with (PLAYER 3) of type
+2022-06-17 12:34:53 INFO  App:213 - Exchanged tiles in board: (3, 4) with (3,5)
+2022-06-17 12:34:53 INFO  Board:164 - Setting new player position: (3, 5)
+2022-06-17 12:34:53 INFO  ViewManager:255 - Exchanging images between tiles: (3, 4) and (3, 5)
+2022-06-17 12:34:53 INFO  App:141 - Box movement executed, exchanged tile: (3, 4) with (3,5)
+2022-06-17 12:34:53 INFO  App:95 - ++++    
++  +    
++  +++++
++    W +
+++ *+# +
++ # +* +
++   ++++
++++++   
+
+2022-06-17 12:34:53 INFO  App:89 - Recieved input: Down
+2022-06-17 12:34:53 INFO  App:261 - Direction: DOWN
+2022-06-17 12:34:53 INFO  App:105 - Executing movement
+2022-06-17 12:34:53 INFO  App:261 - Direction: DOWN
+2022-06-17 12:34:53 INFO  App:163 - Exchanging tiles: (4, 5) with (5,5)
+2022-06-17 12:34:53 INFO  App:188 - Setting tile (5,5) to BOXINGOAL
+2022-06-17 12:34:53 INFO  App:189 - Setting tile (4,5) to GROUND
+2022-06-17 12:34:53 INFO  ViewManager:255 - Exchanging images between tiles: (4, 5) and (5, 5)
+2022-06-17 12:34:53 INFO  App:124 - Box movement executed, exchanged tile: (4, 5) with (5,5)
+2022-06-17 12:34:53 INFO  App:163 - Exchanging tiles: (3, 5) with (4,5)
+2022-06-17 12:34:53 INFO  Board:207 - Exchaning tile: (3 5) of type with (PLAYER 4) of type
+2022-06-17 12:34:53 INFO  App:213 - Exchanged tiles in board: (3, 5) with (4,5)
+2022-06-17 12:34:53 INFO  Board:164 - Setting new player position: (4, 5)
+2022-06-17 12:34:53 INFO  ViewManager:255 - Exchanging images between tiles: (3, 5) and (4, 5)
+2022-06-17 12:34:53 INFO  App:141 - Box movement executed, exchanged tile: (3, 5) with (4,5)
+2022-06-17 12:34:53 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+W +
++ # +O +
++   ++++
++++++   
+
+2022-06-17 12:34:53 INFO  App:89 - Recieved input: Up
+2022-06-17 12:34:53 INFO  App:257 - Direction: UP
+2022-06-17 12:34:53 INFO  App:105 - Executing movement
+2022-06-17 12:34:53 INFO  App:163 - Exchanging tiles: (4, 5) with (3,5)
+2022-06-17 12:34:53 INFO  Board:207 - Exchaning tile: (4 5) of type with (PLAYER 3) of type
+2022-06-17 12:34:53 INFO  App:213 - Exchanged tiles in board: (4, 5) with (3,5)
+2022-06-17 12:34:53 INFO  Board:164 - Setting new player position: (3, 5)
+2022-06-17 12:34:53 INFO  ViewManager:255 - Exchanging images between tiles: (4, 5) and (3, 5)
+2022-06-17 12:34:53 INFO  App:141 - Box movement executed, exchanged tile: (4, 5) with (3,5)
+2022-06-17 12:34:53 INFO  App:95 - ++++    
++  +    
++  +++++
++    W +
+++ *+  +
++ # +O +
++   ++++
++++++   
+
+2022-06-17 12:34:53 INFO  App:89 - Recieved input: Left
+2022-06-17 12:34:53 INFO  App:234 - Direction: LEFT
+2022-06-17 12:34:53 INFO  App:105 - Executing movement
+2022-06-17 12:34:53 INFO  App:163 - Exchanging tiles: (3, 5) with (3,4)
+2022-06-17 12:34:53 INFO  Board:207 - Exchaning tile: (3 5) of type with (PLAYER 3) of type
+2022-06-17 12:34:53 INFO  App:213 - Exchanged tiles in board: (3, 5) with (3,4)
+2022-06-17 12:34:53 INFO  Board:164 - Setting new player position: (3, 4)
+2022-06-17 12:34:53 INFO  ViewManager:255 - Exchanging images between tiles: (3, 5) and (3, 4)
+2022-06-17 12:34:53 INFO  App:141 - Box movement executed, exchanged tile: (3, 5) with (3,4)
+2022-06-17 12:34:53 INFO  App:95 - ++++    
++  +    
++  +++++
++   W  +
+++ *+  +
++ # +O +
++   ++++
++++++   
+
+2022-06-17 12:34:54 INFO  App:89 - Recieved input: Left
+2022-06-17 12:34:54 INFO  App:234 - Direction: LEFT
+2022-06-17 12:34:54 INFO  App:105 - Executing movement
+2022-06-17 12:34:54 INFO  App:163 - Exchanging tiles: (3, 4) with (3,3)
+2022-06-17 12:34:54 INFO  Board:207 - Exchaning tile: (3 4) of type with (PLAYER 3) of type
+2022-06-17 12:34:54 INFO  App:213 - Exchanged tiles in board: (3, 4) with (3,3)
+2022-06-17 12:34:54 INFO  Board:164 - Setting new player position: (3, 3)
+2022-06-17 12:34:54 INFO  ViewManager:255 - Exchanging images between tiles: (3, 4) and (3, 3)
+2022-06-17 12:34:54 INFO  App:141 - Box movement executed, exchanged tile: (3, 4) with (3,3)
+2022-06-17 12:34:54 INFO  App:95 - ++++    
++  +    
++  +++++
++  W   +
+++ *+  +
++ # +O +
++   ++++
++++++   
+
+2022-06-17 12:34:54 INFO  App:89 - Recieved input: Down
+2022-06-17 12:34:54 INFO  App:261 - Direction: DOWN
+2022-06-17 12:34:54 INFO  App:105 - Executing movement
+2022-06-17 12:34:54 INFO  App:163 - Exchanging tiles: (3, 3) with (4,3)
+2022-06-17 12:34:54 INFO  App:206 - Setting tile (4,3) to PLAYERINGOAL
+2022-06-17 12:34:54 INFO  App:207 - Setting tile (3,3) to GROUND
+2022-06-17 12:34:54 INFO  Board:164 - Setting new player position: (4, 3)
+2022-06-17 12:34:54 INFO  ViewManager:255 - Exchanging images between tiles: (3, 3) and (4, 3)
+2022-06-17 12:34:54 INFO  App:141 - Box movement executed, exchanged tile: (3, 3) with (4,3)
+2022-06-17 12:34:54 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ M+  +
++ # +O +
++   ++++
++++++   
+
+2022-06-17 12:34:55 INFO  App:89 - Recieved input: Down
+2022-06-17 12:34:55 INFO  App:261 - Direction: DOWN
+2022-06-17 12:34:55 INFO  App:105 - Executing movement
+2022-06-17 12:34:55 INFO  App:163 - Exchanging tiles: (4, 3) with (5,3)
+2022-06-17 12:34:55 INFO  App:178 - Setting tile (5,3) to PLAYER
+2022-06-17 12:34:55 INFO  App:179 - Setting tile (4,3) to GOAL
+2022-06-17 12:34:55 INFO  Board:164 - Setting new player position: (5, 3)
+2022-06-17 12:34:55 INFO  ViewManager:255 - Exchanging images between tiles: (4, 3) and (5, 3)
+2022-06-17 12:34:55 INFO  App:141 - Box movement executed, exchanged tile: (4, 3) with (5,3)
+2022-06-17 12:34:55 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ #W+O +
++   ++++
++++++   
+
+2022-06-17 12:34:55 INFO  App:89 - Recieved input: Down
+2022-06-17 12:34:55 INFO  App:261 - Direction: DOWN
+2022-06-17 12:34:55 INFO  App:105 - Executing movement
+2022-06-17 12:34:55 INFO  App:163 - Exchanging tiles: (5, 3) with (6,3)
+2022-06-17 12:34:55 INFO  Board:207 - Exchaning tile: (5 3) of type with (PLAYER 6) of type
+2022-06-17 12:34:55 INFO  App:213 - Exchanged tiles in board: (5, 3) with (6,3)
+2022-06-17 12:34:55 INFO  Board:164 - Setting new player position: (6, 3)
+2022-06-17 12:34:55 INFO  ViewManager:255 - Exchanging images between tiles: (5, 3) and (6, 3)
+2022-06-17 12:34:55 INFO  App:141 - Box movement executed, exchanged tile: (5, 3) with (6,3)
+2022-06-17 12:34:55 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +O +
++  W++++
++++++   
+
+2022-06-17 12:34:55 INFO  App:89 - Recieved input: Left
+2022-06-17 12:34:55 INFO  App:234 - Direction: LEFT
+2022-06-17 12:34:55 INFO  App:105 - Executing movement
+2022-06-17 12:34:55 INFO  App:163 - Exchanging tiles: (6, 3) with (6,2)
+2022-06-17 12:34:55 INFO  Board:207 - Exchaning tile: (6 3) of type with (PLAYER 6) of type
+2022-06-17 12:34:55 INFO  App:213 - Exchanged tiles in board: (6, 3) with (6,2)
+2022-06-17 12:34:55 INFO  Board:164 - Setting new player position: (6, 2)
+2022-06-17 12:34:55 INFO  ViewManager:255 - Exchanging images between tiles: (6, 3) and (6, 2)
+2022-06-17 12:34:55 INFO  App:141 - Box movement executed, exchanged tile: (6, 3) with (6,2)
+2022-06-17 12:34:55 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +O +
++ W ++++
++++++   
+
+2022-06-17 12:34:55 INFO  App:89 - Recieved input: Left
+2022-06-17 12:34:55 INFO  App:234 - Direction: LEFT
+2022-06-17 12:34:55 INFO  App:105 - Executing movement
+2022-06-17 12:34:55 INFO  App:163 - Exchanging tiles: (6, 2) with (6,1)
+2022-06-17 12:34:55 INFO  Board:207 - Exchaning tile: (6 2) of type with (PLAYER 6) of type
+2022-06-17 12:34:55 INFO  App:213 - Exchanged tiles in board: (6, 2) with (6,1)
+2022-06-17 12:34:55 INFO  Board:164 - Setting new player position: (6, 1)
+2022-06-17 12:34:55 INFO  ViewManager:255 - Exchanging images between tiles: (6, 2) and (6, 1)
+2022-06-17 12:34:55 INFO  App:141 - Box movement executed, exchanged tile: (6, 2) with (6,1)
+2022-06-17 12:34:55 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +O +
++W  ++++
++++++   
+
+2022-06-17 12:34:56 INFO  App:89 - Recieved input: Up
+2022-06-17 12:34:56 INFO  App:257 - Direction: UP
+2022-06-17 12:34:56 INFO  App:105 - Executing movement
+2022-06-17 12:34:56 INFO  App:163 - Exchanging tiles: (6, 1) with (5,1)
+2022-06-17 12:34:56 INFO  Board:207 - Exchaning tile: (6 1) of type with (PLAYER 5) of type
+2022-06-17 12:34:56 INFO  App:213 - Exchanged tiles in board: (6, 1) with (5,1)
+2022-06-17 12:34:56 INFO  Board:164 - Setting new player position: (5, 1)
+2022-06-17 12:34:56 INFO  ViewManager:255 - Exchanging images between tiles: (6, 1) and (5, 1)
+2022-06-17 12:34:56 INFO  App:141 - Box movement executed, exchanged tile: (6, 1) with (5,1)
+2022-06-17 12:34:56 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++W# +O +
++   ++++
++++++   
+
+2022-06-17 12:34:56 INFO  App:89 - Recieved input: Right
+2022-06-17 12:34:56 INFO  App:239 - Direction: RIGHT
+2022-06-17 12:34:56 INFO  App:105 - Executing movement
+2022-06-17 12:34:56 INFO  App:239 - Direction: RIGHT
+2022-06-17 12:34:56 INFO  App:163 - Exchanging tiles: (5, 2) with (5,3)
+2022-06-17 12:34:56 INFO  Board:207 - Exchaning tile: (5 2) of type with (BOX 5) of type
+2022-06-17 12:34:56 INFO  App:213 - Exchanged tiles in board: (5, 2) with (5,3)
+2022-06-17 12:34:56 INFO  ViewManager:255 - Exchanging images between tiles: (5, 2) and (5, 3)
+2022-06-17 12:34:56 INFO  App:124 - Box movement executed, exchanged tile: (5, 2) with (5,3)
+2022-06-17 12:34:56 INFO  App:163 - Exchanging tiles: (5, 1) with (5,2)
+2022-06-17 12:34:56 INFO  Board:207 - Exchaning tile: (5 1) of type with (PLAYER 5) of type
+2022-06-17 12:34:56 INFO  App:213 - Exchanged tiles in board: (5, 1) with (5,2)
+2022-06-17 12:34:56 INFO  Board:164 - Setting new player position: (5, 2)
+2022-06-17 12:34:56 INFO  ViewManager:255 - Exchanging images between tiles: (5, 1) and (5, 2)
+2022-06-17 12:34:56 INFO  App:141 - Box movement executed, exchanged tile: (5, 1) with (5,2)
+2022-06-17 12:34:56 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ W#+O +
++   ++++
++++++   
+
+2022-06-17 12:34:56 INFO  App:89 - Recieved input: Down
+2022-06-17 12:34:56 INFO  App:261 - Direction: DOWN
+2022-06-17 12:34:56 INFO  App:105 - Executing movement
+2022-06-17 12:34:56 INFO  App:163 - Exchanging tiles: (5, 2) with (6,2)
+2022-06-17 12:34:56 INFO  Board:207 - Exchaning tile: (5 2) of type with (PLAYER 6) of type
+2022-06-17 12:34:56 INFO  App:213 - Exchanged tiles in board: (5, 2) with (6,2)
+2022-06-17 12:34:56 INFO  Board:164 - Setting new player position: (6, 2)
+2022-06-17 12:34:56 INFO  ViewManager:255 - Exchanging images between tiles: (5, 2) and (6, 2)
+2022-06-17 12:34:56 INFO  App:141 - Box movement executed, exchanged tile: (5, 2) with (6,2)
+2022-06-17 12:34:56 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++  #+O +
++ W ++++
++++++   
+
+2022-06-17 12:34:56 INFO  App:89 - Recieved input: Right
+2022-06-17 12:34:56 INFO  App:239 - Direction: RIGHT
+2022-06-17 12:34:56 INFO  App:105 - Executing movement
+2022-06-17 12:34:56 INFO  App:163 - Exchanging tiles: (6, 2) with (6,3)
+2022-06-17 12:34:56 INFO  Board:207 - Exchaning tile: (6 2) of type with (PLAYER 6) of type
+2022-06-17 12:34:56 INFO  App:213 - Exchanged tiles in board: (6, 2) with (6,3)
+2022-06-17 12:34:56 INFO  Board:164 - Setting new player position: (6, 3)
+2022-06-17 12:34:56 INFO  ViewManager:255 - Exchanging images between tiles: (6, 2) and (6, 3)
+2022-06-17 12:34:56 INFO  App:141 - Box movement executed, exchanged tile: (6, 2) with (6,3)
+2022-06-17 12:34:56 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++  #+O +
++  W++++
++++++   
+
+2022-06-17 12:34:57 INFO  App:89 - Recieved input: Up
+2022-06-17 12:34:57 INFO  App:257 - Direction: UP
+2022-06-17 12:34:57 INFO  App:105 - Executing movement
+2022-06-17 12:34:57 INFO  App:257 - Direction: UP
+2022-06-17 12:34:57 INFO  App:163 - Exchanging tiles: (5, 3) with (4,3)
+2022-06-17 12:34:57 INFO  App:188 - Setting tile (4,3) to BOXINGOAL
+2022-06-17 12:34:57 INFO  App:189 - Setting tile (5,3) to GROUND
+2022-06-17 12:34:57 INFO  ViewManager:188 - Showing winner scene
+2022-06-17 12:34:57 INFO  App:123 - Setting new scene
+2022-06-17 12:34:57 INFO  ViewManager:255 - Exchanging images between tiles: (5, 3) and (4, 3)
+2022-06-17 12:34:57 INFO  App:124 - Box movement executed, exchanged tile: (5, 3) with (4,3)
+2022-06-17 12:34:57 INFO  App:163 - Exchanging tiles: (6, 3) with (5,3)
+2022-06-17 12:34:57 INFO  Board:207 - Exchaning tile: (6 3) of type with (PLAYER 5) of type
+2022-06-17 12:34:57 INFO  App:213 - Exchanged tiles in board: (6, 3) with (5,3)
+2022-06-17 12:34:57 INFO  Board:164 - Setting new player position: (5, 3)
+2022-06-17 12:34:57 INFO  ViewManager:255 - Exchanging images between tiles: (6, 3) and (5, 3)
+2022-06-17 12:34:57 INFO  App:141 - Box movement executed, exchanged tile: (6, 3) with (5,3)
+2022-06-17 12:34:57 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ O+  +
++  W+O +
++   ++++
++++++   
+
+2022-06-17 12:34:58 INFO  App:83 - Loading next level 1 
+2022-06-17 12:34:58 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:34:58 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:34:58 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:34:58 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:34:58 INFO  ViewManager:123 - Loading game images
+2022-06-17 12:34:58 INFO  ViewManager:136 - Game images loaded
+2022-06-17 12:34:58 INFO  ViewManager:145 - Loading level state
+2022-06-17 12:34:58 INFO  SokobanScene:25 - Creating Sokoban scene...
+2022-06-17 12:34:58 INFO  SokobanSideMenu:39 - Creating Sokoban Side Menu...
+2022-06-17 12:34:58 INFO  ViewManager:183 - Level state loaded
+2022-06-17 12:34:58 INFO  ViewManager:205 - Loading next level
+2022-06-17 12:35:14 INFO  App:48 - Starting Sokovinhi
+2022-06-17 12:35:14 INFO  ViewManager:48 - Getting starting scene
+2022-06-17 12:35:19 INFO  App:98 - Loading selected level by the user C:\Users\al_gm\Documents\Repositories\Skoban\src\main\resources\Levels\inpositionlevel.txt
+2022-06-17 12:35:19 INFO  Level:30 - Creating a level for file C:\Users\al_gm\Documents\Repositories\Skoban\src\main\resources\Levels\inpositionlevel.txt
+2022-06-17 12:35:19 INFO  LevelLoader:54 - Loading board from file: C:\Users\al_gm\Documents\Repositories\Skoban\src\main\resources\Levels\inpositionlevel.txt
+2022-06-17 12:35:19 INFO  Board:164 - Setting new player position: (4, 3)
+2022-06-17 12:35:19 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:35:19 INFO  ViewManager:123 - Loading game images
+2022-06-17 12:35:19 INFO  ViewManager:136 - Game images loaded
+2022-06-17 12:35:19 INFO  ViewManager:145 - Loading level state
+2022-06-17 12:35:19 INFO  SokobanScene:25 - Creating Sokoban scene...
+2022-06-17 12:35:19 INFO  SokobanSideMenu:39 - Creating Sokoban Side Menu...
+2022-06-17 12:35:19 INFO  ViewManager:183 - Level state loaded
+2022-06-17 12:35:23 INFO  App:89 - Recieved input: Down
+2022-06-17 12:35:23 INFO  App:261 - Direction: DOWN
+2022-06-17 12:35:23 INFO  App:105 - Executing movement
+2022-06-17 12:35:23 INFO  App:163 - Exchanging tiles: (4, 3) with (5,3)
+2022-06-17 12:35:23 INFO  App:178 - Setting tile (5,3) to PLAYER
+2022-06-17 12:35:23 INFO  App:179 - Setting tile (4,3) to GOAL
+2022-06-17 12:35:23 INFO  Board:164 - Setting new player position: (5, 3)
+2022-06-17 12:35:23 INFO  ViewManager:255 - Exchanging images between tiles: (4, 3) and (5, 3)
+2022-06-17 12:35:23 INFO  App:141 - Box movement executed, exchanged tile: (4, 3) with (5,3)
+2022-06-17 12:35:23 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ #W+O +
++   ++++
++++++   
+
+2022-06-17 12:35:23 INFO  App:89 - Recieved input: Down
+2022-06-17 12:35:23 INFO  App:261 - Direction: DOWN
+2022-06-17 12:35:23 INFO  App:105 - Executing movement
+2022-06-17 12:35:23 INFO  App:163 - Exchanging tiles: (5, 3) with (6,3)
+2022-06-17 12:35:23 INFO  Board:207 - Exchaning tile: (5 3) of type with (PLAYER 6) of type
+2022-06-17 12:35:23 INFO  App:213 - Exchanged tiles in board: (5, 3) with (6,3)
+2022-06-17 12:35:23 INFO  Board:164 - Setting new player position: (6, 3)
+2022-06-17 12:35:23 INFO  ViewManager:255 - Exchanging images between tiles: (5, 3) and (6, 3)
+2022-06-17 12:35:23 INFO  App:141 - Box movement executed, exchanged tile: (5, 3) with (6,3)
+2022-06-17 12:35:23 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +O +
++  W++++
++++++   
+
+2022-06-17 12:35:23 INFO  App:89 - Recieved input: Left
+2022-06-17 12:35:23 INFO  App:234 - Direction: LEFT
+2022-06-17 12:35:23 INFO  App:105 - Executing movement
+2022-06-17 12:35:23 INFO  App:163 - Exchanging tiles: (6, 3) with (6,2)
+2022-06-17 12:35:23 INFO  Board:207 - Exchaning tile: (6 3) of type with (PLAYER 6) of type
+2022-06-17 12:35:23 INFO  App:213 - Exchanged tiles in board: (6, 3) with (6,2)
+2022-06-17 12:35:23 INFO  Board:164 - Setting new player position: (6, 2)
+2022-06-17 12:35:23 INFO  ViewManager:255 - Exchanging images between tiles: (6, 3) and (6, 2)
+2022-06-17 12:35:23 INFO  App:141 - Box movement executed, exchanged tile: (6, 3) with (6,2)
+2022-06-17 12:35:23 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +O +
++ W ++++
++++++   
+
+2022-06-17 12:35:23 INFO  App:89 - Recieved input: Left
+2022-06-17 12:35:23 INFO  App:234 - Direction: LEFT
+2022-06-17 12:35:23 INFO  App:105 - Executing movement
+2022-06-17 12:35:23 INFO  App:163 - Exchanging tiles: (6, 2) with (6,1)
+2022-06-17 12:35:23 INFO  Board:207 - Exchaning tile: (6 2) of type with (PLAYER 6) of type
+2022-06-17 12:35:23 INFO  App:213 - Exchanged tiles in board: (6, 2) with (6,1)
+2022-06-17 12:35:23 INFO  Board:164 - Setting new player position: (6, 1)
+2022-06-17 12:35:23 INFO  ViewManager:255 - Exchanging images between tiles: (6, 2) and (6, 1)
+2022-06-17 12:35:23 INFO  App:141 - Box movement executed, exchanged tile: (6, 2) with (6,1)
+2022-06-17 12:35:23 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ # +O +
++W  ++++
++++++   
+
+2022-06-17 12:35:24 INFO  App:89 - Recieved input: Up
+2022-06-17 12:35:24 INFO  App:257 - Direction: UP
+2022-06-17 12:35:24 INFO  App:105 - Executing movement
+2022-06-17 12:35:24 INFO  App:163 - Exchanging tiles: (6, 1) with (5,1)
+2022-06-17 12:35:24 INFO  Board:207 - Exchaning tile: (6 1) of type with (PLAYER 5) of type
+2022-06-17 12:35:24 INFO  App:213 - Exchanged tiles in board: (6, 1) with (5,1)
+2022-06-17 12:35:24 INFO  Board:164 - Setting new player position: (5, 1)
+2022-06-17 12:35:24 INFO  ViewManager:255 - Exchanging images between tiles: (6, 1) and (5, 1)
+2022-06-17 12:35:24 INFO  App:141 - Box movement executed, exchanged tile: (6, 1) with (5,1)
+2022-06-17 12:35:24 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++W# +O +
++   ++++
++++++   
+
+2022-06-17 12:35:24 INFO  App:89 - Recieved input: Right
+2022-06-17 12:35:24 INFO  App:239 - Direction: RIGHT
+2022-06-17 12:35:24 INFO  App:105 - Executing movement
+2022-06-17 12:35:24 INFO  App:239 - Direction: RIGHT
+2022-06-17 12:35:24 INFO  App:163 - Exchanging tiles: (5, 2) with (5,3)
+2022-06-17 12:35:24 INFO  Board:207 - Exchaning tile: (5 2) of type with (BOX 5) of type
+2022-06-17 12:35:24 INFO  App:213 - Exchanged tiles in board: (5, 2) with (5,3)
+2022-06-17 12:35:24 INFO  ViewManager:255 - Exchanging images between tiles: (5, 2) and (5, 3)
+2022-06-17 12:35:24 INFO  App:124 - Box movement executed, exchanged tile: (5, 2) with (5,3)
+2022-06-17 12:35:24 INFO  App:163 - Exchanging tiles: (5, 1) with (5,2)
+2022-06-17 12:35:24 INFO  Board:207 - Exchaning tile: (5 1) of type with (PLAYER 5) of type
+2022-06-17 12:35:24 INFO  App:213 - Exchanged tiles in board: (5, 1) with (5,2)
+2022-06-17 12:35:24 INFO  Board:164 - Setting new player position: (5, 2)
+2022-06-17 12:35:24 INFO  ViewManager:255 - Exchanging images between tiles: (5, 1) and (5, 2)
+2022-06-17 12:35:24 INFO  App:141 - Box movement executed, exchanged tile: (5, 1) with (5,2)
+2022-06-17 12:35:24 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++ W#+O +
++   ++++
++++++   
+
+2022-06-17 12:35:24 INFO  App:89 - Recieved input: Down
+2022-06-17 12:35:24 INFO  App:261 - Direction: DOWN
+2022-06-17 12:35:24 INFO  App:105 - Executing movement
+2022-06-17 12:35:24 INFO  App:163 - Exchanging tiles: (5, 2) with (6,2)
+2022-06-17 12:35:24 INFO  Board:207 - Exchaning tile: (5 2) of type with (PLAYER 6) of type
+2022-06-17 12:35:24 INFO  App:213 - Exchanged tiles in board: (5, 2) with (6,2)
+2022-06-17 12:35:24 INFO  Board:164 - Setting new player position: (6, 2)
+2022-06-17 12:35:24 INFO  ViewManager:255 - Exchanging images between tiles: (5, 2) and (6, 2)
+2022-06-17 12:35:24 INFO  App:141 - Box movement executed, exchanged tile: (5, 2) with (6,2)
+2022-06-17 12:35:24 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++  #+O +
++ W ++++
++++++   
+
+2022-06-17 12:35:24 INFO  App:89 - Recieved input: Right
+2022-06-17 12:35:24 INFO  App:239 - Direction: RIGHT
+2022-06-17 12:35:24 INFO  App:105 - Executing movement
+2022-06-17 12:35:24 INFO  App:163 - Exchanging tiles: (6, 2) with (6,3)
+2022-06-17 12:35:24 INFO  Board:207 - Exchaning tile: (6 2) of type with (PLAYER 6) of type
+2022-06-17 12:35:24 INFO  App:213 - Exchanged tiles in board: (6, 2) with (6,3)
+2022-06-17 12:35:24 INFO  Board:164 - Setting new player position: (6, 3)
+2022-06-17 12:35:24 INFO  ViewManager:255 - Exchanging images between tiles: (6, 2) and (6, 3)
+2022-06-17 12:35:24 INFO  App:141 - Box movement executed, exchanged tile: (6, 2) with (6,3)
+2022-06-17 12:35:24 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ *+  +
++  #+O +
++  W++++
++++++   
+
+2022-06-17 12:35:24 INFO  App:89 - Recieved input: Up
+2022-06-17 12:35:24 INFO  App:257 - Direction: UP
+2022-06-17 12:35:24 INFO  App:105 - Executing movement
+2022-06-17 12:35:24 INFO  App:257 - Direction: UP
+2022-06-17 12:35:24 INFO  App:163 - Exchanging tiles: (5, 3) with (4,3)
+2022-06-17 12:35:24 INFO  App:188 - Setting tile (4,3) to BOXINGOAL
+2022-06-17 12:35:24 INFO  App:189 - Setting tile (5,3) to GROUND
+2022-06-17 12:35:24 INFO  ViewManager:255 - Exchanging images between tiles: (5, 3) and (4, 3)
+2022-06-17 12:35:24 INFO  App:124 - Box movement executed, exchanged tile: (5, 3) with (4,3)
+2022-06-17 12:35:24 INFO  App:163 - Exchanging tiles: (6, 3) with (5,3)
+2022-06-17 12:35:24 INFO  Board:207 - Exchaning tile: (6 3) of type with (PLAYER 5) of type
+2022-06-17 12:35:24 INFO  App:213 - Exchanged tiles in board: (6, 3) with (5,3)
+2022-06-17 12:35:24 INFO  Board:164 - Setting new player position: (5, 3)
+2022-06-17 12:35:24 INFO  ViewManager:255 - Exchanging images between tiles: (6, 3) and (5, 3)
+2022-06-17 12:35:24 INFO  App:141 - Box movement executed, exchanged tile: (6, 3) with (5,3)
+2022-06-17 12:35:24 INFO  App:95 - ++++    
++  +    
++  +++++
++      +
+++ O+  +
++  W+O +
++   ++++
++++++   
+
+2022-06-17 12:35:28 INFO  App:89 - Recieved input: Up
+2022-06-17 12:35:28 INFO  App:257 - Direction: UP
+2022-06-17 12:35:28 INFO  App:105 - Executing movement
+2022-06-17 12:35:28 INFO  App:257 - Direction: UP
+2022-06-17 12:35:28 INFO  App:163 - Exchanging tiles: (4, 3) with (3,3)
+2022-06-17 12:35:28 INFO  App:170 - Setting tile (3,3) to BOX
+2022-06-17 12:35:28 INFO  App:171 - Setting tile (4,3) to GOAL
+2022-06-17 12:35:28 INFO  ViewManager:255 - Exchanging images between tiles: (4, 3) and (3, 3)
+2022-06-17 12:35:28 INFO  App:124 - Box movement executed, exchanged tile: (4, 3) with (3,3)
+2022-06-17 12:35:28 INFO  App:163 - Exchanging tiles: (5, 3) with (4,3)
+2022-06-17 12:35:28 INFO  App:206 - Setting tile (4,3) to PLAYERINGOAL
+2022-06-17 12:35:28 INFO  App:207 - Setting tile (5,3) to GROUND
+2022-06-17 12:35:28 INFO  Board:164 - Setting new player position: (4, 3)
+2022-06-17 12:35:28 INFO  ViewManager:255 - Exchanging images between tiles: (5, 3) and (4, 3)
+2022-06-17 12:35:28 INFO  App:141 - Box movement executed, exchanged tile: (5, 3) with (4,3)
+2022-06-17 12:35:28 INFO  App:95 - ++++    
++  +    
++  +++++
++  #   +
+++ M+  +
++   +O +
++   ++++
++++++   
+
+2022-06-17 12:35:28 INFO  App:89 - Recieved input: Left
+2022-06-17 12:35:28 INFO  App:234 - Direction: LEFT
+2022-06-17 12:35:28 INFO  App:105 - Executing movement
+2022-06-17 12:35:28 INFO  App:163 - Exchanging tiles: (4, 3) with (4,2)
+2022-06-17 12:35:28 INFO  App:178 - Setting tile (4,2) to PLAYER
+2022-06-17 12:35:28 INFO  App:179 - Setting tile (4,3) to GOAL
+2022-06-17 12:35:28 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:35:28 INFO  ViewManager:255 - Exchanging images between tiles: (4, 3) and (4, 2)
+2022-06-17 12:35:28 INFO  App:141 - Box movement executed, exchanged tile: (4, 3) with (4,2)
+2022-06-17 12:35:28 INFO  App:95 - ++++    
++  +    
++  +++++
++  #   +
+++W*+  +
++   +O +
++   ++++
++++++   
+
+2022-06-17 12:39:45 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:39:46 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:39:46 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:39:46 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:39:46 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:39:46 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:39:46 INFO  Board:207 - Exchaning tile: (4 2) of type with (PLAYER 3) of type
+2022-06-17 12:39:46 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:39:46 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:39:46 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:39:46 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:39:46 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:39:46 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:39:46 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:39:46 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:39:46 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:39:46 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:39:46 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:39:46 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:39:46 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:39:46 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:39:46 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level2.txt
+2022-06-17 12:39:46 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level2.txt
+2022-06-17 12:39:46 INFO  Board:164 - Setting new player position: (8, 11)
+2022-06-17 12:39:46 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:39:46 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:39:46 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:39:46 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:39:46 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:39:46 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:39:46 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:39:46 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:39:46 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:39:46 INFO  Level:30 - Creating a level for file src/main/resources/Levels/badlevel1.txt
+2022-06-17 12:39:46 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel1.txt
+2022-06-17 12:39:46 ERROR Level:37 - Error loading level: There is no player in the level
+2022-06-17 12:39:46 ERROR Level:49 - Board has not been initialized but no exception was thrown
+2022-06-17 12:39:46 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:39:46 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:39:46 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:39:46 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:39:46 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:39:46 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:39:46 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:39:46 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:39:46 INFO  Level:135 - Restarting level...
+2022-06-17 12:39:46 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:39:46 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:39:46 INFO  ViewManager:145 - Loading level state
+2022-06-17 12:39:49 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel1.txt
+2022-06-17 12:39:49 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel2.txt
+2022-06-17 12:39:49 INFO  Board:164 - Setting new player position: (3, 4)
+2022-06-17 12:39:49 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:39:49 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel3.txt
+2022-06-17 12:39:49 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:39:49 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel4.txt
+2022-06-17 12:39:49 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:39:49 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/badlevel5.txt
+2022-06-17 12:39:49 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:39:49 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/aaa.txt
+2022-06-17 12:39:49 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:39:49 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:39:49 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/inpositionlevel.txt
+2022-06-17 12:39:49 INFO  Board:164 - Setting new player position: (4, 3)
