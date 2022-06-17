@@ -91,7 +91,9 @@ public class MovementExecutor {
         CURRENTBOARD = CURRENTLEVEL.getBoard();
         int tileToReplaceI = directionToIRow(direction, CURRENTBOARD.getPlayerPositionI());
         int tileToReplaceJ = directionToJCol(direction, CURRENTBOARD.getPlayerPositionJ());
-        executeMovementIfPossible(direction, tileToReplaceI, tileToReplaceJ);
+        if (executeMovementIfPossible(direction, tileToReplaceI, tileToReplaceJ)) {
+            logger.info(CURRENTBOARD.toString());
+        }
     }
 
     /**
@@ -99,8 +101,9 @@ public class MovementExecutor {
      * @param tileToReplaceIRow
      * @param tileToReplaceJCol
      */
-    private static void executeMovementIfPossible(KeyCode direction, int tileToReplaceIRow, int tileToReplaceJCol) {
+    private static boolean executeMovementIfPossible(KeyCode direction, int tileToReplaceIRow, int tileToReplaceJCol) {
         logger.info("Executing movement");
+        boolean wasMovementExecuted = false;
         boolean isBoxMovement = false;
         if (CURRENTBOARD.getTile(tileToReplaceIRow, tileToReplaceJCol).getTileType().isMoveable()) {
             // player want to move a box
@@ -117,6 +120,7 @@ public class MovementExecutor {
                 // let's exchange them
                 exchangeTilesAndImageGrid(tileToReplaceIRow, tileToReplaceJCol, tileToReplaceINext, tileToReplaceJNext);
                 isBoxMovement = true;
+                wasMovementExecuted = true;
                 logger.info(
                         "Box movement executed, exchanged tile: ({}, {}) with ({},{})", tileToReplaceIRow,
                         tileToReplaceJCol, tileToReplaceINext, tileToReplaceJNext);
@@ -141,12 +145,12 @@ public class MovementExecutor {
             CURRENTLEVEL.addOneMove();
             SokobanSounds.playPlayerMovingSound();
             redoStateStack = new Stack<>();
-        } else
-
-        {
+            wasMovementExecuted = true;
+        } else {
             logger.info("Tile to replace is not replaceable (Wall)");
             SokobanSounds.playWallSound();
         }
+        return wasMovementExecuted;
     }
 
     /**
@@ -237,7 +241,6 @@ public class MovementExecutor {
                 j++;
                 break;
             default:
-                // logger.error("Unknown input with no appropiate handle");
                 break;
         }
         return j;
@@ -259,7 +262,6 @@ public class MovementExecutor {
                 i++;
                 break;
             default:
-                // logger.error("Unknown input with no appropiate handle");
                 break;
         }
         return i;
