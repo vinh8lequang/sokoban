@@ -9441,3 +9441,403 @@
 
 2022-06-17 02:06:08 INFO  App:82 - es.upm.pproject.sokoban.view.SokobanScene@340fc124
 2022-06-17 02:06:08 INFO  App:84 - javafx.stage.Stage@7a315b0d
+2022-06-17 02:17:53 INFO  Board:42 - 8
+2022-06-17 02:17:53 INFO  Board:44 - 8
+2022-06-17 02:17:53 INFO  Board:29 - 1
+2022-06-17 02:17:54 INFO  Board:42 - 8
+2022-06-17 02:17:54 INFO  Board:44 - 8
+2022-06-17 02:17:54 INFO  Board:29 - 1
+2022-06-17 02:17:54 INFO  Board:42 - 8
+2022-06-17 02:17:54 INFO  Board:44 - 8
+2022-06-17 02:17:54 INFO  Board:29 - 1
+2022-06-17 02:17:54 INFO  Board:42 - 8
+2022-06-17 02:17:54 INFO  Board:44 - 8
+2022-06-17 02:17:54 INFO  Board:29 - 1
+2022-06-17 02:17:54 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:17:54 INFO  Board:42 - 8
+2022-06-17 02:17:54 INFO  Board:44 - 8
+2022-06-17 02:17:54 INFO  Board:29 - 1
+2022-06-17 02:17:54 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:17:54 INFO  Level:44 - 0
+2022-06-17 02:17:54 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:17:54 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:17:54 INFO  Board:42 - 8
+2022-06-17 02:17:54 INFO  Board:44 - 8
+2022-06-17 02:17:54 INFO  Board:29 - 1
+2022-06-17 02:17:54 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:17:54 INFO  Level:44 - 0
+2022-06-17 02:17:54 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:17:54 INFO  Level:53 - src/main/resources/Levels/level1.txt
+2022-06-17 02:17:54 INFO  Level:55 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:17:54 INFO  Level:57 - 0
+2022-06-17 02:17:54 INFO  Level:59 - StringProperty [value: 0]
+2022-06-17 02:17:54 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:17:54 INFO  Board:42 - 8
+2022-06-17 02:17:54 INFO  Board:44 - 8
+2022-06-17 02:17:54 INFO  Board:29 - 1
+2022-06-17 02:17:54 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:17:54 INFO  Level:44 - 0
+2022-06-17 02:17:54 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:17:54 INFO  Level:31 - src/main/resources/Levels/level2.txt
+2022-06-17 02:17:54 INFO  Board:42 - 11
+2022-06-17 02:17:54 INFO  Board:44 - 19
+2022-06-17 02:17:54 INFO  Board:29 - 6
+2022-06-17 02:17:54 INFO  Level:34 -     +++++          
+    +   +          
+    +#  +          
+  +++  #++         
+  +  # # +         
++++ + ++ +   ++++++
++   + ++ +++++  **+
++ #  #          **+
++++++ +++ +W++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 02:17:54 INFO  Level:44 - 0
+2022-06-17 02:17:54 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:17:54 INFO  Level:75 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:17:54 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:17:54 INFO  Board:42 - 8
+2022-06-17 02:17:54 INFO  Board:44 - 8
+2022-06-17 02:17:54 INFO  Board:29 - 1
+2022-06-17 02:17:54 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:17:54 INFO  Level:44 - 0
+2022-06-17 02:17:54 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:17:54 INFO  Level:90 - 5
+2022-06-17 02:17:54 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:17:54 INFO  Board:42 - 8
+2022-06-17 02:17:54 INFO  Board:44 - 8
+2022-06-17 02:17:54 INFO  Board:29 - 1
+2022-06-17 02:17:54 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:17:54 INFO  Level:44 - 0
+2022-06-17 02:17:54 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:17:54 INFO  Level:95 - 1
+2022-06-17 02:17:54 INFO  Level:97 - StringProperty [value: 1]
+2022-06-17 02:17:54 INFO  Level:95 - 2
+2022-06-17 02:17:54 INFO  Level:97 - StringProperty [value: 2]
+2022-06-17 02:17:54 INFO  Level:102 - 1
+2022-06-17 02:17:54 INFO  Level:104 - StringProperty [value: 1]
+2022-06-17 02:17:54 INFO  Level:31 - src/main/resources/Levels/badlevel1.txt
+2022-06-17 02:17:54 INFO  Board:42 - 8
+2022-06-17 02:17:54 INFO  Board:44 - 8
+2022-06-17 02:17:54 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:17:55 INFO  Board:42 - 8
+2022-06-17 02:17:55 INFO  Board:44 - 8
+2022-06-17 02:17:55 INFO  Board:29 - 1
+2022-06-17 02:17:55 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:17:55 INFO  Level:44 - 0
+2022-06-17 02:17:55 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:17:55 INFO  Level:122 - saves
+2022-06-17 02:17:55 INFO  Level:125 - Fri Jun 17 02:17:55 CEST 2022
+2022-06-17 02:17:55 INFO  Level:128 - saves/Fri Jun 17 02:17:55 CEST 2022.vinh
+2022-06-17 02:17:55 INFO  Level:122 - saves
+2022-06-17 02:17:55 INFO  Level:125 - Fri Jun 17 02:17:55 CEST 2022
+2022-06-17 02:17:55 INFO  Level:128 - saves/Fri Jun 17 02:17:55 CEST 2022.vinh
+2022-06-17 02:17:55 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:17:55 INFO  Board:42 - 8
+2022-06-17 02:17:55 INFO  Board:44 - 8
+2022-06-17 02:17:55 INFO  Board:29 - 1
+2022-06-17 02:17:55 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:17:55 INFO  Level:44 - 0
+2022-06-17 02:17:55 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:17:55 INFO  Board:42 - 8
+2022-06-17 02:17:55 INFO  Board:44 - 8
+2022-06-17 02:17:55 INFO  Board:29 - 1
+2022-06-17 02:17:55 INFO  Level:146 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:17:55 INFO  Level:152 - 0
+2022-06-17 02:17:55 INFO  Level:154 - StringProperty [value: 0]
+2022-06-17 02:17:59 INFO  Board:42 - 8
+2022-06-17 02:17:59 INFO  Board:44 - 8
+2022-06-17 02:18:00 INFO  Board:42 - 8
+2022-06-17 02:18:00 INFO  Board:44 - 8
+2022-06-17 02:18:00 INFO  Board:42 - 8
+2022-06-17 02:18:00 INFO  Board:44 - 8
+2022-06-17 02:18:00 INFO  Board:42 - 8
+2022-06-17 02:18:00 INFO  Board:44 - 8
+2022-06-17 02:18:00 INFO  Board:42 - 8
+2022-06-17 02:18:00 INFO  Board:44 - 8
+2022-06-17 02:18:00 ERROR LevelLoader:116 - src/main/resources/Levels/aaa.txt (No such file or directory)
+2022-06-17 02:18:00 INFO  Board:42 - 8
+2022-06-17 02:18:00 INFO  Board:44 - 8
+2022-06-17 02:18:00 INFO  Board:29 - 1
+2022-06-17 02:19:02 INFO  Board:42 - 8
+2022-06-17 02:19:02 INFO  Board:44 - 8
+2022-06-17 02:19:02 INFO  Board:29 - 1
+2022-06-17 02:19:02 INFO  Board:42 - 8
+2022-06-17 02:19:02 INFO  Board:44 - 8
+2022-06-17 02:19:02 INFO  Board:29 - 1
+2022-06-17 02:19:02 INFO  Board:42 - 8
+2022-06-17 02:19:02 INFO  Board:44 - 8
+2022-06-17 02:19:02 INFO  Board:29 - 1
+2022-06-17 02:19:02 INFO  Board:42 - 8
+2022-06-17 02:19:02 INFO  Board:44 - 8
+2022-06-17 02:19:02 INFO  Board:29 - 1
+2022-06-17 02:19:03 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:19:03 INFO  Board:42 - 8
+2022-06-17 02:19:03 INFO  Board:44 - 8
+2022-06-17 02:19:03 INFO  Board:29 - 1
+2022-06-17 02:19:03 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:19:03 INFO  Level:44 - 0
+2022-06-17 02:19:03 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:19:03 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:19:03 INFO  Board:42 - 8
+2022-06-17 02:19:03 INFO  Board:44 - 8
+2022-06-17 02:19:03 INFO  Board:29 - 1
+2022-06-17 02:19:03 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:19:03 INFO  Level:44 - 0
+2022-06-17 02:19:03 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:19:03 INFO  Level:53 - src/main/resources/Levels/level1.txt
+2022-06-17 02:19:03 INFO  Level:55 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:19:03 INFO  Level:57 - 0
+2022-06-17 02:19:03 INFO  Level:59 - StringProperty [value: 0]
+2022-06-17 02:19:03 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:19:03 INFO  Board:42 - 8
+2022-06-17 02:19:03 INFO  Board:44 - 8
+2022-06-17 02:19:03 INFO  Board:29 - 1
+2022-06-17 02:19:03 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:19:03 INFO  Level:44 - 0
+2022-06-17 02:19:03 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:19:03 INFO  Level:31 - src/main/resources/Levels/level2.txt
+2022-06-17 02:19:03 INFO  Board:42 - 11
+2022-06-17 02:19:03 INFO  Board:44 - 19
+2022-06-17 02:19:03 INFO  Board:29 - 6
+2022-06-17 02:19:03 INFO  Level:34 -     +++++          
+    +   +          
+    +#  +          
+  +++  #++         
+  +  # # +         
++++ + ++ +   ++++++
++   + ++ +++++  **+
++ #  #          **+
++++++ +++ +W++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 02:19:03 INFO  Level:44 - 0
+2022-06-17 02:19:03 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:19:03 INFO  Level:75 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:19:03 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:19:03 INFO  Board:42 - 8
+2022-06-17 02:19:03 INFO  Board:44 - 8
+2022-06-17 02:19:03 INFO  Board:29 - 1
+2022-06-17 02:19:03 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:19:03 INFO  Level:44 - 0
+2022-06-17 02:19:03 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:19:03 INFO  Level:90 - 5
+2022-06-17 02:19:03 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:19:04 INFO  Board:42 - 8
+2022-06-17 02:19:04 INFO  Board:44 - 8
+2022-06-17 02:19:04 INFO  Board:29 - 1
+2022-06-17 02:19:04 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:19:04 INFO  Level:44 - 0
+2022-06-17 02:19:04 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:19:04 INFO  Level:95 - 1
+2022-06-17 02:19:04 INFO  Level:97 - StringProperty [value: 1]
+2022-06-17 02:19:04 INFO  Level:95 - 2
+2022-06-17 02:19:04 INFO  Level:97 - StringProperty [value: 2]
+2022-06-17 02:19:04 INFO  Level:102 - 1
+2022-06-17 02:19:04 INFO  Level:104 - StringProperty [value: 1]
+2022-06-17 02:19:04 INFO  Level:31 - src/main/resources/Levels/badlevel1.txt
+2022-06-17 02:19:04 INFO  Board:42 - 8
+2022-06-17 02:19:04 INFO  Board:44 - 8
+2022-06-17 02:19:04 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:19:04 INFO  Board:42 - 8
+2022-06-17 02:19:04 INFO  Board:44 - 8
+2022-06-17 02:19:04 INFO  Board:29 - 1
+2022-06-17 02:19:04 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:19:04 INFO  Level:44 - 0
+2022-06-17 02:19:04 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:19:04 INFO  Level:122 - saves
+2022-06-17 02:19:04 INFO  Level:125 - Fri Jun 17 02:19:04 CEST 2022
+2022-06-17 02:19:04 INFO  Level:128 - saves/Fri Jun 17 02:19:04 CEST 2022.vinh
+2022-06-17 02:19:04 INFO  Level:122 - saves
+2022-06-17 02:19:04 INFO  Level:125 - Fri Jun 17 02:19:04 CEST 2022
+2022-06-17 02:19:04 INFO  Level:128 - saves/Fri Jun 17 02:19:04 CEST 2022.vinh
+2022-06-17 02:19:04 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:19:04 INFO  Board:42 - 8
+2022-06-17 02:19:04 INFO  Board:44 - 8
+2022-06-17 02:19:04 INFO  Board:29 - 1
+2022-06-17 02:19:04 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:19:04 INFO  Level:44 - 0
+2022-06-17 02:19:04 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:19:04 INFO  Board:42 - 8
+2022-06-17 02:19:04 INFO  Board:44 - 8
+2022-06-17 02:19:04 INFO  Board:29 - 1
+2022-06-17 02:19:04 INFO  Level:146 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:19:04 INFO  Level:152 - 0
+2022-06-17 02:19:04 INFO  Level:154 - StringProperty [value: 0]
+2022-06-17 02:19:09 INFO  Board:42 - 8
+2022-06-17 02:19:09 INFO  Board:44 - 8
+2022-06-17 02:19:09 INFO  Board:42 - 8
+2022-06-17 02:19:09 INFO  Board:44 - 8
+2022-06-17 02:19:09 INFO  Board:42 - 8
+2022-06-17 02:19:09 INFO  Board:44 - 8
+2022-06-17 02:19:09 INFO  Board:42 - 8
+2022-06-17 02:19:09 INFO  Board:44 - 8
+2022-06-17 02:19:09 INFO  Board:42 - 8
+2022-06-17 02:19:09 INFO  Board:44 - 8
+2022-06-17 02:19:09 ERROR LevelLoader:116 - src/main/resources/Levels/aaa.txt (No such file or directory)
+2022-06-17 02:19:09 INFO  Board:42 - 8
+2022-06-17 02:19:09 INFO  Board:44 - 8
+2022-06-17 02:19:09 INFO  Board:29 - 1
