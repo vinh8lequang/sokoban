@@ -171,7 +171,7 @@ public class MovementExecutor {
             CURRENTBOARD.setGoals(goals - 1);
             SokobanSounds.playCorrectSound();
             if (CURRENTBOARD.getGoals() == 0) {
-                App.globalScore += CURRENTLEVEL.getMoves();
+                App.setGlobalScore(App.getGlobalScore()+CURRENTLEVEL.getMoves()); 
                 ViewManager.showWinnerScene();
             }
             normalMove = false;

@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 import es.upm.pproject.sokoban.controller.MovementExecutor;
 import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
-import es.upm.pproject.sokoban.model.levelExceptions.InvalidLevelException;
+import es.upm.pproject.sokoban.model.levelexceptions.InvalidLevelException;
 import es.upm.pproject.sokoban.view.SokobanScene;
 import es.upm.pproject.sokoban.view.ViewManager;
 import javafx.application.Application;
@@ -27,12 +27,12 @@ import javafx.stage.Stage;
  */
 public class App extends Application {
 
-    public static Stage currentStage;
+    static Stage currentStage;
     static Level level;
     static int levelnum = 1;
     static MediaPlayer mediaPlayer;
     static boolean musicState;
-    public static int globalScore = 0;
+    static int globalScore = 0;
 
     private static Logger logger = LoggerFactory.getLogger(App.class);
 
@@ -41,19 +41,27 @@ public class App extends Application {
      */
     @Override
     public void start(Stage stage) {
+        currentStage = stage;
         stage.setResizable(false);
         try {
-            currentStage = stage;
             stage.getIcons().add(new Image(new FileInputStream("src/main/resources/sokovinhi.png")));
             stage.setTitle("SokoVinh");
             stage.setScene(ViewManager.getStartingScene());
             stage.show();
-            mediaPlayer = new MediaPlayer(
-                    new Media(new File("src/main/resources/audio/gameMusic.mp3").toURI().toString()));
-            musicState = false;
         } catch (Exception e) {
             logger.error(e.getMessage());
         }
+    }
+    public static Stage getStage(){
+        return currentStage;
+    }
+
+    public static int getGlobalScore(){
+        return globalScore;
+    }
+
+    public static void setGlobalScore(int newGS){
+        globalScore = newGS;
     }
 
     public static void resetLevelCounter() {
@@ -86,9 +94,7 @@ public class App extends Application {
             ViewManager.loadImages();
             MovementExecutor.initStacks();
             currentStage.setScene(ViewManager.loadLevelState(level));
-        } catch (FileNotFoundException e) {
-            logger.error(e.getMessage());
-        } catch (InvalidLevelException e) {
+        } catch (FileNotFoundException|InvalidLevelException e) {
             logger.error(e.getMessage());
         }
     }
@@ -115,8 +121,9 @@ public class App extends Application {
     }
 
     public static void toggleMusicOn() {
-        if (musicState)
+        if (musicState){
             mediaPlayer.play();
+        }
     }
 
     public static boolean toggleMusic() {
@@ -140,6 +147,9 @@ public class App extends Application {
      */
     public static void main(String[] args) {
         BasicConfigurator.configure();
+        mediaPlayer = new MediaPlayer(
+                new Media(new File("src/main/resources/audio/gameMusic.mp3").toURI().toString()));
+        musicState = false;
         launch();
     }
 }

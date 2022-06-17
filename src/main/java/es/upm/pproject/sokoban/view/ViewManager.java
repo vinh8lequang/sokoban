@@ -12,7 +12,7 @@ import es.upm.pproject.sokoban.model.gamelevel.Board;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.Tile;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
-import es.upm.pproject.sokoban.model.levelExceptions.InvalidLevelException;
+import es.upm.pproject.sokoban.model.levelexceptions.InvalidLevelException;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
@@ -30,8 +30,11 @@ import javafx.stage.Stage;
 
 public class ViewManager {
 
-    public static int WIDTH = 960;
-    public static int HEIGHT = 720;
+    public static final int WIDTH = 960;
+    public static final int HEIGHT = 720;
+
+    private static String yellowStyle = "-fx-background-color: #ffff00";
+    private static String impactFont = "Impact";
 
     static SokobanScene CURRENTSCENE = null;
     static Stage CURRENTSTAGE = null;
@@ -53,11 +56,11 @@ public class ViewManager {
         background.setCache(true);
 
         Button playButton = new Button("Play Game");
-        playButton.setFont(new Font("Impact", 45));
+        playButton.setFont(new Font(impactFont, 45));
         playButton.setTranslateX(110);
         playButton.setTranslateY(400);
-        playButton.setStyle("-fx-background-color: #ffff00");
-        playButton.setOnAction((event) -> {
+        playButton.setStyle(yellowStyle);
+        playButton.setOnAction(event -> {
             try {
                 App.loadNextLevel();
             } catch (InvalidLevelException e) {
@@ -66,11 +69,11 @@ public class ViewManager {
             App.toggleMusic();
         });
         Button loadLevelButton = new Button("Select Level");
-        loadLevelButton.setFont(new Font("Impact", 45));
+        loadLevelButton.setFont(new Font(impactFont, 45));
         loadLevelButton.setTranslateX(110);
         loadLevelButton.setTranslateY(500);
-        loadLevelButton.setStyle("-fx-background-color: #ffff00");
-        loadLevelButton.setOnAction((event) -> {
+        loadLevelButton.setStyle(yellowStyle);
+        loadLevelButton.setOnAction(event -> {
             FileChooser fileChooser = new FileChooser();
             File selectedFile = fileChooser.showOpenDialog(CURRENTSTAGE);
             App.loadLevel(selectedFile.getAbsolutePath());
@@ -98,10 +101,12 @@ public class ViewManager {
     public static void setGUIBoardSize(Board board) {
         int col = board.getCols();
         int row = board.getRows();
-        if (col >= row)
+        if (col >= row){
             boardSize = col;
-        else
+        }
+        else{
             boardSize = row;
+        }
     }
 
     /**
@@ -179,17 +184,15 @@ public class ViewManager {
         winnerText.setText("You have won");
         winnerText.setStyle("-fx-font: 70 impact;");
         Label globalScoreText = new Label();
-        globalScoreText.setText("Your global score is: "+ App.globalScore);
+        globalScoreText.setText("Your global score is: "+ App.getGlobalScore());
         globalScoreText.setStyle("-fx-font: 25 impact;");
         VBox root = new VBox();
         root.setAlignment(Pos.CENTER);
 
         Button nextLevelButton = new Button("Next Level");
-        nextLevelButton.setFont(new Font("Impact", 45));
-        // nextLevelButton.setTranslateX(110);
-        // nextLevelButton.setTranslateY(400);
-        nextLevelButton.setStyle("-fx-background-color: #ffff00");
-        nextLevelButton.setOnAction((event) -> {
+        nextLevelButton.setFont(new Font(impactFont, 45));
+        nextLevelButton.setStyle(yellowStyle);
+        nextLevelButton.setOnAction(event -> {
             try {
                 App.loadNextLevel();
             } catch (InvalidLevelException e) {
@@ -231,8 +234,8 @@ public class ViewManager {
         dialog.initOwner(CURRENTSTAGE);
         VBox dialogVbox = new VBox(20);
         Text dialogText = new Text("Incorrect level, reason: \n" + message);
-        dialogText.setStyle("-fx-background-color: #ffff00");
-        dialogText.setFont(new Font("Comic Sans", 25));
+        dialogText.setStyle(yellowStyle);
+        dialogText.setFont(new Font(impactFont, 25));
         dialogVbox.getChildren().add(dialogText);
         Scene dialogScene = new Scene(dialogVbox, 400, 200);
         dialog.setScene(dialogScene);
@@ -249,35 +252,35 @@ public class ViewManager {
         dialog.initModality(Modality.APPLICATION_MODAL);
         dialog.initOwner(CURRENTSTAGE);
         dialog.setResizable(false);
-        dialog.setOnCloseRequest((event) -> App.toggleMusicOn());
+        dialog.setOnCloseRequest(event -> App.toggleMusicOn());
         VBox dialogVbox = new VBox(5);
         dialogVbox.setAlignment(Pos.CENTER);
         Text dialogText = new Text("You're exiting to the main menu, do you want \nto save your level?");
-        dialogText.setStyle("-fx-background-color: #ffff00");
+        dialogText.setStyle(yellowStyle);
         dialogText.setFont(new Font("Comic Sans", 18));
         HBox buttons = new HBox(5);
         Button yesButton = new Button("Yes");
-        yesButton.setFont(new Font("Impact", 25));
-        yesButton.setStyle("-fx-background-color: #ffff00");
-        yesButton.setOnAction((event) -> {
+        yesButton.setFont(new Font(impactFont, 25));
+        yesButton.setStyle(yellowStyle);
+        yesButton.setOnAction(event -> {
             CURRENTLEVEL.saveLevel();
             dialog.close();
             App.setNewScene(ViewManager.getStartingScene());
         });
         Button stayButNoSaveButton = new Button("Stay on level but don't save");
-        stayButNoSaveButton.setFont(new Font("Impact", 25));
-        stayButNoSaveButton.setStyle("-fx-background-color: #ffff00");
-        stayButNoSaveButton.setOnAction((event) -> {
+        stayButNoSaveButton.setFont(new Font(impactFont, 25));
+        stayButNoSaveButton.setStyle(yellowStyle);
+        stayButNoSaveButton.setOnAction(event -> {
             App.decreaseLevelCounter();
             dialog.close();
             App.setNewScene(ViewManager.getStartingScene());
         });
 
         Button noButton = new Button("No");
-        noButton.setFont(new Font("Impact", 25));
-        noButton.setStyle("-fx-background-color: #ffff00");
+        noButton.setFont(new Font(impactFont, 25));
+        noButton.setStyle(yellowStyle);
         
-        noButton.setOnAction((event) -> {
+        noButton.setOnAction(event -> {
             App.resetLevelCounter();
             dialog.close();
             App.setNewScene(ViewManager.getStartingScene());
@@ -295,7 +298,7 @@ public class ViewManager {
         VBox dialogVbox = new VBox(5);
         dialogVbox.setAlignment(Pos.CENTER);
         Text dialogText = new Text("Level was correctly saved on saves folder as \n\"" + savedName + '"');
-        dialogText.setStyle("-fx-background-color: #ffff00");
+        dialogText.setStyle(yellowStyle);
         dialogText.setFont(new Font("Comic Sans", 18));
         Scene dialogScene = new Scene(dialogVbox, 400, 200);
         Stage dialog = new Stage();
@@ -303,7 +306,7 @@ public class ViewManager {
         dialog.initModality(Modality.APPLICATION_MODAL);
         dialog.initOwner(CURRENTSTAGE);
         dialog.setResizable(false);
-        dialog.setOnCloseRequest((event) -> App.toggleMusicOn());
+        dialog.setOnCloseRequest(event -> App.toggleMusicOn());
         dialog.setScene(dialogScene);
         dialog.show();
     }

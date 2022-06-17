@@ -6,10 +6,11 @@ import es.upm.pproject.sokoban.model.gamelevel.LevelLoader;
 import es.upm.pproject.sokoban.model.gamelevel.Level;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.Tile;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
-import es.upm.pproject.sokoban.model.levelExceptions.*;
+import es.upm.pproject.sokoban.model.levelexceptions.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertSame;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -218,7 +219,7 @@ public class AppTest {
         void testLevel6() {
             boolean exception = false;
             try {
-                Level level = new Level("src/main/resources/Levels/badlevel1.txt",true);
+                new Level("src/main/resources/Levels/badlevel1.txt",true);
             } catch (InvalidLevelException e) {
                 exception = true;
                 assertTrue(exception);

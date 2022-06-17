@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
-import es.upm.pproject.sokoban.model.levelExceptions.*;
+import es.upm.pproject.sokoban.model.levelexceptions.*;
 
 /**
  * This class is in charge of reading a level file and loading into memory
@@ -53,16 +53,13 @@ public class LevelLoader {
         try (Scanner sc = new Scanner(level)) {
             int rows = sc.nextInt();
             int cols = sc.nextInt();
-            // int moves = sc.nextInt();
             sc.nextLine(); // this is for skipping the first line
             Board board = new Board(rows, cols);
             for (int i = 0; sc.hasNextLine() && (i < rows); i++) {
-                // StringBuilder debugLine = new StringBuilder();
                 String line = sc.nextLine();
                 System.out.println(line);
                 for (int j = 0; j < line.length(); j++) {
                     char c = line.charAt(j); // getting de character
-                    // debugLine.append(c);
                     TileType type = charToTileType(c);
                     // Throws exception if it's an invalid character
                     if (type == null) {
@@ -84,7 +81,6 @@ public class LevelLoader {
                 for (int k = line.length(); k < cols; k++) {
                     board.setTile(i, k, TileType.GROUND);
                 }
-                // System.out.println(debugLine);
             }
             if (sc.hasNextLine()) {
                 String nextLine = sc.nextLine();
@@ -110,10 +106,8 @@ public class LevelLoader {
                 throw new InequalNumberOfBoxesGoals("There are " + nBoxes + " boxes and " + nGoals + " goals");
             }
             board.setGoals(nGoals);
-            // board.viewBoard();
             return board;
         } catch (FileNotFoundException e) {
-            logger.error(e.getMessage());
             throw e;
         }
     }

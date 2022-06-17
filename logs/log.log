@@ -10110,3 +10110,653 @@
 2022-06-17 02:18:50 INFO  Level:95 - 2
 2022-06-17 02:18:50 INFO  Level:97 - StringProperty [value: 2]
 2022-06-17 02:18:50 INFO  App:146 - es.upm.pproject.sokoban.model.gamelevel.Level@8b26803
+2022-06-17 02:29:15 INFO  Board:42 - 8
+2022-06-17 02:29:15 INFO  Board:44 - 8
+2022-06-17 02:29:15 INFO  Board:29 - 1
+2022-06-17 02:29:15 INFO  Board:42 - 8
+2022-06-17 02:29:15 INFO  Board:44 - 8
+2022-06-17 02:29:15 INFO  Board:29 - 1
+2022-06-17 02:29:15 INFO  Board:42 - 8
+2022-06-17 02:29:15 INFO  Board:44 - 8
+2022-06-17 02:29:15 INFO  Board:29 - 1
+2022-06-17 02:29:15 INFO  Board:42 - 8
+2022-06-17 02:29:15 INFO  Board:44 - 8
+2022-06-17 02:29:15 INFO  Board:29 - 1
+2022-06-17 02:29:15 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:29:15 INFO  Board:42 - 8
+2022-06-17 02:29:15 INFO  Board:44 - 8
+2022-06-17 02:29:15 INFO  Board:29 - 1
+2022-06-17 02:29:15 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:29:15 INFO  Level:44 - 0
+2022-06-17 02:29:15 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:29:15 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:29:15 INFO  Board:42 - 8
+2022-06-17 02:29:15 INFO  Board:44 - 8
+2022-06-17 02:29:15 INFO  Board:29 - 1
+2022-06-17 02:29:15 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:29:15 INFO  Level:44 - 0
+2022-06-17 02:29:15 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:29:15 INFO  Level:53 - src/main/resources/Levels/level1.txt
+2022-06-17 02:29:15 INFO  Level:55 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:29:15 INFO  Level:57 - 0
+2022-06-17 02:29:15 INFO  Level:59 - StringProperty [value: 0]
+2022-06-17 02:29:15 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:29:15 INFO  Board:42 - 8
+2022-06-17 02:29:15 INFO  Board:44 - 8
+2022-06-17 02:29:15 INFO  Board:29 - 1
+2022-06-17 02:29:15 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:29:15 INFO  Level:44 - 0
+2022-06-17 02:29:15 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:29:15 INFO  Level:31 - src/main/resources/Levels/level2.txt
+2022-06-17 02:29:15 INFO  Board:42 - 11
+2022-06-17 02:29:15 INFO  Board:44 - 19
+2022-06-17 02:29:15 INFO  Board:29 - 6
+2022-06-17 02:29:15 INFO  Level:34 -     +++++          
+    +   +          
+    +#  +          
+  +++  #++         
+  +  # # +         
++++ + ++ +   ++++++
++   + ++ +++++  **+
++ #  #          **+
++++++ +++ +W++  **+
+    +     +++++++++
+    +++++++        
+
+2022-06-17 02:29:15 INFO  Level:44 - 0
+2022-06-17 02:29:15 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:29:15 INFO  Level:75 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:29:15 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:29:15 INFO  Board:42 - 8
+2022-06-17 02:29:15 INFO  Board:44 - 8
+2022-06-17 02:29:15 INFO  Board:29 - 1
+2022-06-17 02:29:15 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:29:15 INFO  Level:44 - 0
+2022-06-17 02:29:15 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:29:15 INFO  Level:90 - 5
+2022-06-17 02:29:15 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:29:15 INFO  Board:42 - 8
+2022-06-17 02:29:15 INFO  Board:44 - 8
+2022-06-17 02:29:15 INFO  Board:29 - 1
+2022-06-17 02:29:15 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:29:15 INFO  Level:44 - 0
+2022-06-17 02:29:15 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:29:15 INFO  Level:95 - 1
+2022-06-17 02:29:15 INFO  Level:97 - StringProperty [value: 1]
+2022-06-17 02:29:15 INFO  Level:95 - 2
+2022-06-17 02:29:15 INFO  Level:97 - StringProperty [value: 2]
+2022-06-17 02:29:15 INFO  Level:102 - 1
+2022-06-17 02:29:15 INFO  Level:104 - StringProperty [value: 1]
+2022-06-17 02:29:15 INFO  Level:31 - src/main/resources/Levels/badlevel1.txt
+2022-06-17 02:29:15 INFO  Board:42 - 8
+2022-06-17 02:29:15 INFO  Board:44 - 8
+2022-06-17 02:29:16 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:29:16 INFO  Board:42 - 8
+2022-06-17 02:29:16 INFO  Board:44 - 8
+2022-06-17 02:29:16 INFO  Board:29 - 1
+2022-06-17 02:29:16 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:29:16 INFO  Level:44 - 0
+2022-06-17 02:29:16 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:29:16 INFO  Level:122 - saves
+2022-06-17 02:29:16 INFO  Level:125 - Fri Jun 17 02:29:16 CEST 2022
+2022-06-17 02:29:16 INFO  Level:128 - saves/Fri Jun 17 02:29:16 CEST 2022.vinh
+2022-06-17 02:29:16 INFO  Level:122 - saves
+2022-06-17 02:29:16 INFO  Level:125 - Fri Jun 17 02:29:16 CEST 2022
+2022-06-17 02:29:16 INFO  Level:128 - saves/Fri Jun 17 02:29:16 CEST 2022.vinh
+2022-06-17 02:29:16 INFO  Level:31 - src/main/resources/Levels/level1.txt
+2022-06-17 02:29:16 INFO  Board:42 - 8
+2022-06-17 02:29:16 INFO  Board:44 - 8
+2022-06-17 02:29:16 INFO  Board:29 - 1
+2022-06-17 02:29:16 INFO  Level:34 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:29:16 INFO  Level:44 - 0
+2022-06-17 02:29:16 INFO  Level:46 - StringProperty [value: 0]
+2022-06-17 02:29:16 INFO  Board:42 - 8
+2022-06-17 02:29:16 INFO  Board:44 - 8
+2022-06-17 02:29:16 INFO  Board:29 - 1
+2022-06-17 02:29:16 INFO  Level:146 - ++++    
++  +    
++  +++++
++      +
+++W*+# +
++   +  +
++   ++++
++++++   
+
+2022-06-17 02:29:16 INFO  Level:152 - 0
+2022-06-17 02:29:16 INFO  Level:154 - StringProperty [value: 0]
+2022-06-17 02:29:18 INFO  Board:42 - 8
+2022-06-17 02:29:18 INFO  Board:44 - 8
+2022-06-17 02:29:18 INFO  Board:42 - 8
+2022-06-17 02:29:18 INFO  Board:44 - 8
+2022-06-17 02:29:18 INFO  Board:42 - 8
+2022-06-17 02:29:18 INFO  Board:44 - 8
+2022-06-17 02:29:18 INFO  Board:42 - 8
+2022-06-17 02:29:18 INFO  Board:44 - 8
+2022-06-17 02:29:18 INFO  Board:42 - 8
+2022-06-17 02:29:18 INFO  Board:44 - 8
+2022-06-17 02:29:18 ERROR LevelLoader:116 - src/main/resources/Levels/aaa.txt (No such file or directory)
+2022-06-17 02:29:18 INFO  Board:42 - 8
+2022-06-17 02:29:18 INFO  Board:44 - 8
+2022-06-17 02:29:18 INFO  Board:29 - 1
+2022-06-17 02:49:59 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 02:49:59 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 02:50:02 ERROR Level:122 - saves\Fri Jun 17 02:50:02 CEST 2022.vinh (El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correctos)
+2022-06-17 02:50:52 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 02:50:59 ERROR Level:122 - saves\Fri Jun 17 02:50:59 CEST 2022.vinh (El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correctos)
+2022-06-17 02:51:26 ERROR Level:45 - Board Is null
+2022-06-17 02:51:40 ERROR Level:122 - saves\Fri Jun 17 02:51:40 CEST 2022.vinh (El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correctos)
+2022-06-17 02:51:50 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 02:51:50 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 02:51:52 ERROR Level:122 - saves\Fri Jun 17 02:51:52 CEST 2022.vinh (El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del volumen no son correctos)
+2022-06-17 02:52:42 ERROR Level:45 - Board Is null
+2022-06-17 02:52:45 ERROR LevelLoader:115 - src/main/resources/Levels/aaa.txt (No such file or directory)
+2022-06-17 03:02:29 ERROR Level:45 - Board Is null
+2022-06-17 03:02:32 ERROR LevelLoader:115 - src/main/resources/Levels/aaa.txt (No such file or directory)
+2022-06-17 03:03:12 ERROR Level:45 - Board Is null
+2022-06-17 03:03:15 ERROR LevelLoader:115 - src/main/resources/Levels/aaa.txt (No such file or directory)
+2022-06-17 03:08:03 ERROR Level:45 - Board Is null
+2022-06-17 03:08:06 ERROR LevelLoader:115 - src/main/resources/Levels/aaa.txt (No such file or directory)
+2022-06-17 03:17:42 ERROR Level:45 - Board Is null
+2022-06-17 03:20:40 ERROR Level:45 - Board Is null
+2022-06-17 03:21:24 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:24 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:25 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:25 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:25 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:25 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:25 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:25 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:25 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:25 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:25 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:26 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:31 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:31 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:32 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:33 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:37 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:37 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:38 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:38 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:39 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:39 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:39 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:39 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:40 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:40 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:40 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:40 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:41 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:41 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:41 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:41 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:42 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:42 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:42 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:42 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:42 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:42 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:43 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:43 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:43 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:43 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:43 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:44 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:44 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:44 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:44 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:44 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:44 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:44 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:52 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:54 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:55 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:55 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:55 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:55 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:55 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:56 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:56 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:56 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:56 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:56 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:57 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:57 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:57 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:57 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:58 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:58 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:58 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:58 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:21:58 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:59 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:59 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:59 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:59 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:59 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:59 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:59 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:59 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:59 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:59 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:59 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:59 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:59 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:21:59 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:00 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:00 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:00 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:00 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:00 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:00 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:00 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:00 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:00 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:00 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:01 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:01 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:01 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:01 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:01 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:02 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:02 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:02 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:02 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:02 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:02 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:02 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:02 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:04 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:04 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:04 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:04 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:05 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:05 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:05 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:05 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:06 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:06 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:06 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:06 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:06 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:06 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:07 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:07 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:07 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:07 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:08 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:08 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:08 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:08 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:08 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:08 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:08 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:08 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:08 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:08 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:08 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:08 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:08 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:08 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:08 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:08 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:09 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:09 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:09 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:09 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:09 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:09 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:09 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:09 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:09 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:09 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:09 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:09 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:09 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:10 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:10 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:10 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:10 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:10 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:10 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:10 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:10 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:10 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:10 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:10 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:10 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:10 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:10 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:10 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:11 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:15 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:16 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:16 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:16 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:17 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:18 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:18 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:18 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:18 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:18 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:18 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:19 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:19 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:19 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:19 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:19 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:20 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:20 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:20 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:20 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:20 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:20 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:21 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:21 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:21 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:22 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:22 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:22 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:22 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:22 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:22 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:23 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:23 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:23 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:23 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:23 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:23 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:23 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:24 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:24 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:24 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:25 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:25 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:25 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:25 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:25 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:25 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:26 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:27 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:27 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:27 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:27 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:27 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:28 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:28 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:28 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:28 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:28 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:28 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:28 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:28 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:28 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:28 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:28 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:28 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:28 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:29 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:29 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:29 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:29 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:29 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:30 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:30 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:30 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:30 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:30 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:30 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:31 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:31 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:31 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:31 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:31 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:31 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:31 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:31 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:31 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:31 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:32 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:32 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:32 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:32 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:32 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:33 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:33 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:33 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:34 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:35 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:35 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:35 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:35 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:35 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:35 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:35 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:35 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:36 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:36 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:36 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:36 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:36 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:37 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:37 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:37 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:37 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:38 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:38 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:38 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:38 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:38 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:38 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:38 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:39 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:39 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:39 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:39 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:39 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:40 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:40 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:40 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:40 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:41 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:41 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:41 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:41 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:41 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:41 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:41 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:42 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:42 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:42 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:42 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:42 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:42 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:43 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:43 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:43 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:43 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:43 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:44 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:44 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:44 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:44 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:44 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:44 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:44 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:45 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:46 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:46 ERROR App:218 - Unknown input with no appropiate handle
+2022-06-17 03:22:46 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:22:46 ERROR App:238 - Unknown input with no appropiate handle
+2022-06-17 03:23:35 ERROR Level:45 - Board Is null
+2022-06-17 03:25:48 ERROR Level:45 - Board Is null
