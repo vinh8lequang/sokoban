@@ -4,8 +4,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
-import javax.swing.text.View;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

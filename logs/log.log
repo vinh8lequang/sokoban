@@ -25001,3 +25001,16 @@
     +     +++++++++
     +++++++        
 
+2022-06-17 12:02:46 INFO  App:48 - Starting Sokovinhi
+2022-06-17 12:02:46 INFO  ViewManager:48 - Getting starting scene
+2022-06-17 12:02:50 INFO  App:83 - Loading next level 1 
+2022-06-17 12:02:50 INFO  Level:30 - Creating a level for file src/main/resources/Levels/level1.txt
+2022-06-17 12:02:50 INFO  LevelLoader:54 - Loading board from file: src/main/resources/Levels/level1.txt
+2022-06-17 12:02:50 INFO  Board:164 - Setting new player position: (4, 2)
+2022-06-17 12:02:50 INFO  Level:34 - Level correctly loaded
+2022-06-17 12:02:50 INFO  ViewManager:123 - Loading game images
+2022-06-17 12:02:50 INFO  ViewManager:136 - Game images loaded
+2022-06-17 12:02:50 INFO  ViewManager:145 - Loading level state
+2022-06-17 12:02:50 INFO  SokobanScene:25 - Creating Sokoban scene...
+2022-06-17 12:02:50 INFO  SokobanSideMenu:39 - Creating Sokoban Side Menu...
+2022-06-17 12:02:50 INFO  ViewManager:183 - Level state loaded
