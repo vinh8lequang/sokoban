@@ -4,10 +4,15 @@ package es.upm.pproject.sokoban.model.gamelevel;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.Tile;
 import es.upm.pproject.sokoban.model.gamelevel.tiles.TileType;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * Matrix of tiles. The board's coordinates starts from 0 to N-1.
  */
 public class Board {
+
+    private static Logger logger = LoggerFactory.getLogger(Board.class);
 
     /**
      * @return the goals
@@ -21,6 +26,7 @@ public class Board {
      */
     public void setGoals(int goals) {
         this.goals = goals;
+        logger.info(Integer.toString(goals));
     }
 
     private int rows;
@@ -33,7 +39,9 @@ public class Board {
 
     public Board(int rows, int cols) {
         this.rows = rows;
+        logger.info(Integer.toString(rows));
         this.cols = cols;
+        logger.info(Integer.toString(cols));
         board = new Tile[rows][cols];
         playerPositionI = -1;
         playerPositionJ = -1;
@@ -119,7 +127,7 @@ public class Board {
             for (int j = 0; j < this.cols; j++) {
                 char tileChar = tileToChar(this.getTile(i, j));
                 if (tileChar == 'i') {
-                    // LOGGER.error("Invalid tile input for char conversion.");
+                    logger.error("Invalid tile input for char conversion.");
                 }
                 boardRep.append(tileChar);
             }
@@ -129,7 +137,7 @@ public class Board {
     }
 
     public void viewBoard() {
-        // LOGGER.info("\n{}", this.toString());
+        logger.info("\n{}", this.toString());
     }
 
     /**
